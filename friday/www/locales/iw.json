@@ -1,0 +1,101 @@
+{
+  "friday": {
+    "title": "עם מה אוכל לעזור לך?",
+    "welcome": "ברוך הבא ליום שישי, העוזר שלך המונע על ידי AI!",
+    "prompt": "שאל אותי כל דבר או התחל משימה חדשה.",
+    "help": "זקוק לסיוע? אני כאן כדי להדריך אותך."
+  },
+  "navigation": {
+    "new": "התחל חדש",
+    "home": "בַּיִת",
+    "automations": "אוטומציות",
+    "varients": "גרסאות",
+    "projects": "פרויקטים",
+    "spaces": "חללים",
+    "library": "סִפְרִיָה",
+    "more": "יוֹתֵר",
+    "settings": "הגדרות",
+    "profile": "פּרוֹפִיל",
+    "dashboard": "לוּחַ מַחווָנִים",
+    "analytics": "ניתוח"
+  },
+  "authentication": {
+    "sign-in": "היכנס",
+    "sign-up": "הירשם",
+    "sign-out": "תגע",
+    "forgot-password": "שכחת סיסמה?",
+    "reset-password": "אפס סיסמה",
+    "email-label": "כתובת דוא\"ל",
+    "password-label": "סִיסמָה",
+    "confirm-password": "אשר את הסיסמה"
+  },
+  "dashboard": {
+    "overview": "סקירה כללית",
+    "recent-activity": "פעילות אחרונה",
+    "quick-actions": "פעולות מהירות",
+    "stats": {
+      "tasks-completed": "משימות הושלמו",
+      "active-projects": "פרויקטים פעילים",
+      "automation-runs": "אוטומציה פועלת"
+    }
+  },
+  "projects": {
+    "create": "צור פרויקט חדש",
+    "edit": "עריכת פרויקט",
+    "delete": "מחק פרויקט",
+    "title-placeholder": "הזן את כותרת הפרויקט",
+    "description-placeholder": "הזן את תיאור הפרויקט",
+    "status": {
+      "in-progress": "בתהליך",
+      "completed": "הושלם",
+      "on-hold": "בהמתנה"
+    }
+  },
+  "automations": {
+    "create": "צור אוטומציה",
+    "run": "הפעל אוטומציה",
+    "pause": "השהה אוטומציה",
+    "stop": "עצור אוטומציה",
+    "history": "היסטוריית אוטומציה",
+    "trigger": "לְהַפְעִיל",
+    "action": "פְּעוּלָה"
+  },
+  "library": {
+    "search": "ספריית חיפוש",
+    "filter": "לְסַנֵן",
+    "categories": {
+      "templates": "תבניות",
+      "scripts": "סקריפטים",
+      "datasets": "מערכי נתונים",
+      "models": "דגמי AI"
+    },
+    "upload": "העלה משאב",
+    "download": "הורד משאב"
+  },
+  "spaces": {
+    "create": "ליצור מרחב",
+    "invite": "להזמין חברים",
+    "leave": "עזוב מקום",
+    "manage": "נהל מרחב",
+    "title-placeholder": "הזן שם שטח"
+  },
+  "errors": {
+    "generic": "משהו השתבש. אנא נסה שוב.",
+    "not-found": "משאב לא נמצא.",
+    "unauthorized": "אינך מורשה לבצע פעולה זו.",
+    "invalid-input": "אנא בדוק את הקלט שלך ונסה שוב.",
+    "network": "שגיאת רשת. אנא בדוק את החיבור שלך."
+  },
+  "tooltips": {
+    "new-project": "התחל פרויקט חדש לארגון המשימות שלך.",
+    "automation-run": "הפעל אוטומציה זו כדי לבצע משימות מוגדרות מראש.",
+    "library-search": "חפש תבניות, סקריפטים או מערכי נתונים.",
+    "space-invite": "הזמן את חברי הצוות לשתף פעולה במרחב זה."
+  },
+  "footer": {
+    "copyright": "© 2025 יום שישי AI. כֹּל הַזְכוּיוֹת שְׁמוּרוֹת.",
+    "terms": "תנאי שירות",
+    "privacy": "מדיניות פרטיות",
+    "contact": "צרו קשר"
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "friday": {
+    "title": "Nukae mate ŋu akpe ɖe ŋuwò le?",
+    "welcome": "Míexɔ wò nyuie va Dzoɖagbe, wò AI-ŋusẽ kpeɖeŋutɔ!",
+    "prompt": "Bia nusianu alo dze dɔ yeye aɖe gɔme.",
+    "help": "Èhiã kpekpeɖeŋua? Mele afisia be mafia mɔ wò."
+  },
+  "navigation": {
+    "new": "Dze egɔme yeyee .",
+    "home": "Aƒeme",
+    "automations": "Automations .",
+    "varients": "Variants .",
+    "projects": "Dɔwo .",
+    "spaces": "Teƒewo .",
+    "library": "Agbalẽdzraɖoƒe",
+    "more": "Gawu",
+    "settings": "Ðoɖowo .",
+    "profile": "Ŋuti nya",
+    "dashboard": "Dashboard .",
+    "analytics": "Kukuɖenuŋu ."
+  },
+  "authentication": {
+    "sign-in": "De asi ete .",
+    "sign-up": "De asi agbalẽ te .",
+    "sign-out": "De asi ete .",
+    "forgot-password": "Èŋlɔ nyagbe ɣaɣla bea?",
+    "reset-password": "Gbugbɔ ɖo nyagbe ɣaɣla la ɖe ɖoɖo nu .",
+    "email-label": "Email adrɛs .",
+    "password-label": "Safuinya",
+    "confirm-password": "Ðo kpe nyagbe ɣaɣla dzi ."
+  },
+  "dashboard": {
+    "overview": "Kpɔɖeŋu .",
+    "recent-activity": "Dɔ si wowɔ nyitsɔ laa .",
+    "quick-actions": "Nuwɔna siwo wowɔna kabakaba .",
+    "stats": {
+      "tasks-completed": "Dɔ siwo wowu enu .",
+      "active-projects": "Dɔ siwo le dɔ dzi .",
+      "automation-runs": "Automation ƒe duƒuƒuwo ."
+    }
+  },
+  "projects": {
+    "create": "Wɔ dɔ yeye .",
+    "edit": "Trɔ asi le dɔa ŋu .",
+    "delete": "Delete Project .",
+    "title-placeholder": "Ŋlɔ dɔa ƒe tanya .",
+    "description-placeholder": "Ŋlɔ dɔa ƒe numeɖeɖe .",
+    "status": {
+      "in-progress": "Wole edzi yim .",
+      "completed": "Wowu enu .",
+      "on-hold": "Wolée ɖe asi ."
+    }
+  },
+  "automations": {
+    "create": "Wɔ Automation .",
+    "run": "Du automation .",
+    "pause": "Pause automation .",
+    "stop": "Dzudzɔ Automation .",
+    "history": "Automation ƒe ŋutinya .",
+    "trigger": "Daƒe",
+    "action": "Nuwɔwɔ"
+  },
+  "library": {
+    "search": "Di agbalẽdzraɖoƒea .",
+    "filter": "Filter .",
+    "categories": {
+      "templates": "Templates .",
+      "scripts": "Nuŋɔŋlɔwo .",
+      "datasets": "Nyatakakadzraɖoƒewo .",
+      "models": "AI ƒe kpɔɖeŋuwo ."
+    },
+    "upload": "Upload Resource .",
+    "download": "Tsɔ dɔwɔnu ."
+  },
+  "spaces": {
+    "create": "Wɔ teƒe .",
+    "invite": "Kpe Hamea me tɔwo .",
+    "leave": "Gblẽ teƒe ɖi .",
+    "manage": "Dzra yamenutome ɖo .",
+    "title-placeholder": "Ŋlɔ yamenutome ƒe ŋkɔ ."
+  },
+  "errors": {
+    "generic": "Nane gblẽ. Taflatse gate kpɔ ake.",
+    "not-found": "Womekpɔe o.",
+    "unauthorized": "Womeɖe mɔ na wò be nàwɔ afɔɖeɖe sia o.",
+    "invalid-input": "Taflatse lé ŋku ɖe wò nyawo ŋu eye nàgadze agbagba ake.",
+    "network": "Netwɔƒe ƒe vodada. Taflatse lé ŋku ɖe wò kadodoa ŋu."
+  },
+  "tooltips": {
+    "new-project": "Dze dɔ yeye aɖe gɔme be nàwɔ ɖoɖo ɖe wò dɔwo ŋu.",
+    "automation-run": "Ƒu du le automation sia me be nàwɔ dɔ siwo woɖo ɖi do ŋgɔ.",
+    "library-search": "Di template, scripts, alo datasets.",
+    "space-invite": "Kpe ƒuƒoƒoa me tɔwo be woawɔ dɔ aduadu le teƒe sia."
+  },
+  "footer": {
+    "copyright": "© 2025 Dzoɖagbe AI. Wodzra gomenɔamesiwo katã ɖo.",
+    "terms": "Dɔwɔwɔ ƒe Ðoɖowo .",
+    "privacy": "Ameŋunyatakakawo Ŋuti Ðoɖo .",
+    "contact": "Te ɖe mía ŋu ."
+  }
+}

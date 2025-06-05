@@ -1,0 +1,101 @@
+{
+  "friday": {
+    "title": "Ndingakunceda ngantoni?",
+    "welcome": "Wamkelekile ngoLwesihlanu, umncedisi wakho onamandla we-AI-onamandla!",
+    "prompt": "Ndibuze nantoni na okanye uqalise umsebenzi omtsha.",
+    "help": "Ngaba ufuna uncedo? Ndilapha ukukukhokela."
+  },
+  "navigation": {
+    "new": "Qala entsha",
+    "home": "Ikhaya",
+    "automations": "Ezenzekelayo",
+    "varients": "Eyahlukileyo",
+    "projects": "Iiprojekthi",
+    "spaces": "Izithuba",
+    "library": "Ithala leencwadi",
+    "more": "Kaninzi",
+    "settings": "Izicwangciso",
+    "profile": "Iprofayile",
+    "dashboard": "Idashboard",
+    "analytics": "Uhlalutyo"
+  },
+  "authentication": {
+    "sign-in": "Ngena",
+    "sign-up": "Bhalisa",
+    "sign-out": "Phuma",
+    "forgot-password": "Ingaba uyilibele iphasiwedi?",
+    "reset-password": "Hlela iphasiwedi",
+    "email-label": "Idilesi yemeyile",
+    "password-label": "Inombolo yokuvula",
+    "confirm-password": "Ngqina iphasiwedi"
+  },
+  "dashboard": {
+    "overview": "Amagqabantshintshi",
+    "recent-activity": "Umsebenzi wakutshanje",
+    "quick-actions": "Izenzo ezikhawulezayo",
+    "stats": {
+      "tasks-completed": "Imisebenzi igqityiwe",
+      "active-projects": "Iiprojekthi eziSebenzayo",
+      "automation-runs": "I-Automation isebenza"
+    }
+  },
+  "projects": {
+    "create": "Yenza iprojekthi entsha",
+    "edit": "Hlela iProjekthi",
+    "delete": "Cima iProjekthi yeProjekthi",
+    "title-placeholder": "Ngenisa isihloko seprojekthi",
+    "description-placeholder": "Ngenisa iNgcaciso yeProjekthi",
+    "status": {
+      "in-progress": "Iyaqhubeka",
+      "completed": "Igqityiwe",
+      "on-hold": "Ibanjiwe"
+    }
+  },
+  "automations": {
+    "create": "Yenza i-Automation",
+    "run": "Ukubaleka ezenzekelayo",
+    "pause": "Misa Autous",
+    "stop": "Yeka ezenzekelayo",
+    "history": "Imbali ezenzekelayo",
+    "trigger": "Trigger",
+    "action": "Isenzo"
+  },
+  "library": {
+    "search": "Ithala leencwadi lokukhangela",
+    "filter": "Isihluzo",
+    "categories": {
+      "templates": "Iitemplate",
+      "scripts": "Iincwadi",
+      "datasets": "Iidatha",
+      "models": "Iimodeli ze-AI"
+    },
+    "upload": "Ngenisa ubutyebi",
+    "download": "Khuphela izixhobo"
+  },
+  "spaces": {
+    "create": "Yenza indawo",
+    "invite": "Mema amalungu",
+    "leave": "Shiya indawo",
+    "manage": "Lawula indawo",
+    "title-placeholder": "Ngenisa igama lendawo"
+  },
+  "errors": {
+    "generic": "Into ayihamba kakuhle. Nceda zama kwakhona.",
+    "not-found": "Isibonelelo asifumaneki.",
+    "unauthorized": "Awugunyaziswanga ukwenza le ntshukumo.",
+    "invalid-input": "Nceda ujonge igalelo lakho kwaye uzame kwakhona.",
+    "network": "Impazamo yenethiwekhi. Nceda ujonge unxibelelwano lwakho."
+  },
+  "tooltips": {
+    "new-project": "Qala iprojekthi entsha yokuhlela imisebenzi yakho.",
+    "automation-run": "Qhuba le-automation ukwenza imisebenzi emiselweyo.",
+    "library-search": "Khangela iitemplate, izikripthi, okanye ii-datasets.",
+    "space-invite": "Cela amalungu eqela ukuba asebenzisane kule ndawo."
+  },
+  "footer": {
+    "copyright": "© 2025 Lwesihlanu AI. Onke Amalungelo Agciniwe.",
+    "terms": "Imimmisele yenkonzo",
+    "privacy": "Umthetho wabucala",
+    "contact": "Qhagamshelana nathi"
+  }
+}

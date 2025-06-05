@@ -1,0 +1,101 @@
+{
+  "friday": {
+    "title": "Quid possum tibi?",
+    "welcome": "Welcome to Veneris, tuum AI-Powered Suffragium!",
+    "prompt": "Interroga me quicquam aut satus a novus negotium.",
+    "help": "Opus auxilium? Im 'huc ad te."
+  },
+  "navigation": {
+    "new": "Satus novi",
+    "home": "In domo",
+    "automations": "Automation",
+    "varients": "Variants",
+    "projects": "Projects",
+    "spaces": "Spatia",
+    "library": "Bibliotheca",
+    "more": "More",
+    "settings": "Occasus",
+    "profile": "Set",
+    "dashboard": "Ashboardday",
+    "analytics": "Analytics"
+  },
+  "authentication": {
+    "sign-in": "Signum",
+    "sign-up": "Subscribo",
+    "sign-out": "Ecfingo",
+    "forgot-password": "Forgot password?",
+    "reset-password": "Reset Password",
+    "email-label": "Inscriptio",
+    "password-label": "Password",
+    "confirm-password": "Password"
+  },
+  "dashboard": {
+    "overview": "Overview",
+    "recent-activity": "Recens actio",
+    "quick-actions": "Velox",
+    "stats": {
+      "tasks-completed": "Tasks Completur",
+      "active-projects": "Active Projects",
+      "automation-runs": "Automation decurrit"
+    }
+  },
+  "projects": {
+    "create": "Create New Project",
+    "edit": "Recensere project",
+    "delete": "Delete Project",
+    "title-placeholder": "Intra Project Title",
+    "description-placeholder": "Intrabit project descriptio",
+    "status": {
+      "in-progress": "Profectus",
+      "completed": "Perfecto",
+      "on-hold": "In tene"
+    }
+  },
+  "automations": {
+    "create": "Create Automation",
+    "run": "Currere automation",
+    "pause": "Paulus automation",
+    "stop": "Subsisto Automation",
+    "history": "Automation Historia",
+    "trigger": "Trigger",
+    "action": "Actus"
+  },
+  "library": {
+    "search": "Search Library",
+    "filter": "Filtrum",
+    "categories": {
+      "templates": "Templates",
+      "scripts": "Scriptor",
+      "datasets": "Datasets",
+      "models": "AI exemplum"
+    },
+    "upload": "Upload resource",
+    "download": "Download Resource"
+  },
+  "spaces": {
+    "create": "Creare spatium",
+    "invite": "Invitare membra",
+    "leave": "Discede",
+    "manage": "Curo Space",
+    "title-placeholder": "Intra spatium nominis"
+  },
+  "errors": {
+    "generic": "Aliquid abiit iniuriam. Aliquam iterum.",
+    "not-found": "Resource non invenitur.",
+    "unauthorized": "Non auctoritate praestare hoc actio.",
+    "invalid-input": "Placere reprehendo vestri input et iterum.",
+    "network": "Network errore. Placere reprehendo vestri nexu."
+  },
+  "tooltips": {
+    "new-project": "Satus novum project ut organize vestra munia.",
+    "automation-run": "Curre hoc automation facere predefined tasks.",
+    "library-search": "Search for Templates, Scriptor, aut Datasets.",
+    "space-invite": "Invita quadrigis membra ad collaborate in hoc spatium."
+  },
+  "footer": {
+    "copyright": "© MMXXV Veneris AI. Omnes ligula.",
+    "terms": "Termini servitium",
+    "privacy": "Privacy Policy",
+    "contact": "Contact Us"
+  }
+}

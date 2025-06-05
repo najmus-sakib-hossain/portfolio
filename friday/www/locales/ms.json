@@ -1,0 +1,101 @@
+{
+  "friday": {
+    "title": "Apa yang boleh saya bantu?",
+    "welcome": "Selamat datang ke hari Jumaat, pembantu berkuasa AI anda!",
+    "prompt": "Tanya saya apa -apa atau mulakan tugas baru.",
+    "help": "Perlukan bantuan? Saya di sini untuk membimbing anda."
+  },
+  "navigation": {
+    "new": "Mulakan Baru",
+    "home": "Rumah",
+    "automations": "Automasi",
+    "varients": "Varian",
+    "projects": "Projek",
+    "spaces": "Ruang",
+    "library": "Perpustakaan",
+    "more": "Lebih",
+    "settings": "Tetapan",
+    "profile": "Profil",
+    "dashboard": "Papan pemuka",
+    "analytics": "Analisis"
+  },
+  "authentication": {
+    "sign-in": "Log masuk",
+    "sign-up": "Daftar",
+    "sign-out": "Log masuk",
+    "forgot-password": "Lupa Kata Laluan?",
+    "reset-password": "Tetapkan semula kata laluan",
+    "email-label": "Alamat e -mel",
+    "password-label": "Kata laluan",
+    "confirm-password": "Sahkan kata laluan"
+  },
+  "dashboard": {
+    "overview": "Gambaran Keseluruhan",
+    "recent-activity": "Aktiviti terkini",
+    "quick-actions": "Tindakan cepat",
+    "stats": {
+      "tasks-completed": "Tugas selesai",
+      "active-projects": "Projek aktif",
+      "automation-runs": "Automasi berjalan"
+    }
+  },
+  "projects": {
+    "create": "Buat projek baru",
+    "edit": "Edit projek",
+    "delete": "Padam Projek",
+    "title-placeholder": "Masukkan tajuk projek",
+    "description-placeholder": "Masukkan keterangan projek",
+    "status": {
+      "in-progress": "Sedang berjalan",
+      "completed": "Selesai",
+      "on-hold": "Ditahan"
+    }
+  },
+  "automations": {
+    "create": "Buat automasi",
+    "run": "Jalankan automasi",
+    "pause": "Jeda automasi",
+    "stop": "Hentikan automasi",
+    "history": "Sejarah Automasi",
+    "trigger": "Pencetus",
+    "action": "Tindakan"
+  },
+  "library": {
+    "search": "Perpustakaan Cari",
+    "filter": "Penapis",
+    "categories": {
+      "templates": "Templat",
+      "scripts": "Skrip",
+      "datasets": "Dataset",
+      "models": "Model AI"
+    },
+    "upload": "Muat naik sumber",
+    "download": "Muat turun Sumber"
+  },
+  "spaces": {
+    "create": "Buat ruang",
+    "invite": "Menjemput ahli",
+    "leave": "Tinggalkan ruang",
+    "manage": "Menguruskan ruang",
+    "title-placeholder": "Masukkan nama ruang"
+  },
+  "errors": {
+    "generic": "Ada yang tidak kena. Sila cuba lagi.",
+    "not-found": "Sumber tidak dijumpai.",
+    "unauthorized": "Anda tidak diberi kuasa untuk melakukan tindakan ini.",
+    "invalid-input": "Sila periksa input anda dan cuba lagi.",
+    "network": "Ralat rangkaian. Sila periksa sambungan anda."
+  },
+  "tooltips": {
+    "new-project": "Mulakan projek baru untuk mengatur tugas anda.",
+    "automation-run": "Jalankan automasi ini untuk melaksanakan tugas yang telah ditetapkan.",
+    "library-search": "Cari templat, skrip, atau dataset.",
+    "space-invite": "Jemput ahli pasukan untuk bekerjasama dalam ruang ini."
+  },
+  "footer": {
+    "copyright": "© 2025 Jumaat AI. Semua hak terpelihara.",
+    "terms": "Syarat Perkhidmatan",
+    "privacy": "Dasar Privasi",
+    "contact": "Hubungi kami"
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "friday": {
+    "title": "Sizə nə kömək edə bilərəm?",
+    "welcome": "Cümə, AI-Güclü köməkçinizə xoş gəlmisiniz!",
+    "prompt": "Məndən bir şey soruşun və ya yeni bir işə başlayın.",
+    "help": "Kömək lazımdır? Sizə rəhbərlik etmək üçün buradayam."
+  },
+  "navigation": {
+    "new": "Yeni başlayın",
+    "home": "Evdə",
+    "automations": "Avtomatika",
+    "varients": "Variant",
+    "projects": "Layihələr",
+    "spaces": "Fəzalar",
+    "library": "Kitabxana",
+    "more": "Daha çox",
+    "settings": "Parametrlər",
+    "profile": "Profil",
+    "dashboard": "Tablosuna",
+    "analytics": "Analitik"
+  },
+  "authentication": {
+    "sign-in": "Daxil olmaq",
+    "sign-up": "Qeydiyyatdan keçmək",
+    "sign-out": "Çıxmaq",
+    "forgot-password": "Şifrəni unutmusunuz?",
+    "reset-password": "Şifrəni yenidən qurun",
+    "email-label": "E-poçt ünvanı",
+    "password-label": "Parol",
+    "confirm-password": "Şifrəni təsdiqləyin"
+  },
+  "dashboard": {
+    "overview": "Xülasə",
+    "recent-activity": "Son fəaliyyət",
+    "quick-actions": "Sürətli hərəkətlər",
+    "stats": {
+      "tasks-completed": "Tapşırıqlar tamamlandı",
+      "active-projects": "Aktiv layihələr",
+      "automation-runs": "Avtomatlaşdırma işləyir"
+    }
+  },
+  "projects": {
+    "create": "Yeni layihə yaradın",
+    "edit": "Layihəni düzəldin",
+    "delete": "Layihəni silmək",
+    "title-placeholder": "Layihə başlığını daxil edin",
+    "description-placeholder": "Layihə təsvirini daxil edin",
+    "status": {
+      "in-progress": "Davam edir",
+      "completed": "Tamamlanmış",
+      "on-hold": "Tutuşdurmaq"
+    }
+  },
+  "automations": {
+    "create": "Avtomatlaşdırma yaradın",
+    "run": "Avtomatlaşdırmaq",
+    "pause": "Avtomatlaşdırmanı dayandırın",
+    "stop": "Avtomatlaşdırma dayandırmaq",
+    "history": "Avtomatlaşdırma tarixi",
+    "trigger": "Tetikleyən",
+    "action": "Hərəkət"
+  },
+  "library": {
+    "search": "Axtarış Kitabxanası",
+    "filter": "Süzgəc",
+    "categories": {
+      "templates": "Şablon",
+      "scripts": "Skriptlər",
+      "datasets": "Domats",
+      "models": "AI modelləri"
+    },
+    "upload": "Resurs yükləmək",
+    "download": "Resurs yükləyin"
+  },
+  "spaces": {
+    "create": "Yerləşdirmək",
+    "invite": "Üzvləri dəvət etmək",
+    "leave": "Boş qoymaq",
+    "manage": "Kosmosu idarə etmək",
+    "title-placeholder": "Kosmik adını daxil edin"
+  },
+  "errors": {
+    "generic": "Bir şey səhv oldu. Xahiş edirəm yenidən cəhd edin.",
+    "not-found": "Resurs tapılmadı.",
+    "unauthorized": "Bu hərəkəti yerinə yetirmək səlahiyyətiniz yoxdur.",
+    "invalid-input": "Zəhmət olmasa girişinizi yoxlayın və yenidən cəhd edin.",
+    "network": "Şəbəkə xətası. Zəhmət olmasa əlaqənizi yoxlayın."
+  },
+  "tooltips": {
+    "new-project": "Tapşırıqlarınızı təşkil etmək üçün yeni bir layihəyə başlayın.",
+    "automation-run": "Əvvəlcədən təyin edilmiş vəzifələri yerinə yetirmək üçün bu avtomatlaşdırmanı işləyin.",
+    "library-search": "Şablon, skriptlər və ya məlumat bazalarını axtarın.",
+    "space-invite": "Komanda üzvlərini bu məkanda əməkdaşlıq etməyə dəvət edin."
+  },
+  "footer": {
+    "copyright": "© 2025 Cümə Ai. Bütün hüquqlar qorunur.",
+    "terms": "Xidmət şərtləri",
+    "privacy": "Məxfilik Siyasəti",
+    "contact": "Bizimlə əlaqə saxlayın"
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "friday": {
+    "title": "Hvad kan jeg hjælpe dig med?",
+    "welcome": "Velkommen til fredag, din AI-drevne assistent!",
+    "prompt": "Spørg mig noget eller start en ny opgave.",
+    "help": "Brug for hjælp? Jeg er her for at guide dig."
+  },
+  "navigation": {
+    "new": "Start nyt",
+    "home": "Hjem",
+    "automations": "Automationer",
+    "varients": "Varianter",
+    "projects": "Projekter",
+    "spaces": "Mellemrum",
+    "library": "Bibliotek",
+    "more": "Mere",
+    "settings": "Indstillinger",
+    "profile": "Profil",
+    "dashboard": "Dashboard",
+    "analytics": "Analytics"
+  },
+  "authentication": {
+    "sign-in": "Log ind",
+    "sign-up": "Tilmeld dig",
+    "sign-out": "Log ud",
+    "forgot-password": "Glemt adgangskode?",
+    "reset-password": "Nulstil adgangskode",
+    "email-label": "E -mail -adresse",
+    "password-label": "Adgangskode",
+    "confirm-password": "Bekræft adgangskode"
+  },
+  "dashboard": {
+    "overview": "Oversigt",
+    "recent-activity": "Nyere aktivitet",
+    "quick-actions": "Hurtige handlinger",
+    "stats": {
+      "tasks-completed": "Opgaver afsluttet",
+      "active-projects": "Aktive projekter",
+      "automation-runs": "Automation kører"
+    }
+  },
+  "projects": {
+    "create": "Opret nyt projekt",
+    "edit": "Rediger projekt",
+    "delete": "Slet projekt",
+    "title-placeholder": "Indtast projekttitel",
+    "description-placeholder": "Indtast projektbeskrivelse",
+    "status": {
+      "in-progress": "I gang",
+      "completed": "Afsluttet",
+      "on-hold": "På vent"
+    }
+  },
+  "automations": {
+    "create": "Opret automatisering",
+    "run": "Kør automatisering",
+    "pause": "Pause automatisering",
+    "stop": "Stop automatisering",
+    "history": "Automationshistorie",
+    "trigger": "Trigger",
+    "action": "Handling"
+  },
+  "library": {
+    "search": "Søgbibliotek",
+    "filter": "Filter",
+    "categories": {
+      "templates": "Skabeloner",
+      "scripts": "Scripts",
+      "datasets": "Datasæt",
+      "models": "AI -modeller"
+    },
+    "upload": "Upload ressource",
+    "download": "Download ressource"
+  },
+  "spaces": {
+    "create": "Skabe plads",
+    "invite": "Inviter medlemmer",
+    "leave": "Efterlad plads",
+    "manage": "Administrer plads",
+    "title-placeholder": "Indtast rumnavn"
+  },
+  "errors": {
+    "generic": "Noget gik galt. Prøv igen.",
+    "not-found": "Ressource ikke fundet.",
+    "unauthorized": "Du er ikke autoriseret til at udføre denne handling.",
+    "invalid-input": "Kontroller venligst dit input og prøv igen.",
+    "network": "Netværksfejl. Kontroller din forbindelse."
+  },
+  "tooltips": {
+    "new-project": "Start et nyt projekt til at organisere dine opgaver.",
+    "automation-run": "Kør denne automatisering for at udføre foruddefinerede opgaver.",
+    "library-search": "Søg efter skabeloner, scripts eller datasæt.",
+    "space-invite": "Inviter teammedlemmer til at samarbejde i dette rum."
+  },
+  "footer": {
+    "copyright": "© 2025 Fredag ​​AI. Alle rettigheder forbeholdes.",
+    "terms": "Servicevilkår",
+    "privacy": "Privatlivspolitik",
+    "contact": "Kontakt os"
+  }
+}

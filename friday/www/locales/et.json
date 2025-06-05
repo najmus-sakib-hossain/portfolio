@@ -1,0 +1,101 @@
+{
+  "friday": {
+    "title": "Millega saan teid aidata?",
+    "welcome": "Tere tulemast reedele, teie AI-toega assistendile!",
+    "prompt": "Küsige minult midagi või alustage uut ülesannet.",
+    "help": "Kas vajate abi? Olen siin, et teid juhendada."
+  },
+  "navigation": {
+    "new": "Alustama uut",
+    "home": "Kodu",
+    "automations": "Automatiseerimine",
+    "varients": "Variandid",
+    "projects": "Projektid",
+    "spaces": "Ruumid",
+    "library": "Raamatukogu",
+    "more": "Rohkem",
+    "settings": "Sätted",
+    "profile": "Profiil",
+    "dashboard": "Armatuurlaud",
+    "analytics": "Analüütika"
+  },
+  "authentication": {
+    "sign-in": "Sisse logima",
+    "sign-up": "Registreeruma",
+    "sign-out": "Logima",
+    "forgot-password": "Unustasin parooli?",
+    "reset-password": "Lähtestage parool",
+    "email-label": "E -posti aadress",
+    "password-label": "Parool",
+    "confirm-password": "Kinnitage parool"
+  },
+  "dashboard": {
+    "overview": "Ülevaade",
+    "recent-activity": "Hiljutine tegevus",
+    "quick-actions": "Kiirete toimingud",
+    "stats": {
+      "tasks-completed": "Ülesanded valmis",
+      "active-projects": "Aktiivsed projektid",
+      "automation-runs": "Automaatika töötab"
+    }
+  },
+  "projects": {
+    "create": "Looge uus projekt",
+    "edit": "Redigeerimisprojekt",
+    "delete": "Kustutusprojekt",
+    "title-placeholder": "Sisestage projekti pealkiri",
+    "description-placeholder": "Sisestage projekti kirjeldus",
+    "status": {
+      "in-progress": "Pooleli",
+      "completed": "Valmis",
+      "on-hold": "Ootel"
+    }
+  },
+  "automations": {
+    "create": "Loo automatiseerimine",
+    "run": "Käivitage automatiseerimine",
+    "pause": "Pausi automatiseerimine",
+    "stop": "Lõpetage automatiseerimine",
+    "history": "Automatiseerimise ajalugu",
+    "trigger": "Päästik",
+    "action": "Toiming"
+  },
+  "library": {
+    "search": "Otsingukogu",
+    "filter": "Filter",
+    "categories": {
+      "templates": "Mallid",
+      "scripts": "Skriptid",
+      "datasets": "Andmekogumid",
+      "models": "AI mudelid"
+    },
+    "upload": "Ressurss üles laadima",
+    "download": "Allalaadimisressurss"
+  },
+  "spaces": {
+    "create": "Looge ruumi",
+    "invite": "Kutsuge liikmeid",
+    "leave": "Ruumi jätma",
+    "manage": "Ruumi haldama",
+    "title-placeholder": "Sisestage ruumi nimi"
+  },
+  "errors": {
+    "generic": "Midagi läks valesti. Proovige uuesti.",
+    "not-found": "Ressurssi ei leitud.",
+    "unauthorized": "Teil ei ole luba seda toimingut teostada.",
+    "invalid-input": "Palun kontrollige oma sisendit ja proovige uuesti.",
+    "network": "Võrguviga. Palun kontrollige oma ühendust."
+  },
+  "tooltips": {
+    "new-project": "Alustage oma ülesannete korraldamiseks uut projekti.",
+    "automation-run": "Käivitage see automatiseerimine eelnevalt määratletud ülesannete täitmiseks.",
+    "library-search": "Otsige malle, skripte või andmekogumeid.",
+    "space-invite": "Kutsuge meeskonnaliikmeid selles ruumis koostööd tegema."
+  },
+  "footer": {
+    "copyright": "© 2025 Reede AI. Kõik õigused kaitstud.",
+    "terms": "Teenuse tingimused",
+    "privacy": "Privaatsuspoliitika",
+    "contact": "Võtke meiega ühendust"
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "friday": {
+    "title": "Beth alla i eich helpu chi ag ef?",
+    "welcome": "Croeso i ddydd Gwener, eich cynorthwyydd wedi'i bweru gan AI!",
+    "prompt": "Gofynnwch unrhyw beth i mi neu dechreuwch dasg newydd.",
+    "help": "Angen cymorth? Rydw i yma i'ch tywys."
+  },
+  "navigation": {
+    "new": "Dechreuwch Newydd",
+    "home": "Nghartrefi",
+    "automations": "Awtomeiddiadau",
+    "varients": "Hamrywiadau",
+    "projects": "Prosiectau",
+    "spaces": "Mannau",
+    "library": "Lyfrgell",
+    "more": "Mwy",
+    "settings": "Ngosodiadau",
+    "profile": "Proffil",
+    "dashboard": "Dangosfwrdd",
+    "analytics": "Dadansoddeg"
+  },
+  "authentication": {
+    "sign-in": "Lofnodi",
+    "sign-up": "Arwyddo",
+    "sign-out": "Arwyddo",
+    "forgot-password": "Wedi anghofio cyfrinair?",
+    "reset-password": "Ailosod cyfrinair",
+    "email-label": "Cyfeiriad E -bost",
+    "password-label": "Gyfrinair",
+    "confirm-password": "Cadarnhau Cyfrinair"
+  },
+  "dashboard": {
+    "overview": "Nhrosolwg",
+    "recent-activity": "Gweithgaredd diweddar",
+    "quick-actions": "Camau Cyflym",
+    "stats": {
+      "tasks-completed": "Tasgau wedi'u cwblhau",
+      "active-projects": "Prosiectau gweithredol",
+      "automation-runs": "Rhedeg Awtomeiddio"
+    }
+  },
+  "projects": {
+    "create": "Creu prosiect newydd",
+    "edit": "Prosiect Golygu",
+    "delete": "Dileu prosiect",
+    "title-placeholder": "Rhowch deitl y prosiect",
+    "description-placeholder": "Rhowch ddisgrifiad y prosiect",
+    "status": {
+      "in-progress": "Ar y gweill",
+      "completed": "Wedi'i gwblhau",
+      "on-hold": "Ongre"
+    }
+  },
+  "automations": {
+    "create": "Creu awtomeiddio",
+    "run": "Rhedeg Awtomeiddio",
+    "pause": "Awtomeiddio Saib",
+    "stop": "Stopio Awtomeiddio",
+    "history": "Hanes Awtomeiddio",
+    "trigger": "Sbardun",
+    "action": "Ngamau"
+  },
+  "library": {
+    "search": "Chwilio Llyfrgell",
+    "filter": "Hidlech",
+    "categories": {
+      "templates": "Templedi",
+      "scripts": "Sgriptiau",
+      "datasets": "Setiau data",
+      "models": "Modelau AI"
+    },
+    "upload": "Llwythwch Adnodd",
+    "download": "Dadlwythwch adnodd"
+  },
+  "spaces": {
+    "create": "Creu lle",
+    "invite": "Gwahodd Aelodau",
+    "leave": "Gadael lle",
+    "manage": "Rheoli lle",
+    "title-placeholder": "Rhowch Enw Gofod"
+  },
+  "errors": {
+    "generic": "Something went wrong. Rhowch gynnig arall arni.",
+    "not-found": "Adnodd heb ei ddarganfod.",
+    "unauthorized": "Nid oes gennych awdurdod i gyflawni'r weithred hon.",
+    "invalid-input": "Gwiriwch eich mewnbwn a rhoi cynnig arall arni.",
+    "network": "Gwall rhwydwaith. Gwiriwch eich cysylltiad."
+  },
+  "tooltips": {
+    "new-project": "Dechreuwch brosiect newydd i drefnu'ch tasgau.",
+    "automation-run": "Rhedeg yr awtomeiddio hwn i gyflawni tasgau wedi'u diffinio ymlaen llaw.",
+    "library-search": "Chwilio am dempledi, sgriptiau, neu setiau data.",
+    "space-invite": "Gwahodd aelodau'r tîm i gydweithio yn y gofod hwn."
+  },
+  "footer": {
+    "copyright": "© 2025 Dydd Gwener AI. Cedwir pob hawl.",
+    "terms": "Telerau Gwasanaeth",
+    "privacy": "Polisi Preifatrwydd",
+    "contact": "Cysylltwch â ni"
+  }
+}

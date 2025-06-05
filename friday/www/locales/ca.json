@@ -1,0 +1,101 @@
+{
+  "friday": {
+    "title": "Amb què us puc ajudar?",
+    "welcome": "Benvingut a divendres, el vostre assistent amb AI!",
+    "prompt": "Pregunteu -me qualsevol cosa o comenceu una nova tasca.",
+    "help": "Necessiteu ajuda? Estic aquí per guiar -vos."
+  },
+  "navigation": {
+    "new": "Començar nou",
+    "home": "Casa",
+    "automations": "Automatitzacions",
+    "varients": "Variants",
+    "projects": "Projectes",
+    "spaces": "Espais",
+    "library": "Biblioteca",
+    "more": "Més",
+    "settings": "Configuració",
+    "profile": "Perfil",
+    "dashboard": "Tauler de comandament",
+    "analytics": "Analítica"
+  },
+  "authentication": {
+    "sign-in": "Inicieu la sessió",
+    "sign-up": "Registrar -se",
+    "sign-out": "Iniciejar",
+    "forgot-password": "Heu oblidat la contrasenya?",
+    "reset-password": "Restableix la contrasenya",
+    "email-label": "Adreça de correu electrònic",
+    "password-label": "Contrasenya",
+    "confirm-password": "Confirmeu la contrasenya"
+  },
+  "dashboard": {
+    "overview": "Visió de conjunt",
+    "recent-activity": "Activitat recent",
+    "quick-actions": "Accions ràpides",
+    "stats": {
+      "tasks-completed": "Tasques finalitzades",
+      "active-projects": "Projectes actius",
+      "automation-runs": "Les execucions d'automatització"
+    }
+  },
+  "projects": {
+    "create": "Crea un nou projecte",
+    "edit": "Edita el projecte",
+    "delete": "Eliminar el projecte",
+    "title-placeholder": "Introduïu el títol del projecte",
+    "description-placeholder": "Introduïu la descripció del projecte",
+    "status": {
+      "in-progress": "En curs",
+      "completed": "Completat",
+      "on-hold": "En compte"
+    }
+  },
+  "automations": {
+    "create": "Crea automatització",
+    "run": "Executar automatització",
+    "pause": "Automatització de pausa",
+    "stop": "Automatització parant",
+    "history": "Historial d'automatització",
+    "trigger": "Gallet",
+    "action": "Acció"
+  },
+  "library": {
+    "search": "Biblioteca de cerca",
+    "filter": "Filtre",
+    "categories": {
+      "templates": "Plantilles",
+      "scripts": "Guions",
+      "datasets": "Conjunts de dades",
+      "models": "Models AI"
+    },
+    "upload": "Pengeu el recurs",
+    "download": "Descarregueu el recurs"
+  },
+  "spaces": {
+    "create": "Crea espai",
+    "invite": "Convida els membres",
+    "leave": "Deixeu l’espai",
+    "manage": "Gestionar l’espai",
+    "title-placeholder": "Introduïu el nom de l'espai"
+  },
+  "errors": {
+    "generic": "Alguna cosa va passar malament. Torneu -ho a provar.",
+    "not-found": "Recurs que no es troba.",
+    "unauthorized": "No esteu autoritzat a realitzar aquesta acció.",
+    "invalid-input": "Comproveu la vostra entrada i torneu -ho a provar.",
+    "network": "Error de xarxa. Comproveu la vostra connexió."
+  },
+  "tooltips": {
+    "new-project": "Inicieu un nou projecte per organitzar les vostres tasques.",
+    "automation-run": "Executeu aquesta automatització per executar tasques predefinides.",
+    "library-search": "Cerqueu plantilles, scripts o conjunts de dades.",
+    "space-invite": "Convida els membres de l’equip a col·laborar en aquest espai."
+  },
+  "footer": {
+    "copyright": "© 2025 Divendres AI. Tots els drets reservats.",
+    "terms": "Condicions del servei",
+    "privacy": "Política de privadesa",
+    "contact": "Poseu -vos en contacte amb nosaltres"
+  }
+}

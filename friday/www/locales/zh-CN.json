@@ -1,0 +1,101 @@
+{
+  "friday": {
+    "title": "我能为您提供什么帮助？",
+    "welcome": "欢迎来到星期五，您的AI驱动助手！",
+    "prompt": "问我任何事情或开始新任务。",
+    "help": "需要帮助吗？我在这里指导你。"
+  },
+  "navigation": {
+    "new": "开始新",
+    "home": "家",
+    "automations": "自动化",
+    "varients": "变体",
+    "projects": "项目",
+    "spaces": "空间",
+    "library": "图书馆",
+    "more": "更多的",
+    "settings": "设置",
+    "profile": "轮廓",
+    "dashboard": "仪表板",
+    "analytics": "分析"
+  },
+  "authentication": {
+    "sign-in": "登入",
+    "sign-up": "报名",
+    "sign-out": "登出",
+    "forgot-password": "忘记密码？",
+    "reset-password": "重置密码",
+    "email-label": "电子邮件",
+    "password-label": "密码",
+    "confirm-password": "确认密码"
+  },
+  "dashboard": {
+    "overview": "概述",
+    "recent-activity": "最近的活动",
+    "quick-actions": "快速动作",
+    "stats": {
+      "tasks-completed": "任务完成",
+      "active-projects": "活跃项目",
+      "automation-runs": "自动化运行"
+    }
+  },
+  "projects": {
+    "create": "创建新项目",
+    "edit": "编辑项目",
+    "delete": "删除项目",
+    "title-placeholder": "输入项目标题",
+    "description-placeholder": "输入项目描述",
+    "status": {
+      "in-progress": "进行中",
+      "completed": "完全的",
+      "on-hold": "等候接听"
+    }
+  },
+  "automations": {
+    "create": "创建自动化",
+    "run": "运行自动化",
+    "pause": "暂停自动化",
+    "stop": "停止自动化",
+    "history": "自动化历史",
+    "trigger": "扳机",
+    "action": "行动"
+  },
+  "library": {
+    "search": "搜索库",
+    "filter": "筛选",
+    "categories": {
+      "templates": "模板",
+      "scripts": "脚本",
+      "datasets": "数据集",
+      "models": "AI模型"
+    },
+    "upload": "上传资源",
+    "download": "下载资源"
+  },
+  "spaces": {
+    "create": "创建空间",
+    "invite": "邀请会员",
+    "leave": "离开空间",
+    "manage": "管理空间",
+    "title-placeholder": "输入空格名称"
+  },
+  "errors": {
+    "generic": "出了点问题。请重试。",
+    "not-found": "找不到资源。",
+    "unauthorized": "您无权执行此操作。",
+    "invalid-input": "请检查您的输入，然后重试。",
+    "network": "网络错误。请检查您的连接。"
+  },
+  "tooltips": {
+    "new-project": "开始一个新项目以组织您的任务。",
+    "automation-run": "运行此自动化以执行预定义的任务。",
+    "library-search": "搜索模板，脚本或数据集。",
+    "space-invite": "邀请团队成员在这个领域进行合作。"
+  },
+  "footer": {
+    "copyright": "©2025星期五AI。版权所有。",
+    "terms": "服务条款",
+    "privacy": "隐私政策",
+    "contact": "联系我们"
+  }
+}

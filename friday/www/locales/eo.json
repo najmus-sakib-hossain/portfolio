@@ -1,0 +1,101 @@
+{
+  "friday": {
+    "title": "Kun kio mi povas helpi vin?",
+    "welcome": "Bonvenon al vendredo, via AI-funkciigita asistanto!",
+    "prompt": "Demandu al mi ion ajn aŭ komencu novan taskon.",
+    "help": "Ĉu vi bezonas helpon? Mi estas ĉi tie por gvidi vin."
+  },
+  "navigation": {
+    "new": "Komencu Nova",
+    "home": "Hejmo",
+    "automations": "Aŭtomacioj",
+    "varients": "Variantoj",
+    "projects": "Projektoj",
+    "spaces": "Spacoj",
+    "library": "Biblioteko",
+    "more": "Pli",
+    "settings": "Agordoj",
+    "profile": "Profilo",
+    "dashboard": "Panelo",
+    "analytics": "Analytics"
+  },
+  "authentication": {
+    "sign-in": "Ensalutu",
+    "sign-up": "Registriĝu",
+    "sign-out": "Elsaluti",
+    "forgot-password": "Ĉu vi forgesis pasvorton?",
+    "reset-password": "Restarigi pasvorton",
+    "email-label": "Retpoŝta adreso",
+    "password-label": "Pasvorto",
+    "confirm-password": "Konfirmu pasvorton"
+  },
+  "dashboard": {
+    "overview": "Superrigardo",
+    "recent-activity": "Lastatempa agado",
+    "quick-actions": "Rapidaj agoj",
+    "stats": {
+      "tasks-completed": "Taskoj plenumitaj",
+      "active-projects": "Aktivaj projektoj",
+      "automation-runs": "Aŭtomatigo funkcias"
+    }
+  },
+  "projects": {
+    "create": "Kreu novan projekton",
+    "edit": "Redakti Projekton",
+    "delete": "Forigi Projekton",
+    "title-placeholder": "Enigu projektan titolon",
+    "description-placeholder": "Enigu projektan priskribon",
+    "status": {
+      "in-progress": "En progreso",
+      "completed": "Kompletigita",
+      "on-hold": "Tenante"
+    }
+  },
+  "automations": {
+    "create": "Krei aŭtomatigon",
+    "run": "Kuru Aŭtomatigo",
+    "pause": "Paŭzi aŭtomatigon",
+    "stop": "Ĉesu Aŭtomatigo",
+    "history": "Aŭtomata Historio",
+    "trigger": "Ellasilo",
+    "action": "Ago"
+  },
+  "library": {
+    "search": "Serĉo Biblioteko",
+    "filter": "Filtrilo",
+    "categories": {
+      "templates": "Ŝablonoj",
+      "scripts": "Skriptoj",
+      "datasets": "Datumoj",
+      "models": "AI -modeloj"
+    },
+    "upload": "Alŝuti rimedon",
+    "download": "Elŝutu rimedon"
+  },
+  "spaces": {
+    "create": "Krei spacon",
+    "invite": "Invitu membrojn",
+    "leave": "Forlasu spacon",
+    "manage": "Administri spacon",
+    "title-placeholder": "Enigu Spacan Nomon"
+  },
+  "errors": {
+    "generic": "Io fuŝiĝis. Bonvolu reprovi.",
+    "not-found": "Rimedo ne trovita.",
+    "unauthorized": "Vi ne rajtas plenumi ĉi tiun agon.",
+    "invalid-input": "Bonvolu kontroli vian enigon kaj reprovi.",
+    "network": "Reto -eraro. Bonvolu kontroli vian konekton."
+  },
+  "tooltips": {
+    "new-project": "Komencu novan projekton por organizi viajn taskojn.",
+    "automation-run": "Kuru ĉi tiun aŭtomatigon por ekzekuti antaŭdifinitajn taskojn.",
+    "library-search": "Serĉu ŝablonojn, skriptojn aŭ datumojn.",
+    "space-invite": "Invitu samdomanojn kunlabori en ĉi tiu spaco."
+  },
+  "footer": {
+    "copyright": "© 2025 Vendredo AI. Ĉiuj rajtoj rezervitaj.",
+    "terms": "Kondiĉoj de Servo",
+    "privacy": "Privateca Politiko",
+    "contact": "Kontaktu nin"
+  }
+}

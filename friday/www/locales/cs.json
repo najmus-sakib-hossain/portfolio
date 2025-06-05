@@ -1,0 +1,101 @@
+{
+  "friday": {
+    "title": "S čím vám mohu pomoci?",
+    "welcome": "Vítejte v pátek, váš asistent poháněného AI!",
+    "prompt": "Zeptejte se mě na cokoli nebo spusťte nový úkol.",
+    "help": "Potřebujete pomoc? Jsem tu, abych tě vedl."
+  },
+  "navigation": {
+    "new": "Začněte nový",
+    "home": "Domov",
+    "automations": "Automatizace",
+    "varients": "Varianty",
+    "projects": "Projekty",
+    "spaces": "Prostory",
+    "library": "Knihovna",
+    "more": "Více",
+    "settings": "Nastavení",
+    "profile": "Profil",
+    "dashboard": "Palubní deska",
+    "analytics": "Analytika"
+  },
+  "authentication": {
+    "sign-in": "Přihlaste se",
+    "sign-up": "Zaregistrujte se",
+    "sign-out": "Odhlásit se",
+    "forgot-password": "Zapomenuté heslo?",
+    "reset-password": "Resetovat heslo",
+    "email-label": "E-mailová adresa",
+    "password-label": "Heslo",
+    "confirm-password": "Potvrďte heslo"
+  },
+  "dashboard": {
+    "overview": "Přehled",
+    "recent-activity": "Nedávná aktivita",
+    "quick-actions": "Rychlé akce",
+    "stats": {
+      "tasks-completed": "Úkoly byly dokončeny",
+      "active-projects": "Aktivní projekty",
+      "automation-runs": "Automatizace běží"
+    }
+  },
+  "projects": {
+    "create": "Vytvořte nový projekt",
+    "edit": "Upravit projekt",
+    "delete": "Odstranit projekt",
+    "title-placeholder": "Zadejte název projektu",
+    "description-placeholder": "Zadejte popis projektu",
+    "status": {
+      "in-progress": "Probíhá",
+      "completed": "Dokončeno",
+      "on-hold": "Pozastavený"
+    }
+  },
+  "automations": {
+    "create": "Vytvořte automatizaci",
+    "run": "Spusťte automatizaci",
+    "pause": "Automatizace pauzy",
+    "stop": "Zastavte automatizaci",
+    "history": "Historie automatizace",
+    "trigger": "Spoušť",
+    "action": "Akce"
+  },
+  "library": {
+    "search": "Vyhledávací knihovna",
+    "filter": "Filtr",
+    "categories": {
+      "templates": "Šablony",
+      "scripts": "Skripty",
+      "datasets": "Datové sady",
+      "models": "Modely AI"
+    },
+    "upload": "Nahrát zdroj",
+    "download": "Stáhnout zdroj"
+  },
+  "spaces": {
+    "create": "Vytvořte prostor",
+    "invite": "Pozvěte členy",
+    "leave": "Nechte prostor",
+    "manage": "Spravujte prostor",
+    "title-placeholder": "Zadejte název prostoru"
+  },
+  "errors": {
+    "generic": "Něco se pokazilo. Zkuste to prosím znovu.",
+    "not-found": "Zdroj nebyl nalezen.",
+    "unauthorized": "Nejste oprávněni provádět tuto akci.",
+    "invalid-input": "Zkontrolujte prosím svůj vstup a zkuste to znovu.",
+    "network": "Chyba sítě. Zkontrolujte prosím své připojení."
+  },
+  "tooltips": {
+    "new-project": "Spusťte nový projekt na organizaci vašich úkolů.",
+    "automation-run": "Spusťte tuto automatizaci a provede předdefinované úkoly.",
+    "library-search": "Vyhledejte šablony, skripty nebo datové sady.",
+    "space-invite": "Pozvěte členy týmu, aby v tomto prostoru spolupracovali."
+  },
+  "footer": {
+    "copyright": "© 2025 Pátek AI. Všechna práva vyhrazena.",
+    "terms": "Podmínky služby",
+    "privacy": "Zásady ochrany osobních údajů",
+    "contact": "Kontaktujte nás"
+  }
+}

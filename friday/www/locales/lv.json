@@ -1,0 +1,101 @@
+{
+  "friday": {
+    "title": "Ko es varu jums palīdzēt?",
+    "welcome": "Laipni lūdzam piektdien, jūsu AI darbinātajam asistentam!",
+    "prompt": "Jautājiet man jebko vai sāciet jaunu uzdevumu.",
+    "help": "Nepieciešama palīdzība? Es esmu šeit, lai jūs vadītu."
+  },
+  "navigation": {
+    "new": "Sāciet jaunu",
+    "home": "Mājas",
+    "automations": "Automātikas",
+    "varients": "Varianti",
+    "projects": "Projekti",
+    "spaces": "Vietas",
+    "library": "Bibliotēka",
+    "more": "Vairāk",
+    "settings": "Iestatījumi",
+    "profile": "Profils",
+    "dashboard": "Informācijas panelis",
+    "analytics": "Analītika"
+  },
+  "authentication": {
+    "sign-in": "Pierakstīties",
+    "sign-up": "Pierakstīties",
+    "sign-out": "Izrakstīties",
+    "forgot-password": "Aizmirsāt paroli?",
+    "reset-password": "Atiestatīt paroli",
+    "email-label": "E -pasta adrese",
+    "password-label": "Parole",
+    "confirm-password": "Apstipriniet paroli"
+  },
+  "dashboard": {
+    "overview": "Pārskats",
+    "recent-activity": "Nesenā aktivitāte",
+    "quick-actions": "Ātras darbības",
+    "stats": {
+      "tasks-completed": "Pabeigti uzdevumi",
+      "active-projects": "Aktīvi projekti",
+      "automation-runs": "Automatizācija darbojas"
+    }
+  },
+  "projects": {
+    "create": "Izveidot jaunu projektu",
+    "edit": "Rediģēt projektu",
+    "delete": "Dzēst projektu",
+    "title-placeholder": "Ievadiet projekta nosaukumu",
+    "description-placeholder": "Ievadiet projekta aprakstu",
+    "status": {
+      "in-progress": "Notiek",
+      "completed": "Pabeigts",
+      "on-hold": "Aizturēt"
+    }
+  },
+  "automations": {
+    "create": "Izveidot automatizāciju",
+    "run": "Palaist automatizāciju",
+    "pause": "Pauzes automatizācija",
+    "stop": "Pārtrauciet automatizāciju",
+    "history": "Automatizācijas vēsture",
+    "trigger": "Sprūda",
+    "action": "Darbība"
+  },
+  "library": {
+    "search": "Meklēšanas bibliotēka",
+    "filter": "Filtrēt",
+    "categories": {
+      "templates": "Veidnes",
+      "scripts": "Skripti",
+      "datasets": "Datu kopas",
+      "models": "AI modeļi"
+    },
+    "upload": "Augšupielādēt resursus",
+    "download": "Lejupielādēt resursus"
+  },
+  "spaces": {
+    "create": "Izveidot vietu",
+    "invite": "Uzaicināt biedrus",
+    "leave": "Atstāt vietu",
+    "manage": "Pārvaldīt vietu",
+    "title-placeholder": "Ievadiet kosmosa nosaukumu"
+  },
+  "errors": {
+    "generic": "Kaut kas nogāja greizi. Lūdzu, mēģiniet vēlreiz.",
+    "not-found": "Resurss nav atrasts.",
+    "unauthorized": "Jums nav atļauts veikt šo darbību.",
+    "invalid-input": "Lūdzu, pārbaudiet savu ievadi un mēģiniet vēlreiz.",
+    "network": "Tīkla kļūda. Lūdzu, pārbaudiet savu savienojumu."
+  },
+  "tooltips": {
+    "new-project": "Sāciet jaunu projektu, lai organizētu savus uzdevumus.",
+    "automation-run": "Palaidiet šo automatizāciju, lai izpildītu iepriekš noteiktus uzdevumus.",
+    "library-search": "Meklējiet veidnes, skriptus vai datu kopas.",
+    "space-invite": "Uzaiciniet komandas locekļus sadarboties šajā telpā."
+  },
+  "footer": {
+    "copyright": "© 2025 piektdiena AI. Visas tiesības aizsargātas.",
+    "terms": "Pakalpojuma noteikumi",
+    "privacy": "Konfidencialitātes politika",
+    "contact": "Sazinieties ar mums"
+  }
+}

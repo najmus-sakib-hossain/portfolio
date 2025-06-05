@@ -1,0 +1,101 @@
+{
+  "friday": {
+    "title": "Ke eng seo nka go thušago ka sona?",
+    "welcome": "Re a go amogela go Labohlano, mothuši wa gago wa AI-powered!",
+    "prompt": "mpotšiše selo le ge e le sefe goba o thome mošomo o mofsa.",
+    "help": "O hloka thušo? Ke mo go go hlahla."
+  },
+  "navigation": {
+    "new": "Thoma e mpsha .",
+    "home": "Gae",
+    "automations": "Di-automation .",
+    "varients": "Diphetogo tša go fapana .",
+    "projects": "Diprotšeke .",
+    "spaces": "Dikgoba .",
+    "library": "Bokgobapuku",
+    "more": "Go feta",
+    "settings": "Dipeakanyo .",
+    "profile": "Phorofaele",
+    "dashboard": "Dashboard .",
+    "analytics": "Ditshekatsheko ."
+  },
+  "authentication": {
+    "sign-in": "Tsena ka .",
+    "sign-up": "Sign Up .",
+    "sign-out": "Sign out .",
+    "forgot-password": "O lebetše phasewete?",
+    "reset-password": "Seta gape phasewete .",
+    "email-label": "Aterese ya imeile .",
+    "password-label": "Phasewete",
+    "confirm-password": "Netefatša phasewete ."
+  },
+  "dashboard": {
+    "overview": "Kakaretšo .",
+    "recent-activity": "Mošomo wa morago bjale .",
+    "quick-actions": "Ditiro tša ka pela .",
+    "stats": {
+      "tasks-completed": "Mešomo e phethilwe .",
+      "active-projects": "Diprotšeke tše di šomago .",
+      "automation-runs": "Mabelo a go itirela ."
+    }
+  },
+  "projects": {
+    "create": "Hlama Protšeke ye Mpsha .",
+    "edit": "Protšeke ya Edita .",
+    "delete": "Phimola porojeke .",
+    "title-placeholder": "Tsenya thaetlele ya projeke .",
+    "description-placeholder": "Tsenya tlhaloso ya projeke .",
+    "status": {
+      "in-progress": "E tšwela pele .",
+      "completed": "E phethilwe .",
+      "on-hold": "E emišitšwe ."
+    }
+  },
+  "automations": {
+    "create": "Bopa Automation .",
+    "run": "Matha Automation .",
+    "pause": "Go itirela go khutša .",
+    "stop": "Emiša go itirela .",
+    "history": "Histori ya go itirela .",
+    "trigger": "Šušumetša",
+    "action": "Kgato"
+  },
+  "library": {
+    "search": "Laeborari ya go nyaka .",
+    "filter": "Sefa .",
+    "categories": {
+      "templates": "Dithempleite .",
+      "scripts": "Dingwalwa .",
+      "datasets": "Di-dataset .",
+      "models": "Mehlala ya AI ."
+    },
+    "upload": "Mohlodi wa go tsenya .",
+    "download": "Download mohlodi ."
+  },
+  "spaces": {
+    "create": "Bopa sekgoba .",
+    "invite": "Laletša maloko .",
+    "leave": "Tlogela sebaka .",
+    "manage": "Laola sekgoba .",
+    "title-placeholder": "Tsenya Leina la Sebaka ."
+  },
+  "errors": {
+    "generic": "Selo se sengwe se ile sa sepela gabotse. Ke kgopela le leke gape.",
+    "not-found": "Mothopo ga se wa hwetšwa.",
+    "unauthorized": "Ga o dumelelwe go dira tiro ye.",
+    "invalid-input": "Hle hlahloba input ya gago gomme o leke gape.",
+    "network": "Phošo ya netweke. Hle hlahloba kgokagano ya gago."
+  },
+  "tooltips": {
+    "new-project": "Thoma porojeke ye mpsha go rulaganya mešomo ya gago.",
+    "automation-run": "Matha ena automation ho phethahatsa mesebetsi e hlalositsoeng esale pele.",
+    "library-search": "Nyaka dithempleite, dingwalwa, goba disete tša datha.",
+    "space-invite": "Laletša maloko a sehlopha go dirišana sebakeng se."
+  },
+  "footer": {
+    "copyright": "© 2025 Labohlano ai. Ditokelo tsohle di sireleditswe.",
+    "terms": "Dipehelo tsa Tshebeletso .",
+    "privacy": "Pholisi ya Sephiri .",
+    "contact": "Ikgokaganye le rena ."
+  }
+}

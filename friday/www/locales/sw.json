@@ -1,0 +1,101 @@
+{
+  "friday": {
+    "title": "Ninaweza kukusaidia nini?",
+    "welcome": "Karibu Ijumaa, msaidizi wako wa nguvu wa AI!",
+    "prompt": "Niulize chochote au anza kazi mpya.",
+    "help": "Unahitaji msaada? Niko hapa kukuongoza."
+  },
+  "navigation": {
+    "new": "Anza mpya",
+    "home": "Nyumbani",
+    "automations": "Otomatiki",
+    "varients": "Anuwai",
+    "projects": "Miradi",
+    "spaces": "Nafasi",
+    "library": "Maktaba",
+    "more": "Zaidi",
+    "settings": "Mipangilio",
+    "profile": "Wasifu",
+    "dashboard": "Dashibodi",
+    "analytics": "Uchambuzi"
+  },
+  "authentication": {
+    "sign-in": "Ingia",
+    "sign-up": "Jisajili",
+    "sign-out": "Saini",
+    "forgot-password": "Umesahau nywila?",
+    "reset-password": "Rudisha nywila",
+    "email-label": "Anwani ya barua pepe",
+    "password-label": "Nenosiri",
+    "confirm-password": "Thibitisha nywila"
+  },
+  "dashboard": {
+    "overview": "Muhtasari",
+    "recent-activity": "Shughuli za hivi karibuni",
+    "quick-actions": "Hatua za haraka",
+    "stats": {
+      "tasks-completed": "Kazi zimekamilika",
+      "active-projects": "Miradi inayofanya kazi",
+      "automation-runs": "Automatisering inaendesha"
+    }
+  },
+  "projects": {
+    "create": "Unda mradi mpya",
+    "edit": "Hariri Mradi",
+    "delete": "Futa mradi",
+    "title-placeholder": "Ingiza Kichwa cha Mradi",
+    "description-placeholder": "Ingiza maelezo ya mradi",
+    "status": {
+      "in-progress": "Katika maendeleo",
+      "completed": "Imekamilika",
+      "on-hold": "Juu ya kushikilia"
+    }
+  },
+  "automations": {
+    "create": "Unda otomatiki",
+    "run": "Run automatisering",
+    "pause": "Pause automatisering",
+    "stop": "Acha automatisering",
+    "history": "Historia ya automatisering",
+    "trigger": "Trigger",
+    "action": "Hatua"
+  },
+  "library": {
+    "search": "Maktaba ya utaftaji",
+    "filter": "Kichujio",
+    "categories": {
+      "templates": "Templeti",
+      "scripts": "Maandishi",
+      "datasets": "Data",
+      "models": "Mifano ya AI"
+    },
+    "upload": "Pakia rasilimali",
+    "download": "Pakua rasilimali"
+  },
+  "spaces": {
+    "create": "Unda nafasi",
+    "invite": "Alika wanachama",
+    "leave": "Acha nafasi",
+    "manage": "Dhibiti nafasi",
+    "title-placeholder": "Ingiza jina la nafasi"
+  },
+  "errors": {
+    "generic": "Kitu kilienda vibaya. Tafadhali jaribu tena.",
+    "not-found": "Rasilimali haipatikani.",
+    "unauthorized": "Haujaidhinishwa kufanya hatua hii.",
+    "invalid-input": "Tafadhali angalia pembejeo yako na ujaribu tena.",
+    "network": "Kosa la mtandao. Tafadhali angalia muunganisho wako."
+  },
+  "tooltips": {
+    "new-project": "Anzisha mradi mpya kupanga kazi zako.",
+    "automation-run": "Run automatisering hii kutekeleza majukumu yaliyofafanuliwa.",
+    "library-search": "Tafuta templeti, maandishi, au hifadhidata.",
+    "space-invite": "Alika washiriki wa timu kushirikiana katika nafasi hii."
+  },
+  "footer": {
+    "copyright": "© 2025 Ijumaa AI. Haki zote zimehifadhiwa.",
+    "terms": "Masharti ya Huduma",
+    "privacy": "Sera ya faragha",
+    "contact": "Wasiliana nasi"
+  }
+}

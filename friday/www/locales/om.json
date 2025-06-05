@@ -1,0 +1,101 @@
+{
+  "friday": {
+    "title": "Maal si gargaaruu danda'a?",
+    "welcome": "Gara Jimaataatti baga nagaan dhuftan, gargaaraa keessan AI-powered!",
+    "prompt": "Waan tokko na gaafadhu ykn hojii haaraa jalqabi.",
+    "help": "Gargaarsa barbaadduu? Ani si qajeelchuuf as jira."
+  },
+  "navigation": {
+    "new": "Haaraa jalqabaa .",
+    "home": "Mana",
+    "automations": "otoomaatikii .",
+    "varients": "Garaagarummaa .",
+    "projects": "Pirojektoota .",
+    "spaces": "Bakkeewwan .",
+    "library": "Mana kitaabaa",
+    "more": "Caalaa",
+    "settings": "Sajoo .",
+    "profile": "Ibsama",
+    "dashboard": "Daashboordii .",
+    "analytics": "Xiinxala ."
+  },
+  "authentication": {
+    "sign-in": "Galmaa'i .",
+    "sign-up": "Galmaa'i.",
+    "sign-out": "Ba'i .",
+    "forgot-password": "Jecha icciitii dagattee?",
+    "reset-password": "Jecha icciitii irra deebi'ii kaa'i .",
+    "email-label": "Teessoo imeelii .",
+    "password-label": "Jecha iccitii",
+    "confirm-password": "Jecha icciitii mirkaneessuu ."
+  },
+  "dashboard": {
+    "overview": "Haala Waliigalaa .",
+    "recent-activity": "Sochii dhiheenya kanaa .",
+    "quick-actions": "Tarkaanfiiwwan Saffisaa .",
+    "stats": {
+      "tasks-completed": "Hojiiwwan xumuraman .",
+      "active-projects": "Pirojektoota sochii qaban .",
+      "automation-runs": "automation fiigicha ."
+    }
+  },
+  "projects": {
+    "create": "Pirojektii haaraa uumuu .",
+    "edit": "Pirojektii gulaaluu .",
+    "delete": "Pirojektii Haquu .",
+    "title-placeholder": "Mata duree pirojektii galchi .",
+    "description-placeholder": "Ibsa Pirojektii galchi .",
+    "status": {
+      "in-progress": "Adeemsa irra jira .",
+      "completed": "Xumurame .",
+      "on-hold": "Yeroo qabachuutti ."
+    }
+  },
+  "automations": {
+    "create": "Automation uumuu .",
+    "run": "Automation fiigi .",
+    "pause": "automation pause .",
+    "stop": "Otoomaashinii dhaabuu .",
+    "history": "Seenaa otoomaatikii .",
+    "trigger": "Dammaqsuu",
+    "action": "Gocha"
+  },
+  "library": {
+    "search": "Mana Kitaabaa Barbaadi .",
+    "filter": "Filtara .",
+    "categories": {
+      "templates": "Unkaalee .",
+      "scripts": "Iskiriiptii .",
+      "datasets": "Kuusaawwan deetaa .",
+      "models": "Moodeelota AI ."
+    },
+    "upload": "Qabeenya olkaa'uu .",
+    "download": "Qabeenya buufadhaa ."
+  },
+  "spaces": {
+    "create": "Bakka uumuu .",
+    "invite": "Miseensoota afeerraa .",
+    "leave": "Bakka dhiisi .",
+    "manage": "Bakka bulchuu .",
+    "title-placeholder": "Maqaa iddoo galchi ."
+  },
+  "errors": {
+    "generic": "Wanti tokko dogoggora ta'e. Mee irra deebi'ii yaali.",
+    "not-found": "Qabeenyi hin argamne.",
+    "unauthorized": "Tarkaanfii kana raawwachuuf hayyama hin qabdu.",
+    "invalid-input": "Mee galtee keessan ilaalaa irra deebi'aa yaalaa.",
+    "network": "Dogoggora networkii. Mee connection keessan ilaalaa."
+  },
+  "tooltips": {
+    "new-project": "Hojii kee qindeessuuf pirojektii haaraa jalqabi.",
+    "automation-run": "Hojiiwwan dursanii ibsaman raawwachuuf otoomaatikii kana fiigi.",
+    "library-search": "Unkaalee, iskiriiptii, ykn kuusaa deetaa barbaadi.",
+    "space-invite": "Miseensota garee bakka kana keessatti akka tumsan afeeri."
+  },
+  "footer": {
+    "copyright": "© 2025 Jimaata AI. Mirgi Qopheessaa Seeraan Kan Eegame.",
+    "terms": "Haala Tajaajilaa .",
+    "privacy": "Imaammata Dhuunfaa .",
+    "contact": "Nu qunnamaa"
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "friday": {
+    "title": "Dɛn na metumi aboa wo wɔ ho?",
+    "welcome": "Yɛma wo akwaaba ba Fida, wo AI-powered boafo!",
+    "prompt": "Bisa me biribiara anaa fi adwuma foforo ase.",
+    "help": "Wohia mmoa? Mewɔ ha sɛ mɛkyerɛ wo kwan."
+  },
+  "navigation": {
+    "new": "Fi ase foforo .",
+    "home": "Fie",
+    "automations": "Automations .",
+    "varients": "Nneɛma a ɛyɛ soronko .",
+    "projects": "Nnwuma ahorow .",
+    "spaces": "Ahunmu .",
+    "library": "Laabri",
+    "more": "Dodoɔ",
+    "settings": "Nsiesiei .",
+    "profile": "Ho asɛm",
+    "dashboard": "Dashboard .",
+    "analytics": "Analytics ."
+  },
+  "authentication": {
+    "sign-in": "Sign in .",
+    "sign-up": "Kyerɛw wo din .",
+    "sign-out": "Sign out .",
+    "forgot-password": "Wo werɛ afi wo password?",
+    "reset-password": "Reset password .",
+    "email-label": "Email Address .",
+    "password-label": "Paswɛde",
+    "confirm-password": "Si so dua sɛ wode wo ho bɛhyɛ mu ."
+  },
+  "dashboard": {
+    "overview": "Nsɛm a wɔaka abom .",
+    "recent-activity": "Nnansa yi dwumadi .",
+    "quick-actions": "Nneyɛe a wɔyɛ no ntɛmntɛm .",
+    "stats": {
+      "tasks-completed": "Nnwuma a wɔawie .",
+      "active-projects": "Nnwuma a ɛyɛ nnam .",
+      "automation-runs": "Automation no yɛ adwuma ."
+    }
+  },
+  "projects": {
+    "create": "Yɛ adwuma foforo .",
+    "edit": "Edit Project .",
+    "delete": "Popa adwuma no .",
+    "title-placeholder": "Hyehyɛ Project Title .",
+    "description-placeholder": "Hyehyɛ adwuma no ho nkyerɛkyerɛmu .",
+    "status": {
+      "in-progress": "ɛrekɔ so .",
+      "completed": "Wɔawie .",
+      "on-hold": "Wɔakura mu ."
+    }
+  },
+  "automations": {
+    "create": "Yɛ automation .",
+    "run": "Run Automation .",
+    "pause": "Pause Automation .",
+    "stop": "Gyina automation so .",
+    "history": "Automation Abakɔsɛm .",
+    "trigger": "Nkanyan",
+    "action": "Anamɔntuo"
+  },
+  "library": {
+    "search": "Hwehwɛ nhomakorabea .",
+    "filter": "Filter .",
+    "categories": {
+      "templates": "Nhwɛsode ahorow .",
+      "scripts": "Nkyerɛwee .",
+      "datasets": "Datasets .",
+      "models": "AI ho mfonini ahorow ."
+    },
+    "upload": "Upload Resource .",
+    "download": "Twe ade a ɛwɔ hɔ no ."
+  },
+  "spaces": {
+    "create": "Yɛ ahunmu .",
+    "invite": "To nsa frɛ asɔremma .",
+    "leave": "Gyae ahunmu .",
+    "manage": "Hwɛ ahunmu so .",
+    "title-placeholder": "Hyehyɛ ahunmu din ."
+  },
+  "errors": {
+    "generic": "Biribi ankɔ yiye. Yɛsrɛ sɛ san bɔ mmɔden bio.",
+    "not-found": "Nneɛma a wɔde yɛ adwuma a wonhu.",
+    "unauthorized": "Wonni tumi sɛ wobɛyɛ saa adeyɛ yi.",
+    "invalid-input": "Yɛsrɛ sɛ hwɛ wo input no mu na sɔ hwɛ bio.",
+    "network": "Netwɛk mfomso. Yɛsrɛ sɛ hwɛ wo nkitahodi no."
+  },
+  "tooltips": {
+    "new-project": "Fi ase yɛ adwuma foforo a wode bɛyɛ wo nnwuma ho nhyehyɛe.",
+    "automation-run": "Fa saa automation yi di dwuma de yɛ nnwuma a wɔahyɛ da ayɛ.",
+    "library-search": "Hwehwɛ template, scripts, anaa datasets.",
+    "space-invite": "To nsa frɛ kuw no mufo ma wɔmmɛyɛ adwuma wɔ saa ahunmu yi mu."
+  },
+  "footer": {
+    "copyright": "© 2025 Fida Ai. Hokwan ahorow nyinaa wɔ hɔ.",
+    "terms": "Ɔsom ho nhyehyɛe .",
+    "privacy": "Nsɛm a Wɔde Sie Ho Nsɛm .",
+    "contact": "Yɛne yɛn nkasa ."
+  }
+}

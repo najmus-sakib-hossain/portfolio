@@ -1,0 +1,101 @@
+{
+  "friday": {
+    "title": "¿Imapitaq yanapaykiman?",
+    "welcome": "¡Allin hamusqaykichik viernes punchawman, AI-wan kallpachasqa yanapakuqnikichikman!",
+    "prompt": "Imatapas tapuway utaq musuq ruwayta qallariy.",
+    "help": "¿Necesitan yanapayta? Kaypi kachkani pusasunaykipaq."
+  },
+  "navigation": {
+    "new": "Musuq qallariy .",
+    "home": "Wasi",
+    "automations": "Automaciones .",
+    "varients": "Variantes .",
+    "projects": "Proyectos .",
+    "spaces": "Espacios .",
+    "library": "Yachay taqi",
+    "more": "Aswan",
+    "settings": "Ajustes .",
+    "profile": "Runapa kaynin",
+    "dashboard": "Tablero de instrumentos .",
+    "analytics": "Analytics ."
+  },
+  "authentication": {
+    "sign-in": "Señal .",
+    "sign-up": "Qillqakuy .",
+    "sign-out": "Lloqsimuy .",
+    "forgot-password": "¿Qonqarqankichu contraseña?",
+    "reset-password": "Yaykuna rimata kutichiy .",
+    "email-label": "Correo electrónico nisqa .",
+    "password-label": "Kichana",
+    "confirm-password": "Yaykuna rimay takyachiy ."
+  },
+  "dashboard": {
+    "overview": "Tukuy rikuy .",
+    "recent-activity": "Kunan pacha ruray .",
+    "quick-actions": "Utqaylla ruwaykuna .",
+    "stats": {
+      "tasks-completed": "Llamkanakuna tukusqa .",
+      "active-projects": "Proyectos Activos .",
+      "automation-runs": "Automatización Runs ."
+    }
+  },
+  "projects": {
+    "create": "Musuq proyectota ruway .",
+    "edit": "Llamk'apuy llamk'apuy .",
+    "delete": "Proyecto de Borrar .",
+    "title-placeholder": "Yaykuy proyectopa titulon .",
+    "description-placeholder": "Yaykuy proyectomanta willakuy .",
+    "status": {
+      "in-progress": "En progreso .",
+      "completed": "Tukusqa .",
+      "on-hold": "Suyasqaña ."
+    }
+  },
+  "automations": {
+    "create": "Automatización nisqa paqarichiy .",
+    "run": "Automatización nisqa purichiy .",
+    "pause": "Pausa Automatización .",
+    "stop": "Kikinmanta Automatización .",
+    "history": "Automatización nisqamanta willakuy .",
+    "trigger": "Piñachiy",
+    "action": "Ruwana"
+  },
+  "library": {
+    "search": "Biblioteca maskay .",
+    "filter": "Filtro .",
+    "categories": {
+      "templates": "Plantillas .",
+      "scripts": "Qillqasqakuna .",
+      "datasets": "Willay huñukuna .",
+      "models": "AI modelos ."
+    },
+    "upload": "Recurso nisqa churay .",
+    "download": "Recurso nisqa uraykachiy ."
+  },
+  "spaces": {
+    "create": "Espaciota ruway .",
+    "invite": "Invita a miembros .",
+    "leave": "Saqiy espacio .",
+    "manage": "Espaciota kamachiy .",
+    "title-placeholder": "Espacio sutita qillqay ."
+  },
+  "errors": {
+    "generic": "Imapas mana allinmi karqa. Ama hina kaspa, hukmanta kallpachakuy.",
+    "not-found": "recurso mana tarisqa.",
+    "unauthorized": "Mana kay ruwayta ruwanaykipaq kamachisqachu kanki.",
+    "invalid-input": "Ama hina kaspa, yaykusqaykichikta qawaykuy hinaspa hukmanta kallpanchakuy.",
+    "network": "Llika pantay. Ama hina kaspa, t'inkisqaykita qhaway."
+  },
+  "tooltips": {
+    "new-project": "Musuq proyectota qallariy, llamkaynikikunata organizanaykipaq.",
+    "automation-run": "Kay automatizacionta purichiy ñawpaqmanta riqsisqa ruwanakuna ruwanapaq.",
+    "library-search": "Plantillas, scripts utaq datos conjuntos nisqakunata maskay.",
+    "space-invite": "Kay espaciopi yanapanakunankupaq equipomanta kaqkunata minkakuy."
+  },
+  "footer": {
+    "copyright": "© 2025 Viernes AI. Tukuy hayñikuna waqaychasqa.",
+    "terms": "Términos de Servicio .",
+    "privacy": "Sapanchasqa Kamachiy .",
+    "contact": "Ñoqaykuwan rimanakuy ."
+  }
+}

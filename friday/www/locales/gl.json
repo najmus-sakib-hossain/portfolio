@@ -1,0 +1,101 @@
+{
+  "friday": {
+    "title": "Con que podo axudarche?",
+    "welcome": "Benvido ao venres, o teu axudante de AI.",
+    "prompt": "Pregúntame calquera cousa ou comece unha nova tarefa.",
+    "help": "¿Necesitas axuda? Estou aquí para guiarte."
+  },
+  "navigation": {
+    "new": "Comeza novo",
+    "home": "Casa",
+    "automations": "Automations",
+    "varients": "Variantes",
+    "projects": "Proxectos",
+    "spaces": "Espazos",
+    "library": "Biblioteca",
+    "more": "Máis",
+    "settings": "Configuración",
+    "profile": "Perfil",
+    "dashboard": "Panel de traballo",
+    "analytics": "Analytics"
+  },
+  "authentication": {
+    "sign-in": "Iniciar sesión",
+    "sign-up": "Rexístrate",
+    "sign-out": "Saír",
+    "forgot-password": "Esqueciches o contrasinal?",
+    "reset-password": "Restablecer o contrasinal",
+    "email-label": "Enderezo de correo electrónico",
+    "password-label": "Contrasinal",
+    "confirm-password": "Confirme o contrasinal"
+  },
+  "dashboard": {
+    "overview": "Visión xeral",
+    "recent-activity": "Actividade recente",
+    "quick-actions": "Accións rápidas",
+    "stats": {
+      "tasks-completed": "Tarefas completadas",
+      "active-projects": "Proxectos activos",
+      "automation-runs": "Automation execútase"
+    }
+  },
+  "projects": {
+    "create": "Crear novo proxecto",
+    "edit": "Editar proxecto",
+    "delete": "Eliminar proxecto",
+    "title-placeholder": "Introduza o título do proxecto",
+    "description-placeholder": "Introduza a descrición do proxecto",
+    "status": {
+      "in-progress": "En curso",
+      "completed": "Completado",
+      "on-hold": "En espera"
+    }
+  },
+  "automations": {
+    "create": "Crear automatización",
+    "run": "Executar automatización",
+    "pause": "Pausa automatización",
+    "stop": "Parar a automatización",
+    "history": "Historial de automatización",
+    "trigger": "Disparador",
+    "action": "Acción"
+  },
+  "library": {
+    "search": "Biblioteca de busca",
+    "filter": "Filtro",
+    "categories": {
+      "templates": "Modelos",
+      "scripts": "Scripts",
+      "datasets": "Conxuntos de datos",
+      "models": "Modelos AI"
+    },
+    "upload": "Recurso de carga",
+    "download": "Descargar recurso"
+  },
+  "spaces": {
+    "create": "Crear espazo",
+    "invite": "Invitar a membros",
+    "leave": "Deixar o espazo",
+    "manage": "Xestionar o espazo",
+    "title-placeholder": "Introduza o nome do espazo"
+  },
+  "errors": {
+    "generic": "Algo saíu mal. Por favor, téntao de novo.",
+    "not-found": "Recurso non atopado.",
+    "unauthorized": "Non estás autorizado a realizar esta acción.",
+    "invalid-input": "Comprobe a súa entrada e téntao de novo.",
+    "network": "Erro de rede. Comprobe a súa conexión."
+  },
+  "tooltips": {
+    "new-project": "Inicie un novo proxecto para organizar as túas tarefas.",
+    "automation-run": "Executa esta automatización para executar tarefas predefinidas.",
+    "library-search": "Busca modelos, scripts ou conxuntos de datos.",
+    "space-invite": "Invita aos membros do equipo a colaborar neste espazo."
+  },
+  "footer": {
+    "copyright": "© 2025 Venres ai. Todos os dereitos reservados.",
+    "terms": "Termos de servizo",
+    "privacy": "Política de privacidade",
+    "contact": "Póñase en contacto connosco"
+  }
+}

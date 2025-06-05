@@ -1,0 +1,101 @@
+{
+  "friday": {
+    "title": "W czym mogę ci pomóc?",
+    "welcome": "Witamy w piątek, twój asystent napędzany AI!",
+    "prompt": "Zapytaj mnie o cokolwiek lub rozpocznij nowe zadanie.",
+    "help": "Potrzebujesz pomocy? Jestem tutaj, aby cię poprowadzić."
+  },
+  "navigation": {
+    "new": "Zacznij nowy",
+    "home": "Dom",
+    "automations": "Automatyki",
+    "varients": "Warianty",
+    "projects": "Projektowanie",
+    "spaces": "Przestrzenie",
+    "library": "Biblioteka",
+    "more": "Więcej",
+    "settings": "Ustawienia",
+    "profile": "Profil",
+    "dashboard": "Panel",
+    "analytics": "Analityka"
+  },
+  "authentication": {
+    "sign-in": "Zalogować się",
+    "sign-up": "Zapisać się",
+    "sign-out": "Wyloguj się",
+    "forgot-password": "Zapomniałeś hasła?",
+    "reset-password": "Zresetuj hasło",
+    "email-label": "Adres e -mail",
+    "password-label": "Hasło",
+    "confirm-password": "Potwierdź hasło"
+  },
+  "dashboard": {
+    "overview": "Przegląd",
+    "recent-activity": "Ostatnie działanie",
+    "quick-actions": "Szybkie działania",
+    "stats": {
+      "tasks-completed": "Zadania zakończone",
+      "active-projects": "Aktywne projekty",
+      "automation-runs": "Automatyzacja działa"
+    }
+  },
+  "projects": {
+    "create": "Utwórz nowy projekt",
+    "edit": "Edytuj projekt",
+    "delete": "Usuń projekt",
+    "title-placeholder": "Wprowadź tytuł projektu",
+    "description-placeholder": "Wprowadź opis projektu",
+    "status": {
+      "in-progress": "W toku",
+      "completed": "Zakończony",
+      "on-hold": "Wstrzymany"
+    }
+  },
+  "automations": {
+    "create": "Utwórz automatyzację",
+    "run": "Uruchom automatyzację",
+    "pause": "Automatyzacja pauzy",
+    "stop": "Zatrzymaj automatyzację",
+    "history": "Historia automatyzacji",
+    "trigger": "Spust",
+    "action": "Działanie"
+  },
+  "library": {
+    "search": "Wyszukaj bibliotekę",
+    "filter": "Filtr",
+    "categories": {
+      "templates": "Szablony",
+      "scripts": "Skrypty",
+      "datasets": "Zestawy danych",
+      "models": "Modele AI"
+    },
+    "upload": "Prześlij zasób",
+    "download": "Pobierz zasób"
+  },
+  "spaces": {
+    "create": "Stwórz przestrzeń",
+    "invite": "Zaproś członków",
+    "leave": "Pozostaw miejsce",
+    "manage": "Zarządzaj przestrzenią",
+    "title-placeholder": "Wprowadź nazwę przestrzeni"
+  },
+  "errors": {
+    "generic": "Coś poszło nie tak. Spróbuj ponownie.",
+    "not-found": "Zasób nie znaleziono.",
+    "unauthorized": "Nie jesteś upoważniony do wykonania tej akcji.",
+    "invalid-input": "Sprawdź swoje dane wejściowe i spróbuj ponownie.",
+    "network": "Błąd sieci. Sprawdź swoje połączenie."
+  },
+  "tooltips": {
+    "new-project": "Rozpocznij nowy projekt organizowania zadań.",
+    "automation-run": "Uruchom tę automatyzację, aby wykonać predefiniowane zadania.",
+    "library-search": "Wyszukaj szablony, skrypty lub zestawy danych.",
+    "space-invite": "Zaproś członków zespołu do współpracy w tej przestrzeni."
+  },
+  "footer": {
+    "copyright": "© 2025 Friday AI. Wszelkie prawa zastrzeżone.",
+    "terms": "Warunki usług",
+    "privacy": "Polityka prywatności",
+    "contact": "Skontaktuj się z nami"
+  }
+}

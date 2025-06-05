@@ -1,0 +1,101 @@
+{
+  "friday": {
+    "title": "Cu ce ​​te pot ajuta?",
+    "welcome": "Bine ați venit până vineri, asistentul dvs. alimentat de AI!",
+    "prompt": "Întreabă -mă orice sau începe o nouă sarcină.",
+    "help": "Aveți nevoie de asistență? Sunt aici pentru a vă ghida."
+  },
+  "navigation": {
+    "new": "Începe nou",
+    "home": "Acasă",
+    "automations": "Automatizări",
+    "varients": "Variante",
+    "projects": "Proiecte",
+    "spaces": "Spații",
+    "library": "Bibliotecă",
+    "more": "Mai mult",
+    "settings": "Setări",
+    "profile": "Profil",
+    "dashboard": "Bord",
+    "analytics": "Analitică"
+  },
+  "authentication": {
+    "sign-in": "Conectare",
+    "sign-up": "Înscrieți -vă",
+    "sign-out": "Sign out",
+    "forgot-password": "Aţi uitat parola?",
+    "reset-password": "Resetați parola",
+    "email-label": "Adresa de e-mail",
+    "password-label": "Parolă",
+    "confirm-password": "Confirmați parola"
+  },
+  "dashboard": {
+    "overview": "Prezentare generală",
+    "recent-activity": "Activitate recentă",
+    "quick-actions": "Acțiuni rapide",
+    "stats": {
+      "tasks-completed": "Sarcini finalizate",
+      "active-projects": "Proiecte active",
+      "automation-runs": "Automatizarea rulată"
+    }
+  },
+  "projects": {
+    "create": "Creați un nou proiect",
+    "edit": "Editați proiectul",
+    "delete": "Ștergeți proiectul",
+    "title-placeholder": "Introduceți titlul proiectului",
+    "description-placeholder": "Introduceți descrierea proiectului",
+    "status": {
+      "in-progress": "În curs",
+      "completed": "Completat",
+      "on-hold": "În așteptare"
+    }
+  },
+  "automations": {
+    "create": "Creați automatizare",
+    "run": "Rulați automatizarea",
+    "pause": "Pauză automatizarea",
+    "stop": "Opriți automatizarea",
+    "history": "Istoricul automatizării",
+    "trigger": "Declanșator",
+    "action": "Acţiune"
+  },
+  "library": {
+    "search": "Biblioteca de căutare",
+    "filter": "Filtra",
+    "categories": {
+      "templates": "Șabloane",
+      "scripts": "Scripturi",
+      "datasets": "Seturi de date",
+      "models": "Modele AI"
+    },
+    "upload": "Încărcați resursa",
+    "download": "Descărcați resursa"
+  },
+  "spaces": {
+    "create": "Creați spațiu",
+    "invite": "Invitați membrii",
+    "leave": "Părăsiți spațiul",
+    "manage": "Gestionați spațiul",
+    "title-placeholder": "Introduceți numele de spațiu"
+  },
+  "errors": {
+    "generic": "Ceva nu a mers bine. Vă rugăm să încercați din nou.",
+    "not-found": "Resursa nu a fost găsită.",
+    "unauthorized": "Nu sunteți autorizat să efectuați această acțiune.",
+    "invalid-input": "Vă rugăm să verificați intrarea și încercați din nou.",
+    "network": "Eroare de rețea. Vă rugăm să verificați conexiunea."
+  },
+  "tooltips": {
+    "new-project": "Începeți un nou proiect pentru a vă organiza sarcinile.",
+    "automation-run": "Rulați această automatizare pentru a executa sarcini predefinite.",
+    "library-search": "Căutați șabloane, scripturi sau seturi de date.",
+    "space-invite": "Invitați membrii echipei să colaboreze în acest spațiu."
+  },
+  "footer": {
+    "copyright": "© 2025 Vineri AI. Toate drepturile rezervate.",
+    "terms": "Termeni de serviciu",
+    "privacy": "Politica de confidențialitate",
+    "contact": "Contactaţi-ne"
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "friday": {
+    "title": "Mba’épa ikatu roipytyvõ?",
+    "welcome": "¡Peju porãite viernes-pe, pene pytyvõhára AI-pegua!",
+    "prompt": "Eporandu chéve mba’eve térã emoñepyrũ peteĩ tembiapo pyahu.",
+    "help": "¿Reikotevẽ pytyvõ? Che aime ko'ápe roguia haguã."
+  },
+  "navigation": {
+    "new": "Eñepyrũ Ipyahúva .",
+    "home": "Óga",
+    "automations": "Automatización rehegua .",
+    "varients": "Variantes rehegua .",
+    "projects": "Proyectos rehegua art .244 .",
+    "spaces": "Espacios rehegua .",
+    "library": "Arandukarenda",
+    "more": "Heta",
+    "settings": "Ñe’ẽñemi .",
+    "profile": "Yke",
+    "dashboard": "Tablero de mando rehegua .",
+    "analytics": "Analítica rehegua ."
+  },
+  "authentication": {
+    "sign-in": "Oike .",
+    "sign-up": "Ejehai .",
+    "sign-out": "Emombe'u .",
+    "forgot-password": "¿Rehesarái ñe’ẽñemi?",
+    "reset-password": "Oñemoĩ jey ñe’ẽñemi .",
+    "email-label": "dirección de correo electrónico rehegua .",
+    "password-label": "Taiñomi",
+    "confirm-password": "Omoañete ñe’ẽñemi ."
+  },
+  "dashboard": {
+    "overview": "Ñe’ẽtekuaa rehegua .",
+    "recent-activity": "Tembiaporã nda’aréi ojejapóva .",
+    "quick-actions": "Tembiaporã pya’e rehegua .",
+    "stats": {
+      "tasks-completed": "Tembiaporã ojejapopaitéva .",
+      "active-projects": "Proyectos Activos rehegua .",
+      "automation-runs": "Automatización oñemboguata ."
+    }
+  },
+  "projects": {
+    "create": "Ojapo proyecto pyahu .",
+    "edit": "Editar Proyecto rehegua .",
+    "delete": "Ombogue proyecto .",
+    "title-placeholder": "Oike proyecto réra .",
+    "description-placeholder": "Oike proyecto ñemombe’u .",
+    "status": {
+      "in-progress": "Oñemotenondévo .",
+      "completed": "Oñemohu’ãva’ekue .",
+      "on-hold": "en espera ."
+    }
+  },
+  "automations": {
+    "create": "Ojapo Automatización .",
+    "run": "Automatización de ejecución rehegua .",
+    "pause": "Pausa Automatización rehegua .",
+    "stop": "Parada Automatización rehegua .",
+    "history": "Automatización rembiasakue .",
+    "trigger": "Ñembokapu",
+    "action": "Ojejapóva"
+  },
+  "library": {
+    "search": "Ojeporeka biblioteca .",
+    "filter": "Filtro rehegua .",
+    "categories": {
+      "templates": "Plantillas rehegua .",
+      "scripts": "guión rehegua .",
+      "datasets": "Datos rehegua art .244 .",
+      "models": "Modelos AI rehegua ."
+    },
+    "upload": "Omboguejy recurso .",
+    "download": "Omboguejy recurso ."
+  },
+  "spaces": {
+    "create": "Ojapo espacio .",
+    "invite": "Oinvita miembro-kuérape .",
+    "leave": "Oheja espacio .",
+    "manage": "Ojesareko espacio rehe .",
+    "title-placeholder": "Oike espacio réra ."
+  },
+  "errors": {
+    "generic": "Oho vai mba’e. Eñeha'ã jey.",
+    "not-found": "Recurso ndojejuhúiva.",
+    "unauthorized": "Nde nereimei autorizado rejapo haĝua ko acción.",
+    "invalid-input": "Ehechákena nde entrada ha eñeha’ã jey.",
+    "network": "Red jejavy. Ehechákena nde joaju."
+  },
+  "tooltips": {
+    "new-project": "Eñepyrũ peteĩ tembiapo pyahu emohenda hag̃ua ne rembiapo.",
+    "automation-run": "Emombaꞌapo ko automatización emombaꞌapo hag̃ua tembiaporã ojedefinivaꞌekue.",
+    "library-search": "Eheka plantilla, script térã datokuéra ryru.",
+    "space-invite": "Oinvita umi miembro equipo-gua oñomoirû haguã ko espacio-pe."
+  },
+  "footer": {
+    "copyright": "© 2025 Viernes AI rehegua. Opaite derecho ojeguerekóva.",
+    "terms": "Términos de Servicio rehegua .",
+    "privacy": "Polítika ñeñangareko rehegua art .244 .",
+    "contact": "Eñe'ẽmi orendive ."
+  }
+}
