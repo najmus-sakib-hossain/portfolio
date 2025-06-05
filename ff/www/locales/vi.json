@@ -1,0 +1,101 @@
+{
+  "friday": {
+    "title": "Tôi có thể giúp gì cho bạn?",
+    "welcome": "Chào mừng bạn đến thứ sáu, trợ lý hỗ trợ AI của bạn!",
+    "prompt": "Hỏi tôi bất cứ điều gì hoặc bắt đầu một nhiệm vụ mới.",
+    "help": "Cần hỗ trợ? Tôi ở đây để hướng dẫn bạn."
+  },
+  "navigation": {
+    "new": "Bắt đầu mới",
+    "home": "Trang chủ",
+    "automations": "Tự động hóa",
+    "varients": "Biến thể",
+    "projects": "Dự án",
+    "spaces": "Không gian",
+    "library": "Thư viện",
+    "more": "Hơn",
+    "settings": "Cài đặt",
+    "profile": "Hồ sơ",
+    "dashboard": "Bảng điều khiển",
+    "analytics": "Phân tích"
+  },
+  "authentication": {
+    "sign-in": "Đăng nhập",
+    "sign-up": "Đăng ký",
+    "sign-out": "Đăng xuất",
+    "forgot-password": "Quên mật khẩu?",
+    "reset-password": "Đặt lại mật khẩu",
+    "email-label": "Địa chỉ email",
+    "password-label": "Mật khẩu",
+    "confirm-password": "Xác nhận mật khẩu"
+  },
+  "dashboard": {
+    "overview": "Tổng quan",
+    "recent-activity": "Hoạt động gần đây",
+    "quick-actions": "Hành động nhanh chóng",
+    "stats": {
+      "tasks-completed": "Nhiệm vụ hoàn thành",
+      "active-projects": "Các dự án tích cực",
+      "automation-runs": "Tự động hóa chạy"
+    }
+  },
+  "projects": {
+    "create": "Tạo dự án mới",
+    "edit": "Chỉnh sửa dự án",
+    "delete": "Xóa dự án",
+    "title-placeholder": "Nhập tiêu đề dự án",
+    "description-placeholder": "Nhập mô tả dự án",
+    "status": {
+      "in-progress": "Trong tiến trình",
+      "completed": "Hoàn thành",
+      "on-hold": "Đang giữ"
+    }
+  },
+  "automations": {
+    "create": "Tạo tự động hóa",
+    "run": "Chạy tự động hóa",
+    "pause": "Tạm dừng tự động hóa",
+    "stop": "Dừng tự động hóa",
+    "history": "Lịch sử tự động hóa",
+    "trigger": "Cò súng",
+    "action": "Hoạt động"
+  },
+  "library": {
+    "search": "Thư viện tìm kiếm",
+    "filter": "Lọc",
+    "categories": {
+      "templates": "Mẫu",
+      "scripts": "Kịch bản",
+      "datasets": "Bộ dữ liệu",
+      "models": "Mô hình AI"
+    },
+    "upload": "Tải lên tài nguyên",
+    "download": "Tải xuống tài nguyên"
+  },
+  "spaces": {
+    "create": "Tạo không gian",
+    "invite": "Mời các thành viên",
+    "leave": "Để lại không gian",
+    "manage": "Quản lý không gian",
+    "title-placeholder": "Nhập tên không gian"
+  },
+  "errors": {
+    "generic": "Có gì đó đã sai. Hãy thử lại.",
+    "not-found": "Không tìm thấy tài nguyên.",
+    "unauthorized": "Bạn không được phép thực hiện hành động này.",
+    "invalid-input": "Vui lòng kiểm tra đầu vào của bạn và thử lại.",
+    "network": "Lỗi mạng. Vui lòng kiểm tra kết nối của bạn."
+  },
+  "tooltips": {
+    "new-project": "Bắt đầu một dự án mới để tổ chức các nhiệm vụ của bạn.",
+    "automation-run": "Chạy tự động hóa này để thực hiện các tác vụ được xác định trước.",
+    "library-search": "Tìm kiếm các mẫu, tập lệnh hoặc bộ dữ liệu.",
+    "space-invite": "Mời các thành viên trong nhóm hợp tác trong không gian này."
+  },
+  "footer": {
+    "copyright": "© 2025 Thứ Sáu AI. Tất cả quyền được bảo lưu.",
+    "terms": "Điều khoản dịch vụ",
+    "privacy": "Chính sách bảo mật",
+    "contact": "Liên hệ với chúng tôi"
+  }
+}

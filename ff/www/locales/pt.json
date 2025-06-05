@@ -1,0 +1,101 @@
+{
+  "friday": {
+    "title": "Com o que posso ajudá -lo?",
+    "welcome": "Bem-vindo à sexta-feira, seu assistente de IA!",
+    "prompt": "Pergunte -me qualquer coisa ou comece uma nova tarefa.",
+    "help": "Precisa de assistência? I'm here to guide you."
+  },
+  "navigation": {
+    "new": "Comece novo",
+    "home": "Lar",
+    "automations": "Automations",
+    "varients": "Variantes",
+    "projects": "Projetos",
+    "spaces": "Espaços",
+    "library": "Biblioteca",
+    "more": "Mais",
+    "settings": "Configurações",
+    "profile": "Perfil",
+    "dashboard": "Painel",
+    "analytics": "Análise"
+  },
+  "authentication": {
+    "sign-in": "Entrar",
+    "sign-up": "Inscrever-se",
+    "sign-out": "Sair",
+    "forgot-password": "Esqueceu sua senha?",
+    "reset-password": "Redefinir senha",
+    "email-label": "Endereço de email",
+    "password-label": "Senha",
+    "confirm-password": "Confirme sua senha"
+  },
+  "dashboard": {
+    "overview": "Visão geral",
+    "recent-activity": "Atividade recente",
+    "quick-actions": "Ações rápidas",
+    "stats": {
+      "tasks-completed": "Tarefas concluídas",
+      "active-projects": "Projetos ativos",
+      "automation-runs": "Automação é executada"
+    }
+  },
+  "projects": {
+    "create": "Crie um novo projeto",
+    "edit": "Projeto de edição",
+    "delete": "Excluir projeto",
+    "title-placeholder": "Digite o título do projeto",
+    "description-placeholder": "Digite a descrição do projeto",
+    "status": {
+      "in-progress": "Em andamento",
+      "completed": "Concluído",
+      "on-hold": "Em espera"
+    }
+  },
+  "automations": {
+    "create": "Crie automação",
+    "run": "Execute automação",
+    "pause": "Pausa a automação",
+    "stop": "Pare a automação",
+    "history": "Histórico de automação",
+    "trigger": "Acionar",
+    "action": "Ação"
+  },
+  "library": {
+    "search": "Biblioteca de Pesquisa",
+    "filter": "Filtro",
+    "categories": {
+      "templates": "Modelos",
+      "scripts": "Scripts",
+      "datasets": "Conjuntos de dados",
+      "models": "Modelos de IA"
+    },
+    "upload": "Carregar recurso",
+    "download": "Baixe o recurso"
+  },
+  "spaces": {
+    "create": "Criar espaço",
+    "invite": "Convide membros",
+    "leave": "Deixe espaço",
+    "manage": "Gerenciar espaço",
+    "title-placeholder": "Digite o nome do espaço"
+  },
+  "errors": {
+    "generic": "Algo deu errado. Por favor, tente novamente.",
+    "not-found": "Recurso não encontrado.",
+    "unauthorized": "Você não está autorizado a executar esta ação.",
+    "invalid-input": "Por favor, verifique sua entrada e tente novamente.",
+    "network": "Erro de rede. Por favor, verifique sua conexão."
+  },
+  "tooltips": {
+    "new-project": "Inicie um novo projeto para organizar suas tarefas.",
+    "automation-run": "Execute esta automação para executar tarefas predefinidas.",
+    "library-search": "Pesquise modelos, scripts ou conjuntos de dados.",
+    "space-invite": "Convide membros da equipe para colaborar neste espaço."
+  },
+  "footer": {
+    "copyright": "© 2025 sexta -feira ai. Todos os direitos reservados.",
+    "terms": "Termos de Serviço",
+    "privacy": "política de Privacidade",
+    "contact": "Contate-nos"
+  }
+}

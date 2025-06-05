@@ -1,0 +1,101 @@
+{
+  "friday": {
+    "title": "Waarmee kan ek jou help?",
+    "welcome": "Welkom by Vrydag, u AI-aangedrewe assistent!",
+    "prompt": "Vra my enigiets of begin 'n nuwe taak.",
+    "help": "Hulp nodig? Ek is hier om jou te lei."
+  },
+  "navigation": {
+    "new": "Begin nuut",
+    "home": "Tuiste",
+    "automations": "Outomatisering",
+    "varients": "Variante",
+    "projects": "Projekte",
+    "spaces": "Ruimtes",
+    "library": "Biblioteek",
+    "more": "Meer",
+    "settings": "Instellings",
+    "profile": "Profiel",
+    "dashboard": "Paneelbord",
+    "analytics": "Analise"
+  },
+  "authentication": {
+    "sign-in": "Meld aan",
+    "sign-up": "Aanmeld",
+    "sign-out": "Teken uit",
+    "forgot-password": "Wagwoord vergeet?",
+    "reset-password": "Stel wagwoord terug",
+    "email-label": "E -posadres",
+    "password-label": "Wagwoord",
+    "confirm-password": "Bevestig wagwoord"
+  },
+  "dashboard": {
+    "overview": "Oorsig",
+    "recent-activity": "Onlangse aktiwiteit",
+    "quick-actions": "Vinnige aksies",
+    "stats": {
+      "tasks-completed": "Take voltooi",
+      "active-projects": "Aktiewe projekte",
+      "automation-runs": "Outomatisering loop"
+    }
+  },
+  "projects": {
+    "create": "Skep nuwe projek",
+    "edit": "Redigeer projek",
+    "delete": "Delete -projek",
+    "title-placeholder": "Voer die projektitel in",
+    "description-placeholder": "Voer die projekbeskrywing in",
+    "status": {
+      "in-progress": "Aan die gang",
+      "completed": "Voltooi",
+      "on-hold": "Op hou"
+    }
+  },
+  "automations": {
+    "create": "Skep outomatisering",
+    "run": "Begin outomatisering",
+    "pause": "Pouse -outomatisering",
+    "stop": "Stop outomatisering",
+    "history": "Outomatiseringsgeskiedenis",
+    "trigger": "Sneller",
+    "action": "Aksie"
+  },
+  "library": {
+    "search": "Soekbiblioteek",
+    "filter": "Filter",
+    "categories": {
+      "templates": "Templates",
+      "scripts": "Skrifte",
+      "datasets": "Datastelle",
+      "models": "AI -modelle"
+    },
+    "upload": "Laai hulpbron op",
+    "download": "Laai hulpbron af"
+  },
+  "spaces": {
+    "create": "Skep ruimte",
+    "invite": "Nooi lede uit",
+    "leave": "Verlaat ruimte",
+    "manage": "Bestuur ruimte",
+    "title-placeholder": "Voer ruimtenaam in"
+  },
+  "errors": {
+    "generic": "Iets het verkeerd geloop. Probeer asseblief weer.",
+    "not-found": "Hulpbron nie gevind nie.",
+    "unauthorized": "U is nie gemagtig om hierdie aksie uit te voer nie.",
+    "invalid-input": "Gaan u insette na en probeer weer.",
+    "network": "Netwerkfout. Gaan u verbinding na."
+  },
+  "tooltips": {
+    "new-project": "Begin 'n nuwe projek om u take te organiseer.",
+    "automation-run": "Voer hierdie outomatisering uit om vooraf gedefinieerde take uit te voer.",
+    "library-search": "Soek na sjablone, skrifte of datastelle.",
+    "space-invite": "Nooi spanlede om aan hierdie ruimte saam te werk."
+  },
+  "footer": {
+    "copyright": "© 2025 Vrydag AI. Alle regte voorbehou.",
+    "terms": "Diensvoorwaardes",
+    "privacy": "Privaatheidsbeleid",
+    "contact": "Kontak ons"
+  }
+}

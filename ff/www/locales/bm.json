@@ -1,0 +1,101 @@
+{
+  "friday": {
+    "title": "Ne bɛ se ka i dɛmɛ ni mun ye?",
+    "welcome": "Aw ni ce jumadon na, aw ka AI-powered assistant!",
+    "prompt": "Aw ye fɛn o fɛn ɲininka walima ka baara kura daminɛ.",
+    "help": "Aw mago bɛ dɛmɛ na wa? N bɛ yan ka aw bilasira."
+  },
+  "navigation": {
+    "new": "A daminɛ kura .",
+    "home": "So",
+    "automations": "Otomatikiw .",
+    "varients": "Variants .",
+    "projects": "Porozɛw .",
+    "spaces": "Yɔrɔw .",
+    "library": "Gafekalanyɔrɔ",
+    "more": "Caman",
+    "settings": "Settings .",
+    "profile": "Porofili",
+    "dashboard": "Dashboard .",
+    "analytics": "Analytiques ."
+  },
+  "authentication": {
+    "sign-in": "Sign in .",
+    "sign-up": "Aw ye aw tɔgɔ sɛbɛn .",
+    "sign-out": "Sign out .",
+    "forgot-password": "I ɲinɛna password kɔ wa?",
+    "reset-password": "Reset password .",
+    "email-label": "Email ladɛrɛsi .",
+    "password-label": "Kɔdi",
+    "confirm-password": "Confirm password ."
+  },
+  "dashboard": {
+    "overview": "A ɲɛfɔli kunba .",
+    "recent-activity": "Kɔsa in na .",
+    "quick-actions": "Waleya teliyalenw .",
+    "stats": {
+      "tasks-completed": "Baara minnu dafara .",
+      "active-projects": "Porozɛ minnu bɛ baara kɛ .",
+      "automation-runs": "Otomatiki boliw ."
+    }
+  },
+  "projects": {
+    "create": "Porozɛ kura dabɔ .",
+    "edit": "edit projet .",
+    "delete": "Projet delete .",
+    "title-placeholder": "Porozɛ tɔgɔ sɛbɛn .",
+    "description-placeholder": "Enter Project ɲɛfɔli .",
+    "status": {
+      "in-progress": "min bɛ sen na .",
+      "completed": "A dafara .",
+      "on-hold": "A bɛ sɔrɔ a ka baara la ."
+    }
+  },
+  "automations": {
+    "create": "Aw ye automatique (otomatiki) da .",
+    "run": "Aw bɛ automatique (otomatiki) boli .",
+    "pause": "Pause Automation .",
+    "stop": "Otomatiki Stop .",
+    "history": "Otomatiki tariku .",
+    "trigger": "Ka ci",
+    "action": "Wale"
+  },
+  "library": {
+    "search": "A ɲini gafebon kɔnɔ .",
+    "filter": "Filɛri .",
+    "categories": {
+      "templates": "Modèles .",
+      "scripts": "Scripts .",
+      "datasets": "DataSets .",
+      "models": "AI modɛliw ."
+    },
+    "upload": "Upload source .",
+    "download": "Télécharger source ."
+  },
+  "spaces": {
+    "create": "Yɔrɔ dabɔ .",
+    "invite": "Mɔgɔ minnu bɛ jɛkulu kɔnɔ, olu wele .",
+    "leave": "Yɔrɔ to yen .",
+    "manage": "Yɔrɔw ɲɛnabɔli .",
+    "title-placeholder": "Yɔrɔ tɔgɔ sɛbɛn ."
+  },
+  "errors": {
+    "generic": "Fɛn dɔ ma ɲɛ. Aw ye a lajɛ kokura.",
+    "not-found": "Resource ma sɔrɔ.",
+    "unauthorized": "I ma yamaruya sɔrɔ ka nin wale in kɛ.",
+    "invalid-input": "Aw ye aw ka hakilinaw lajɛ ani ka segin k’a lajɛ.",
+    "network": "Réseau fili. Aw ye aw ka jɛɲɔgɔnya lajɛ."
+  },
+  "tooltips": {
+    "new-project": "Porozɛ kura daminɛ walasa k’i ka baara kɛtaw labɛn.",
+    "automation-run": "Aw bɛ nin otomatiki in boli walasa ka baara ɲɛfɔlenw kɛ ka kɔn.",
+    "library-search": "Aw ye sɛgɛsɛgɛli kɛ ni jatebɔlanw ye, ni sɛbɛnniw ye, walima ni kunnafonidilanw ye.",
+    "space-invite": "Aw ye ekipu mɔgɔw wele u ka jɛ ka baara kɛ o yɔrɔ in na."
+  },
+  "footer": {
+    "copyright": "© 2025 Juma Ai. Hakɛ bɛɛ bɛ sɔrɔ.",
+    "terms": "Baarakɛcogo sariyaw .",
+    "privacy": "Kunnafoni-falen-falen sariyaw .",
+    "contact": "Aw ye anw lajɛ ."
+  }
+}

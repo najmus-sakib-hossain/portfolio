@@ -1,0 +1,101 @@
+{
+  "friday": {
+    "title": "Ndingakuthandizeni chiyani?",
+    "welcome": "Takulandilani Lachisanu, Wothandizira Wamalonda Wanu!",
+    "prompt": "Ndifunseni chilichonse kapena kuyambitsa ntchito yatsopano.",
+    "help": "Mukufuna thandizo? Ndabwera kuti ndikuwongolereni."
+  },
+  "navigation": {
+    "new": "Yambani Chatsopano",
+    "home": "Nyumba",
+    "automations": "Maoni okha",
+    "varients": "Zosiyana",
+    "projects": "Ntchito",
+    "spaces": "Malo",
+    "library": "Nkhokwe ya mabuku",
+    "more": "Zambiri",
+    "settings": "Makonzedwe",
+    "profile": "Maonekedwe",
+    "dashboard": "Dalack",
+    "analytics": "Kawunibola"
+  },
+  "authentication": {
+    "sign-in": "Lowani muakaunti",
+    "sign-up": "Lowani",
+    "sign-out": "Tulukani",
+    "forgot-password": "Mwayiwala mawu achinsinsi olowera?",
+    "reset-password": "Bweretsani achinsinsi",
+    "email-label": "Imelo adilesi",
+    "password-label": "Chawekha",
+    "confirm-password": "Tsimikizani Mawu Achinsinsi"
+  },
+  "dashboard": {
+    "overview": "Kulemeletsa",
+    "recent-activity": "Zochitika zaposachedwa",
+    "quick-actions": "Zochita mwachangu",
+    "stats": {
+      "tasks-completed": "Ntchito zidamalizidwa",
+      "active-projects": "Ntchito Zogwira Ntchito",
+      "automation-runs": "Makina Amayendetsa"
+    }
+  },
+  "projects": {
+    "create": "Pangani Ntchito Yatsopano",
+    "edit": "Sinthani Project",
+    "delete": "Chotsani Ntchito",
+    "title-placeholder": "Lowetsani mutu wa polojekiti",
+    "description-placeholder": "Lowetsani Kufotokozera",
+    "status": {
+      "in-progress": "Zili mkati",
+      "completed": "Anamaliza",
+      "on-hold": "Yimitsidwa"
+    }
+  },
+  "automations": {
+    "create": "Pangani ma okha",
+    "run": "Yendetsani nokha",
+    "pause": "Kuunitsitsa",
+    "stop": "Siyani kudzipatula",
+    "history": "Mbiri ya Zochita",
+    "trigger": "Kuyambitsa",
+    "action": "Kuchita"
+  },
+  "library": {
+    "search": "Sanjala",
+    "filter": "Sefa",
+    "categories": {
+      "templates": "Makope",
+      "scripts": "Masamba",
+      "datasets": "Matoputala",
+      "models": "AI Models"
+    },
+    "upload": "Kwezani Zoyambira",
+    "download": "Tsitsani gwero"
+  },
+  "spaces": {
+    "create": "Pangani malo",
+    "invite": "Pemphani mamembala",
+    "leave": "Siyani danga",
+    "manage": "Sinthani danga",
+    "title-placeholder": "Lowetsani dzina"
+  },
+  "errors": {
+    "generic": "China chake chalakwika. Chonde yesaninso.",
+    "not-found": "Zothandizira sizinapezeke.",
+    "unauthorized": "Simunaloledwe kuchita izi.",
+    "invalid-input": "Chonde onani zomwe mukufuna ndikuyesanso.",
+    "network": "Vuto la intaneti. Chonde onani kulumikizana kwanu."
+  },
+  "tooltips": {
+    "new-project": "Yambitsani polojekiti yatsopano kuti mukonzekere ntchito zanu.",
+    "automation-run": "Thamangani zantchito iyi kuti muthe kugwira ntchito zomwe zakonzedwa.",
+    "library-search": "Sakani ma templates, zolemba, kapena datasets.",
+    "space-invite": "Itanani mamembala a THAT kuti mugwirizane ndi malowa."
+  },
+  "footer": {
+    "copyright": "© 2025 Lachisanu AI. Maumwini onse ndi otetezedwa.",
+    "terms": "Migwirizano Yantchito",
+    "privacy": "mfundo zazinsinsi",
+    "contact": "Lumikizanani nafe"
+  }
+}

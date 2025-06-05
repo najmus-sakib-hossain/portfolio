@@ -1,0 +1,101 @@
+{
+  "friday": {
+    "title": "Ano ang matutulungan kita?",
+    "welcome": "Maligayang pagdating sa Biyernes, ang iyong katulong na AI-powered!",
+    "prompt": "Magtanong sa akin ng anuman o magsimula ng isang bagong gawain.",
+    "help": "Kailangan mo ng tulong? Narito ako upang gabayan ka."
+  },
+  "navigation": {
+    "new": "Magsimula ng bago",
+    "home": "Home",
+    "automations": "Mga Automation",
+    "varients": "Mga variant",
+    "projects": "Mga proyekto",
+    "spaces": "Mga puwang",
+    "library": "Library",
+    "more": "Higit pa",
+    "settings": "Mga setting",
+    "profile": "Profile",
+    "dashboard": "Dashboard",
+    "analytics": "Analytics"
+  },
+  "authentication": {
+    "sign-in": "Mag -sign in",
+    "sign-up": "Mag -sign up",
+    "sign-out": "Mag -sign out",
+    "forgot-password": "Nakalimutan ang password?",
+    "reset-password": "I -reset ang password",
+    "email-label": "Email address",
+    "password-label": "Password",
+    "confirm-password": "Kumpirmahin ang password"
+  },
+  "dashboard": {
+    "overview": "Pangkalahatang -ideya",
+    "recent-activity": "Kamakailang aktibidad",
+    "quick-actions": "Mabilis na pagkilos",
+    "stats": {
+      "tasks-completed": "Nakumpleto ang mga gawain",
+      "active-projects": "Mga aktibong proyekto",
+      "automation-runs": "Tumatakbo ang automation"
+    }
+  },
+  "projects": {
+    "create": "Lumikha ng bagong proyekto",
+    "edit": "I -edit ang proyekto",
+    "delete": "Tanggalin ang proyekto",
+    "title-placeholder": "Ipasok ang pamagat ng proyekto",
+    "description-placeholder": "Ipasok ang paglalarawan ng proyekto",
+    "status": {
+      "in-progress": "Sa pag -unlad",
+      "completed": "Nakumpleto",
+      "on-hold": "Hawak"
+    }
+  },
+  "automations": {
+    "create": "Lumikha ng automation",
+    "run": "Patakbuhin ang automation",
+    "pause": "I -pause ang automation",
+    "stop": "Itigil ang automation",
+    "history": "Kasaysayan ng Automation",
+    "trigger": "Trigger",
+    "action": "Aksyon"
+  },
+  "library": {
+    "search": "Search Library",
+    "filter": "Filter",
+    "categories": {
+      "templates": "Mga template",
+      "scripts": "Mga script",
+      "datasets": "Mga datasets",
+      "models": "Mga modelo ng AI"
+    },
+    "upload": "Mag -upload ng mapagkukunan",
+    "download": "I -download ang mapagkukunan"
+  },
+  "spaces": {
+    "create": "Lumikha ng puwang",
+    "invite": "Anyayahan ang mga miyembro",
+    "leave": "Mag -iwan ng puwang",
+    "manage": "Pamahalaan ang puwang",
+    "title-placeholder": "Ipasok ang pangalan ng puwang"
+  },
+  "errors": {
+    "generic": "May mali. Mangyaring subukang muli.",
+    "not-found": "Hindi natagpuan ang mapagkukunan.",
+    "unauthorized": "Hindi ka pinahintulutan na gawin ang pagkilos na ito.",
+    "invalid-input": "Mangyaring suriin ang iyong input at subukang muli.",
+    "network": "Error sa network. Mangyaring suriin ang iyong koneksyon."
+  },
+  "tooltips": {
+    "new-project": "Magsimula ng isang bagong proyekto upang ayusin ang iyong mga gawain.",
+    "automation-run": "Patakbuhin ang automation na ito upang maisagawa ang mga paunang natukoy na mga gawain.",
+    "library-search": "Maghanap para sa mga template, script, o mga datasets.",
+    "space-invite": "Anyayahan ang mga miyembro ng koponan na makipagtulungan sa puwang na ito."
+  },
+  "footer": {
+    "copyright": "© 2025 Friday AI. Nakalaan ang lahat ng mga karapatan.",
+    "terms": "Mga Tuntunin ng Serbisyo",
+    "privacy": "Patakaran sa Pagkapribado",
+    "contact": "Makipag -ugnay sa amin"
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "friday": {
+    "title": "Cosa posso aiutarti?",
+    "welcome": "Benvenuti a venerdì, il tuo assistente alimentato dall'IA!",
+    "prompt": "Chiedimi qualsiasi cosa o inizia un nuovo compito.",
+    "help": "Hai bisogno di assistenza? Sono qui per guidarti."
+  },
+  "navigation": {
+    "new": "Inizia nuovo",
+    "home": "Casa",
+    "automations": "Automazione",
+    "varients": "Varianti",
+    "projects": "Progetti",
+    "spaces": "Spazi",
+    "library": "Biblioteca",
+    "more": "Di più",
+    "settings": "Impostazioni",
+    "profile": "Profilo",
+    "dashboard": "Pannello di controllo",
+    "analytics": "Analisi"
+  },
+  "authentication": {
+    "sign-in": "Registrazione",
+    "sign-up": "Iscrizione",
+    "sign-out": "Disconnessione",
+    "forgot-password": "Ha dimenticato la password?",
+    "reset-password": "Reimpostare la password",
+    "email-label": "Indirizzo e-mail",
+    "password-label": "Password",
+    "confirm-password": "Conferma password"
+  },
+  "dashboard": {
+    "overview": "Panoramica",
+    "recent-activity": "Attività recente",
+    "quick-actions": "Azioni rapide",
+    "stats": {
+      "tasks-completed": "Compiti completati",
+      "active-projects": "Progetti attivi",
+      "automation-runs": "Esegue l'automazione"
+    }
+  },
+  "projects": {
+    "create": "Crea nuovo progetto",
+    "edit": "Modifica progetto",
+    "delete": "Elimina il progetto",
+    "title-placeholder": "Immettere il titolo del progetto",
+    "description-placeholder": "Immettere la descrizione del progetto",
+    "status": {
+      "in-progress": "In corso",
+      "completed": "Completato",
+      "on-hold": "In attesa"
+    }
+  },
+  "automations": {
+    "create": "Crea automazione",
+    "run": "Eseguire l'automazione",
+    "pause": "Pausa automazione",
+    "stop": "Fermare l'automazione",
+    "history": "Cronologia dell'automazione",
+    "trigger": "Grilletto",
+    "action": "Azione"
+  },
+  "library": {
+    "search": "Biblioteca di ricerca",
+    "filter": "Filtro",
+    "categories": {
+      "templates": "Modelli",
+      "scripts": "Script",
+      "datasets": "Set di dati",
+      "models": "Modelli AI"
+    },
+    "upload": "Carica risorsa",
+    "download": "Scarica risorsa"
+  },
+  "spaces": {
+    "create": "Crea spazio",
+    "invite": "Invitare i membri",
+    "leave": "Lasciare spazio",
+    "manage": "Gestisci spazio",
+    "title-placeholder": "Immettere il nome dello spazio"
+  },
+  "errors": {
+    "generic": "Qualcosa è andato storto. Per favore riprova.",
+    "not-found": "Risorsa non trovata.",
+    "unauthorized": "Non sei autorizzato a eseguire questa azione.",
+    "invalid-input": "Controlla il tuo input e riprova.",
+    "network": "Errore di rete. Si prega di controllare la tua connessione."
+  },
+  "tooltips": {
+    "new-project": "Avvia un nuovo progetto per organizzare i tuoi compiti.",
+    "automation-run": "Esegui questa automazione per eseguire attività predefinite.",
+    "library-search": "Cerca modelli, script o set di dati.",
+    "space-invite": "Invita i membri del team a collaborare in questo spazio."
+  },
+  "footer": {
+    "copyright": "© 2025 Venerdì AI. Tutti i diritti riservati.",
+    "terms": "Termini di servizio",
+    "privacy": "politica sulla riservatezza",
+    "contact": "Contattaci"
+  }
+}

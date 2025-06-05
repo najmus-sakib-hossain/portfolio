@@ -1,0 +1,101 @@
+{
+  "friday": {
+    "title": "Niki nagufasha?",
+    "welcome": "Murakaza neza kuwa gatanu, umufasha wa Ai-wakozwe!",
+    "prompt": "Mubaze ikintu cyose cyangwa utangire umurimo mushya.",
+    "help": "Ukeneye ubufasha? Ndi hano kugirango nkuyobore."
+  },
+  "navigation": {
+    "new": "Tangira gushya",
+    "home": "Urugo",
+    "automations": "Automatiction",
+    "varients": "Impinduka",
+    "projects": "Imishinga",
+    "spaces": "Umwanya",
+    "library": "Isomero",
+    "more": "Byinshi",
+    "settings": "Igenamiterere",
+    "profile": "Umwirondoro",
+    "dashboard": "Ikibaho",
+    "analytics": "Isesengura"
+  },
+  "authentication": {
+    "sign-in": "Injira",
+    "sign-up": "Iyandikishe",
+    "sign-out": "Gusohoka",
+    "forgot-password": "Wibagiwe ijambo ryibanga?",
+    "reset-password": "Gusubiramo ijambo ryibanga",
+    "email-label": "Aderesi imeri",
+    "password-label": "Ijambo ryibanga",
+    "confirm-password": "Emeza ijambo ryibanga"
+  },
+  "dashboard": {
+    "overview": "Incamake",
+    "recent-activity": "Igikorwa giherutse",
+    "quick-actions": "Ibikorwa byihuse",
+    "stats": {
+      "tasks-completed": "Inshingano zarangiye",
+      "active-projects": "Imishinga ikora",
+      "automation-runs": "Automation ikora"
+    }
+  },
+  "projects": {
+    "create": "Kora umushinga mushya",
+    "edit": "Hindura",
+    "delete": "Gusiba umushinga",
+    "title-placeholder": "Injira umutwe wumushinga",
+    "description-placeholder": "Injira Ibisobanuro byumushinga",
+    "status": {
+      "in-progress": "Mu iterambere",
+      "completed": "Byarangiye",
+      "on-hold": "Gufata"
+    }
+  },
+  "automations": {
+    "create": "Kora imyitozo",
+    "run": "Koresha",
+    "pause": "Kuruhuka",
+    "stop": "Hagarika",
+    "history": "Amateka yo Kwikora",
+    "trigger": "Imbarutso",
+    "action": "Ibikorwa"
+  },
+  "library": {
+    "search": "Isomero",
+    "filter": "Akayunguruzo",
+    "categories": {
+      "templates": "Inyandikorugero",
+      "scripts": "Inyandiko",
+      "datasets": "Datasets",
+      "models": "Ai Models"
+    },
+    "upload": "Kuramo ibikoresho",
+    "download": "Kuramo ibikoresho"
+  },
+  "spaces": {
+    "create": "Kora umwanya",
+    "invite": "Saba abanyamuryango",
+    "leave": "Kureka umwanya",
+    "manage": "Gucunga Umwanya",
+    "title-placeholder": "Injira izina ryumwanya"
+  },
+  "errors": {
+    "generic": "Hari ibitagenze neza. Nyamuneka gerageza.",
+    "not-found": "Ibikoresho ntabwo byabonetse.",
+    "unauthorized": "Ntabwo wemerewe gukora iki gikorwa.",
+    "invalid-input": "Nyamuneka reba ibitekerezo byawe hanyuma ugerageze.",
+    "network": "Ikosa ry'umuyoboro. Nyamuneka reba isano yawe."
+  },
+  "tooltips": {
+    "new-project": "Tangira umushinga mushya kugirango utegure imirimo yawe.",
+    "automation-run": "Koresha iyi nwogo kugirango ukore imirimo yagenwe.",
+    "library-search": "Shakisha inyandikorugero, inyandiko, cyangwa ubudahuti.",
+    "space-invite": "Saba abayoboke b'iperereza gufatanya muri uyu mwanya."
+  },
+  "footer": {
+    "copyright": "© 2025 Ku wa gatanu Ai. Uburenganzira bwose burabitswe.",
+    "terms": "Amasezerano ya serivisi",
+    "privacy": "Politiki Yibanga",
+    "contact": "Twandikire"
+  }
+}

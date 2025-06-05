@@ -1,0 +1,101 @@
+{
+  "friday": {
+    "title": "Me çfarë mund t'ju ndihmoj?",
+    "welcome": "Mirësevini në të Premten, ndihmësi juaj i fuqishëm i AI!",
+    "prompt": "Më pyesni ndonjë gjë ose filloni një detyrë të re.",
+    "help": "Keni nevojë për ndihmë? Unë jam këtu për t'ju udhëhequr."
+  },
+  "navigation": {
+    "new": "Filloj i ri",
+    "home": "Shtëpi",
+    "automations": "Automatizime",
+    "varients": "Variante",
+    "projects": "Projekte",
+    "spaces": "Hapësirë",
+    "library": "Bibliotekë",
+    "more": "Më",
+    "settings": "Cilësimet",
+    "profile": "Profil",
+    "dashboard": "Tabelë",
+    "analytics": "Analitikë"
+  },
+  "authentication": {
+    "sign-in": "Regjistrohem",
+    "sign-up": "Regjistrohem",
+    "sign-out": "Dal",
+    "forgot-password": "Keni harruar fjalëkalimin?",
+    "reset-password": "Rivendosni fjalëkalimin",
+    "email-label": "Adresa e postës elektronike",
+    "password-label": "Fjalëkalim",
+    "confirm-password": "Konfirmoni fjalëkalimin"
+  },
+  "dashboard": {
+    "overview": "Përmbledhje",
+    "recent-activity": "Aktiviteti i fundit",
+    "quick-actions": "Veprime të shpejta",
+    "stats": {
+      "tasks-completed": "Detyrat e përfunduara",
+      "active-projects": "Projekte aktive",
+      "automation-runs": "Automatizimi shkon"
+    }
+  },
+  "projects": {
+    "create": "Krijoni një projekt të ri",
+    "edit": "Redakto projektin",
+    "delete": "Fshi projektin",
+    "title-placeholder": "Futni titullin e projektit",
+    "description-placeholder": "Vendosni përshkrimin e projektit",
+    "status": {
+      "in-progress": "Në vazhdim",
+      "completed": "I kompletuar",
+      "on-hold": "Në pritje"
+    }
+  },
+  "automations": {
+    "create": "Krijoni automatizim",
+    "run": "Drejtoni automatizimin",
+    "pause": "Automatizimi i pauzës",
+    "stop": "Ndaloni automatizimin",
+    "history": "Histori e automatizmit",
+    "trigger": "Shkumëzoj",
+    "action": "Veprim"
+  },
+  "library": {
+    "search": "Bibliotekë",
+    "filter": "Filtër",
+    "categories": {
+      "templates": "Shabllone",
+      "scripts": "Skriptet",
+      "datasets": "Të dhëna të të dhënave",
+      "models": "Modelet e AI"
+    },
+    "upload": "Ngarkoj burimin",
+    "download": "Shkarkoni Burimet"
+  },
+  "spaces": {
+    "create": "Krijoj hapësirë",
+    "invite": "Fto anëtarët",
+    "leave": "Lini hapësirën",
+    "manage": "Menaxho hapësirën",
+    "title-placeholder": "Futni emrin e hapësirës"
+  },
+  "errors": {
+    "generic": "Diçka shkoi keq. Ju lutem provoni përsëri.",
+    "not-found": "Burimi nuk u gjet.",
+    "unauthorized": "Ju nuk jeni të autorizuar të kryeni këtë veprim.",
+    "invalid-input": "Ju lutemi kontrolloni kontributin tuaj dhe provoni përsëri.",
+    "network": "Gabim në rrjet. Ju lutemi kontrolloni lidhjen tuaj."
+  },
+  "tooltips": {
+    "new-project": "Filloni një projekt të ri për të organizuar detyrat tuaja.",
+    "automation-run": "Drejtoni këtë automatizim për të ekzekutuar detyra të paracaktuara.",
+    "library-search": "Kërkoni për shabllone, skriptet ose të dhënat e të dhënave.",
+    "space-invite": "Ftojini anëtarët e ekipit të bashkëpunojnë në këtë hapësirë."
+  },
+  "footer": {
+    "copyright": "© 2025 E Premte AI. Të gjitha të drejtat e rezervuara.",
+    "terms": "Kushtet e Shërbimit",
+    "privacy": "Politika e privatësisë",
+    "contact": "Na kontaktoni"
+  }
+}

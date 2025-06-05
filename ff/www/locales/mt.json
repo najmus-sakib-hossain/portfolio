@@ -1,0 +1,101 @@
+{
+  "friday": {
+    "title": "X'nista 'ngħinek?",
+    "welcome": "Merħba fil-Ġimgħa, l-assistent tiegħek li jaħdem bl-AI!",
+    "prompt": "Staqsini xi ħaġa jew ibda kompitu ġdid.",
+    "help": "Għandek bżonn għajnuna? Jien hawn biex niggwidak."
+  },
+  "navigation": {
+    "new": "Ibda Ġdid",
+    "home": "Id-dar",
+    "automations": "Awtomazzjonijiet",
+    "varients": "Varjanti",
+    "projects": "Proġetti",
+    "spaces": "Spazji",
+    "library": "Librerija",
+    "more": "Aktar",
+    "settings": "Settings",
+    "profile": "Profil",
+    "dashboard": "Dashboard",
+    "analytics": "Analitiċi"
+  },
+  "authentication": {
+    "sign-in": "Iffirma",
+    "sign-up": "Irreġistra",
+    "sign-out": "Irreġistra",
+    "forgot-password": "Insejt il-password?",
+    "reset-password": "Irrisettja l-password",
+    "email-label": "Indirizz tal-email",
+    "password-label": "Password",
+    "confirm-password": "Ikkonferma l-password"
+  },
+  "dashboard": {
+    "overview": "Ħarsa ġenerali",
+    "recent-activity": "Attività reċenti",
+    "quick-actions": "Azzjonijiet ta 'malajr",
+    "stats": {
+      "tasks-completed": "Kompiti kompluti",
+      "active-projects": "Proġetti Attivi",
+      "automation-runs": "L-awtomazzjoni timxi"
+    }
+  },
+  "projects": {
+    "create": "Oħloq proġett ġdid",
+    "edit": "Editja proġett",
+    "delete": "Ħassar il-proġett",
+    "title-placeholder": "Daħħal it-titlu tal-proġett",
+    "description-placeholder": "Daħħal id-deskrizzjoni tal-proġett",
+    "status": {
+      "in-progress": "Għaddej",
+      "completed": "Mimli",
+      "on-hold": "Fuq stennija"
+    }
+  },
+  "automations": {
+    "create": "Oħloq awtomazzjoni",
+    "run": "Ħaddem l-Awtomazzjoni",
+    "pause": "Nieqaf awtomazzjoni",
+    "stop": "Waqqaf l-Awtomazzjoni",
+    "history": "Storja tal-Awtomazzjoni",
+    "trigger": "Trigger",
+    "action": "Azzjoni"
+  },
+  "library": {
+    "search": "Fittex Librerija",
+    "filter": "Filtru",
+    "categories": {
+      "templates": "Templates",
+      "scripts": "Skripts",
+      "datasets": "Settijiet tad-dejta",
+      "models": "Mudelli AI"
+    },
+    "upload": "Upload Resource",
+    "download": "Niżżel ir-riżorsa"
+  },
+  "spaces": {
+    "create": "Oħloq spazju",
+    "invite": "Tistieden lill-membri",
+    "leave": "Ħalli l-ispazju",
+    "manage": "Immaniġġja l-ispazju",
+    "title-placeholder": "Daħħal l-isem tal-ispazju"
+  },
+  "errors": {
+    "generic": "Xi ħaġa marret ħażin. Jekk jogħġbok erġa 'pprova.",
+    "not-found": "Riżorsi ma nstabux.",
+    "unauthorized": "M'intix awtorizzat li twettaq din l-azzjoni.",
+    "invalid-input": "Jekk jogħġbok iċċekkja l-input tiegħek u erġa 'pprova.",
+    "network": "Żball tan-Netwerk. Jekk jogħġbok iċċekkja l-konnessjoni tiegħek."
+  },
+  "tooltips": {
+    "new-project": "Ibda proġett ġdid biex torganizza l-kompiti tiegħek.",
+    "automation-run": "Ħaddem din l-awtomazzjoni biex tesegwixxi kompiti definiti minn qabel.",
+    "library-search": "Fittex għal mudelli, skripts, jew settijiet tad-dejta.",
+    "space-invite": "Tistieden lill-membri tat-tim biex jikkollaboraw f'dan l-ispazju."
+  },
+  "footer": {
+    "copyright": "© 2025 il-Ġimgħa ai. Id-drittijiet kollha riżervati.",
+    "terms": "Termini tas-Servizz",
+    "privacy": "Politika tal-Privatezza",
+    "contact": "Ikkuntattjana"
+  }
+}

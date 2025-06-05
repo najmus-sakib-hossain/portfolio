@@ -1,0 +1,35 @@
+{
+  "friday": {
+    "title": "What can I help you with?",
+    "welcome": "Welcome to Friday, your AI-powered assistant!",
+    "prompt": "Ask me anything or start a new task.",
+    "help": "Need assistance? I'm here to guide you."
+  },
+  "navigation": {
+    "new": "Start New",
+    "home": "Home",
+    "automations": "Automations",
+    "varients": "Variants",
+    "projects": "Projects",
+    "spaces": "Spaces",
+    "library": "Library",
+    "more": "More",
+    "settings": "Settings",
+    "profile": "Profile",
+    "dashboard": "Dashboard",
+    "analytics": "Analytics"
+  },  "authentication": {
+    "sign-in": "Sign In",
+    "sign-up": "Sign Up",
+    "forgot-password": "Forgot Password?",
+    "remember-me": "Remember me",
+    "or-continue-with": "Or continue with",
+    "no-account": "Don't have an account?",
+    "already-have-account": "Already have an account?",
+    "create-account": "Create account",
+    "enter-login-details": "Enter your email below to login to your account",
+    "enter-signup-details": "Enter your information to create an account",
+    "sign-up-success": "Account created successfully!",
+    "upload-failed": "Failed to upload image"
+  }
+}

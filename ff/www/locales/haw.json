@@ -1,0 +1,101 @@
+{
+  "friday": {
+    "title": "He aha kaʻu e kōkua ai iāʻoe?",
+    "welcome": "Welinaʻia i ka Pōʻalima, kāu kōkua AI-Hoʻohui!",
+    "prompt": "E nīnau mai iaʻu i kekahi mea a hoʻomaka paha i kahi hana hou.",
+    "help": "Pono ke kōkua? Aia wau e alakaʻi iāʻoe."
+  },
+  "navigation": {
+    "new": "E hoʻomaka hou i New",
+    "home": "KA HOME",
+    "automations": "'Ūlū",
+    "varients": "Nā Kūlana",
+    "projects": "Nā papahana",
+    "spaces": "ʻO nā Spaces",
+    "library": "Puka Hanau",
+    "more": "Hou hou",
+    "settings": "Nā hoʻonohonoho",
+    "profile": "MEA",
+    "dashboard": "Dashboard",
+    "analytics": "Nā mea makaʻi"
+  },
+  "authentication": {
+    "sign-in": "ʻeʻe",
+    "sign-up": "Kau inoa",
+    "sign-out": "Lele",
+    "forgot-password": "Ua poina i ka'ōlelo huna?",
+    "reset-password": "Hōʻano hou i ka'ōlelo huna",
+    "email-label": "Helu leka uila",
+    "password-label": "Hua huna",
+    "confirm-password": "Hōʻoia i ka ʻŌlelo Huna"
+  },
+  "dashboard": {
+    "overview": "Hōʻuluʻike",
+    "recent-activity": "Nā Hana Hou",
+    "quick-actions": "Nā hana wikiwiki",
+    "stats": {
+      "tasks-completed": "Ua hoʻopau nā hana",
+      "active-projects": "Nā papahana hana hana",
+      "automation-runs": "Holo holo"
+    }
+  },
+  "projects": {
+    "create": "Hana i ka papahana hou",
+    "edit": "Hoʻoponopono i ka papahana",
+    "delete": "Hoʻopau i ka papahana",
+    "title-placeholder": "E hoʻokomo i ke poʻo inoa",
+    "description-placeholder": "E hoʻokomo i ka wehewehe papahana",
+    "status": {
+      "in-progress": "Ke holo nei",
+      "completed": "Uku",
+      "on-hold": "No hos"
+    }
+  },
+  "automations": {
+    "create": "E hana i ka Automation",
+    "run": "RUNTOLONTOT",
+    "pause": "Kaumaha Kaukaʻi",
+    "stop": "Hooki i ka automation",
+    "history": "ʻO ka mōʻaukala automkaw",
+    "trigger": "Ke Kākau",
+    "action": "Hana"
+  },
+  "library": {
+    "search": "Opuka ike",
+    "filter": "Kānana kā",
+    "categories": {
+      "templates": "NA PALAPALA",
+      "scripts": "Kope",
+      "datasets": "Nā'oau",
+      "models": "AI Nā hoʻohālike o AI"
+    },
+    "upload": "Hoʻouka SourceCE",
+    "download": "Hoʻoiho i nā kumuwaiwai"
+  },
+  "spaces": {
+    "create": "Hoʻokumu i ka wahi",
+    "invite": "E kono i nā lālā",
+    "leave": "Waiho i kahi",
+    "manage": "Hoʻokele kaʻa",
+    "title-placeholder": "E komo i ka inoa inoa"
+  },
+  "errors": {
+    "generic": "Ua hewa kekahi mea. Eʻoluʻolu e ho'āʻo hou.",
+    "not-found": "ʻAʻole i loaʻa ka waiwai.",
+    "unauthorized": "ʻAʻoleʻaeʻiaʻoe e hana i kēia hana.",
+    "invalid-input": "Eʻoluʻolu e nānā i kāu helu a ho'āʻo hou.",
+    "network": "Hana hewa. Eʻoluʻolu e nānā i kāu pili."
+  },
+  "tooltips": {
+    "new-project": "E hoʻomaka i kahi papahana hou e hoʻonohonoho i kāu mau hana.",
+    "automation-run": "E holo i kēia Autotation e hoʻokō i nā hana i kohoʻia.",
+    "library-search": "Eʻimi i nā templates, nā kākau kākauʻana, a iʻole nā ​​data.",
+    "space-invite": "E kono i nā lālā hui e hui pū ma kēia wahi."
+  },
+  "footer": {
+    "copyright": "©'NAD2 17 PōʻalimaʻAi. \\ Iwai a aie ke dttla.",
+    "terms": "Nā hua'ōlelo o ka lawelawe",
+    "privacy": "Kulekele kāohi",
+    "contact": "Kāhea iā mā˚ou"
+  }
+}

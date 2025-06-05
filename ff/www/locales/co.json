@@ -1,0 +1,101 @@
+{
+  "friday": {
+    "title": "Cosa possu aiutà?",
+    "welcome": "Benvenuti à u venneri, u vostru assistente in AI!",
+    "prompt": "Chjamate qualcosa o inizià un novu compitu.",
+    "help": "Bisognu di assistenza? Sò quì per guidà."
+  },
+  "navigation": {
+    "new": "Accumincia novu",
+    "home": "Casa",
+    "automations": "Automunicazioni",
+    "varients": "Varizi",
+    "projects": "Progetti",
+    "spaces": "Spazi",
+    "library": "Biblioteca",
+    "more": "Più",
+    "settings": "Configurazioni",
+    "profile": "Profilazione",
+    "dashboard": "Dashboard",
+    "analytics": "Analitica"
+  },
+  "authentication": {
+    "sign-in": "Firmà lu",
+    "sign-up": "Firma",
+    "sign-out": "Sorte",
+    "forgot-password": "Forgot Password?",
+    "reset-password": "Resettate a password",
+    "email-label": "Indirizzu mail",
+    "password-label": "Codice",
+    "confirm-password": "Cunfirmà a parolla d'intesa"
+  },
+  "dashboard": {
+    "overview": "Panoramica",
+    "recent-activity": "Attività recente",
+    "quick-actions": "Azzione rapida",
+    "stats": {
+      "tasks-completed": "Tasks cumpletati",
+      "active-projects": "Prughjetti attivi",
+      "automation-runs": "Corre automatizazione"
+    }
+  },
+  "projects": {
+    "create": "Crea un novu prughjettu",
+    "edit": "Edità u prugettu",
+    "delete": "Sguassà u prugettu",
+    "title-placeholder": "Entra u titulu di u prugettu",
+    "description-placeholder": "Ingressu a descrizzione di u prugettu",
+    "status": {
+      "in-progress": "In corsu",
+      "completed": "Finitu",
+      "on-hold": "In attesa"
+    }
+  },
+  "automations": {
+    "create": "Creà autational",
+    "run": "Run in l'automation",
+    "pause": "Pausa automationicazione",
+    "stop": "Stop autational",
+    "history": "A storia di l'automatori",
+    "trigger": "Trigger",
+    "action": "AZIONI"
+  },
+  "library": {
+    "search": "Biblioteca di ricerca",
+    "filter": "Filtatore",
+    "categories": {
+      "templates": "Tempi Modelli",
+      "scripts": "Scritti",
+      "datasets": "Datasets",
+      "models": "Mudelli AI"
+    },
+    "upload": "Caricate a risorsa",
+    "download": "Scaricate Resorce"
+  },
+  "spaces": {
+    "create": "Creà spaziu",
+    "invite": "Invita i Membri",
+    "leave": "Lasciate u Spaziu",
+    "manage": "Gestisce spaziu",
+    "title-placeholder": "Ingressu u nome di u spaziu"
+  },
+  "errors": {
+    "generic": "Qualcosa va male. Per piacè di pruvà.",
+    "not-found": "Risorsa micca truvata.",
+    "unauthorized": "Ùn site micca autorizatu à fà sta azione.",
+    "invalid-input": "Per piacè verificate a vostra input è pruvà di novu.",
+    "network": "Errore di rete. Verificate a vostra cunnessione."
+  },
+  "tooltips": {
+    "new-project": "Iniziate un novu prughjettu per urganizà i vostri compiti.",
+    "automation-run": "Eseguite sta automatizazione per eseguisce i travaglii predefiniti.",
+    "library-search": "Ricerca di mudelli, scritti, o dati.",
+    "space-invite": "Invita i membri di a squadra in cullaburazione in questu spaziu."
+  },
+  "footer": {
+    "copyright": "© 2025 Venneri AI. Tutti i diritti riservati.",
+    "terms": "Termini di serviziu",
+    "privacy": "Politica di privacy",
+    "contact": "Cuntatta ci"
+  }
+}

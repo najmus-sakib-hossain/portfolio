@@ -1,0 +1,101 @@
+{
+  "friday": {
+    "title": "Inona no azoko ampiana anao?",
+    "welcome": "Tongasoa eto amin'ny zoma, mpanampy AI-mahery!",
+    "prompt": "Angataho aho na inona na inona na hanomboka asa vaovao.",
+    "help": "Need assistance? Eto aho hitari-dalana anao."
+  },
+  "navigation": {
+    "new": "Atombohy vaovao",
+    "home": "an-trano",
+    "automations": "Automatique",
+    "varients": "Variants",
+    "projects": "TETIKASA",
+    "spaces": "toerana",
+    "library": "-BOKIN'NY Vavolombelon'i Jehovah",
+    "more": "Bebe kokoa",
+    "settings": "Fikirana",
+    "profile": "TANTARANY",
+    "dashboard": "anaty fiara",
+    "analytics": "Analytics"
+  },
+  "authentication": {
+    "sign-in": "Hiditra",
+    "sign-up": "Hiditra Mpikambana",
+    "sign-out": "Hivoaka",
+    "forgot-password": "Hadino ny tenimiafina?",
+    "reset-password": "Avereno ny tenimiafina",
+    "email-label": "Adiresy mailaka",
+    "password-label": "Password",
+    "confirm-password": "Hamafiso ny tenimiafina"
+  },
+  "dashboard": {
+    "overview": "Famintinana",
+    "recent-activity": "Hetsika farany",
+    "quick-actions": "Asa haingana",
+    "stats": {
+      "tasks-completed": "Vita ny asa",
+      "active-projects": "Tetikasa mavitrika",
+      "automation-runs": "Mihazakazaka ny automatique"
+    }
+  },
+  "projects": {
+    "create": "Mamorona tetikasa vaovao",
+    "edit": "Hanova tetikasa",
+    "delete": "Hamafa ny tetikasa",
+    "title-placeholder": "Ampidiro ny lohatenin'ny tetikasa",
+    "description-placeholder": "Ampidiro ny famaritana tetikasa",
+    "status": {
+      "in-progress": "Eo an-dàlana",
+      "completed": "vita",
+      "on-hold": "Mihantona"
+    }
+  },
+  "automations": {
+    "create": "Mamorona automation",
+    "run": "Mihazakazaka automation",
+    "pause": "Fiatoana automatique",
+    "stop": "Ajanony ny automation",
+    "history": "Tantara momba ny automation",
+    "trigger": "miteraka",
+    "action": "Hetsika"
+  },
+  "library": {
+    "search": "Fikarohana fikarohana",
+    "filter": "Sivana",
+    "categories": {
+      "templates": "iombonana",
+      "scripts": "soratra",
+      "datasets": "Datasets",
+      "models": "AI Models"
+    },
+    "upload": "Upload Resource",
+    "download": "Download Lordonce"
+  },
+  "spaces": {
+    "create": "Mamorona habaka",
+    "invite": "Asao ireo mpikambana",
+    "leave": "Avelao ny habaka",
+    "manage": "Mitantana toerana",
+    "title-placeholder": "Ampidiro ny anaran'ny toerana"
+  },
+  "errors": {
+    "generic": "Nisy zavatra tsy nety. Manandrama azafady.",
+    "not-found": "Loharano tsy hita.",
+    "unauthorized": "Tsy nahazo alalana hanao an'io hetsika io ianao.",
+    "invalid-input": "Azafady mba jereo kely ny fampidiranao ary andramo indray.",
+    "network": "Hadisoana ny tambajotra. Azafady mba jereo ny fifandraisanao."
+  },
+  "tooltips": {
+    "new-project": "Manomboka tetikasa vaovao hikarakara ny asanao.",
+    "automation-run": "Ampandehano io automation io mba hanatanterahana asa efa voalahatra.",
+    "library-search": "Mikaroka ireo maodely, scripts, na datasets.",
+    "space-invite": "Asao ny mpikambana ao amin'ny ekipa hiara-miasa amin'ity habaka ity."
+  },
+  "footer": {
+    "copyright": "© 2025 zoma Ai. Zo rehetra voatokana.",
+    "terms": "Fepetraky ny serivisy",
+    "privacy": "politika fiarovana fiainan'olona",
+    "contact": "Mifandraisa aminay"
+  }
+}

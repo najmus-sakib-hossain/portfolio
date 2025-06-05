@@ -1,0 +1,101 @@
+{
+  "friday": {
+    "title": "我能為您提供什麼幫助？",
+    "welcome": "歡迎來到星期五，您的AI驅動助手！",
+    "prompt": "問我任何事情或開始新任務。",
+    "help": "需要幫助嗎？我在這裡指導你。"
+  },
+  "navigation": {
+    "new": "開始新",
+    "home": "家",
+    "automations": "自動化",
+    "varients": "變體",
+    "projects": "專案",
+    "spaces": "空間",
+    "library": "圖書館",
+    "more": "更多的",
+    "settings": "設定",
+    "profile": "輪廓",
+    "dashboard": "儀表板",
+    "analytics": "分析"
+  },
+  "authentication": {
+    "sign-in": "登入",
+    "sign-up": "報名",
+    "sign-out": "登出",
+    "forgot-password": "忘記密碼？",
+    "reset-password": "重置密碼",
+    "email-label": "電子郵件",
+    "password-label": "密碼",
+    "confirm-password": "確認密碼"
+  },
+  "dashboard": {
+    "overview": "概述",
+    "recent-activity": "最近的活動",
+    "quick-actions": "快速動作",
+    "stats": {
+      "tasks-completed": "任務完成",
+      "active-projects": "活躍項目",
+      "automation-runs": "自動化運行"
+    }
+  },
+  "projects": {
+    "create": "創建新項目",
+    "edit": "編輯項目",
+    "delete": "刪除項目",
+    "title-placeholder": "輸入項目標題",
+    "description-placeholder": "輸入項目描述",
+    "status": {
+      "in-progress": "進行中",
+      "completed": "完全的",
+      "on-hold": "等候接聽"
+    }
+  },
+  "automations": {
+    "create": "創建自動化",
+    "run": "運行自動化",
+    "pause": "暫停自動化",
+    "stop": "停止自動化",
+    "history": "自動化歷史",
+    "trigger": "扳機",
+    "action": "行動"
+  },
+  "library": {
+    "search": "搜索庫",
+    "filter": "篩選",
+    "categories": {
+      "templates": "模板",
+      "scripts": "腳本",
+      "datasets": "數據集",
+      "models": "AI模型"
+    },
+    "upload": "上傳資源",
+    "download": "下載資源"
+  },
+  "spaces": {
+    "create": "創建空間",
+    "invite": "邀請會員",
+    "leave": "離開空間",
+    "manage": "管理空間",
+    "title-placeholder": "輸入空格名稱"
+  },
+  "errors": {
+    "generic": "出了點問題。請重試。",
+    "not-found": "找不到資源。",
+    "unauthorized": "您無權執行此操作。",
+    "invalid-input": "請檢查您的輸入，然後重試。",
+    "network": "網絡錯誤。請檢查您的連接。"
+  },
+  "tooltips": {
+    "new-project": "開始一個新項目以組織您的任務。",
+    "automation-run": "運行此自動化以執行預定義的任務。",
+    "library-search": "搜索模板，腳本或數據集。",
+    "space-invite": "邀請團隊成員在這個領域進行合作。"
+  },
+  "footer": {
+    "copyright": "©2025星期五AI。版權所有。",
+    "terms": "服務條款",
+    "privacy": "隱私政策",
+    "contact": "聯繫我們"
+  }
+}

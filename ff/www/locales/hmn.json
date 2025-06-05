@@ -1,0 +1,101 @@
+{
+  "friday": {
+    "title": "Kuv tuaj yeem pab tau koj li cas?",
+    "welcome": "Zoo siab txais tos rau hnub Friday, koj tus pab cuam Ai-powered!",
+    "prompt": "Nug kuv txhua yam lossis pib ua haujlwm tshiab.",
+    "help": "Xav tau kev pab? Kuv nyob ntawm no los coj koj."
+  },
+  "navigation": {
+    "new": "Pib Tshiab",
+    "home": "Lub tsev",
+    "automations": "Automations",
+    "varients": "Cov txawv",
+    "projects": "Tej hauj lwm",
+    "spaces": "Chaw nyob",
+    "library": "Lub tsev qiv ntawv",
+    "more": "Ntau dua",
+    "settings": "Chaw teeb tsa",
+    "profile": "Sab ntawm",
+    "dashboard": "Lub dashboard",
+    "analytics": "Kev ntsuas tshuaj"
+  },
+  "authentication": {
+    "sign-in": "Sau Npe Nkag",
+    "sign-up": "Sau Npe",
+    "sign-out": "Sau Npe Tawm",
+    "forgot-password": "Tsis nco qab lo lus zais?",
+    "reset-password": "Rov Pib Dua Lo Lus Qhia",
+    "email-label": "Chaw nyob email",
+    "password-label": "Lo lus zais",
+    "confirm-password": "Paub meej tias lo lus zais"
+  },
+  "dashboard": {
+    "overview": "Lub ntsiab",
+    "recent-activity": "Tsis ntev los no",
+    "quick-actions": "Ua nrawm",
+    "stats": {
+      "tasks-completed": "Cov haujlwm ua tiav",
+      "active-projects": "Cov haujlwm nquag ua haujlwm",
+      "automation-runs": "Automation khiav"
+    }
+  },
+  "projects": {
+    "create": "Tsim txoj haujlwm tshiab",
+    "edit": "Kho kom raug qhov project",
+    "delete": "Rho Tawm Txoj Haujlwm",
+    "title-placeholder": "Sau cov npe project",
+    "description-placeholder": "Sau cov project qhia",
+    "status": {
+      "in-progress": "Hauv kev kawm",
+      "completed": "Ua tiav",
+      "on-hold": "Ntawm tuav"
+    }
+  },
+  "automations": {
+    "create": "Tsim kev ua lag luam",
+    "run": "Kev sib cav",
+    "pause": "Ncua Automation",
+    "stop": "Nres Automation",
+    "history": "Keeb Kwm Automation",
+    "trigger": "Qib hnee",
+    "action": "Kev ua zog"
+  },
+  "library": {
+    "search": "Nrhiav tsev qiv ntawv",
+    "filter": "Lub lim",
+    "categories": {
+      "templates": "Tus qauv",
+      "scripts": "Ntawv",
+      "datasets": "Tej",
+      "models": "AI qauv"
+    },
+    "upload": "Cov Khoom Siv Hauv Upload",
+    "download": "Download tau cov khoom"
+  },
+  "spaces": {
+    "create": "Tsim qhov chaw",
+    "invite": "Caw cov mej zeej",
+    "leave": "Tseg Chaw",
+    "manage": "Tswj Chaw",
+    "title-placeholder": "Sau cov npe chaw"
+  },
+  "errors": {
+    "generic": "Ib yam dab tsi mus tsis ncaj ncees lawm. Thov sim dua.",
+    "not-found": "Cov peev txheej tsis pom.",
+    "unauthorized": "Koj tsis raug tso cai los ua qhov kev ua no.",
+    "invalid-input": "Thov txheeb koj cov lus qhia thiab sim dua.",
+    "network": "Network yuam kev. Thov txheeb xyuas koj qhov kev sib txuas."
+  },
+  "tooltips": {
+    "new-project": "Pib txoj haujlwm tshiab los npaj koj cov haujlwm.",
+    "automation-run": "Khiav lub automation no los ua cov haujlwm tsis pom zoo.",
+    "library-search": "Nrhiav cov qauv, cov ntawv sau, lossis cov ntaub ntawv.",
+    "space-invite": "Caw pab pawg neeg mus ua ke hauv qhov chaw no."
+  },
+  "footer": {
+    "copyright": "© 2025 Friday Ai. Qoob loo.",
+    "terms": "Cov nqe lus ntawm kev pabcuam",
+    "privacy": "Txoj Cai Tswjfwm Ntiag Tug",
+    "contact": "Tiv Tauj Peb"
+  }
+}

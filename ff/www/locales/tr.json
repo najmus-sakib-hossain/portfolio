@@ -1,0 +1,101 @@
+{
+  "friday": {
+    "title": "Size ne yardımcı olabilirim?",
+    "welcome": "AI destekli asistanınız Cuma'ya hoş geldiniz!",
+    "prompt": "Bana bir şey sorun veya yeni bir görev başlat.",
+    "help": "Yardıma mı ihtiyacınız var? Sana rehberlik etmek için buradayım."
+  },
+  "navigation": {
+    "new": "Yeni başlayın",
+    "home": "Ev",
+    "automations": "Otomasyon",
+    "varients": "Varyantlar",
+    "projects": "Projeler",
+    "spaces": "Boşluk",
+    "library": "Kütüphane",
+    "more": "Daha",
+    "settings": "Ayarlar",
+    "profile": "Profil",
+    "dashboard": "Gösterge paneli",
+    "analytics": "Analitik"
+  },
+  "authentication": {
+    "sign-in": "Oturum açmak",
+    "sign-up": "Üye olmak",
+    "sign-out": "Oturumu Kapat",
+    "forgot-password": "Parolanızı mı unuttunuz?",
+    "reset-password": "Parolayı sıfırla",
+    "email-label": "E -posta adresi",
+    "password-label": "Şifre",
+    "confirm-password": "Şifreyi onaylayın"
+  },
+  "dashboard": {
+    "overview": "Genel bakış",
+    "recent-activity": "Son etkinlik",
+    "quick-actions": "Hızlı eylemler",
+    "stats": {
+      "tasks-completed": "Tamamlandı görevler",
+      "active-projects": "Aktif Projeler",
+      "automation-runs": "Otomasyon çalışır"
+    }
+  },
+  "projects": {
+    "create": "Yeni Proje Oluştur",
+    "edit": "Projeyi Düzenle",
+    "delete": "Projeyi Sil",
+    "title-placeholder": "Proje başlığını girin",
+    "description-placeholder": "Proje Açıklama Girin",
+    "status": {
+      "in-progress": "Devam etmekte",
+      "completed": "Tamamlanmış",
+      "on-hold": "Beklemede"
+    }
+  },
+  "automations": {
+    "create": "Otomasyon Oluştur",
+    "run": "Otomasyon çalıştırın",
+    "pause": "Duraklama Otomasyonu",
+    "stop": "Otomasyonu Durdur",
+    "history": "Otomasyon geçmişi",
+    "trigger": "Tetiklemek",
+    "action": "Aksiyon"
+  },
+  "library": {
+    "search": "Arama Kütüphanesi",
+    "filter": "Filtre",
+    "categories": {
+      "templates": "Şablonlar",
+      "scripts": "Senaryolar",
+      "datasets": "Veri kümeleri",
+      "models": "AI modelleri"
+    },
+    "upload": "Kaynağı Yükle",
+    "download": "Kaynak indir"
+  },
+  "spaces": {
+    "create": "Alan Oluştur",
+    "invite": "Üyeleri davet et",
+    "leave": "Yerden ayrılmak",
+    "manage": "Alanı Yönetin",
+    "title-placeholder": "Uzay Adını Girin"
+  },
+  "errors": {
+    "generic": "Bir şeyler ters gitti. Lütfen tekrar deneyin.",
+    "not-found": "Kaynak bulunamadı.",
+    "unauthorized": "Bu eylemi gerçekleştirme yetkisine sahip değilsiniz.",
+    "invalid-input": "Lütfen girişinizi kontrol edin ve tekrar deneyin.",
+    "network": "Ağ hatası. Lütfen bağlantınızı kontrol edin."
+  },
+  "tooltips": {
+    "new-project": "Görevlerinizi düzenlemek için yeni bir proje başlatın.",
+    "automation-run": "Önceden tanımlanmış görevleri yürütmek için bu otomasyonu çalıştırın.",
+    "library-search": "Şablonları, komut dosyalarını veya veri kümelerini arayın.",
+    "space-invite": "Ekip üyelerini bu alanda işbirliği yapmaya davet edin."
+  },
+  "footer": {
+    "copyright": "© 2025 Cuma AI. Her hakkı saklıdır.",
+    "terms": "Hizmet Şartları",
+    "privacy": "Gizlilik Politikası",
+    "contact": "Bize Ulaşın"
+  }
+}

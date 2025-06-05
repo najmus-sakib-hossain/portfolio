@@ -1,0 +1,101 @@
+{
+  "friday": {
+    "title": "Vad kan jag hjälpa dig med?",
+    "welcome": "Välkommen till fredag, din AI-driven assistent!",
+    "prompt": "Fråga mig något eller starta en ny uppgift.",
+    "help": "Behöver du hjälp? Jag är här för att vägleda dig."
+  },
+  "navigation": {
+    "new": "Börja ny",
+    "home": "Hem",
+    "automations": "Automationer",
+    "varients": "Varianter",
+    "projects": "Projekt",
+    "spaces": "Utflykter",
+    "library": "Bibliotek",
+    "more": "Mer",
+    "settings": "Inställningar",
+    "profile": "Profil",
+    "dashboard": "Instrumentbräda",
+    "analytics": "Analys"
+  },
+  "authentication": {
+    "sign-in": "Logga in",
+    "sign-up": "Anmäla",
+    "sign-out": "Utfärda",
+    "forgot-password": "Har du glömt lösenordet?",
+    "reset-password": "Återställa lösenord",
+    "email-label": "E -postadress",
+    "password-label": "Lösenord",
+    "confirm-password": "Bekräfta lösenord"
+  },
+  "dashboard": {
+    "overview": "Översikt",
+    "recent-activity": "Nyligen genomförd aktivitet",
+    "quick-actions": "Snabbåtgärder",
+    "stats": {
+      "tasks-completed": "Uppgifter slutförda",
+      "active-projects": "Aktiva projekt",
+      "automation-runs": "Automatiseringskörning"
+    }
+  },
+  "projects": {
+    "create": "Skapa nytt projekt",
+    "edit": "Redigera projekt",
+    "delete": "Ta bort projektet",
+    "title-placeholder": "Ange projekttitel",
+    "description-placeholder": "Ange projektbeskrivning",
+    "status": {
+      "in-progress": "Pågår",
+      "completed": "Avslutad",
+      "on-hold": "På vistelse"
+    }
+  },
+  "automations": {
+    "create": "Skapa automatisering",
+    "run": "Kör automatisering",
+    "pause": "Pausautomation",
+    "stop": "Stoppautomation",
+    "history": "Automatiseringshistorik",
+    "trigger": "Utlösare",
+    "action": "Handling"
+  },
+  "library": {
+    "search": "Sökbibliotek",
+    "filter": "Filtrera",
+    "categories": {
+      "templates": "Mallar",
+      "scripts": "Skript",
+      "datasets": "Datasätt",
+      "models": "AI -modeller"
+    },
+    "upload": "Ladda upp resursen",
+    "download": "Ladda ner resurs"
+  },
+  "spaces": {
+    "create": "Skapa utrymme",
+    "invite": "Bjuda in medlemmar",
+    "leave": "Lämna utrymme",
+    "manage": "Hantera utrymme",
+    "title-placeholder": "Ange rymdnamn"
+  },
+  "errors": {
+    "generic": "Något gick fel. Försök igen.",
+    "not-found": "Resurs hittades inte.",
+    "unauthorized": "Du har inte behörighet att utföra denna åtgärd.",
+    "invalid-input": "Kontrollera din inmatning och försök igen.",
+    "network": "Nätverksfel. Kontrollera din anslutning."
+  },
+  "tooltips": {
+    "new-project": "Starta ett nytt projekt för att organisera dina uppgifter.",
+    "automation-run": "Kör denna automatisering för att utföra fördefinierade uppgifter.",
+    "library-search": "Sök efter mallar, skript eller datasätt.",
+    "space-invite": "Bjud in teammedlemmar att samarbeta i detta utrymme."
+  },
+  "footer": {
+    "copyright": "© 2025 Friday AI. Alla rättigheter reserverade.",
+    "terms": "Villkorsvillkor",
+    "privacy": "Integritetspolicy",
+    "contact": "Kontakta oss"
+  }
+}

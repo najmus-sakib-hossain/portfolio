@@ -1,0 +1,101 @@
+{
+  "friday": {
+    "title": "Mitä voin auttaa sinua?",
+    "welcome": "Tervetuloa perjantaihin, AI-käyttöinen avustajasi!",
+    "prompt": "Kysy minulta mitä tahansa tai aloita uusi tehtävä.",
+    "help": "Tarvitsetko apua? Olen täällä opastamassa sinua."
+  },
+  "navigation": {
+    "new": "Aloittaa uusi",
+    "home": "Kotiin",
+    "automations": "Automaatiot",
+    "varients": "Variantit",
+    "projects": "Hanke",
+    "spaces": "Tilat",
+    "library": "Kirjasto",
+    "more": "Lisää",
+    "settings": "Asetukset",
+    "profile": "Profiili",
+    "dashboard": "Kojelauta",
+    "analytics": "Analytiikka"
+  },
+  "authentication": {
+    "sign-in": "Kirjautua sisään",
+    "sign-up": "Ilmoittautua",
+    "sign-out": "Ilmoittautua",
+    "forgot-password": "Unohditko salasanan?",
+    "reset-password": "Palauta salasana",
+    "email-label": "Sähköpostiosoite",
+    "password-label": "Salasana",
+    "confirm-password": "Vahvista salasana"
+  },
+  "dashboard": {
+    "overview": "Yleiskatsaus",
+    "recent-activity": "Viimeaikainen toiminta",
+    "quick-actions": "Pikatoiminnot",
+    "stats": {
+      "tasks-completed": "Tehtävät suoritettu",
+      "active-projects": "Aktiiviset projektit",
+      "automation-runs": "Automaatio toimii"
+    }
+  },
+  "projects": {
+    "create": "Luo uusi projekti",
+    "edit": "Muokkausprojekti",
+    "delete": "Poista projekti",
+    "title-placeholder": "Kirjoita projektin otsikko",
+    "description-placeholder": "Kirjoita projektin kuvaus",
+    "status": {
+      "in-progress": "Käynnissä",
+      "completed": "Valmis",
+      "on-hold": "Pitoon"
+    }
+  },
+  "automations": {
+    "create": "Luo automaatio",
+    "run": "Suorittaa automaatio",
+    "pause": "Taukoautomaatio",
+    "stop": "Lopeta automaatio",
+    "history": "Automaatiohistoria",
+    "trigger": "Laukaista",
+    "action": "Toiminta"
+  },
+  "library": {
+    "search": "Hakukirjasto",
+    "filter": "Suodattaa",
+    "categories": {
+      "templates": "Malli",
+      "scripts": "Skriptit",
+      "datasets": "Tietojoukot",
+      "models": "AI -mallit"
+    },
+    "upload": "Lataa resurssi",
+    "download": "Lataa resurssi"
+  },
+  "spaces": {
+    "create": "Luoda tilaa",
+    "invite": "Kutsua jäseniä",
+    "leave": "Jättää tilaa",
+    "manage": "Hallita tilaa",
+    "title-placeholder": "Kirjoita tilan nimi"
+  },
+  "errors": {
+    "generic": "Jotain meni pieleen. Yritä uudelleen.",
+    "not-found": "Resursseja ei löydy.",
+    "unauthorized": "Sinulla ei ole valtuuksia suorittaa tätä toimintaa.",
+    "invalid-input": "Tarkista tulosi ja yritä uudelleen.",
+    "network": "Verkkovirhe. Tarkista yhteys."
+  },
+  "tooltips": {
+    "new-project": "Aloita uusi projekti tehtävien järjestämiseksi.",
+    "automation-run": "Suorita tämä automaatio suorittaa ennalta määritettyjä tehtäviä.",
+    "library-search": "Etsi malleja, skriptejä tai tietojoukkoja.",
+    "space-invite": "Kutsu ryhmän jäseniä tekemään yhteistyötä tässä tilassa."
+  },
+  "footer": {
+    "copyright": "© 2025 perjantai AI. Kaikki oikeudet pidätetään.",
+    "terms": "Palvelusehdot",
+    "privacy": "Tietosuojakäytäntö",
+    "contact": "Ota yhteyttä"
+  }
+}

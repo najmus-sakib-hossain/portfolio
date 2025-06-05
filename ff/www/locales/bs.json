@@ -1,0 +1,101 @@
+{
+  "friday": {
+    "title": "Šta mogu da vam pomognem?",
+    "welcome": "Dobrodošli u u petak, asistent AI-a!",
+    "prompt": "Pitajte me bilo šta ili započnem novi zadatak.",
+    "help": "Trebate pomoć? Ovdje sam da te vodim."
+  },
+  "navigation": {
+    "new": "Započeti novo",
+    "home": "Dom",
+    "automations": "Automatizacije",
+    "varients": "Varijante",
+    "projects": "Projekti",
+    "spaces": "Prostori",
+    "library": "Biblioteka",
+    "more": "Više",
+    "settings": "Postavke",
+    "profile": "Profil",
+    "dashboard": "Dashboard",
+    "analytics": "Analitika"
+  },
+  "authentication": {
+    "sign-in": "Prijaviti se",
+    "sign-up": "Prijaviti se",
+    "sign-out": "Odjaviti se",
+    "forgot-password": "Zaboravili ste lozinku?",
+    "reset-password": "Poništi lozinku",
+    "email-label": "Adresa e-pošte",
+    "password-label": "Lozinka",
+    "confirm-password": "Potvrdite lozinku"
+  },
+  "dashboard": {
+    "overview": "Pregled",
+    "recent-activity": "Nedavna aktivnost",
+    "quick-actions": "Brze akcije",
+    "stats": {
+      "tasks-completed": "Završeni zadaci završeni",
+      "active-projects": "Aktivni projekti",
+      "automation-runs": "Automatizacija radi"
+    }
+  },
+  "projects": {
+    "create": "Kreirajte novi projekt",
+    "edit": "Uređivanje projekta",
+    "delete": "Izbriši projekt",
+    "title-placeholder": "Unesite naslov projekta",
+    "description-placeholder": "Unesite opis projekta",
+    "status": {
+      "in-progress": "U toku",
+      "completed": "Završen",
+      "on-hold": "Na čekanju"
+    }
+  },
+  "automations": {
+    "create": "Napravite automatizaciju",
+    "run": "Automatizacija pokretanja",
+    "pause": "Pauziranje automatizacije",
+    "stop": "Stop Automation",
+    "history": "Istorija automatizacije",
+    "trigger": "Okidač",
+    "action": "Akcija"
+  },
+  "library": {
+    "search": "Biblioteka za pretragu",
+    "filter": "Filter",
+    "categories": {
+      "templates": "Predlošci",
+      "scripts": "Skripte",
+      "datasets": "Skupovi podataka",
+      "models": "AI modeli"
+    },
+    "upload": "Pošaljite resurs",
+    "download": "Preuzimanje resursa"
+  },
+  "spaces": {
+    "create": "Stvoriti prostor",
+    "invite": "Pozovite članove",
+    "leave": "Ostaviti prostor",
+    "manage": "Upravljanje prostorom",
+    "title-placeholder": "Unesite naziv prostora"
+  },
+  "errors": {
+    "generic": "Nešto je pošlo po zlu. Pokušajte ponovo.",
+    "not-found": "Resurs nije pronađen.",
+    "unauthorized": "Niste ovlašteni za obavljanje ove akcije.",
+    "invalid-input": "Provjerite svoj unos i pokušajte ponovo.",
+    "network": "Mrežna greška. Provjerite svoju vezu."
+  },
+  "tooltips": {
+    "new-project": "Započnite novi projekt za organizovanje vaših zadataka.",
+    "automation-run": "Pokrenite ovu automatizaciju za izvršavanje unaprijed definiranih zadataka.",
+    "library-search": "Potražite predloške, skripte ili skup podataka.",
+    "space-invite": "Pozovite članove tima da sarađuju u ovom prostoru."
+  },
+  "footer": {
+    "copyright": "© 2025 Petak Ai. Sva prava zadržana.",
+    "terms": "Uslovi usluge",
+    "privacy": "Politika privatnosti",
+    "contact": "Kontaktirajte nas"
+  }
+}

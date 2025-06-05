@@ -1,0 +1,101 @@
+{
+  "friday": {
+    "title": "Me zan iya taimaka maka?",
+    "welcome": "Barka da zuwa Jumma'a, mataimakiyar ku ta AI -OW!",
+    "prompt": "Tambaye ni komai ko fara sabon aiki.",
+    "help": "Bukatar taimako? Ina nan don jagorarku."
+  },
+  "navigation": {
+    "new": "Fara Sabon",
+    "home": "Gida",
+    "automations": "Aiki da kai",
+    "varients": "Bambance bambance-bambancen",
+    "projects": "Aikin",
+    "spaces": "Fili",
+    "library": "Leburare",
+    "more": "Kara",
+    "settings": "Saitunan",
+    "profile": "Rabin fuska",
+    "dashboard": "Dashboard",
+    "analytics": "Nazari"
+  },
+  "authentication": {
+    "sign-in": "Shiga ciki",
+    "sign-up": "Yi rajista",
+    "sign-out": "Fita",
+    "forgot-password": "Manta da kalmar sirri?",
+    "reset-password": "Sake saita kalmar sirri",
+    "email-label": "Adireshin i-mel",
+    "password-label": "Kalmar bada iznin wucewa",
+    "confirm-password": "tabbata kalmar shiga"
+  },
+  "dashboard": {
+    "overview": "Bayyani",
+    "recent-activity": "Kwanannan aiki",
+    "quick-actions": "Ayyuka masu sauri",
+    "stats": {
+      "tasks-completed": "Ayyuka sun kammala",
+      "active-projects": "Ayyuka masu aiki",
+      "automation-runs": "Automation yana gudana"
+    }
+  },
+  "projects": {
+    "create": "Ƙirƙiri sabon aikin",
+    "edit": "Shirya aikin",
+    "delete": "Share Aikin",
+    "title-placeholder": "Shigar da taken",
+    "description-placeholder": "Shigar da bayanin aikin",
+    "status": {
+      "in-progress": "Ana kai",
+      "completed": "Kammala",
+      "on-hold": "A riƙe"
+    }
+  },
+  "automations": {
+    "create": "Ƙirƙiri atomatik",
+    "run": "Run atomatik",
+    "pause": "Doke atomatik",
+    "stop": "Dakatar da aiki",
+    "history": "Tarihin sarrafa kansa",
+    "trigger": "Kunama",
+    "action": "Mataki"
+  },
+  "library": {
+    "search": "Binciken Labarin",
+    "filter": "Tata",
+    "categories": {
+      "templates": "Samfura",
+      "scripts": "Rubutun hannu",
+      "datasets": "Masu tarin yawa",
+      "models": "Ai samfurin"
+    },
+    "upload": "Aika kayan aiki",
+    "download": "Zazzage kayan aiki"
+  },
+  "spaces": {
+    "create": "Ƙirƙiri sarari",
+    "invite": "Gayyato membobi",
+    "leave": "Bar sarari",
+    "manage": "Gudanar da sarari",
+    "title-placeholder": "Shigar da Sunan Wakili"
+  },
+  "errors": {
+    "generic": "Wani abu ba daidai ba. Da fatan za a sake gwadawa.",
+    "not-found": "Ba a samo kayan aiki ba.",
+    "unauthorized": "Ba a ba ku izini don aiwatar da wannan aikin ba.",
+    "invalid-input": "Da fatan za a duba shigarwar ku kuma sake gwadawa.",
+    "network": "Kuskuren cibiyar sadarwa. Da fatan za a duba haɗin ku."
+  },
+  "tooltips": {
+    "new-project": "Fara sabon aikin don tsara ayyukan ku.",
+    "automation-run": "Gudanar da wannan atomatik don aiwatar da ayyukan da aka riga aka tsara.",
+    "library-search": "Neman shaci, rubutun, ko bayanan data.",
+    "space-invite": "Gayyato membobin da zasuyi aiki tare a wannan sararin."
+  },
+  "footer": {
+    "copyright": "© 2025 Jumma'a AI. Dukkan hakkoki.",
+    "terms": "Sharuɗɗan sabis",
+    "privacy": "takardar kebantawa",
+    "contact": "Tuntube mu"
+  }
+}

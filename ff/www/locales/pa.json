@@ -1,0 +1,101 @@
+{
+  "friday": {
+    "title": "What can I help you with?",
+    "welcome": "Welcome to Friday, your AI-powered assistant!",
+    "prompt": "Ask me anything or start a new task.",
+    "help": "Need assistance? I'm here to guide you."
+  },
+  "navigation": {
+    "new": "Start New",
+    "home": "Home",
+    "automations": "Automations",
+    "varients": "Variants",
+    "projects": "Projects",
+    "spaces": "Spaces",
+    "library": "Library",
+    "more": "More",
+    "settings": "Settings",
+    "profile": "Profile",
+    "dashboard": "Dashboard",
+    "analytics": "Analytics"
+  },
+  "authentication": {
+    "sign-in": "Sign In",
+    "sign-up": "Sign Up",
+    "sign-out": "Sign Out",
+    "forgot-password": "Forgot Password?",
+    "reset-password": "Reset Password",
+    "email-label": "Email Address",
+    "password-label": "Password",
+    "confirm-password": "Confirm Password"
+  },
+  "dashboard": {
+    "overview": "Overview",
+    "recent-activity": "Recent Activity",
+    "quick-actions": "Quick Actions",
+    "stats": {
+      "tasks-completed": "Tasks Completed",
+      "active-projects": "Active Projects",
+      "automation-runs": "Automation Runs"
+    }
+  },
+  "projects": {
+    "create": "Create New Project",
+    "edit": "Edit Project",
+    "delete": "Delete Project",
+    "title-placeholder": "Enter project title",
+    "description-placeholder": "Enter project description",
+    "status": {
+      "in-progress": "In Progress",
+      "completed": "Completed",
+      "on-hold": "On Hold"
+    }
+  },
+  "automations": {
+    "create": "Create Automation",
+    "run": "Run Automation",
+    "pause": "Pause Automation",
+    "stop": "Stop Automation",
+    "history": "Automation History",
+    "trigger": "Trigger",
+    "action": "Action"
+  },
+  "library": {
+    "search": "Search Library",
+    "filter": "Filter",
+    "categories": {
+      "templates": "Templates",
+      "scripts": "Scripts",
+      "datasets": "Datasets",
+      "models": "AI Models"
+    },
+    "upload": "Upload Resource",
+    "download": "Download Resource"
+  },
+  "spaces": {
+    "create": "Create Space",
+    "invite": "Invite Members",
+    "leave": "Leave Space",
+    "manage": "Manage Space",
+    "title-placeholder": "Enter space name"
+  },
+  "errors": {
+    "generic": "Something went wrong. Please try again.",
+    "not-found": "Resource not found.",
+    "unauthorized": "You are not authorized to perform this action.",
+    "invalid-input": "Please check your input and try again.",
+    "network": "Network error. Please check your connection."
+  },
+  "tooltips": {
+    "new-project": "Start a new project to organize your tasks.",
+    "automation-run": "Run this automation to execute predefined tasks.",
+    "library-search": "Search for templates, scripts, or datasets.",
+    "space-invite": "Invite team members to collaborate in this space."
+  },
+  "footer": {
+    "copyright": "© 2025 Friday AI. All rights reserved.",
+    "terms": "Terms of Service",
+    "privacy": "Privacy Policy",
+    "contact": "Contact Us"
+  }
+}

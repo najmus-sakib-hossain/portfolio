@@ -1,0 +1,101 @@
+{
+  "friday": {
+    "title": "Sizga nima yordam bera olaman?",
+    "welcome": "Juma kuni, AI-quvvatlangan yordamchingiz!",
+    "prompt": "Mendan biron bir narsani so'rang yoki yangi vazifani boshlang.",
+    "help": "Yordam kerakmi? Men sizni yo'naltirish uchun keldim."
+  },
+  "navigation": {
+    "new": "Yangi boshlang",
+    "home": "Uy",
+    "automations": "ONLASH",
+    "varients": "Variantlar",
+    "projects": "Loyihalar",
+    "spaces": "Bo'shliqlar",
+    "library": "Kutubxona",
+    "more": "Ko'proq",
+    "settings": "Sozlash",
+    "profile": "Profil",
+    "dashboard": "Dosh paneli",
+    "analytics": "Tahlil qiluvchi"
+  },
+  "authentication": {
+    "sign-in": "Tizimga kirish",
+    "sign-up": "Ro'yxatdan o'tish",
+    "sign-out": "Tizimdan chiqish",
+    "forgot-password": "Parolni unutdingizmi?",
+    "reset-password": "Parolni tiklash",
+    "email-label": "E-pochta manzili",
+    "password-label": "Parol",
+    "confirm-password": "Parolni tasdiqlang"
+  },
+  "dashboard": {
+    "overview": "Umumiy nuqtai nazar",
+    "recent-activity": "So'nggi faoliyat",
+    "quick-actions": "Tez harakatlar",
+    "stats": {
+      "tasks-completed": "Vazifalar tugadi",
+      "active-projects": "Faol loyihalar",
+      "automation-runs": "Avtomatlashtirish ishlari davom etmoqda"
+    }
+  },
+  "projects": {
+    "create": "Yangi loyihani yarating",
+    "edit": "Loyihani tahrirlash",
+    "delete": "Loyihani o'chirish",
+    "title-placeholder": "Loyihaning sarlavhasini kiriting",
+    "description-placeholder": "Loyihaning tavsifini kiriting",
+    "status": {
+      "in-progress": "Jarayonda",
+      "completed": "Tugallangan",
+      "on-hold": "Ushlab qolingan"
+    }
+  },
+  "automations": {
+    "create": "Avtomatlashtirish yaratish",
+    "run": "Runni avtomatlashtirish",
+    "pause": "To'xtatish avtomatlashtirish",
+    "stop": "Avtomatlashtirishni to'xtating",
+    "history": "Avtomatlashtirish tarixi",
+    "trigger": "Teskari",
+    "action": "Harakat"
+  },
+  "library": {
+    "search": "Kutubxonani qidirish",
+    "filter": "Filtrlamoq",
+    "categories": {
+      "templates": "Shablonlar",
+      "scripts": "Skriptlar",
+      "datasets": "Ma'lumotlar tizimlari",
+      "models": "Ai modellari"
+    },
+    "upload": "Resursni yuklang",
+    "download": "Resursni yuklab oling"
+  },
+  "spaces": {
+    "create": "Bo'sh joy yarating",
+    "invite": "A'zolarni taklif qiling",
+    "leave": "Bo'sh joy qoldiring",
+    "manage": "Kosmosni boshqarish",
+    "title-placeholder": "Kosmik ismini kiriting"
+  },
+  "errors": {
+    "generic": "Nimadir noto'g'ri ketdi. Qayta urinib ko'ring.",
+    "not-found": "Resurs topilmadi.",
+    "unauthorized": "Siz ushbu harakatni bajarishga ruxsat berilmagan.",
+    "invalid-input": "Iltimos, kirishni tekshiring va qaytadan urining.",
+    "network": "Tarmoq xatosi. Iltimos, ulanishingizni tekshiring."
+  },
+  "tooltips": {
+    "new-project": "Vazifalarni tartibga solish uchun yangi loyihani boshlang.",
+    "automation-run": "Oldindan belgilangan vazifalarni bajarish uchun ushbu avtomatlashtirishni amalga oshiring.",
+    "library-search": "Shablonlarni, skriptlarni yoki ma'lumotlar to'plamlarini qidiring.",
+    "space-invite": "Jamoa a'zolarini ushbu makonda hamkorlik qilishga taklif qiling."
+  },
+  "footer": {
+    "copyright": "© 2025 Juma AI. Barcha huquqlar himoyalangan.",
+    "terms": "Xizmat shartlari",
+    "privacy": "Maxfiylik siyosati",
+    "contact": "Biz bilan bog'lanish"
+  }
+}

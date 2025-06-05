@@ -1,0 +1,11 @@
+Flask
+flask-cors
+google-genai
+gtts
+langdetect
+requests
+duckduckgo_search
+opencv-python 
+pyaudio 
+pillow 
+mss

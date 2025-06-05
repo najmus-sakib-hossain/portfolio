@@ -1,0 +1,101 @@
+{
+  "friday": {
+    "title": "Zertan lagun diezazuket?",
+    "welcome": "Ongi etorri ostiralera, zure AI-Powered laguntzailea!",
+    "prompt": "Galdetu iezadazu edo zeregin berri bat hasteko.",
+    "help": "Laguntza behar al duzu? Hemen nago gidatzeko."
+  },
+  "navigation": {
+    "new": "Berria hasi",
+    "home": "Etxe",
+    "automations": "Automatizazio",
+    "varients": "Aldaerak",
+    "projects": "Proiektzak",
+    "spaces": "Espazio",
+    "library": "Liburutegi",
+    "more": "Gehiago",
+    "settings": "Ezarpen",
+    "profile": "Profil",
+    "dashboard": "Igellari",
+    "analytics": "Analytics"
+  },
+  "authentication": {
+    "sign-in": "Hasi saioa",
+    "sign-up": "Izena eman",
+    "sign-out": "HIitu saioa",
+    "forgot-password": "Pasahitza ahaztu al zaizu?",
+    "reset-password": "Pasahitza berrezarri",
+    "email-label": "Helbide elektronikoa",
+    "password-label": "Kontrazeinu",
+    "confirm-password": "Pasahitza berretsi"
+  },
+  "dashboard": {
+    "overview": "Ikuspuntu orokor",
+    "recent-activity": "Azken jarduera",
+    "quick-actions": "Ekintza azkarrak",
+    "stats": {
+      "tasks-completed": "Zereginak osatu dira",
+      "active-projects": "Proiektu aktiboak",
+      "automation-runs": "Automatizazioa exekutatzen da"
+    }
+  },
+  "projects": {
+    "create": "Sortu proiektu berria",
+    "edit": "Editatu proiektua",
+    "delete": "Ezabatu proiektua",
+    "title-placeholder": "Sartu proiektuaren izenburua",
+    "description-placeholder": "Sartu proiektuaren deskribapena",
+    "status": {
+      "in-progress": "Abian",
+      "completed": "Osatu",
+      "on-hold": "Eutsi on"
+    }
+  },
+  "automations": {
+    "create": "Automatizazioa sortu",
+    "run": "Exekutatu automatizazioa",
+    "pause": "Automatizazioa eten",
+    "stop": "Automatizazio gelditu",
+    "history": "Automatizazio historia",
+    "trigger": "Gako",
+    "action": "Egintza"
+  },
+  "library": {
+    "search": "Bilatu Liburutegia",
+    "filter": "Iragazki",
+    "categories": {
+      "templates": "Txantiloi",
+      "scripts": "Gidoiak",
+      "datasets": "Datu multzoak",
+      "models": "AI ereduak"
+    },
+    "upload": "Kargatu baliabidea",
+    "download": "Deskargatu baliabidea"
+  },
+  "spaces": {
+    "create": "Sortu espazioa",
+    "invite": "Gonbidatu kideak",
+    "leave": "Utzi espazioa",
+    "manage": "Espazioa kudeatu",
+    "title-placeholder": "Idatzi espazioaren izena"
+  },
+  "errors": {
+    "generic": "Zerbait gaizki joan zen. Saiatu berriro.",
+    "not-found": "Aurkitu ez den baliabidea.",
+    "unauthorized": "Ez duzu baimenik ekintza hau burutzeko.",
+    "invalid-input": "Mesedez, egiaztatu zure sarrera eta saiatu berriro.",
+    "network": "Sareko errorea. Mesedez, egiaztatu zure konexioa."
+  },
+  "tooltips": {
+    "new-project": "Hasi proiektu berria zure zereginak antolatzeko.",
+    "automation-run": "Exekutatu automatizazio hau aurrez definitutako zereginak betetzeko.",
+    "library-search": "Bilatu txantiloiak, scriptak edo datu multzoak.",
+    "space-invite": "Gonbidatu taldeko kideak espazio honetan lankidetzan aritzeko."
+  },
+  "footer": {
+    "copyright": "© 2025 Ostirala AI. Eskubide guztiak erreserbatuak",
+    "terms": "Zerbitzu baldintzak",
+    "privacy": "Pribatutasun politika",
+    "contact": "Jar zaitez gurekin harremanetan"
+  }
+}

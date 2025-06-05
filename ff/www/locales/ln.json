@@ -1,0 +1,101 @@
+{
+  "friday": {
+    "title": "Nakoki kosalisa yo na nini?",
+    "welcome": "Boyei malamu na mokolo ya mitano, mosungi na yo ya AI!",
+    "prompt": "Tuna ngai eloko to banda mosala ya sika.",
+    "help": "Ozali na mposa ya lisalisi? Nazali awa mpo na kotambwisa bino."
+  },
+  "navigation": {
+    "new": "Bandá ya sika .",
+    "home": "Ndako",
+    "automations": "Ba automations .",
+    "varients": "Ba variantes .",
+    "projects": "Misala .",
+    "spaces": "Ba espaces .",
+    "library": "Biblioteke",
+    "more": "Lisusu",
+    "settings": "Paramètres .",
+    "profile": "Profil",
+    "dashboard": "Tableau de bord .",
+    "analytics": "Analytiques ."
+  },
+  "authentication": {
+    "sign-in": "Sign Na .",
+    "sign-up": "Bokoma na kombo ya .",
+    "sign-out": "Botia maboko libanda .",
+    "forgot-password": "Obosani mot de passe?",
+    "reset-password": "Bozongisa mot ya nzela .",
+    "email-label": "Addresse ya email .",
+    "password-label": "Mot de passe",
+    "confirm-password": "Kondimisa mot ya nzela ."
+  },
+  "dashboard": {
+    "overview": "Botali ya mozindo .",
+    "recent-activity": "Mosala oyo euti kosalema kala mingi te .",
+    "quick-actions": "Misala ya mbangu .",
+    "stats": {
+      "tasks-completed": "Misala oyo esilisi .",
+      "active-projects": "Ba projets active .",
+      "automation-runs": "Automatisation ezo tambola ."
+    }
+  },
+  "projects": {
+    "create": "Bosala projet ya sika .",
+    "edit": "Projet ya ko éditer .",
+    "delete": "Bolongola projet .",
+    "title-placeholder": "Tyá titre ya projet .",
+    "description-placeholder": "Tyá ndimbola ya mosala .",
+    "status": {
+      "in-progress": "Na bokende liboso .",
+      "completed": "Esili .",
+      "on-hold": "Na Hold ."
+    }
+  },
+  "automations": {
+    "create": "Bosala Automatisation .",
+    "run": "Kosala Automatisation .",
+    "pause": "Automatisation ya pause .",
+    "stop": "Botika kosala automatisation .",
+    "history": "Histoire ya automatisation .",
+    "trigger": "Kobandisa",
+    "action": "Mosala"
+  },
+  "library": {
+    "search": "Boluka bibliothèque .",
+    "filter": "Filtre .",
+    "categories": {
+      "templates": "Modèles .",
+      "scripts": "Ba scripts .",
+      "datasets": "Ba ensembles ya ba données .",
+      "models": "Ba modèles ya AI ."
+    },
+    "upload": "Lisalisi ya kokɔtisa .",
+    "download": "Download Resource ."
+  },
+  "spaces": {
+    "create": "Bosala esika .",
+    "invite": "Benga ba membres .",
+    "leave": "Botika esika .",
+    "manage": "Bokamba esika .",
+    "title-placeholder": "Tyá nkombo ya esika ."
+  },
+  "errors": {
+    "generic": "Eloko moko ekendeki mabe. Svp bomeka lisusu.",
+    "not-found": "Lisalisi ezwami te.",
+    "unauthorized": "Ozali na ndingisa te ya kosala likambo oyo.",
+    "invalid-input": "Svp tala entrée na yo pe meka lisusu.",
+    "network": "Libunga ya réseau. Tosɛngi yo otala boyokani na yo."
+  },
+  "tooltips": {
+    "new-project": "Bandá mosala ya sika mpo na kobongisa misala na yo.",
+    "automation-run": "Bosala automation oyo pona ko exécuter ba tâches pré-définies.",
+    "library-search": "Boluka ba modèles, ba scripts, to ba ensembles ya ba données.",
+    "space-invite": "Benga ba membres ya équipe ba collaborer na espace oyo."
+  },
+  "footer": {
+    "copyright": "© 2025 Mokolo ya mitano AI. Makoki nyonso mazali ya moto ye moko.",
+    "terms": "Mibeko ya mosala .",
+    "privacy": "Politiki ya kobatela makambo ya moto ye moko .",
+    "contact": "Contactez-nous ."
+  }
+}

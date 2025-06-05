@@ -1,0 +1,101 @@
+{
+  "friday": {
+    "title": "Ania ti matulongak kenka?",
+    "welcome": "Maikablaawkayo iti Biernes, ti AI-powered assistant-yo!",
+    "prompt": "Saludsodem kaniak ti aniaman wenno rugiam ti baro nga aramid.",
+    "help": "Kasapulan ti tulong? Addaak ditoy tapno mangiwanwan kenka."
+  },
+  "navigation": {
+    "new": "Mangrugi iti Baro .",
+    "home": "Balay",
+    "automations": "Dagiti Automasion .",
+    "varients": "Dagiti variante .",
+    "projects": "Dagiti proyekto .",
+    "spaces": "Dagiti espasio .",
+    "library": "Biblioteka",
+    "more": "Ad-adu pay",
+    "settings": "Dagiti setting .",
+    "profile": "Profile",
+    "dashboard": "Dashboard .",
+    "analytics": "Analitiko ."
+  },
+  "authentication": {
+    "sign-in": "Sign In .",
+    "sign-up": "Agpirma .",
+    "sign-out": "Ag-sign out .",
+    "forgot-password": "Nalipatam kadi ti password?",
+    "reset-password": "I-reset ti password .",
+    "email-label": "Address ti email .",
+    "password-label": "Password",
+    "confirm-password": "Pasingkedan ti password ."
+  },
+  "dashboard": {
+    "overview": "Panangidatag .",
+    "recent-activity": "nabiit pay nga aktibidad .",
+    "quick-actions": "Napartak nga aramid .",
+    "stats": {
+      "tasks-completed": "Nalpasen dagiti trabaho .",
+      "active-projects": "Aktibo a proyekto .",
+      "automation-runs": "Dagiti panagtaray ti automation ."
+    }
+  },
+  "projects": {
+    "create": "Mangaramid ti baro a proyekto .",
+    "edit": "Urnosen ti Proyekto .",
+    "delete": "Ikkaten ti Proyekto .",
+    "title-placeholder": "Iserrek ti paulo ti proyekto .",
+    "description-placeholder": "Iserrek ti deskripsion ti proyekto .",
+    "status": {
+      "in-progress": "Iti panagrang-ay .",
+      "completed": "Nalpasen .",
+      "on-hold": "On hold ."
+    }
+  },
+  "automations": {
+    "create": "Mangparnuay iti automation .",
+    "run": "Ipataray ti automation .",
+    "pause": "Panagsardeng ti Automasion .",
+    "stop": "Isardeng ti automation .",
+    "history": "Pakasaritaan ti Automasion .",
+    "trigger": "Kalbiten",
+    "action": "Aksion"
+  },
+  "library": {
+    "search": "Biblioteka ti Panagbirok .",
+    "filter": "Pagsala .",
+    "categories": {
+      "templates": "Dagiti plantilia .",
+      "scripts": "Dagiti iskrip .",
+      "datasets": "Dagiti Dataset .",
+      "models": "Dagiti modelo ti AI ."
+    },
+    "upload": "Rekurso ti Panag-upload .",
+    "download": "I-download ti rekurso ."
+  },
+  "spaces": {
+    "create": "Mangparnuay iti espasio .",
+    "invite": "Awisem dagiti miembro .",
+    "leave": "Mangibati iti espasio .",
+    "manage": "Imanehar ti espasio .",
+    "title-placeholder": "Iserrek ti nagan ti espasio ."
+  },
+  "errors": {
+    "generic": "Adda nagbiddut. Pangngaasiyo ta padasenyo manen.",
+    "not-found": "Saan a nasarakan ti rekurso.",
+    "unauthorized": "Saanka a autorisado a mangaramid iti daytoy nga aramid.",
+    "invalid-input": "Pangngaasiyo ta kitaenyo ti inputyo ket padasenyo manen.",
+    "network": "Biddut ti network. Pangngaasiyo ta kitaenyo ti koneksionyo."
+  },
+  "tooltips": {
+    "new-project": "Mangrugika iti baro a proyekto a mangorganisar kadagiti trabahom.",
+    "automation-run": "Ipataray daytoy nga automation tapno maipatungpal dagiti nasakbay a naikeddeng nga aramid.",
+    "library-search": "Agbirok kadagiti plantilia, iskrip, wenno dataset.",
+    "space-invite": "Awisem dagiti kameng ti team nga agtitinnulong iti daytoy nga espasio."
+  },
+  "footer": {
+    "copyright": "© 2025 Biernes AI. Amin a karbengan ket naisagana.",
+    "terms": "Dagiti Kondision ti Serbisio .",
+    "privacy": "Patakaran ti Kinapribado .",
+    "contact": "Kontakenmi ."
+  }
+}
