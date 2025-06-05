@@ -50,7 +50,7 @@ export default async function Root(props: {
   const { children } = props;
 
   return (
-    <html lang={params.lang}>
+    <html lang={params.lang} suppressHydrationWarning>
       <head>
         <LoadTheme />
       </head>
