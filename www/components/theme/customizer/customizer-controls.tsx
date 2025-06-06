@@ -381,7 +381,7 @@ export function AllPresetsControl({ className }: AllPresetsControlProps) {
 
   return (
     <Popover>
-      <PopoverTrigger className="hover:text-primary text-muted-foreground hover:bg-primary-foreground group relative flex h-full items-center justify-center rounded-md transition-colors">
+      <PopoverTrigger className="hover:text-primary text-muted-foreground group relative flex h-full items-center justify-center rounded-md transition-colors">
         <ChevronDown className="size-4" />
       </PopoverTrigger>
       {/* <PopoverTrigger asChild className="rounded-lg border shadow">

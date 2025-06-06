@@ -5,7 +5,7 @@ import { Button, ButtonProps } from '@/components/portfolio/button';
 export const EyeCatchingButton_v1 = ({ ...props }: ButtonProps) => {
   return (
     <div className="group relative overflow-hidden rounded-md bg-background p-0.5">
-      <span className="absolute inset-[-1000%] animate-[spin_5s_linear_infinite_reverse] bg-[conic-gradient(from_90deg_at_50%_50%,#000_0%,#fff_5%)] group-hover:bg-none dark:bg-[conic-gradient(from_90deg_at_50%_50%,#fff_0%,#09090B_7%)]" />
+      <span className="absolute inset-[-1000%] animate-[spin_5s_linear_infinite_reverse] bg-[conic-gradient(from_90deg_at_50%_50%,theme(colors.foreground)_0%,theme(colors.background)_5%)] group-hover:bg-none dark:bg-[conic-gradient(from_90deg_at_50%_50%,theme(colors.foreground)_0%,theme(colors.background)_7%)]" />
       <Button
         {...props}
         className={cn(
