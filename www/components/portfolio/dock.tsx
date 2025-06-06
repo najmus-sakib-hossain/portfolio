@@ -142,7 +142,7 @@ export default function IOSDOCk() {
     // 360:7,sm:12,md:14,lg:20,xl:23
 
     return (
-        <div className="!pb-100 fixed bottom-4 left-1/2 z-50 flex w-full -translate-x-1/2 items-center justify-center">
+        <div className="!fixed bottom-4 left-1/2 z-50 flex w-full -translate-x-1/2 items-center justify-center">
             <Dock magnification={65} distance={113}>
                 <DockIcon className="rounded-full bg-secondary p-1 dark:bg-primary-foreground">
                     <Link target="_blank" href="https://manfromexistence-friday.vercel.app/">

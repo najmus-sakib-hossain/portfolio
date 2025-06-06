@@ -8,7 +8,7 @@ interface RootLayoutProps {
 export default function RootLayout({ children }: RootLayoutProps) {
     return (
         <>
-                <div className="w-full flex items-center justify-center flex-col">
+                <div className="relative w-full flex items-center justify-center flex-col">
                     <SiteHeader />
                     <main className="flex-1">{children}</main>
                 </div>
