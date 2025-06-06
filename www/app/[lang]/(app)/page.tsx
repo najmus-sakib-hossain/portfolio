@@ -5,7 +5,7 @@ import { Separator } from "@/components/ui/separator"
 import Link from "next/link";
 import type { SVGProps } from "react";
 import { BigProjects, ProductionGradeProjects, SocialMedias } from "@/components/portfolio/blog-card-section";
-import { Briefcase, CircleSlash2 } from "lucide-react";
+import { Briefcase, CircleSlash2, Dribbble, Figma, Framer } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import IOSDOCk from "@/components/portfolio/dock";
@@ -81,30 +81,30 @@ export default function Home() {
                 </div>
                 <Separator className="my-4" />
                 <div className="flex items-center justify-center space-x-2">
-                  <Link href={"https://www.youtube.com/@manfromexistence"} className="flex size-12 items-center justify-center rounded-full hover:bg-card hover:text-primary">
-                    <YouTube />
+                  <Link href={"https://www.facebook.com/tanvirhasan.bijoy.16"} className="flex size-12 items-center justify-center rounded-full hover:bg-card hover:text-primary">
+                    <Facebook />
                   </Link>
-                  <Link href={"https://x.com/manfrexistence"} className="flex size-12 items-center justify-center rounded-full hover:bg-card hover:text-primary">
-                    <XformerlyTwitter className="invert dark:invert-0" />
-                  </Link>
-                  <Link href={"https://github.com/manfromexistence"} className="flex size-12 items-center justify-center rounded-full hover:bg-card hover:text-primary">
-                    <Github className="invert dark:invert-0" />
-                  </Link>
-                  <Link href={"https://www.linkedin.com/in/man-from-existence-a50180314/"} className="flex size-12 items-center justify-center rounded-full hover:bg-card hover:text-primary">
+                  <Link href={"https://www.linkedin.com/in/tanvirhasan002/"} className="flex size-12 items-center justify-center rounded-full hover:bg-card hover:text-primary">
                     <LinkedIn />
                   </Link>
-                  <Link href={"https://www.threads.net/@manfromexistence?xmt=AQGzX0O_Vpo7BfxG054NKG79SDenEBx2ZFmcE11qaGLN5uw"} className="flex size-12 items-center justify-center rounded-full hover:bg-card hover:text-primary">
-                    <Threads className="invert dark:invert-0" />
-                  </Link>
-                  <Link target="_blank" href={"mailto:ajju40959@gmail.com"} className="flex size-12 items-center justify-center rounded-full hover:bg-card hover:text-primary">
+                  <Link target="_blank" href={"mailto:tanvirdesigner00202@gmail.com"} className="flex size-12 items-center justify-center rounded-full hover:bg-card hover:text-primary">
                     <Gmail />
+                  </Link>
+                  <Link href={"https://www.behance.net/tanvirhasan00"} className="flex size-12 items-center justify-center rounded-full hover:bg-card hover:text-primary">
+                    <Framer className="invert dark:invert-0 size-4" />
+                  </Link>
+                  <Link href={"https://dribbble.com/Tanvirhasan00"} className="flex size-12 items-center justify-center rounded-full hover:bg-card hover:text-primary">
+                    <Dribbble className="invert dark:invert-0 size-4" />
+                  </Link>
+                  <Link href={"https://dribbble.com/Tanvirhasan00"} className="flex size-12 items-center justify-center rounded-full hover:bg-card hover:text-primary">
+                    <Figma className="invert dark:invert-0 size-4" />
                   </Link>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div className="flex w-full flex-col gap-8 md:flex-row md:gap-4">
+        {/* <div className="flex w-full flex-col gap-8 md:flex-row md:gap-4">
           <div className="w-full lg:w-[30%]">
             <div className="relative flex min-h-full items-center justify-center border border-dashed">
               <Icon className="-left-3 -top-3" />
@@ -154,7 +154,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
       {/* <BigProjects />
       <ProductionGradeProjects /> */}
@@ -170,3 +170,5 @@ const YouTube = (props: SVGProps<SVGSVGElement>) => <svg viewBox="0 0 256 180" w
 const Gmail = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 49.4 512 399.42" width="1em" height="1em" {...props}><g fill="none" fillRule="evenodd"><g fillRule="nonzero"><path fill="#4285f4" d="M34.91 448.818h81.454V251L0 163.727V413.91c0 19.287 15.622 34.91 34.91 34.91z" /><path fill="#34a853" d="M395.636 448.818h81.455c19.287 0 34.909-15.622 34.909-34.909V163.727L395.636 251z" /><path fill="#fbbc04" d="M395.636 99.727V251L512 163.727v-46.545c0-43.142-49.25-67.782-83.782-41.891z" /></g><path fill="#ea4335" d="M116.364 251V99.727L256 204.455 395.636 99.727V251L256 355.727z" /><path fill="#c5221f" fillRule="nonzero" d="M0 117.182v46.545L116.364 251V99.727L83.782 75.291C49.25 49.4 0 74.04 0 117.18z" /></g></svg>;
 const Threads = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" aria-label="Threads" viewBox="0 0 192 192" width="1em" height="1em" {...props}><path fill="#fff" d="M141.537 88.988a66.667 66.667 0 0 0-2.518-1.143c-1.482-27.307-16.403-42.94-41.457-43.1h-.34c-14.986 0-27.449 6.396-35.12 18.036l13.779 9.452c5.73-8.695 14.724-10.548 21.348-10.548h.229c8.249.053 14.474 2.452 18.503 7.129 2.932 3.405 4.893 8.111 5.864 14.05-7.314-1.243-15.224-1.626-23.68-1.14-23.82 1.371-39.134 15.264-38.105 34.568.522 9.792 5.4 18.216 13.735 23.719 7.047 4.652 16.124 6.927 25.557 6.412 12.458-.683 22.231-5.436 29.049-14.127 5.178-6.6 8.453-15.153 9.899-25.93 5.937 3.583 10.337 8.298 12.767 13.966 4.132 9.635 4.373 25.468-8.546 38.376-11.319 11.308-24.925 16.2-45.488 16.351-22.809-.169-40.06-7.484-51.275-21.742C35.236 139.966 29.808 120.682 29.605 96c.203-24.682 5.63-43.966 16.133-57.317C56.954 24.425 74.204 17.11 97.013 16.94c22.975.17 40.526 7.52 52.171 21.847 5.71 7.026 10.015 15.86 12.853 26.162l16.147-4.308c-3.44-12.68-8.853-23.606-16.219-32.668C147.036 9.607 125.202.195 97.07 0h-.113C68.882.194 47.292 9.642 32.788 28.08 19.882 44.485 13.224 67.315 13.001 95.932L13 96v.067c.224 28.617 6.882 51.447 19.788 67.854C47.292 182.358 68.882 191.806 96.957 192h.113c24.96-.173 42.554-6.708 57.048-21.189 18.963-18.945 18.392-42.692 12.142-57.27-4.484-10.454-13.033-18.945-24.723-24.553ZM98.44 129.507c-10.44.588-21.286-4.098-21.82-14.135-.397-7.442 5.296-15.746 22.461-16.735 1.966-.114 3.895-.169 5.79-.169 6.235 0 12.068.606 17.371 1.765-1.978 24.702-13.58 28.713-23.802 29.274Z" className="x19hqcy" /></svg>;
 const LinkedIn = (props: SVGProps<SVGSVGElement>) => <svg width="1em" height="1em" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" viewBox="0 0 256 256" {...props}><path d="M218.123 218.127h-37.931v-59.403c0-14.165-.253-32.4-19.728-32.4-19.756 0-22.779 15.434-22.779 31.369v60.43h-37.93V95.967h36.413v16.694h.51a39.907 39.907 0 0 1 35.928-19.733c38.445 0 45.533 25.288 45.533 58.186l-.016 67.013ZM56.955 79.27c-12.157.002-22.014-9.852-22.016-22.009-.002-12.157 9.851-22.014 22.008-22.016 12.157-.003 22.014 9.851 22.016 22.008A22.013 22.013 0 0 1 56.955 79.27m18.966 138.858H37.95V95.967h37.97v122.16ZM237.033.018H18.89C8.58-.098.125 8.161-.001 18.471v219.053c.122 10.315 8.576 18.582 18.89 18.474h218.144c10.336.128 18.823-8.139 18.966-18.474V18.454c-.147-10.33-8.635-18.588-18.966-18.453" fill="#0A66C2" /></svg>;
+
+const Facebook = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36" fill="url(#a)" height="1em" width="1em" {...props}><defs><linearGradient x1="50%" x2="50%" y1="97.078%" y2="0%" id="a"><stop offset="0%" stopColor="#0062E0" /><stop offset="100%" stopColor="#19AFFF" /></linearGradient></defs><path d="M15 35.8C6.5 34.3 0 26.9 0 18 0 8.1 8.1 0 18 0s18 8.1 18 18c0 8.9-6.5 16.3-15 17.8l-1-.8h-4l-1 .8z" /><path fill="#FFF" d="m25 23 .8-5H21v-3.5c0-1.4.5-2.5 2.7-2.5H26V7.4c-1.3-.2-2.7-.4-4-.4-4.1 0-7 2.5-7 7v4h-4.5v5H15v12.7c1 .2 2 .3 3 .3s2-.1 3-.3V23h4z" /></svg>;

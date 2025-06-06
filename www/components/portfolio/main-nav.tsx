@@ -27,28 +27,28 @@ export function MainNav() {
           Home
         </Link>
         <Link
-          href="/thoughts"
+          href="/contents"
           className={cn(
             "transition-colors hover:text-foreground/80",
-            pathname?.startsWith("/thoughts")
+            pathname?.startsWith("/contents")
               ? "text-foreground"
               : "text-foreground/60"
           )}
         >
-          Thoughts
+          Contents
         </Link>
         <Link
-          href="/works"
+          href="/about"
           className={cn(
             "transition-colors hover:text-foreground/80",
-            pathname?.startsWith("/works")
+            pathname?.startsWith("/about")
               ? "text-foreground"
               : "text-foreground/60"
           )}
         >
-          Works
+          About
         </Link>
-        <Link
+        {/* <Link
           href="/lists"
           className={cn(
             "transition-colors hover:text-foreground/80",
@@ -69,7 +69,7 @@ export function MainNav() {
           )}
         >
           Gaming
-        </Link>
+        </Link> */}
       </nav>
     </div>
   )

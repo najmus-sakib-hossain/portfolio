@@ -1,4 +1,4 @@
-import { MainNavItem, SidebarNavItem } from "types/nav"
+import { MainNavItem, SidebarNavItem } from "@/types/nav"
 
 export interface DocsConfig {
   mainNav: MainNavItem[]
@@ -13,21 +13,21 @@ export const docsConfig: DocsConfig = {
       href: "/manfromexistence/home",
     },
     {
-      title: "Thoughts",
-      href: "/manfromexistence/thoughts",
+      title: "Contents",
+      href: "/contents",
     },
     {
-      title: "Works",
-      href: "/manfromexistence/works",
+      title: "About",
+      href: "/about",
     },
-    {
-      title: "Lists",
-      href: "/manfromexistence/lists",
-    },
-    {
-      title: "Gaming",
-      href: "/manfromexistence/gaming",
-    },
+    // {
+    //   title: "Lists",
+    //   href: "/manfromexistence/lists",
+    // },
+    // {
+    //   title: "Gaming",
+    //   href: "/manfromexistence/gaming",
+    // },
   ],
   sidebarNav: [
     {
