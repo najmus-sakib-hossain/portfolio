@@ -22,7 +22,7 @@ import {
 } from "../../../types/theme";
 import { getOptimalForegroundColor, isValidColor } from "../../../lib/utils/colors";
 import { RADIUS_VALUES } from "../../../lib/utils/constants";
-import { Check, ChevronDown, ChevronUp, SendHorizontal } from "lucide-react";
+import { Check, ChevronDown, ChevronDownIcon, ChevronUp, SendHorizontal } from "lucide-react";
 import { useTheme } from "next-themes";
 import {
   ChangeEvent,
@@ -316,7 +316,7 @@ export function RadiusControls({ className, ...props }: ComponentProps<"div">) {
               "ring-border h-fit cursor-pointer rounded-lg p-1 text-xs shadow ring",
               "w-full max-w-[75px] pr-1.5 @max-md:max-w-full",
               isActive &&
-                "text-foreground border-primary/50 ring-primary/50 ring-[2px]",
+              "text-foreground border-primary/50 ring-primary/50 ring-[2px]",
             )}
             style={{
               "--radius": `${value}`,
@@ -355,7 +355,7 @@ export function RadiusSliderControl() {
   );
 }
 
-interface AllPresetsControlProps extends ComponentProps<"div"> {}
+interface AllPresetsControlProps extends ComponentProps<"div"> { }
 
 export function AllPresetsControl({ className }: AllPresetsControlProps) {
   const { getActiveThemeColorToken } = useTokens();
@@ -381,7 +381,10 @@ export function AllPresetsControl({ className }: AllPresetsControlProps) {
 
   return (
     <Popover>
-      <PopoverTrigger asChild className="rounded-lg border shadow">
+      <PopoverTrigger className="hover:text-primary text-muted-foreground hover:bg-primary-foreground group relative flex h-full items-center justify-center rounded-md transition-colors">
+        <ChevronDown className="size-4" />
+      </PopoverTrigger>
+      {/* <PopoverTrigger asChild className="rounded-lg border shadow">
         <div className="group/control bg-background hover:bg-muted/40 flex h-10 w-full cursor-pointer items-center justify-between gap-4 p-2.5 transition-colors duration-300 ease-in-out *:shrink-0">
           <div className="flex items-center gap-2">
             {activeThemeInArray ? (
@@ -467,11 +470,12 @@ export function AllPresetsControl({ className }: AllPresetsControlProps) {
             <ChevronDown className="h-4 w-4" />
           </button>
         </div>
-      </PopoverTrigger>
+      </PopoverTrigger> */}
 
-      <PopoverContent className="p-0" align="start">
+      <PopoverContent className="p-0 z-[10000000000000000000000000]">
         <Command className={cn(className)}>
-          <CommandInput className="text-base" />
+          <CommandInput placeholder="Search Themes" className="text-base" />
+
 
           <ScrollArea className="flex max-h-81 flex-col">
             <CommandEmpty>
