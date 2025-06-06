@@ -29,7 +29,7 @@ import {
   RadiusControls,
 } from "./customizer-controls";
 import { MemoizedTailwindV4ColorPalette } from "./tailwind-v4-palette";
-import { GradientPicker } from "./gradient-picker"; // Import GradientPicker
+// import { GradientPicker } from "./gradient-picker"; // Import GradientPicker
 // import { PREDEFINED_GRADIENTS } from "@/lib/gradient-palettes"; // Import gradients
 import React from "react"; // Import React
 

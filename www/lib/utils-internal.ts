@@ -2,13 +2,13 @@ import { Locale } from '@/i18n-config';
 
 // Type definitions for locale text structure
 export type LocaleKeys = {
-  friday: {
+  friday?: {
     title: string;
     welcome: string;
     prompt: string;
     help: string;
   };
-  navigation: {
+  navigation?: {
     new: string;
     home: string;
     automations: string;

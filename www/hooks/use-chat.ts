@@ -54,7 +54,8 @@ export function useChat(options: UseChatOptions = {}) {
       timestamp: new Date().toISOString()
     }
 
-    addMessage(assistantMessage)    try {
+    addMessage(assistantMessage);
+    try {
       const messages = [...chatState.messages, userMessage].map(msg => ({
         role: msg.role,
         content: msg.content

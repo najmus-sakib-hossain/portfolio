@@ -24,14 +24,14 @@ const countryToLanguageMap: Record<string, Locale> = {
   'TL': 'pt', 'MO': 'pt',
   
   // French speaking countries
-  'FR': 'fr', 'BE': 'fr', 'CH': 'fr', 'LU': 'fr', 'MC': 'fr', 'SN': 'fr', 'CI': 'fr',
-  'ML': 'fr', 'BF': 'fr', 'NE': 'fr', 'GN': 'fr', 'MG': 'fr', 'CM': 'fr', 'TD': 'fr',
-  'CF': 'fr', 'CG': 'fr', 'GA': 'fr', 'DJ': 'fr', 'KM': 'fr', 'BI': 'fr', 'RW': 'fr',
+  'FR': 'fr', 'MC': 'fr', 'SN': 'fr', 'CI': 'fr',
+  'ML': 'fr', 'BF': 'fr', 'NE': 'fr', 'GN': 'fr', 'CM': 'fr',
+  'CF': 'fr', 'CG': 'fr', 'GA': 'fr', 'BI': 'fr', 'RW': 'fr',
   'VU': 'fr', 'NC': 'fr', 'PF': 'fr', 'WF': 'fr', 'RE': 'fr', 'YT': 'fr', 'GP': 'fr',
   'MQ': 'fr', 'GF': 'fr', 'PM': 'fr',
   
   // German speaking countries
-  'DE': 'de', 'AT': 'de', 'CH': 'de', 'LI': 'de', 'LU': 'de',
+  'DE': 'de', 'AT': 'de', 'LI': 'de',
   
   // Asian languages
   'CN': 'zh-CN', 'TW': 'zh-TW', 'HK': 'zh-CN', 'SG': 'zh-CN',
@@ -53,25 +53,30 @@ const countryToLanguageMap: Record<string, Locale> = {
   'GR': 'el', 'CY': 'el',
   'TR': 'tr',
   'IT': 'it', 'SM': 'it', 'VA': 'it',
-  'NL': 'nl', 'BE': 'nl', 'SR': 'nl',
+  'NL': 'nl', 'SR': 'nl',
   'DK': 'da', 'NO': 'no', 'SE': 'sv', 'FI': 'fi', 'IS': 'is',
   'EE': 'et', 'LV': 'lv', 'LT': 'lt',
-  'MT': 'mt',
+  
+  // Special cases for multilingual countries
+  'BE': 'nl', // Belgium - Dutch is most common, but could also be French
+  'CH': 'de', // Switzerland - German is most common, but could also be French or Italian
+  'LU': 'fr', // Luxembourg - French is administrative language
+  'MT': 'mt', // Malta
   
   // African languages
   'ET': 'am', 'ER': 'ti',
   'GH': 'ak', 'BJ': 'yo', 'NG': 'yo',
   'KE': 'sw', 'TZ': 'sw', 'UG': 'sw',
-  'ZW': 'sn', 'MW': 'ny',
-  'BW': 'tn', 'LS': 'st', 'SZ': 'ss',
-  'NA': 'af', 'ZA': 'af',
-  'MG': 'mg', 'MW': 'ny',
+  'ZW': 'sn', 'MW': 'en', // Malawi uses English as official language
+  'BW': 'en', 'LS': 'st', 'SZ': 'en', // Using English as fallback for unsupported locales
+  'NA': 'af',
+  'MG': 'fr', // Madagascar - French is more widely known internationally
   
   // Other regions
-  'IL': 'iw', 'MT': 'mt',
+  'IL': 'iw',
   'MV': 'dv', 'LK': 'si',
-  'NP': 'ne', 'BT': 'dz',
-  'FJ': 'fj', 'TO': 'to', 'WS': 'sm',
+  'NP': 'ne', 'BT': 'en', // Bhutan - using English as fallback
+  'FJ': 'en', 'TO': 'en', 'WS': 'sm', // Using English as fallback for most Pacific islands
 };
 
 // Browser language to our supported locale mapping
@@ -91,7 +96,7 @@ const browserLanguageToLocaleMap: Record<string, Locale> = {
   'hu': 'hu', 'ro': 'ro', 'bg': 'bg', 'hr': 'hr', 'sr': 'sr',
   'sl': 'sl', 'et': 'et', 'lv': 'lv', 'lt': 'lt', 'mt': 'mt',
   'is': 'is', 'ga': 'ga', 'cy': 'cy', 'eu': 'eu', 'ca': 'ca',
-  'gl': 'gl', 'oc': 'oc', 'br': 'br', 'co': 'co', 'sc': 'sc'
+  'gl': 'gl'
 };
 
 interface LocationInfo {
