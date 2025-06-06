@@ -1,3 +1,4 @@
+"use client"
 import Link from "next/link"
 import { MainNav } from "@/components/portfolio/main-nav"
 import { MobileNav } from "@/components/portfolio/mobile-nav"
@@ -5,10 +6,28 @@ import { EyeCatchingButton_v1 } from "@/components/portfolio/eye-catching-button
 import { Play } from "lucide-react"
 import { ModeSwitcher } from "./mode-switcher"
 import ThemeToggleButton from "@/components/ui/theme-toggle-button"
+import { useState, useEffect } from "react"
+import { cn } from "@/lib/utils"
 
 export function SiteHeader() {
+  const [scrolled, setScrolled] = useState(false)
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrolled(window.scrollY > 0)
+    }
+
+    window.addEventListener("scroll", handleScroll)
+    return () => window.removeEventListener("scroll", handleScroll)
+  }, [])
+
   return (
-    <header className="sticky top-0 z-50 w-full border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 border-b">
+    <header
+      className={cn(
+        "sticky top-0 z-50 w-full border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60",
+        scrolled && "border-b"
+      )}
+    >
       <div className="container flex h-14 max-w-screen-xl items-center mx-auto">
         <MainNav />
         <MobileNav />
@@ -19,7 +38,12 @@ export function SiteHeader() {
               variant="gif"
               url="https://media.giphy.com/media/5PncuvcXbBuIZcSiQo/giphy.gif?cid=ecf05e47j7vdjtytp3fu84rslaivdun4zvfhej6wlvl6qqsz&ep=v1_stickers_search&rid=giphy.gif&ct=s"
             />
-            <Link target="_blank" href={"https://www.upwork.com/freelancers/~01221bf135ed62b3b3"}>
+            <Link
+              target="_blank"
+              href={
+                "https://www.upwork.com/freelancers/~01221bf135ed62b3b3"
+              }
+            >
               <EyeCatchingButton_v1 className="text-sm">
                 <Play className="mr-1 size-4" />
                 Start a Project

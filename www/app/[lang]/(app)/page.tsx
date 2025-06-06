@@ -1,14 +1,14 @@
 "use client"
 import * as React from "react";
-import { cn } from '@/lib/utils';
+import { cn } from "@/lib/utils";
 import { Separator } from "@/components/ui/separator"
-import Link from 'next/link';
+import Link from "next/link";
 import type { SVGProps } from "react";
 import { BigProjects, ProductionGradeProjects, SocialMedias } from "@/components/portfolio/blog-card-section";
 import { Briefcase, CircleSlash2 } from "lucide-react";
-import { Button } from '@/components/ui/button';
-import Image from 'next/image';
-import IOSDOCk from '@/components/portfolio/dock';
+import { Button } from "@/components/ui/button";
+import Image from "next/image";
+import IOSDOCk from "@/components/portfolio/dock";
 import { SiteFooter } from "@/components/portfolio/site-footer";
 // import PixelatedText from "@/components/portfolio/pixel"
 
@@ -25,7 +25,7 @@ export default function Home() {
         strokeWidth="1"
         stroke="currentColor"
         {...rest}
-        className={cn('absolute z-[100000]  size-6', className)}
+        className={cn("absolute z-[100000]  size-6", className)}
       >
         <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v12m6-6H6" />
       </svg>
@@ -36,7 +36,7 @@ export default function Home() {
     <div className="container flex max-w-screen-xl flex-col items-center space-y-8 pb-[75px]">
 
       {/* <IOSDOCk /> */}
-      <div className="mt-2 w-full space-y-8">
+      <div className="mt-4 w-full space-y-8">
         {/* <PixelatedText fontSize={45} pixelSize={3} position="left" className="py-2">
           Developing Solutions for Problems with <PixelatedText.Rainbow>Curiosity</PixelatedText.Rainbow> and <PixelatedText.Rainbow>Thoughts</PixelatedText.Rainbow>
         </PixelatedText> */}
@@ -46,7 +46,7 @@ export default function Home() {
         <span className="text-3xl font-bold md:text-4xl lg:text-5xl xl:text-6xl">Developing Solutions for Problems with Curiosity and Thoughts</span>
         <div className="flex w-full flex-col justify-between space-y-4 text-muted-foreground md:flex-row md:space-y-0">
           <div className="flex flex-col space-y-2 md:max-h-[200px] md:w-3/5">
-            <span>Delusions? I turn them into reality. Trying to solve as many problems as possible.</span>
+            <span className="mt-2">Delusions? I turn them into reality. Trying to solve as many problems as possible.</span>
             <div className="flex h-full flex-col space-y-2 md:justify-end">
               <div className="flex flex-col">
                 <span>Now</span>
@@ -62,41 +62,41 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className='w-full md:max-w-[400px]'>
+          <div className="w-full md:max-w-[400px]">
             <div className="relative min-h-[150px] border border-dashed">
               <Icon className="-left-3 -top-3" />
               <Icon className="-right-3 -top-3" />
               <Icon className="-bottom-3 -left-3" />
               <Icon className="-bottom-3 -right-3" />
-              <div className={cn('flex flex-col p-4')}>
-                <div className='flex w-full items-center justify-center space-x-4 rounded-md p-2 px-0 border hover:bg-card hover:text-primary md:justify-evenly'>
-                  <Image width={50} height={50} src='/portfolio.png' alt='manfromexistnece' className='rounded-full' />
-                  <div className='flex flex-col'>
-                    <span className='text-foreground'>manfromexistence</span>
+              <div className={cn("flex flex-col p-4")}>
+                <div className="flex w-full items-center justify-center space-x-4 rounded-md p-2 px-0 hover:bg-card hover:text-primary md:justify-evenly">
+                  <Image width={50} height={50} src="/portfolio.png" alt="manfromexistnece" className="rounded-full" />
+                  <div className="flex flex-col">
+                    <span className="text-foreground">manfromexistence</span>
                     <span>Currently Do Exists</span>
                   </div>
-                  <div className='flex size-10 items-center justify-center rounded-full border p-1'>
+                  <div className="flex size-10 items-center justify-center rounded-full border p-1">
                     ❤
                   </div>
                 </div>
                 <Separator className="my-4" />
-                <div className='flex items-center justify-center space-x-2'>
-                  <Link href={"https://www.youtube.com/@manfromexistence"} className='flex size-12 items-center justify-center rounded-full hover:bg-card hover:text-primary'>
+                <div className="flex items-center justify-center space-x-2">
+                  <Link href={"https://www.youtube.com/@manfromexistence"} className="flex size-12 items-center justify-center rounded-full hover:bg-card hover:text-primary">
                     <YouTube />
                   </Link>
-                  <Link href={"https://x.com/manfrexistence"} className='flex size-12 items-center justify-center rounded-full hover:bg-card hover:text-primary'>
+                  <Link href={"https://x.com/manfrexistence"} className="flex size-12 items-center justify-center rounded-full hover:bg-card hover:text-primary">
                     <XformerlyTwitter className="invert dark:invert-0" />
                   </Link>
-                  <Link href={"https://github.com/manfromexistence"} className='flex size-12 items-center justify-center rounded-full hover:bg-card hover:text-primary'>
+                  <Link href={"https://github.com/manfromexistence"} className="flex size-12 items-center justify-center rounded-full hover:bg-card hover:text-primary">
                     <Github className="invert dark:invert-0" />
                   </Link>
-                  <Link href={"https://www.linkedin.com/in/man-from-existence-a50180314/"} className='flex size-12 items-center justify-center rounded-full hover:bg-card hover:text-primary'>
+                  <Link href={"https://www.linkedin.com/in/man-from-existence-a50180314/"} className="flex size-12 items-center justify-center rounded-full hover:bg-card hover:text-primary">
                     <LinkedIn />
                   </Link>
-                  <Link href={"https://www.threads.net/@manfromexistence?xmt=AQGzX0O_Vpo7BfxG054NKG79SDenEBx2ZFmcE11qaGLN5uw"} className='flex size-12 items-center justify-center rounded-full hover:bg-card hover:text-primary'>
+                  <Link href={"https://www.threads.net/@manfromexistence?xmt=AQGzX0O_Vpo7BfxG054NKG79SDenEBx2ZFmcE11qaGLN5uw"} className="flex size-12 items-center justify-center rounded-full hover:bg-card hover:text-primary">
                     <Threads className="invert dark:invert-0" />
                   </Link>
-                  <Link target="_blank" href={"mailto:ajju40959@gmail.com"} className='flex size-12 items-center justify-center rounded-full hover:bg-card hover:text-primary'>
+                  <Link target="_blank" href={"mailto:ajju40959@gmail.com"} className="flex size-12 items-center justify-center rounded-full hover:bg-card hover:text-primary">
                     <Gmail />
                   </Link>
                 </div>
@@ -104,52 +104,52 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className='flex w-full flex-col gap-8 md:flex-row md:gap-4'>
-          <div className='w-full lg:w-[30%]'>
+        <div className="flex w-full flex-col gap-8 md:flex-row md:gap-4">
+          <div className="w-full lg:w-[30%]">
             <div className="relative flex min-h-full items-center justify-center border border-dashed">
               <Icon className="-left-3 -top-3" />
               <Icon className="-right-3 -top-3" />
               <Icon className="-bottom-3 -left-3" />
               <Icon className="-bottom-3 -right-3" />
-              <div className={cn('flex flex-col space-y-4 p-4')}>
-                <span className='font-bold text-muted-foreground'>DESIGN, BUILD, INSPIRE.</span>
-                <span className='text-muted-foreground'>Branding, design, writing, product creation, development – I wear many hats, fueled by an insatiable passion for innovation. Think of me as your multi-faceted partner, bridging the gap between dream concepts and polished realities.</span>
-                <Button variant={'secondary'}>Let&apos;s not work togather, will work later😁</Button>
+              <div className={cn("flex flex-col space-y-4 p-4")}>
+                <span className="font-bold text-muted-foreground">DESIGN, BUILD, INSPIRE.</span>
+                <span className="text-muted-foreground">Branding, design, writing, product creation, development – I wear many hats, fueled by an insatiable passion for innovation. Think of me as your multi-faceted partner, bridging the gap between dream concepts and polished realities.</span>
+                <Button variant={"secondary"}>Let&apos;s not work togather, will work later😁</Button>
               </div>
             </div>
           </div>
-          <div className='w-full lg:w-[70%]'>
+          <div className="w-full lg:w-[70%]">
             <div className="relative min-h-full border border-dashed">
               <Icon className="-left-3 -top-3" />
               <Icon className="-right-3 -top-3" />
               <Icon className="-bottom-3 -left-3" />
               <Icon className="-bottom-3 -right-3" />
-              <div className={cn('xs:grid-cols-1 grid min-h-full md:grid-cols-3')}>
-                <div className='relative flex w-full flex-col items-center justify-center border border-l-0 border-t-0 border-dashed p-8 hover:bg-card hover:text-primary'>
+              <div className={cn("xs:grid-cols-1 grid min-h-full md:grid-cols-3")}>
+                <div className="relative flex w-full flex-col items-center justify-center border border-l-0 border-t-0 border-dashed p-8 hover:bg-card hover:text-primary">
                   <Icon className="-bottom-3 -right-3" />
-                  <span className='text-7xl'>6+</span>
-                  <span className='text-muted-foreground'>Products</span>
+                  <span className="text-7xl">6+</span>
+                  <span className="text-muted-foreground">Products</span>
                 </div>
-                <div className='relative flex w-full flex-col items-center justify-center border border-l-0 border-t-0 border-dashed p-8 hover:bg-card hover:text-primary'>
+                <div className="relative flex w-full flex-col items-center justify-center border border-l-0 border-t-0 border-dashed p-8 hover:bg-card hover:text-primary">
                   <Icon className="-bottom-3 -right-3" />
-                  <span className='text-7xl'>2+</span>
-                  <span className='text-muted-foreground'>Clients</span>
+                  <span className="text-7xl">2+</span>
+                  <span className="text-muted-foreground">Clients</span>
                 </div>
-                <div className='relative flex w-full flex-col items-center justify-center border border-x-0 border-t-0 border-dashed p-8 hover:bg-card hover:text-primary'>
-                  <span className='text-7xl'>1+</span>
-                  <span className='text-muted-foreground'>Facilitator</span>
+                <div className="relative flex w-full flex-col items-center justify-center border border-x-0 border-t-0 border-dashed p-8 hover:bg-card hover:text-primary">
+                  <span className="text-7xl">1+</span>
+                  <span className="text-muted-foreground">Facilitator</span>
                 </div>
-                <div className='relative flex w-full flex-col items-center justify-center border border-l-0 border-t-0 border-dashed p-8 hover:bg-card hover:text-primary md:border-b-0'>
-                  <span className='text-7xl'>1+</span>
-                  <span className='text-muted-foreground'>Talks</span>
+                <div className="relative flex w-full flex-col items-center justify-center border border-l-0 border-t-0 border-dashed p-8 hover:bg-card hover:text-primary md:border-b-0">
+                  <span className="text-7xl">1+</span>
+                  <span className="text-muted-foreground">Talks</span>
                 </div>
-                <div className='relative flex w-full flex-col items-center justify-center border border-l-0 border-t-0 border-dashed p-8 hover:bg-card hover:text-primary md:border-b-0'>
-                  <span className='text-7xl'>0</span>
-                  <span className='text-muted-foreground'>Books</span>
+                <div className="relative flex w-full flex-col items-center justify-center border border-l-0 border-t-0 border-dashed p-8 hover:bg-card hover:text-primary md:border-b-0">
+                  <span className="text-7xl">0</span>
+                  <span className="text-muted-foreground">Books</span>
                 </div>
-                <div className='relative flex w-full flex-col items-center justify-center border border-y-0 border-l-0 border-dashed p-8 hover:bg-card hover:text-primary'>
-                  <span className='text-7xl'>∞</span>
-                  <span className='text-muted-foreground'>Passion</span>
+                <div className="relative flex w-full flex-col items-center justify-center border border-y-0 border-l-0 border-dashed p-8 hover:bg-card hover:text-primary">
+                  <span className="text-7xl">∞</span>
+                  <span className="text-muted-foreground">Passion</span>
                 </div>
               </div>
             </div>
