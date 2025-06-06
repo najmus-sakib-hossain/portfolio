@@ -269,9 +269,11 @@ export function SiteHeader() {
                 "https://www.upwork.com/freelancers/~01221bf135ed62b3b3"
               }
             >
-              <EyeCatchingButton_v1 className="text-sm text-primary hover:text-primary-foreground">
-                <Play className="mr-1 size-4" />
-                Start a Project
+              <EyeCatchingButton_v1 className="group">
+                <Play className="mr-1 size-4 group-hover:text-primary" />
+                <span className="group-hover:text-primary text-sm text-muted">
+                  Start a Project
+                </span>
               </EyeCatchingButton_v1>
             </Link>
           </nav>
