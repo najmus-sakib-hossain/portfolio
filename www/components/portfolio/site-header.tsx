@@ -293,7 +293,7 @@ export function SiteHeader() {
             >
               <EyeCatchingButton_v1 className="group">
                 <Play className="mr-1 size-4 group-hover:text-primary text-foreground" />
-                <span className="group-hover:text-primary text-sm text-foreground">
+                <span className="group-hover:text-primary text-sm text-foreground truncate max-w-[60px] sm:max-w-[100px] md:max-w-full whitespace-nowrap">
                   {loaded ? (error ? "Start a Project" : lt("start-project")) : "Start a Project"}
                 </span>
               </EyeCatchingButton_v1>

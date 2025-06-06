@@ -248,7 +248,15 @@ function ContentsClient({ locale }: { locale: Locale }) {
     }
   };
 
-  // Handle add/edit blog form submission
+  // Helper to get locale-prefixed paths for internal navigation
+  const getLocalizedPath = (path: string) => {
+    // Remove leading slash if it exists
+    const cleanPath = path.startsWith('/') ? path.substring(1) : path;
+    // Return locale-prefixed path
+    return `/${locale}${cleanPath ? `/${cleanPath}` : ''}`;
+  };
+  
+  // When adding a blog, potentially update internal links to include locale
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     
@@ -264,45 +272,51 @@ function ContentsClient({ locale }: { locale: Locale }) {
     setLoading(true);
     
     try {
-        let imageUrl = imagePreview;
+      let imageUrl = imagePreview;
+      
+      // Upload new image if provided
+      if (imageFile) {
+        imageUrl = await uploadImageToImgBB(imageFile);
+      }
+      
+      // For internal links, ensure they have locale prefix
+      let finalLink = link;
+      if (finalLink && !finalLink.startsWith('http') && !finalLink.startsWith('mailto:')) {
+        finalLink = getLocalizedPath(finalLink);
+      }
+      
+      if (isEditMode) {
+        // Update existing blog
+        await updateDoc(doc(db, "blogs", currentBlogId), {
+          image: imageUrl,
+          link: finalLink, // Use potentially modified link
+          updatedAt: new Date()
+        });
         
-        // Upload new image if provided
-        if (imageFile) {
-            imageUrl = await uploadImageToImgBB(imageFile);
-        }
+        toast({
+            title: "Success!",
+            description: "Content updated successfully",
+        });
+      } else {
+        // Add new blog
+        await addDoc(collection(db, "blogs"), {
+          name: "",
+          description: "",
+          image: imageUrl,
+          link: finalLink, // Use potentially modified link
+          createdAt: new Date()
+        });
         
-        if (isEditMode) {
-            // Update existing blog - keep name/description for backward compatibility
-            await updateDoc(doc(db, "blogs", currentBlogId), {
-                image: imageUrl,
-                link,
-                updatedAt: new Date()
-            });
-            
-            toast({
-                title: "Success!",
-                description: "Content updated successfully",
-            });
-        } else {
-            // Add new blog - include empty strings for name/description for schema consistency
-            await addDoc(collection(db, "blogs"), {
-                name: "",
-                description: "",
-                image: imageUrl,
-                link,
-                createdAt: new Date()
-            });
-            
-            toast({
-                title: "Success!",
-                description: "New content added successfully",
-            });
-        }
+        toast({
+            title: "Success!",
+            description: "New content added successfully",
+        });
+      }
     
-        // Reset form
-        resetForm();
-        // Refresh blogs
-        fetchInitialBlogs();
+      // Reset form
+      resetForm();
+      // Refresh blogs
+      fetchInitialBlogs();
     
     } catch (error) {
         toast({
@@ -316,7 +330,7 @@ function ContentsClient({ locale }: { locale: Locale }) {
         setIsDialogOpen(false);
     }
   };
-
+  
   // Reset form fields
   const resetForm = () => {
     setName("");

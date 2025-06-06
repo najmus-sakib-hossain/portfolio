@@ -3,8 +3,7 @@
 import * as React from "react"
 import Link, { LinkProps } from "next/link"
 import { useRouter, usePathname } from "next/navigation"
-import { siteConfig } from "@/config/site"
-import { cn, lt, preloadCurrentLocale, loadLocaleData } from "@/lib/utils"
+import { cn, lt, loadLocaleData } from "@/lib/utils"
 import { Icons } from "@/components/portfolio/icons"
 import { Button } from "@/components/ui/button"
 import { ScrollArea } from "@/components/ui/scroll-area"
@@ -38,12 +37,28 @@ export function MobileNav() {
     loadLocale()
   }, [pathname]) // Add pathname as dependency to reload when route changes
 
+  // Get current locale from pathname
+  const getCurrentLocale = () => {
+    if (!pathname) return "en";
+    const segments = pathname.split('/');
+    return segments[1] || "en";
+  }
+  
+  // Helper to get locale-prefixed paths
+  const getLocalizedPath = (path: string) => {
+    const locale = getCurrentLocale();
+    // Remove leading slash if it exists
+    const cleanPath = path.startsWith('/') ? path.substring(1) : path;
+    // Return locale-prefixed path
+    return `/${locale}${cleanPath ? `/${cleanPath}` : ''}`;
+  };
+
   return (
     <Sheet open={open} onOpenChange={setOpen}>
       <SheetTrigger asChild>
         <Button
-          variant="ghost"
-          className="mr-2 px-0 text-base hover:bg-transparent focus-visible:bg-transparent focus-visible:ring-0 focus-visible:ring-offset-0 md:hidden"
+          variant="outline"
+          className="px-0 text-base hover:bg-transparent focus-visible:bg-transparent focus-visible:ring-0 focus-visible:ring-offset-0 md:hidden h-10"
         >
           <svg
             strokeWidth="1.5"
@@ -79,7 +94,7 @@ export function MobileNav() {
       </SheetTrigger>
       <SheetContent side="left" className="pr-0">
         <MobileLink
-          href="/"
+          href={getLocalizedPath("/")}
           className="flex items-center"
           onOpenChange={setOpen}
         >
@@ -90,13 +105,13 @@ export function MobileNav() {
         <ScrollArea className="my-4 h-[calc(100vh-8rem)] pb-10 pl-6">
           <div className="flex flex-col space-y-3">
             <MobileLink
-              href="/"
+              href={getLocalizedPath("/")}
               onOpenChange={setOpen}
             >
               {loaded ? (error ? "Home" : lt("home")) : "Home"}
             </MobileLink>
             <MobileLink
-              href="/contents"
+              href={getLocalizedPath("contents")}
               onOpenChange={setOpen}
             >
               {loaded ? (error ? "Contents" : lt("contents")) : "Contents"}

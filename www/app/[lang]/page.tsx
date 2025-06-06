@@ -4,7 +4,7 @@ import { Suspense, useEffect, useState, SVGProps } from "react";
 import dynamic from 'next/dynamic';
 import Image from 'next/image';
 import Link from 'next/link';
-import { CircleSlash2, Briefcase, Framer, Dribbble } from "lucide-react"; 
+import { CircleSlash2, Briefcase, Framer, Dribbble, Code2 } from "lucide-react"; 
 import { preloadCurrentLocale, lt, loadLocaleData } from "@/lib/utils";
 import { cn } from "@/lib/utils";
 import { Separator } from "@/components/ui/separator";
@@ -226,6 +226,9 @@ export default function Home(props: {
                 </Link>
                 <Link href={"https://dribbble.com/Tanvirhasan00"} className="flex size-12 items-center justify-center rounded-full hover:bg-card hover:text-primary">
                   <Dribbble className="invert dark:invert-0 size-4" />
+                </Link>
+                <Link href={"https://manfromexistence.vercel.app"} className="flex size-12 items-center justify-center rounded-full hover:bg-card hover:text-primary">
+                  <Code2 className="invert dark:invert-0 size-4" />
                 </Link>
               </div>
             </div>
