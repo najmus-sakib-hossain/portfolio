@@ -1,7 +1,7 @@
 "use client"
 
 import React from "react"
-import { MoonIcon, SunIcon } from "lucide-react"
+import { MoonIcon, SunIcon, ChevronDownIcon } from "lucide-react"
 import { useTheme } from "next-themes"
 import {
   AnimationStart,
@@ -16,7 +16,12 @@ import {
   RadiusSliderControl,
   ShadowsControl,
   SurfaceShadesControl,
-} from "@/components/theme/customizer/customizer-controls";
+} from "@/components/theme/customizer/customizer-controls"
+import {
+  Popover,
+  PopoverContent,
+  PopoverTrigger,
+} from "@/components/ui/popover"
 
 interface ThemeToggleAnimationProps {
   variant?: AnimationVariant
@@ -76,12 +81,32 @@ export default function ThemeToggleButton({
   }, [theme, setTheme, start, updateStyles, variant, url])
 
   return (
-    <div
-      onClick={toggleTheme}
-      className={cn("hover:text-primary text-muted-foreground hover:bg-primary-foreground group relative mr-1.5 flex size-10 items-center justify-center rounded-md border", className)}
-    >
-      <SunIcon className="size-4 rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0" />
-      <MoonIcon className="absolute size-4 rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100" />
+    <div className="flex items-center space-x-2 border h-10 p-2 rounded-md">
+      {/* Theme Toggle Button */}
+      <button
+        onClick={toggleTheme}
+        className={cn(
+          "hover:text-primary text-muted-foreground hover:bg-primary-foreground group relative flex items-center justify-center rounded-md transition-colors h-full",
+          className
+        )}
+        aria-label="Toggle theme"
+      >
+        <SunIcon className="size-4 rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0" />
+        <MoonIcon className="absolute size-4 rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100" />
+      </button>
+
+
+
+      {/* Theme Presets Popover */}
+      <Popover>
+        <PopoverTrigger className="hover:text-primary text-muted-foreground hover:bg-primary-foreground group relative flex h-full items-center justify-center rounded-md transition-colors">
+          <ChevronDownIcon className="size-4" />
+        </PopoverTrigger>
+        <PopoverContent className="w-80 p-3">
+          <h3 className="mb-2 text-sm font-medium">Theme Presets</h3>
+          <AllPresetsControl />
+        </PopoverContent>
+      </Popover>
     </div>
   )
 }
