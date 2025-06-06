@@ -37,6 +37,8 @@ type LocaleKeys = {
   name: string;
   from: string;
   highlights: string;
+  "see-all-contents": string;
+  "footer-copyright": string;
   [key: string]: any;
 };
 
