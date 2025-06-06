@@ -1,5 +1,7 @@
+"use client"
+
 import * as React from "react";
-import { cn } from "@/lib/utils";
+import { cn, lt, preloadCurrentLocale } from "@/lib/utils";
 import { Separator } from "@/components/ui/separator"
 import Link from "next/link";
 import type { SVGProps } from "react";
@@ -8,8 +10,18 @@ import { Briefcase, CircleSlash2, Dribbble, Figma, Framer } from "lucide-react";
 import Image from "next/image";
 import { SiteFooter } from "@/components/portfolio/site-footer";
 import { LtDemo } from "@/components/lt-demo";
+import { useEffect, useState } from "react";
 
 export default function Home() {
+  const [loaded, setLoaded] = useState(false);
+
+  // Load locale data when component mounts
+  useEffect(() => {
+    preloadCurrentLocale().then(() => {
+      setLoaded(true);
+    });
+  }, []);
+
   const Icon = ({ className, ...rest }: any) => {
     return (
       <svg
@@ -33,25 +45,27 @@ export default function Home() {
       <LtDemo />
       <div className="mt-4 w-full space-y-8">
         <span className="text-3xl font-bold md:text-4xl lg:text-5xl xl:text-6xl">
-          Designing Distinct Brand Identities with Curiosity and Vision
+          {loaded ? lt("headline") : "Designing Distinct Brand Identities with Curiosity and Vision"}
         </span>
         <div className="flex w-full flex-col justify-between space-y-4 text-muted-foreground md:flex-row md:space-y-0">
           <div className="flex flex-col space-y-2 md:max-h-[200px] md:w-3/5">
             <span className="mt-2">
-              Sketches? I bring them to life as brand visuals. Striving to shape as many iconic identities as possible.
+              {loaded ? lt("description") : "Sketches? I bring them to life as brand visuals. Striving to shape as many iconic identities as possible."}
             </span>
             <div className="flex h-full flex-col space-y-2 md:justify-end">
               <div className="flex flex-col">
-          <span>Now</span>
-          <div className="flex items-center text-foreground">
-            <CircleSlash2 className="mr-2 size-4" /> Independent, shaping brand identities for new clients.
-          </div>
+                <span>{loaded ? lt("now") : "Now"}</span>
+                <div className="flex items-center text-foreground">
+                  <CircleSlash2 className="mr-2 size-4" /> 
+                  {loaded ? lt("now-description") : "Independent, shaping brand identities for new clients."}
+                </div>
               </div>
               <div className="flex flex-col">
-          <span>Previously</span>
-          <div className="flex items-center text-foreground">
-            <Briefcase className="mr-2 size-4" /> Brand designer at Dribbble & Behance.
-          </div>
+                <span>{loaded ? lt("previously") : "Previously"}</span>
+                <div className="flex items-center text-foreground">
+                  <Briefcase className="mr-2 size-4" /> 
+                  {loaded ? lt("previously-description") : "Brand designer at Dribbble & Behance."}
+                </div>
               </div>
             </div>
           </div>
@@ -65,8 +79,8 @@ export default function Home() {
                 <div className="flex w-full items-center justify-center space-x-4 rounded-md p-2 px-0 hover:bg-card hover:text-primary md:justify-evenly">
                   <Image width={50} height={50} src="/portfolio.png" alt="manfromexistnece" className="rounded-full" />
                   <div className="flex flex-col">
-                    <span className="text-foreground">Tanvir Hasan Bijoy</span>
-                    <span>From Bangladesh</span>
+                    <span className="text-foreground">{loaded ? lt("name") : "Tanvir Hasan Bijoy"}</span>
+                    <span>{loaded ? lt("from") : "From Bangladesh"}</span>
                   </div>
                   <div className="flex size-10 items-center justify-center rounded-full border p-1">
                     ❤

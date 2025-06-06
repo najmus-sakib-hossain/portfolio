@@ -4,7 +4,7 @@ import * as React from "react"
 import Link, { LinkProps } from "next/link"
 import { useRouter } from "next/navigation"
 import { siteConfig } from "@/config/site"
-import { cn } from "@/lib/utils"
+import { cn, lt, preloadCurrentLocale } from "@/lib/utils"
 import { Icons } from "@/components/portfolio/icons"
 import { Button } from "@/components/ui/button"
 import { ScrollArea } from "@/components/ui/scroll-area"
@@ -12,6 +12,14 @@ import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
 
 export function MobileNav() {
   const [open, setOpen] = React.useState(false)
+  const [loaded, setLoaded] = React.useState(false)
+
+  // Preload locale data when component mounts
+  React.useEffect(() => {
+    preloadCurrentLocale().then(() => {
+      setLoaded(true)
+    })
+  }, [])
 
   return (
     <Sheet open={open} onOpenChange={setOpen}>
@@ -67,19 +75,19 @@ export function MobileNav() {
               href="/manfromexistence/home"
               onOpenChange={setOpen}
             >
-              Home
+              {loaded ? lt("home") : "Home"}
             </MobileLink>
             <MobileLink
               href="/contents"
               onOpenChange={setOpen}
             >
-              Contents
+              {loaded ? lt("contents") : "Contents"}
             </MobileLink>
             <MobileLink
               href="/about"
               onOpenChange={setOpen}
             >
-              About
+              {loaded ? lt("about") : "About"}
             </MobileLink>
           </div>
         </ScrollArea>

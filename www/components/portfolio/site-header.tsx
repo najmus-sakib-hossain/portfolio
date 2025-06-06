@@ -6,7 +6,7 @@ import { EyeCatchingButton_v1 } from "@/components/portfolio/eye-catching-button
 import { Play, Globe, ChevronDown, Check } from "lucide-react"
 import ThemeToggleButton from "@/components/ui/theme-toggle-button"
 import { useState, useEffect } from "react"
-import { cn } from "@/lib/utils"
+import { cn, lt, preloadCurrentLocale } from "@/lib/utils"
 import { usePathname, useRouter } from "next/navigation"
 import {
   Popover,
@@ -173,6 +173,7 @@ const defaultLocale = "en";
 export function SiteHeader() {
   const [scrolled, setScrolled] = useState(false)
   const [open, setOpen] = useState(false)
+  const [loaded, setLoaded] = useState(false)
   const pathname = usePathname()
   const router = useRouter()
 
@@ -182,6 +183,12 @@ export function SiteHeader() {
     }
 
     window.addEventListener("scroll", handleScroll)
+    
+    // Preload locale data
+    preloadCurrentLocale().then(() => {
+      setLoaded(true)
+    })
+    
     return () => window.removeEventListener("scroll", handleScroll)
   }, [])
 
@@ -270,7 +277,7 @@ export function SiteHeader() {
               <EyeCatchingButton_v1 className="group">
                 <Play className="mr-1 size-4 group-hover:text-primary text-foreground" />
                 <span className="group-hover:text-primary text-sm text-foreground">
-                  Start a Project
+                  {loaded ? lt("start-project") : "Start a Project"}
                 </span>
               </EyeCatchingButton_v1>
             </Link>
