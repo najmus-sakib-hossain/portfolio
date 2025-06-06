@@ -1,20 +1,26 @@
+"use client"
+
+import { useEffect, useState } from "react"
 import { siteConfig } from "@/config/site"
+import { lt, preloadCurrentLocale } from "@/lib/utils"
 
 export function SiteFooter() {
+  const [loaded, setLoaded] = useState(false)
+
+  // Preload locale data when component mounts
+  useEffect(() => {
+    preloadCurrentLocale().then(() => {
+      setLoaded(true)
+    })
+  }, [])
+
   return (
     <footer className="py-6 md:px-8 md:py-0">
       <div className="container flex flex-col items-center justify-between gap-4 md:h-24 md:flex-row">
         <p className="text-balance text-center text-sm leading-loose text-muted-foreground md:text-left">
-          Last updated{" "}
-          <a
-            href={siteConfig.links.twitter}
-            target="_blank"
-            rel="noreferrer"
-            className="font-medium underline underline-offset-4"
-          >
-            06/03/2025
-          </a>
-          . Thanks for visiting my portfolio.
+          {loaded
+            ? lt("footer-copyright")
+            : "Last updated 06/03/2025. Thanks for visiting my portfolio."}
         </p>
       </div>
     </footer>

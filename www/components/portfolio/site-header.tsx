@@ -233,7 +233,7 @@ export function SiteHeader() {
                 <span className="text-sm">{currentLanguageName}</span>
                 <ChevronDown className="size-4" />
               </PopoverTrigger>
-              <PopoverContent className="w-[200px] p-0">
+              <PopoverContent className="w-[200px] p-0 z-[100000000000000000000000000000000000000000000000]">
                 <Command>
                   <CommandInput placeholder="Search language..." />
                   <CommandList>

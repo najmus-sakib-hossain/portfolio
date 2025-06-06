@@ -1,8 +1,11 @@
+"use client"
+
+import { useEffect, useState } from 'react'
 import Link from 'next/link'
 import BlogCard from './blog-card'
 import { blogs, products, projects } from '@/content/article'
 import { Separator } from '@/components/ui//separator'
-
+import { lt, preloadCurrentLocale } from '@/lib/utils'
 
 export function BigProjects() {
   return (
@@ -48,10 +51,21 @@ export function ProductionGradeProjects() {
 }
 
 export function SocialMedias() {
+  const [loaded, setLoaded] = useState(false)
+  
+  // Preload locale data when component mounts
+  useEffect(() => {
+    preloadCurrentLocale().then(() => {
+      setLoaded(true)
+    })
+  }, [])
+  
   return (
     <div className='w-full'>
       <div className='mb-4 flex w-full flex-col items-start justify-center gap-2'>
-        <h1 className='text-xl font-medium tracking-tight'>Highlights of My Work</h1>
+        <h1 className='text-xl font-medium tracking-tight'>
+          {loaded ? lt("highlights") : "Highlights of My Work"}
+        </h1>
         <Separator />
       </div>
       <div className='grid gap-4 sm:grid-cols-2 md:grid-cols-3'>
@@ -62,7 +76,7 @@ export function SocialMedias() {
         ))}
       </div>
       <Link className='my-4 flex w-full items-center justify-center rounded-md border py-2' href="/thoughts">
-        See all contents
+        {loaded ? lt("see-all-contents") : "See all contents"}
       </Link>
     </div>
   )
