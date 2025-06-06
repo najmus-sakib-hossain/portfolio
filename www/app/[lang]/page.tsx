@@ -200,7 +200,7 @@ export default function Home(props: {
             <Icon className="-bottom-3 -right-3" />
             <div className={cn("flex flex-col p-4")}>
               <div className="flex w-full items-center justify-center space-x-4 rounded-md p-2 px-0 hover:bg-card hover:text-primary md:justify-evenly">
-                <Image width={50} height={50} src="/portfolio.png" alt="manfromexistnece" className="rounded-full" />
+                <Image width={50} height={50} src="/portfolio.png" alt="bijoy" className="rounded-full" />
                 <div className="flex flex-col">
                   {/* Static text or non-localized content here */}
                   <span className="font-semibold">Tanvir Hasan Bijoy</span>

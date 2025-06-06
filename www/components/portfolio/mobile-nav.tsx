@@ -9,6 +9,7 @@ import { Icons } from "@/components/portfolio/icons"
 import { Button } from "@/components/ui/button"
 import { ScrollArea } from "@/components/ui/scroll-area"
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
+import Image from "next/image"
 
 export function MobileNav() {
   const [open, setOpen] = React.useState(false)
@@ -66,13 +67,15 @@ export function MobileNav() {
           className="flex items-center"
           onOpenChange={setOpen}
         >
-          <Icons.logo className="mr-2 size-4" />
-          <span className="font-bold">{siteConfig.name}</span>
+          {/* <Icons.logo className="mr-2 size-4" /> */}
+          <Image width={50} height={50} src="/portfolio.png" alt="bijoy" className="rounded-full" />
+
+          <span className="font-bold">Tanvir Hasan Bijoy</span>
         </MobileLink>
         <ScrollArea className="my-4 h-[calc(100vh-8rem)] pb-10 pl-6">
           <div className="flex flex-col space-y-3">
             <MobileLink
-              href="/manfromexistence/home"
+              href="/"
               onOpenChange={setOpen}
             >
               {loaded ? lt("home") : "Home"}
