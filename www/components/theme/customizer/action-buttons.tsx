@@ -7,7 +7,7 @@ import { TooltipWrapper } from "../tooltip-wrapper";
 import { Separator } from "../../ui/separator";
 import { ContrastChecker } from "./contrast-checker";
 import { CopyCodeButtonDialog } from "./copy-code-button-dialog";
-import { CopyThemeCLI } from "./copy-theme-cli";
+// import { CopyThemeCLI } from "./copy-theme-cli";
 import { CustomizerSettings } from "./customizer-settings";
 import { ResetButton } from "./reset-button";
 

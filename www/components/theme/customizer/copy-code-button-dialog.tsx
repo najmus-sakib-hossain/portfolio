@@ -36,7 +36,7 @@ import {
 import { Label } from "../../ui/label";
 import { ScrollArea, ScrollBar } from "../../ui/scroll-area";
 import { ToggleGroup, ToggleGroupItem } from "../../ui/toggle-group";
-import { CopyThemeCLI } from "./copy-theme-cli";
+// import { CopyThemeCLI } from "./copy-theme-cli";
 
 export function CopyCodeButtonDialog({
   className,
@@ -257,7 +257,7 @@ function GeneratedCodeOptions() {
       </div>
 
       <TooltipWrapper label="View shadcn CLI registry command" asChild>
-        <CopyThemeCLI size="sm" variant="outline" className="grow" />
+        {/* <CopyThemeCLI size="sm" variant="outline" className="grow" /> */}
       </TooltipWrapper>
     </div>
   );
