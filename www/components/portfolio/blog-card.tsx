@@ -52,9 +52,9 @@ export default function BlogCard({ title, description, image }: {
         }}
       />
       {/* Card content */}
-      <div className="relative z-10 flex flex-1 flex-col p-3">
+      <div className="relative z-10 flex flex-1 flex-col">
         {/* Image container */}
-        <div className="relative aspect-[16/9] w-full overflow-hidden rounded">
+        <div className="relative aspect-[16/9] w-full overflow-hidden rounded-md">
           <Image
             src={image}
             alt="Thumbnail"
@@ -63,10 +63,10 @@ export default function BlogCard({ title, description, image }: {
           />
         </div>
         {/* Text content */}
-        <div className="ustify-center mt-2 flex flex-col gap-1">
+        {/* <div className="ustify-center mt-2 flex flex-col gap-1">
           <p className="text-sm text-primary">{title}</p>
           <p className="text-xs text-muted-foreground">{description}</p>
-        </div>
+        </div> */}
       </div>
     </motion.div>
   )
