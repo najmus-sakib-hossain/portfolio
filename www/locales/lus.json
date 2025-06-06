@@ -1,101 +1,15 @@
 {
-  "friday": {
-    "title": "Eng nge ka puih theih che?",
-    "welcome": "Friday, I AI-powered assistant-ah hian kan lo lawm a che!",
-    "prompt": "Eng thil pawh zawt la, hna thar thawk tan rawh.",
-    "help": "Ṭanpuina i mamawh em? Ka kaihhruaina tur chein ka rawn kal a ni."
-  },
-  "navigation": {
-    "new": "A thar tan .",
-    "home": "In",
-    "automations": "Automation 1000 a ni.",
-    "varients": "Variant hrang hrang .",
-    "projects": "Project hrang hrang .",
-    "spaces": "Space hrang hrang .",
-    "library": "Library",
-    "more": "Belh",
-    "settings": "Settings 1000 a ni.",
-    "profile": "Ruangam",
-    "dashboard": "dashboard a ni a.",
-    "analytics": "Analytics 1000 a ni."
-  },
-  "authentication": {
-    "sign-in": "Sign in 100 a ni.",
-    "sign-up": "Sign up rawh .",
-    "sign-out": "Sign out rawh .",
-    "forgot-password": "Password theihnghilh?",
-    "reset-password": "Reset password .",
-    "email-label": "Email Address .",
-    "password-label": "Tawngkam ruk",
-    "confirm-password": "Password confirm ."
-  },
-  "dashboard": {
-    "overview": "A tlangpui .",
-    "recent-activity": "Tun hnaia hmalakna .",
-    "quick-actions": "Action rang tak tak te .",
-    "stats": {
-      "tasks-completed": "Tasks tihfel tawh .",
-      "active-projects": "Active project hrang hrang .",
-      "automation-runs": "Automation a kal a."
-    }
-  },
-  "projects": {
-    "create": "Project thar siam rawh .",
-    "edit": "Edit project 100 a ni.",
-    "delete": "Delete project 10 a awm.",
-    "title-placeholder": "Project Title 10 a lut.",
-    "description-placeholder": "Enter project description .",
-    "status": {
-      "in-progress": "In hmasawnna .",
-      "completed": "tihfel a ni tawh .",
-      "on-hold": "On hold ."
-    }
-  },
-  "automations": {
-    "create": "Automation siam rawh .",
-    "run": "Run Automation 1000 a ni.",
-    "pause": "Pause Automation 1000 a ni.",
-    "stop": "Automation tih kha titawp rawh .",
-    "history": "Automation chanchin .",
-    "trigger": "Ti per",
-    "action": "Thiltih"
-  },
-  "library": {
-    "search": "Search library 1000 a ni.",
-    "filter": "Filter a ni a .",
-    "categories": {
-      "templates": "Template te .",
-      "scripts": "Scripts te chu .",
-      "datasets": "Datasets 10 a awm.",
-      "models": "AI Model te ."
-    },
-    "upload": "Upload theihna Resource .",
-    "download": "Resource download rawh ."
-  },
-  "spaces": {
-    "create": "Space siam rawh .",
-    "invite": "Member sawmna .",
-    "leave": "space chhuahsan .",
-    "manage": "Hmun enkawl dan tur .",
-    "title-placeholder": "Space hming ziak rawh ."
-  },
-  "errors": {
-    "generic": "Thil engemaw a kal sual a. Khawngaihin han try leh teh.",
-    "not-found": "Resource a awm lo.",
-    "unauthorized": "He action hi tih phalna i nei lo.",
-    "invalid-input": "Khawngaihin i input kha check la, han try leh teh.",
-    "network": "Network a tihsual a ni. I connection kha lo check ve teh."
-  },
-  "tooltips": {
-    "new-project": "I hnathawh tur ruahman dan tur project thar tan rawh.",
-    "automation-run": "He automation hi run predefined tasks execute turin run rawh.",
-    "library-search": "Template, script, emaw dataset emaw zawng rawh.",
-    "space-invite": "He hmunah hian team member te thawhhona tha tak nei turin sawm rawh."
-  },
-  "footer": {
-    "copyright": "© 2025 Friday AI. Thuneihna zawng zawng a nei.",
-    "terms": "Hnathawh tur thuthlung .",
-    "privacy": "Privacy policy 1.1.",
-    "contact": "Kan rawn biak theih reng e"
-  }
+  "home": "In",
+  "contents": "A chhunga thu awmte .",
+  "about": "Lam",
+  "start-project": "Project pakhat tan .",
+  "headline": "Brand identity hrang hrang designing chu hriat duhna leh vision .",
+  "description": "Sketch a awm em? Brand visuals angin ka nunpui thin. Iconic identity tam thei ang ber siam tumna.",
+  "now": "Tunah",
+  "now-description": "Client thar tan independent, brand identity siamtu a ni.",
+  "previously": "Tun hmaa .",
+  "previously-description": "Dribbble & Behance-ah brand designer a ni.",
+  "name": "Tanvir Hasan Bijoy chuan a rawn ti a.",
+  "from": "Bangladesh atanga lo kal a ni.",
+  "highlights": "Ka hnathawhna hmun pawimawh ber berte ."
 }

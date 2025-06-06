@@ -1,101 +1,15 @@
 {
-  "friday": {
-    "title": "Kini MO le ṣe iranlọwọ fun ọ pẹlu?",
-    "welcome": "Kaabọ si Ọjọ Jimọ, Oluranlọwọ A-agbara rẹ!",
-    "prompt": "Beere ohunkohun tabi bẹrẹ iṣẹ tuntun.",
-    "help": "Nilo iranlọwọ? Mo wa nibi lati dari ọ."
-  },
-  "navigation": {
-    "new": "Bẹrẹ titun",
-    "home": "Ile",
-    "automations": "Awọn adaṣe",
-    "varients": "Awọn iyatọ",
-    "projects": "Awọn iṣẹ akanṣe",
-    "spaces": "Awọn aye",
-    "library": "Ile-ikawe",
-    "more": "Diẹ sii",
-    "settings": "Eto",
-    "profile": "Aworan",
-    "dashboard": "Dasibodu",
-    "analytics": "Itupalẹ"
-  },
-  "authentication": {
-    "sign-in": "Wọle",
-    "sign-up": "Forukọsilẹ",
-    "sign-out": "Ifowosi jada",
-    "forgot-password": "Gbagbe ọrọ aṣina bi?",
-    "reset-password": "Tun ọrọ igbaniwọle Tun",
-    "email-label": "Adirẹsi imeeli",
-    "password-label": "Ọrọ igbaniwọle",
-    "confirm-password": "So ni pato orukoabawole re"
-  },
-  "dashboard": {
-    "overview": "Isọniṣoki",
-    "recent-activity": "Iṣẹ ṣiṣe laipe",
-    "quick-actions": "Awọn iṣe iyara",
-    "stats": {
-      "tasks-completed": "Awọn iṣẹ-ṣiṣe pari",
-      "active-projects": "Awọn iṣẹ ṣiṣe nṣiṣe lọwọ",
-      "automation-runs": "Adaṣe n ṣiṣẹ"
-    }
-  },
-  "projects": {
-    "create": "Ṣẹda iṣẹ tuntun",
-    "edit": "Ise Satunkọ",
-    "delete": "Paarẹ iṣẹ",
-    "title-placeholder": "Tẹ akọle ilana",
-    "description-placeholder": "Tẹ apejuwe Apejuwe",
-    "status": {
-      "in-progress": "Ni ilọsiwaju",
-      "completed": "Pari",
-      "on-hold": "Wa ni idaduro"
-    }
-  },
-  "automations": {
-    "create": "Ṣẹda adaṣe",
-    "run": "Ṣiṣe adaṣe",
-    "pause": "Sinmi imudani",
-    "stop": "Da adaṣe duro",
-    "history": "Itan itan",
-    "trigger": "Oko-ibọn",
-    "action": "Iṣe"
-  },
-  "library": {
-    "search": "Wiwa ile-ikawe",
-    "filter": "Asẹ",
-    "categories": {
-      "templates": "Awo nnkan",
-      "scripts": "Iwe afọwọkọ",
-      "datasets": "Iwe ipamọ",
-      "models": "AI Awọn awoṣe"
-    },
-    "upload": "Po si orisun",
-    "download": "Ṣe igbasilẹ awọn orisun"
-  },
-  "spaces": {
-    "create": "Ṣẹda aaye",
-    "invite": "Awọn ọmọ ẹgbẹ ifiwepe",
-    "leave": "Fi aaye silẹ",
-    "manage": "Ṣakoso aaye",
-    "title-placeholder": "Tẹ orukọ aaye"
-  },
-  "errors": {
-    "generic": "Ohunkan ti ko tọ. Jọwọ gbiyanju lẹẹkansi.",
-    "not-found": "OBIRIN Ko si ri.",
-    "unauthorized": "O ko fun ni aṣẹ lati ṣe igbese yii.",
-    "invalid-input": "Jọwọ ṣayẹwo titẹ sii rẹ ki o tun gbiyanju lẹẹkan si.",
-    "network": "Aṣiṣe nẹtiwọọki. Jọwọ ṣayẹwo asopọ rẹ."
-  },
-  "tooltips": {
-    "new-project": "Bẹrẹ iṣẹ akanṣe tuntun lati ṣeto awọn iṣẹ rẹ.",
-    "automation-run": "Ṣiṣe adaṣe yii lati ṣe awọn iṣẹ asọtẹlẹ tẹlẹ.",
-    "library-search": "Wa fun awọn awoṣe, awọn iwe afọwọkọ, tabi awọn iwe data.",
-    "space-invite": "Pe awọn ọmọ ẹgbẹ ẹgbẹ lati ṣe ifọwọsowọpọ ni aaye yii."
-  },
-  "footer": {
-    "copyright": "© 2025 ọjọ Jimọ AI. Gbogbo awọn ẹtọ wa ni ipamọ.",
-    "terms": "Awọn ofin Iṣẹ",
-    "privacy": "Eto imulo ipamọ",
-    "contact": "Pe wa"
-  }
+  "home": "Ile",
+  "contents": "Awọn akoonu",
+  "about": "Nipa",
+  "start-project": "Bẹrẹ ise agbese kan",
+  "headline": "Ṣiṣeto awọn idanimọ iyasọtọ iyasọtọ pẹlu iwariiri ati iran",
+  "description": "Awọn aworan afọwọya? Mo mu wọn wa si igbesi aye bi awọn iworan iyasọtọ. Tiraka lati ṣe apẹrẹ bi ọpọlọpọ awọn idanimọ ti o ṣeeṣe.",
+  "now": "Bayi",
+  "now-description": "Ominira, awọn idanimọ iyasọtọ fun awọn alabara tuntun.",
+  "previously": "Tẹlẹ",
+  "previously-description": "Onilẹ aṣa ni Dribbble & Firanṣẹ.",
+  "name": "Tanviir Hanu Bijiy",
+  "from": "Lati Bangladesh",
+  "highlights": "Awọn ifojusi ti iṣẹ mi"
 }

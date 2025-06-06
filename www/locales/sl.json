@@ -1,101 +1,15 @@
 {
-  "friday": {
-    "title": "Kaj vam lahko pomagam?",
-    "welcome": "Dobrodošli v petek, vaš asistent z AI!",
-    "prompt": "Vprašajte me karkoli ali začnite novo nalogo.",
-    "help": "Potrebujete pomoč? Tukaj sem, da vas vodim."
-  },
-  "navigation": {
-    "new": "Začnite novo",
-    "home": "Doma",
-    "automations": "Avtomatizacije",
-    "varients": "Različice",
-    "projects": "Projekti",
-    "spaces": "Prostori",
-    "library": "Knjižnica",
-    "more": "Več",
-    "settings": "Nastavitve",
-    "profile": "Profil",
-    "dashboard": "Armaturna plošča",
-    "analytics": "Analitika"
-  },
-  "authentication": {
-    "sign-in": "Prijava",
-    "sign-up": "Prijavite se",
-    "sign-out": "Odjava",
-    "forgot-password": "Ste pozabili geslo?",
-    "reset-password": "Ponastavitev gesla",
-    "email-label": "E -poštni naslov",
-    "password-label": "Geslo",
-    "confirm-password": "Potrdite geslo"
-  },
-  "dashboard": {
-    "overview": "Pregled",
-    "recent-activity": "Nedavna dejavnost",
-    "quick-actions": "Hitra dejanja",
-    "stats": {
-      "tasks-completed": "Naloge opravljene",
-      "active-projects": "Aktivni projekti",
-      "automation-runs": "Avtomatizacija deluje"
-    }
-  },
-  "projects": {
-    "create": "Ustvari nov projekt",
-    "edit": "Uredi projekt",
-    "delete": "Izbriši projekt",
-    "title-placeholder": "Vnesite naslov projekta",
-    "description-placeholder": "Vnesite opis projekta",
-    "status": {
-      "in-progress": "V teku",
-      "completed": "Dokončano",
-      "on-hold": "Na čakanju"
-    }
-  },
-  "automations": {
-    "create": "Ustvari avtomatizacijo",
-    "run": "Zaženite avtomatizacijo",
-    "pause": "Premor avtomatizacije",
-    "stop": "Ustavite avtomatizacijo",
-    "history": "Zgodovina avtomatizacije",
-    "trigger": "Sprožilec",
-    "action": "Dejanje"
-  },
-  "library": {
-    "search": "Iskalna knjižnica",
-    "filter": "Filter",
-    "categories": {
-      "templates": "Predloge",
-      "scripts": "Scenariji",
-      "datasets": "Nabori podatkov",
-      "models": "AI modeli"
-    },
-    "upload": "Nalaganje vira",
-    "download": "Prenos vira"
-  },
-  "spaces": {
-    "create": "Ustvari prostor",
-    "invite": "Povabite člane",
-    "leave": "Pusti prostor",
-    "manage": "Upravljanje prostora",
-    "title-placeholder": "Vnesite ime prostora"
-  },
-  "errors": {
-    "generic": "Nekaj ​​je šlo narobe. Poskusite znova.",
-    "not-found": "Vira ni najdena.",
-    "unauthorized": "Niste pooblaščeni za izvajanje tega dejanja.",
-    "invalid-input": "Preverite svoj vhod in poskusite znova.",
-    "network": "Omrežna napaka. Preverite svojo povezavo."
-  },
-  "tooltips": {
-    "new-project": "Začnite nov projekt za organizacijo svojih nalog.",
-    "automation-run": "Zaženite to avtomatizacijo za izvajanje vnaprej določenih nalog.",
-    "library-search": "Poiščite predloge, skripte ali nabore podatkov.",
-    "space-invite": "Povabite člane skupine, da sodelujejo v tem prostoru."
-  },
-  "footer": {
-    "copyright": "© 2025 Petek AI. Vse pravice pridržane.",
-    "terms": "Pogoji storitve",
-    "privacy": "Politika zasebnosti",
-    "contact": "Kontaktirajte nas"
-  }
+  "home": "Doma",
+  "contents": "Vsebina",
+  "about": "Približno",
+  "start-project": "Začnite projekt",
+  "headline": "Oblikovanje različne identitete blagovne znamke z radovednostjo in vizijo",
+  "description": "Skice? Oživim jih kot vizualne znamke. Prizadevati si je, da bi oblikovali čim več ikoničnih identitet.",
+  "now": "Zdaj",
+  "now-description": "Neodvisna, oblikovanje identitet blagovne znamke za nove stranke.",
+  "previously": "Prej",
+  "previously-description": "Oblikovalec blagovnih znamk pri Dribbble & Behance.",
+  "name": "Tanvir Hasan Bijoy",
+  "from": "Iz Bangladeša",
+  "highlights": "Poudarki mojega dela"
 }

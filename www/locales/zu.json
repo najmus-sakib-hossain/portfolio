@@ -1,101 +1,15 @@
 {
-  "friday": {
-    "title": "Yini engingakusiza ngayo?",
-    "welcome": "Uyemukelwa kuLwesihlanu, umsizi wakho we-AI-Powered!",
-    "prompt": "Ngibuze noma yini noma uqale umsebenzi omusha.",
-    "help": "Ngabe udinga usizo? Ngilapha ukuzokuqondisa."
-  },
-  "navigation": {
-    "new": "Qala okusha",
-    "home": "Ikhaya",
-    "automations": "Okuzenzakalelayo",
-    "varients": "Okuhlukile",
-    "projects": "Amaphrojekthi",
-    "spaces": "Izikhala",
-    "library": "Indlu ehlala izincwadi",
-    "more": "Okuningi",
-    "settings": "Amasethingi",
-    "profile": "Uhlangothi olulodwa lobuso",
-    "dashboard": "Idishibhodi",
-    "analytics": "-Yingxoxo"
-  },
-  "authentication": {
-    "sign-in": "Ngena ngemvume",
-    "sign-up": "Bhalisela",
-    "sign-out": "Phuma ngemvume",
-    "forgot-password": "Ukhohlwe iphasiwedi?",
-    "reset-password": "Setha kabusha iphasiwedi",
-    "email-label": "Ikheli le-imeyili",
-    "password-label": "Igama lokuvunyelwa ukungena endaweni ethile",
-    "confirm-password": "Qinisekisa Iphasiwedi"
-  },
-  "dashboard": {
-    "overview": "Ukucubungula",
-    "recent-activity": "Umsebenzi wakamuva",
-    "quick-actions": "Izenzo ezisheshayo",
-    "stats": {
-      "tasks-completed": "Imisebenzi eqediwe",
-      "active-projects": "Amaphrojekthi asebenzayo",
-      "automation-runs": "I-automation run"
-    }
-  },
-  "projects": {
-    "create": "Dala iphrojekthi entsha",
-    "edit": "Hlela iphrojekthi",
-    "delete": "Susa iphrojekthi",
-    "title-placeholder": "Faka isihloko sephrojekthi",
-    "description-placeholder": "Faka Incazelo Yephrojekthi",
-    "status": {
-      "in-progress": "Kuyaqhubeka",
-      "completed": "Qedwa",
-      "on-hold": "Kubanjiwe"
-    }
-  },
-  "automations": {
-    "create": "Dala ezenzakalelayo",
-    "run": "Run automation",
-    "pause": "Misa okwesikhashana ezenzakalelayo",
-    "stop": "Stop automation",
-    "history": "Umlando we-automation",
-    "trigger": "Ingcupho yesibhamu",
-    "action": "Ukwenza"
-  },
-  "library": {
-    "search": "Sesha umtapo wezincwadi",
-    "filter": "Vova",
-    "categories": {
-      "templates": "Izifanekiso",
-      "scripts": "Imibhalo",
-      "datasets": "Amadatha",
-      "models": "Amamodeli we-AI"
-    },
-    "upload": "Faka isithombo",
-    "download": "Ukulanda kabusha izinsiza"
-  },
-  "spaces": {
-    "create": "Dala isikhala",
-    "invite": "Mema amalungu",
-    "leave": "Shiya isikhala",
-    "manage": "Phatha isikhala",
-    "title-placeholder": "Faka igama lesikhala"
-  },
-  "errors": {
-    "generic": "Kukhona into engahambanga kahle. Sicela uzame futhi.",
-    "not-found": "Izinsiza azitholakali.",
-    "unauthorized": "Awugunyaziwe ukwenza lesi senzo.",
-    "invalid-input": "Sicela ubheke okokufaka bese uzama futhi.",
-    "network": "Iphutha lenethiwekhi. Sicela ubheke ukuxhumana kwakho."
-  },
-  "tooltips": {
-    "new-project": "Qala iphrojekthi entsha ukuhlela imisebenzi yakho.",
-    "automation-run": "Qalisa lokhu okuzenzakalelayo ukuze wenze imisebenzi echazwe ngaphambilini.",
-    "library-search": "Sesha izifanekiso, imibhalo, noma ama-datasets.",
-    "space-invite": "Mema amalungu eqembu ukuthi asebenzisane kulesi sikhala."
-  },
-  "footer": {
-    "copyright": "© 2025 uLwesihlanu AI. Wonke Amalungelo Agodliwe.",
-    "terms": "Imibandela Yensiza",
-    "privacy": "Inqubomgomo yobumfihlo",
-    "contact": "Xhumana nathi"
-  }
+  "home": "Ikhaya",
+  "contents": "Okuqukethwe",
+  "about": "Maqondana",
+  "start-project": "Qala iphrojekthi",
+  "headline": "Ukuqamba ubunikazi bomkhiqizo obuhlukile ngelukuluku nombono",
+  "description": "Imidwebo? Ngibalethela empilweni njengezinto ezibonakalayo zomkhiqizo. Ukulwela ukwakheka kobunikazi obuningi bethoniso ngangokunokwenzeka.",
+  "now": "Manje",
+  "now-description": "I-Indent, yakha ubunikazi bomkhiqizo wamakhasimende amasha.",
+  "previously": "Ngaphambilini",
+  "previously-description": "Umklami womkhiqizo eDribbble & Betance.",
+  "name": "UTanvir Hasan Bijoy",
+  "from": "Kusuka Bangladesh",
+  "highlights": "Amaphuzu avelele omsebenzi wami"
 }

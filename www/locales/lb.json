@@ -1,101 +1,15 @@
 {
-  "friday": {
-    "title": "Wat kann ech Iech hëllefen?",
-    "welcome": "Wëllkomm op Freideg, Ären AI-PEDED Assistent!",
-    "prompt": "Frot mech eppes oder fänkt eng nei Aufgab un.",
-    "help": "Braucht Dir Hëllef? Ech sinn hei fir Iech ze guidéieren."
-  },
-  "navigation": {
-    "new": "Ufunn Neigoen",
-    "home": "Doheem",
-    "automations": "Automatik",
-    "varients": "Varietetten",
-    "projects": "Projeten",
-    "spaces": "Stéi",
-    "library": "Buergermeeschter",
-    "more": "Méi kleng",
-    "settings": "Astellunge",
-    "profile": "Profilféiernd",
-    "dashboard": "Dashboard",
-    "analytics": "Analytics"
-  },
-  "authentication": {
-    "sign-in": "Umellen",
-    "sign-up": "Umellen",
-    "sign-out": "Ofmellen",
-    "forgot-password": "Passwuert vergiess?",
-    "reset-password": "Passwuert zrécksetzen",
-    "email-label": "E-Mailadress",
-    "password-label": "Passwuert",
-    "confirm-password": "Ausd gin"
-  },
-  "dashboard": {
-    "overview": "Iwwertsëtteger",
-    "recent-activity": "Rezent Aktivitéit",
-    "quick-actions": "Séier Aktiounen",
-    "stats": {
-      "tasks-completed": "Aufgaben ofgeschloss",
-      "active-projects": "Aktiv Projeten",
-      "automation-runs": "Automatesch leeft"
-    }
-  },
-  "projects": {
-    "create": "Neie Projet erstellen",
-    "edit": "Editjet",
-    "delete": "Läschen Projet",
-    "title-placeholder": "Gitt Projektitel un",
-    "description-placeholder": "Gitt Projet Beschreiwung un",
-    "status": {
-      "in-progress": "A Beaarbechtung",
-      "completed": "Ofgeschloss",
-      "on-hold": "Iwiicht"
-    }
-  },
-  "automations": {
-    "create": "Erstellen Automatioun",
-    "run": "Run Automatioun",
-    "pause": "Paust automatesch",
-    "stop": "Stoppen Automatesch",
-    "history": "Automatesch Geschicht",
-    "trigger": "Ausléiser",
-    "action": "Aktioun"
-  },
-  "library": {
-    "search": "Sichen betry",
-    "filter": "Filter",
-    "categories": {
-      "templates": "Schablounen",
-      "scripts": "Scripte",
-      "datasets": "Dateselen",
-      "models": "Ai Modeller"
-    },
-    "upload": "Eroplueden Ressource",
-    "download": "Eroflueden Ressource"
-  },
-  "spaces": {
-    "create": "Erstellen Raum",
-    "invite": "Invitéiert Memberen",
-    "leave": "Verlooss Raum",
-    "manage": "Managen Plaz",
-    "title-placeholder": "Gitt Plaz Numm"
-  },
-  "errors": {
-    "generic": "Eppes ass falsch gaang. Probéiert w.e.g. nach eng Kéier.",
-    "not-found": "Ressource net fonnt.",
-    "unauthorized": "Dir sidd net autoriséiert dës Aktioun ze maachen.",
-    "invalid-input": "Préift w.e.g. Ären Input a probéiert et nach eng Kéier.",
-    "network": "Netzwierkfehler. Préift w.e.g. Är Verbindung."
-  },
-  "tooltips": {
-    "new-project": "Fänkt en neie Projet un fir Är Aufgaben ze organiséieren.",
-    "automation-run": "Lafe dës Automatioun fir virbestëmmten Aufgaben auszeféieren.",
-    "library-search": "Sich no Schabloune, Scripten, oder Datesätz.",
-    "space-invite": "Invitéiert Team Memberen fir an dësem Raum ze kollaboréieren."
-  },
-  "footer": {
-    "copyright": "© 2025 Freideg Ai. All Rechter reservéiert.",
-    "terms": "Sécherheet vun den Servicing",
-    "privacy": "Privatsphär Politik",
-    "contact": "Kontaktéiert eis"
-  }
+  "home": "Doheem",
+  "contents": "Inhalt",
+  "about": "Iwwer",
+  "start-project": "Start e Projet",
+  "headline": "Designt seng markant Mark Identitéite mat Virwëtz a Visioun",
+  "description": "Skizzen? Ech bréngen se an d'Liewen als Mark Visuals. Striewen als vill ikonesch Identitéiten wéi méiglech ze stoppen.",
+  "now": "Elo",
+  "now-description": "Onofhängeg, Shipping Marken Identitéiten fir nei Clienten.",
+  "previously": "Virdrun",
+  "previously-description": "Marken Designer beim Dribbble & behuelen.",
+  "name": "Tanvir Hasan Bijou",
+  "from": "Aus Bangladesch",
+  "highlights": "Highlights vu menger Aarbecht"
 }

@@ -1,101 +1,15 @@
 {
-  "friday": {
-    "title": "Womit kann ich dir helfen?",
-    "welcome": "Willkommen am Freitag, Ihrem AS-Assistenten mit KI!",
-    "prompt": "Fragen Sie mich etwas oder starten Sie eine neue Aufgabe.",
-    "help": "Benötigen Sie Hilfe? Ich bin hier, um dich zu führen."
-  },
-  "navigation": {
-    "new": "Starten Sie neu",
-    "home": "Heim",
-    "automations": "Automatisierung",
-    "varients": "Varianten",
-    "projects": "Projekte",
-    "spaces": "Räume",
-    "library": "Bibliothek",
-    "more": "Mehr",
-    "settings": "Einstellungen",
-    "profile": "Profil",
-    "dashboard": "Armaturenbrett",
-    "analytics": "Analyse"
-  },
-  "authentication": {
-    "sign-in": "Anmelden",
-    "sign-up": "Melden Sie sich an",
-    "sign-out": "Abmelden",
-    "forgot-password": "Passwort vergessen?",
-    "reset-password": "Passwort zurücksetzen",
-    "email-label": "E-Mail-Adresse",
-    "password-label": "Passwort",
-    "confirm-password": "Passwort bestätigen"
-  },
-  "dashboard": {
-    "overview": "Überblick",
-    "recent-activity": "Jüngste Aktivität",
-    "quick-actions": "Schnelle Aktionen",
-    "stats": {
-      "tasks-completed": "Aufgaben erledigt",
-      "active-projects": "Aktive Projekte",
-      "automation-runs": "Automatisierung läuft"
-    }
-  },
-  "projects": {
-    "create": "Neues Projekt erstellen",
-    "edit": "Projekt bearbeiten",
-    "delete": "Projekt löschen",
-    "title-placeholder": "Projekttitel eingeben",
-    "description-placeholder": "Geben Sie die Projektbeschreibung ein",
-    "status": {
-      "in-progress": "Im Gange",
-      "completed": "Vollendet",
-      "on-hold": "In der Warteschleife"
-    }
-  },
-  "automations": {
-    "create": "Automatisierung erstellen",
-    "run": "Automatisierung ausführen",
-    "pause": "Pause Automatisierung",
-    "stop": "Automatisierung stoppen",
-    "history": "Automatisierungshistorie",
-    "trigger": "Auslösen",
-    "action": "Aktion"
-  },
-  "library": {
-    "search": "Suchbibliothek",
-    "filter": "Filter",
-    "categories": {
-      "templates": "Vorlagen",
-      "scripts": "Skripte",
-      "datasets": "Datensätze",
-      "models": "KI -Modelle"
-    },
-    "upload": "Ressource hochladen",
-    "download": "Ressource herunterladen"
-  },
-  "spaces": {
-    "create": "Raum schaffen",
-    "invite": "Mitglieder einladen",
-    "leave": "Raum lassen",
-    "manage": "Raum verwalten",
-    "title-placeholder": "Geben Sie den Speichernamen ein"
-  },
-  "errors": {
-    "generic": "Etwas lief schief. Bitte versuchen Sie es erneut.",
-    "not-found": "Ressource nicht gefunden.",
-    "unauthorized": "Sie sind nicht berechtigt, diese Aktion auszuführen.",
-    "invalid-input": "Bitte überprüfen Sie Ihre Eingabe und versuchen Sie es erneut.",
-    "network": "Netzwerkfehler. Bitte überprüfen Sie Ihre Verbindung."
-  },
-  "tooltips": {
-    "new-project": "Starten Sie ein neues Projekt, um Ihre Aufgaben zu organisieren.",
-    "automation-run": "Führen Sie diese Automatisierung aus, um vordefinierte Aufgaben auszuführen.",
-    "library-search": "Suchen Sie nach Vorlagen, Skripten oder Datensätzen.",
-    "space-invite": "Laden Sie die Teammitglieder ein, in diesem Bereich zusammenzuarbeiten."
-  },
-  "footer": {
-    "copyright": "© 2025 Freitag AI. Alle Rechte vorbehalten.",
-    "terms": "Nutzungsbedingungen",
-    "privacy": "Datenschutzrichtlinie",
-    "contact": "Kontaktieren Sie uns"
-  }
+  "home": "Heim",
+  "contents": "Inhalt",
+  "about": "Um",
+  "start-project": "Starten Sie ein Projekt",
+  "headline": "Gestaltung verschiedener Markenidentitäten mit Neugier und Sicht",
+  "description": "Skizzen? Ich erweckte sie als Marken -Visuals zum Leben. Streben, so viele ikonische Identitäten wie möglich zu formen.",
+  "now": "Jetzt",
+  "now-description": "Unabhängige Markenidentitäten für neue Kunden.",
+  "previously": "Vorher",
+  "previously-description": "Markendesigner bei Dribbble & Behance.",
+  "name": "Tanvir Hasan Bijoy",
+  "from": "Aus Bangladesch",
+  "highlights": "Höhepunkte meiner Arbeit"
 }

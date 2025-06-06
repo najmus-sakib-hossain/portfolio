@@ -1,101 +1,15 @@
 {
-  "friday": {
-    "title": "Cad is féidir liom cabhrú leat?",
-    "welcome": "Fáilte go dtí an Aoine, do chúntóir faoi thiomáint AI!",
-    "prompt": "Fiafraigh díom rud ar bith nó cuir tús le tasc nua.",
-    "help": "Cúnamh uait? Tá mé anseo chun tú a threorú."
-  },
-  "navigation": {
-    "new": "Tús nua",
-    "home": "Áit",
-    "automations": "Uathoibrithe",
-    "varients": "Malairtí",
-    "projects": "Tionscadail",
-    "spaces": "Spásanna",
-    "library": "Leabharlann",
-    "more": "A thuilleadh",
-    "settings": "Socruithe",
-    "profile": "Cuir i bpróifíl",
-    "dashboard": "Deais",
-    "analytics": "Anailísíocht"
-  },
-  "authentication": {
-    "sign-in": "Sínigh isteach",
-    "sign-up": "Sínigh",
-    "sign-out": "Sínigh",
-    "forgot-password": "Dearmad ar phasfhocal?",
-    "reset-password": "Pasfhocal athshocraithe",
-    "email-label": "Seoladh ríomhphoist",
-    "password-label": "Pasfhocal",
-    "confirm-password": "Deimhnigh Pasfhocal"
-  },
-  "dashboard": {
-    "overview": "Forbhreathnú",
-    "recent-activity": "Gníomhaíocht le déanaí",
-    "quick-actions": "Gníomhartha gasta",
-    "stats": {
-      "tasks-completed": "Tascanna críochnaithe",
-      "active-projects": "Tionscadail ghníomhacha",
-      "automation-runs": "Ritheann uathoibriú"
-    }
-  },
-  "projects": {
-    "create": "Tionscadal nua a chruthú",
-    "edit": "Tionscadal a chur in eagar",
-    "delete": "Scrios an Tionscadal",
-    "title-placeholder": "Iontráil Teideal an Tionscadail",
-    "description-placeholder": "Iontráil Cur síos ar an Tionscadal",
-    "status": {
-      "in-progress": "Idir idir lámha",
-      "completed": "Críochnaithe",
-      "on-hold": "Ar a shealbhú"
-    }
-  },
-  "automations": {
-    "create": "Cruthaigh Uathoibriú",
-    "run": "Uathoibriú Rith",
-    "pause": "Uathoibriú sos",
-    "stop": "Stad uathoibriú",
-    "history": "Stair uathoibrithe",
-    "trigger": "Trug",
-    "action": "Caingean"
-  },
-  "library": {
-    "search": "Leabharlann chuardaigh",
-    "filter": "Scagaire",
-    "categories": {
-      "templates": "Teimpléid",
-      "scripts": "Scripteanna",
-      "datasets": "Tacair shonraí",
-      "models": "Samhlacha AI"
-    },
-    "upload": "Acmhainn Uaslódáil",
-    "download": "Acmhainn íoslódála"
-  },
-  "spaces": {
-    "create": "Spás a chruthú",
-    "invite": "Tabhair cuireadh do bhaill",
-    "leave": "Fág Spás",
-    "manage": "Spás a bhainistiú",
-    "title-placeholder": "Iontráil ainm an spáis"
-  },
-  "errors": {
-    "generic": "Chuaigh rud éigin mícheart. Bain triail eile as.",
-    "not-found": "Acmhainn nár aimsíodh.",
-    "unauthorized": "Níl tú údaraithe chun an gníomh seo a dhéanamh.",
-    "invalid-input": "Seiceáil d’ionchur le do thoil agus bain triail eile as.",
-    "network": "Network error. Seiceáil do nasc le do thoil."
-  },
-  "tooltips": {
-    "new-project": "Cuir tús le tionscadal nua chun do chuid tascanna a eagrú.",
-    "automation-run": "Rith an uathoibriú seo chun tascanna réamhshainithe a fhorghníomhú.",
-    "library-search": "Cuardaigh teimpléid, scripteanna, nó tacair shonraí.",
-    "space-invite": "Tabhair cuireadh do bhaill foirne comhoibriú sa spás seo."
-  },
-  "footer": {
-    "copyright": "© 2025 Dé hAoine AI. Gach ceart ar cosaint.",
-    "terms": "Téarmaí Seirbhíse",
-    "privacy": "Polasaí Príobháideachta",
-    "contact": "Déan teagmháil linn"
-  }
+  "home": "Áit",
+  "contents": "Ábhar",
+  "about": "Thart ar",
+  "start-project": "Tosaigh tionscadal",
+  "headline": "Féiniúlachtaí branda ar leith a dhearadh le fiosracht agus fís",
+  "description": "Sceitsí? Tugaim chun na beatha iad mar radhairc bhranda. Ag iarraidh an oiread féiniúlachtaí íocónacha agus is féidir a mhúnlú.",
+  "now": "Atá ann i láthair na huaire",
+  "now-description": "Neamhspleách, féiniúlachtaí branda a mhúnlú do chliaint nua.",
+  "previously": "Roimhe seo",
+  "previously-description": "Dearthóir branda ag Dribbble & Behance.",
+  "name": "Tanvir Hasan Bijoy",
+  "from": "Ón mBanglaidéis",
+  "highlights": "Buaicphointí mo chuid oibre"
 }

@@ -1,101 +1,15 @@
 {
-  "friday": {
-    "title": "何を助けることができますか？",
-    "welcome": "あなたのAI駆動のアシスタント、金曜日へようこそ！",
-    "prompt": "何でも聞いたり、新しいタスクを開始したりしてください。",
-    "help": "支援が必要ですか？私はあなたを導くためにここにいます。"
-  },
-  "navigation": {
-    "new": "新しく始めます",
-    "home": "家",
-    "automations": "自動化",
-    "varients": "バリアント",
-    "projects": "プロジェクト",
-    "spaces": "スペース",
-    "library": "図書館",
-    "more": "もっと",
-    "settings": "設定",
-    "profile": "プロフィール",
-    "dashboard": "ダッシュボード",
-    "analytics": "分析"
-  },
-  "authentication": {
-    "sign-in": "サインイン",
-    "sign-up": "サインアップ",
-    "sign-out": "サインアウト",
-    "forgot-password": "パスワードをお忘れですか？",
-    "reset-password": "パスワードをリセットします",
-    "email-label": "電子メールアドレス",
-    "password-label": "パスワード",
-    "confirm-password": "パスワードを認証する"
-  },
-  "dashboard": {
-    "overview": "概要",
-    "recent-activity": "最近の活動",
-    "quick-actions": "クイックアクション",
-    "stats": {
-      "tasks-completed": "タスクが完了しました",
-      "active-projects": "アクティブなプロジェクト",
-      "automation-runs": "自動化が実行されます"
-    }
-  },
-  "projects": {
-    "create": "新しいプロジェクトを作成します",
-    "edit": "プロジェクトの編集",
-    "delete": "プロジェクトを削除します",
-    "title-placeholder": "プロジェクトタイトルを入力してください",
-    "description-placeholder": "プロジェクトの説明を入力してください",
-    "status": {
-      "in-progress": "進行中",
-      "completed": "完了しました",
-      "on-hold": "保留中"
-    }
-  },
-  "automations": {
-    "create": "自動化を作成します",
-    "run": "自動化を実行します",
-    "pause": "自動化を一時停止します",
-    "stop": "自動化を停止します",
-    "history": "自動化履歴",
-    "trigger": "トリガー",
-    "action": "アクション"
-  },
-  "library": {
-    "search": "ライブラリを検索します",
-    "filter": "フィルター",
-    "categories": {
-      "templates": "テンプレート",
-      "scripts": "スクリプト",
-      "datasets": "データセット",
-      "models": "AIモデル"
-    },
-    "upload": "リソースをアップロードします",
-    "download": "リソースをダウンロードします"
-  },
-  "spaces": {
-    "create": "スペースを作成します",
-    "invite": "メンバーを招待します",
-    "leave": "スペースを残します",
-    "manage": "スペースを管理します",
-    "title-placeholder": "スペース名を入力します"
-  },
-  "errors": {
-    "generic": "何かがうまくいかなかった。もう一度やり直してください。",
-    "not-found": "リソースが見つかりません。",
-    "unauthorized": "このアクションを実行する権限はありません。",
-    "invalid-input": "入力を確認して、もう一度やり直してください。",
-    "network": "ネットワークエラー。接続を確認してください。"
-  },
-  "tooltips": {
-    "new-project": "タスクを整理するための新しいプロジェクトを開始します。",
-    "automation-run": "この自動化を実行して、事前定義されたタスクを実行します。",
-    "library-search": "テンプレート、スクリプト、またはデータセットを検索します。",
-    "space-invite": "チームメンバーをこの分野で協力するよう招待します。"
-  },
-  "footer": {
-    "copyright": "©2025金曜日AI。無断転載を禁じます。",
-    "terms": "利用規約",
-    "privacy": "プライバシーポリシー",
-    "contact": "お問い合わせ"
-  }
+  "home": "家",
+  "contents": "コンテンツ",
+  "about": "について",
+  "start-project": "プロジェクトを開始します",
+  "headline": "好奇心とビジョンを持つ明確なブランドアイデンティティを設計します",
+  "description": "スケッチ？私は彼らをブランドビジュアルとして生き返らせます。できるだけ多くの象徴的なアイデンティティを形作るよう努めています。",
+  "now": "今",
+  "now-description": "新しいクライアント向けの独立した形状のブランドアイデンティティ。",
+  "previously": "以前",
+  "previously-description": "Dribbble＆Behanceのブランドデザイナー。",
+  "name": "タンビル・ハサン・ビョジー",
+  "from": "バングラデシュから",
+  "highlights": "私の仕事のハイライト"
 }

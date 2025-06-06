@@ -1,101 +1,15 @@
 {
-  "friday": {
-    "title": "O le a se mea e mafai ona ou fesoasoani ia te oe?",
-    "welcome": "Susu mai i le Aso Faraile, lau fesoasoani a le Aai-sasaina!",
-    "prompt": "Fesili mai ia te aʻu soʻo se mea pe amata se galuega fou.",
-    "help": "Manaomia le fesoasoani? Ua ou sau e taʻitaʻi oe."
-  },
-  "navigation": {
-    "new": "Amata fou",
-    "home": "Aiga",
-    "automations": "Otometi",
-    "varients": "Suisui",
-    "projects": "Galuega",
-    "spaces": "Avanoa",
-    "library": "Faletusi",
-    "more": "Sili atu",
-    "settings": "Tulaga",
-    "profile": "Talaaga otooto",
-    "dashboard": "Dashboard",
-    "analytics": "Auiliiliga"
-  },
-  "authentication": {
-    "sign-in": "Saini ese j",
-    "sign-up": "Saini loa",
-    "sign-out": "Saini ese",
-    "forgot-password": "Galo upu faataga?",
-    "reset-password": "Toe setiina upu faataga",
-    "email-label": "Imeli tuatusi",
-    "password-label": "Numera e le iloa e sesi",
-    "confirm-password": "faamaonia le upu faalilolilo"
-  },
-  "dashboard": {
-    "overview": "Aotelega",
-    "recent-activity": "Gaoioiga talu ai nei",
-    "quick-actions": "Vave gaioiga",
-    "stats": {
-      "tasks-completed": "Ua maeʻa galuega",
-      "active-projects": "Galuega Faʻaola",
-      "automation-runs": "Otometi tamoe"
-    }
-  },
-  "projects": {
-    "create": "Fatu Galuega Fou",
-    "edit": "Polokalame Faafomai",
-    "delete": "Aveese le poloketi",
-    "title-placeholder": "Ulu atu i le poloketi ulutala",
-    "description-placeholder": "Ulu atu i le poloketi faamatalaga",
-    "status": {
-      "in-progress": "Sologa",
-      "completed": "Faamaeaina",
-      "on-hold": "Onā"
-    }
-  },
-  "automations": {
-    "create": "Fai le otometi",
-    "run": "Tamoe otometi",
-    "pause": "Malolo otometi",
-    "stop": "Taofi le otometi",
-    "history": "Talafealoai o le Autositalaina",
-    "trigger": "Faʻatosina",
-    "action": "Tagi"
-  },
-  "library": {
-    "search": "Saili faletusi",
-    "filter": "Faamama",
-    "categories": {
-      "templates": "Faaeteete",
-      "scripts": "Tusitusiga",
-      "datasets": "Faamaumauga",
-      "models": "AI AOAO"
-    },
-    "upload": "Tuʻu i luga punaoa",
-    "download": "Sii mai Punaoa"
-  },
-  "spaces": {
-    "create": "Faia avanoa",
-    "invite": "Valaaulia tagata",
-    "leave": "Tuu le avanoa",
-    "manage": "Pulea avanoa",
-    "title-placeholder": "Ulufale avanoa igoa"
-  },
-  "errors": {
-    "generic": "Se mea na sese. Faamolemole toe taumafai.",
-    "not-found": "E le maua punaoa.",
-    "unauthorized": "E te le o faatagaina e faia lenei gaioiga.",
-    "invalid-input": "Faʻamolemole siaki lau sao ma toe taumafai.",
-    "network": "Network sese. Faʻamolemole siaki lau fesoʻotaʻiga."
-  },
-  "tooltips": {
-    "new-project": "Amata se poloketi fou e faatulaga ai au galuega.",
-    "automation-run": "Tamoe lenei otometi e faatino galuega muamua.",
-    "library-search": "Saili mo Sososlates, tusitusiga, po o ata tifaga.",
-    "space-invite": "Valaaulia au tofi e galulue faatasi i lenei avanoa."
-  },
-  "footer": {
-    "copyright": "© 2025 Aso Faraile AI. Ua taofia aia uma",
-    "terms": "Tuutuuga o Auaunaga",
-    "privacy": "Faalauaiteleina Faiga Faavae",
-    "contact": "Faafesootai matou"
-  }
+  "home": "Aiga",
+  "contents": "Anotusi",
+  "about": "Uiga",
+  "start-project": "Amata se poloketi",
+  "headline": "Manatu ese ese ituaiga o faʻailoga ma le fia iloa ma vaʻai",
+  "description": "Ata? Ou te aumaia i latou i le olaga e pei o ituaiga ata. O le a taumafai e avea ma foliga o le tele o faʻailoga e mafai ai.",
+  "now": "Taimi nei",
+  "now-description": "Tutoatasi, Faapipiiina ondinds o mea mo tagata fou.",
+  "previously": "Talu ai",
+  "previously-description": "Brand Capigner i le dribbbble & amio.",
+  "name": "Tanvir Hassan bioy",
+  "from": "Mai Bangladesh",
+  "highlights": "Manatu o laʻu galuega"
 }

@@ -1,101 +1,15 @@
 {
-  "friday": {
-    "title": "ምን ልረዳህ እችላለሁ?",
-    "welcome": "ወደ አርብ, ከ AI-የተጎዱ ረዳትዎ እንኳን በደህና መጡ!",
-    "prompt": "ማንኛውንም ነገር ጠይቁ ወይም አዲስ ሥራ ይጀምሩ.",
-    "help": "እርዳታ ይፈልጋሉ? እኔ እርስዎን ለመምራት እዚህ መጥቻለሁ."
-  },
-  "navigation": {
-    "new": "አዲስ ይጀምሩ",
-    "home": "ቤት",
-    "automations": "ራስ-ሰር",
-    "varients": "ልዩነቶች",
-    "projects": "ፕሮጄክቶች",
-    "spaces": "ቦታዎች",
-    "library": "ቤተ መጻሕፍት",
-    "more": "ተጨማሪ",
-    "settings": "ቅንብሮች",
-    "profile": "መገለጫ",
-    "dashboard": "ዳሽቦርድ",
-    "analytics": "ትንታኔዎች"
-  },
-  "authentication": {
-    "sign-in": "ይግቡ",
-    "sign-up": "ይመዝገቡ",
-    "sign-out": "ዘግቷል",
-    "forgot-password": "የይለፍ ቃል ረሱ?",
-    "reset-password": "የይለፍ ቃል ዳግም አስጀምር",
-    "email-label": "የኢሜል አድራሻ",
-    "password-label": "የይለፍ ቃል",
-    "confirm-password": "የይለፍ ቃል ያረጋግጡ"
-  },
-  "dashboard": {
-    "overview": "አጠቃላይ እይታ",
-    "recent-activity": "የቅርብ ጊዜ እንቅስቃሴ",
-    "quick-actions": "ፈጣን እርምጃዎች",
-    "stats": {
-      "tasks-completed": "ተግባሮች ተጠናቅቀዋል",
-      "active-projects": "ንቁ ፕሮጄክቶች",
-      "automation-runs": "አውቶማቲክ ሩጫ"
-    }
-  },
-  "projects": {
-    "create": "አዲስ ፕሮጀክት ይፍጠሩ",
-    "edit": "ፕሮጀክት አርትዕ",
-    "delete": "ፕሮጀክት ሰርዝ",
-    "title-placeholder": "የፕሮጀክት ርዕስ ያስገቡ",
-    "description-placeholder": "የፕሮጀክት መግለጫ ያስገቡ",
-    "status": {
-      "in-progress": "በሂደት ላይ",
-      "completed": "ተጠናቅቋል",
-      "on-hold": "ያዝ"
-    }
-  },
-  "automations": {
-    "create": "ራስ-ሰር ይፍጠሩ",
-    "run": "አውቶማቲክ አሂድ",
-    "pause": "አቁም ራስ-ሰር",
-    "stop": "ራስ-ሰር ያቁሙ",
-    "history": "ራስ-ሰር ታሪክ",
-    "trigger": "ቀስቅሴ",
-    "action": "እርምጃ"
-  },
-  "library": {
-    "search": "የፍለጋ ቤተ-መጽሐፍት",
-    "filter": "ማጣሪያ",
-    "categories": {
-      "templates": "አብነቶች",
-      "scripts": "እስክሪፕቶች",
-      "datasets": "የመረጃ ቋቶች",
-      "models": "የአይ ሞዴሎች"
-    },
-    "upload": "ጥቅሞቹን ይስቀሉ",
-    "download": "የማውረድ ምንጭ"
-  },
-  "spaces": {
-    "create": "ቦታ ፍጠር",
-    "invite": "አባላትን ይጋብዙ",
-    "leave": "ቦታን ለቀቁ",
-    "manage": "ቦታን ያቀናብሩ",
-    "title-placeholder": "የቦታ ስም ያስገቡ"
-  },
-  "errors": {
-    "generic": "የሆነ ችግር ተፈጥሯል. እባክዎ እንደገና ይሞክሩ.",
-    "not-found": "ሀብት አልተገኘም.",
-    "unauthorized": "ይህንን እርምጃ የማከናወን አልተፈቀደልዎትም.",
-    "invalid-input": "እባክዎ የእርስዎን ግብዓት ይፈትሹ እና እንደገና ይሞክሩ.",
-    "network": "የአውታረ መረብ ስህተት. እባክዎ ግንኙነትዎን ያረጋግጡ."
-  },
-  "tooltips": {
-    "new-project": "ተግባሮችዎን ለማደራጀት አዲስ ፕሮጀክት ይጀምሩ.",
-    "automation-run": "ቀደም ሲል የተዘረዘሩ ተግባሮችን ለማስፈፀም ይህንን ራስ-ሰር ያሂዱ.",
-    "library-search": "አብነቶችን, እስክሪፕቶችን ወይም የመረጃ ቋቶችን ይፈልጉ.",
-    "space-invite": "የቡድን አባላት በዚህ ቦታ እንዲተባበሩ ይጋብዙ."
-  },
-  "footer": {
-    "copyright": "© 2025 ዓርብ አዩ. ሁሉም መብቶች የተጠበቁ ናቸው.",
-    "terms": "የአገልግሎት ውሎች",
-    "privacy": "የግላዊነት ፖሊሲ",
-    "contact": "እኛን ያግኙን"
-  }
+  "home": "ቤት",
+  "contents": "ይዘቶች",
+  "about": "ስለ",
+  "start-project": "ፕሮጀክት ይጀምሩ",
+  "headline": "የሌላውን የምርት መለያ ማንነት ማስተላለፍ ከቅድመ ምኞት እና ራዕይ ጋር",
+  "description": "ንድፍ? እኔ የምስል ስዕሎች እንደ እኔ ወደ ሕይወት አመጣቸዋለሁ. በተቻለ መጠን ብዙ ኢኮሎጂካል መታወቂያዎችን ለመቅጠር ጥረት ማድረግ.",
+  "now": "አሁን",
+  "now-description": "ገለልተኛ, ለአዳዲስ ደንበኞች የግለሰቦች መለያ መለያዎች.",
+  "previously": "ከዚህ በፊት",
+  "previously-description": "የምርት ስም ዲዛይነር በአበባለው እና በተግባር.",
+  "name": "ታንቪር ሃሰን ቢዝ",
+  "from": "ከባንግላዴሽ",
+  "highlights": "የሥራዬ ዋና ዋና ዜናዎች"
 }

@@ -1,101 +1,15 @@
 {
-  "friday": {
-    "title": "Ką galiu jums padėti?",
-    "welcome": "Sveiki atvykę į penktadienį, jūsų AI varomas asistentas!",
-    "prompt": "Paklauskite manęs bet ko arba pradėkite naują užduotį.",
-    "help": "Reikia pagalbos? Aš čia, kad tave padėtų."
-  },
-  "navigation": {
-    "new": "Pradėkite naują",
-    "home": "Namai",
-    "automations": "Automatizacijos",
-    "varients": "Variantai",
-    "projects": "Projektai",
-    "spaces": "Tarpai",
-    "library": "Biblioteka",
-    "more": "Daugiau",
-    "settings": "Nustatymai",
-    "profile": "Profilis",
-    "dashboard": "Prietaisų skydelis",
-    "analytics": "Analizė"
-  },
-  "authentication": {
-    "sign-in": "Prisijunkite",
-    "sign-up": "Prisiregistruokite",
-    "sign-out": "Išsirašykite",
-    "forgot-password": "Pamiršote slaptažodį?",
-    "reset-password": "Iš naujo nustatykite slaptažodį",
-    "email-label": "El. Pašto adresas",
-    "password-label": "Slaptažodis",
-    "confirm-password": "Patvirtinkite slaptažodį"
-  },
-  "dashboard": {
-    "overview": "Apžvalga",
-    "recent-activity": "Naujausia veikla",
-    "quick-actions": "Greiti veiksmai",
-    "stats": {
-      "tasks-completed": "Užduotys baigtos",
-      "active-projects": "Aktyvūs projektai",
-      "automation-runs": "Automatizavimas veikia"
-    }
-  },
-  "projects": {
-    "create": "Sukurkite naują projektą",
-    "edit": "Redaguoti projektą",
-    "delete": "Ištrinti projektą",
-    "title-placeholder": "Įveskite projekto pavadinimą",
-    "description-placeholder": "Įveskite projekto aprašą",
-    "status": {
-      "in-progress": "Vyksta",
-      "completed": "Baigta",
-      "on-hold": "Sulaikytas"
-    }
-  },
-  "automations": {
-    "create": "Sukurkite automatizavimą",
-    "run": "Vykdykite automatizavimą",
-    "pause": "Pristabdyti automatizavimą",
-    "stop": "Sustabdykite automatizavimą",
-    "history": "Automatizavimo istorija",
-    "trigger": "Gaidukas",
-    "action": "Veiksmas"
-  },
-  "library": {
-    "search": "Paieškos biblioteka",
-    "filter": "Filtruoti",
-    "categories": {
-      "templates": "Šablonai",
-      "scripts": "Scenarijai",
-      "datasets": "Duomenų rinkiniai",
-      "models": "AI modeliai"
-    },
-    "upload": "Įkelti šaltinį",
-    "download": "Atsisiųskite šaltinį"
-  },
-  "spaces": {
-    "create": "Sukurkite erdvę",
-    "invite": "Pakviesti narius",
-    "leave": "Palikite vietos",
-    "manage": "Tvarkykite erdvę",
-    "title-placeholder": "Įveskite erdvės pavadinimą"
-  },
-  "errors": {
-    "generic": "Kažkas nutiko ne taip. Prašau bandyti dar kartą.",
-    "not-found": "Šaltinis nerastas.",
-    "unauthorized": "Jūs neturite įgaliojimo atlikti šio veiksmo.",
-    "invalid-input": "Patikrinkite savo įvestį ir bandykite dar kartą.",
-    "network": "Tinklo klaida. Patikrinkite savo ryšį."
-  },
-  "tooltips": {
-    "new-project": "Pradėkite naują projektą, skirtą organizuoti užduotis.",
-    "automation-run": "Vykdykite šią automatizavimą, kad atliktumėte iš anksto nustatytas užduotis.",
-    "library-search": "Ieškokite šablonų, scenarijų ar duomenų rinkinių.",
-    "space-invite": "Pakvieskite komandos narius bendradarbiauti šioje erdvėje."
-  },
-  "footer": {
-    "copyright": "© 2025 Penktadienis AI. Visos teisės saugomos.",
-    "terms": "Aptarnavimo sąlygos",
-    "privacy": "Privatumo politika",
-    "contact": "Susisiekite su mumis"
-  }
+  "home": "Namai",
+  "contents": "Turinys",
+  "about": "Apie",
+  "start-project": "Pradėkite projektą",
+  "headline": "Skirtingų prekės ženklo tapatybių projektavimas su smalsumu ir vizija",
+  "description": "Eskizai? Aš juos atgaivinu kaip prekės ženklo vaizdus. Siekis suformuoti kuo daugiau ikoniškų tapatybių.",
+  "now": "Dabar",
+  "now-description": "Nepriklausoma, formuojanti prekės ženklo tapatybes naujiems klientams.",
+  "previously": "Anksčiau",
+  "previously-description": "Prekės ženklo dizaineris „Dribbble & Behance“.",
+  "name": "Tanviras Hasanas Bijoy",
+  "from": "Iš Bangladešo",
+  "highlights": "Mano darbo akcentai"
 }

@@ -1,101 +1,15 @@
 {
-  "friday": {
-    "title": "He aha taku e awhina ai ki a koe?",
-    "welcome": "Nau mai ki te Paraire, to kaiawhina AI-mana!",
-    "prompt": "Tonoa mai ki ahau tetahi mea, ka tiimata ranei i tetahi mahi hou.",
-    "help": "Kei te hiahia awhina? Kei konei ahau hei arahi ia koe."
-  },
-  "navigation": {
-    "new": "Tīmata Hou",
-    "home": "Kāinga",
-    "automations": "Anitations",
-    "varients": "Puta noa",
-    "projects": "Kaupapa",
-    "spaces": "Nga waahi",
-    "library": "Whare pukapuka",
-    "more": "Ētahi atu",
-    "settings": "Tautuhinga",
-    "profile": "Kōtaha",
-    "dashboard": "Papatohu",
-    "analytics": "Tātaritanga"
-  },
-  "authentication": {
-    "sign-in": "Haina",
-    "sign-up": "Takiuru",
-    "sign-out": "Haina",
-    "forgot-password": "Wareware Kupuhipa?",
-    "reset-password": "Tautuhi Kupuhipa",
-    "email-label": "Wāhitau Emailmera",
-    "password-label": "Kupu whakataha",
-    "confirm-password": "Whakaū Kupuhipa"
-  },
-  "dashboard": {
-    "overview": "Tirohanga whānui",
-    "recent-activity": "Nga mahi o mua",
-    "quick-actions": "Nga Mahi Tere",
-    "stats": {
-      "tasks-completed": "Kua oti nga mahi",
-      "active-projects": "Kaupapa Hohe",
-      "automation-runs": "Ka rere te Automation"
-    }
-  },
-  "projects": {
-    "create": "Waihangahia te kaupapa hou",
-    "edit": "Whakatika kaupapa",
-    "delete": "Mukua te kaupapa",
-    "title-placeholder": "Whakauruhia te taitara kaupapa",
-    "description-placeholder": "Whakauruhia te whakaahuatanga kaupapa",
-    "status": {
-      "in-progress": "I te ahunga whakamua",
-      "completed": "Kua oti",
-      "on-hold": "Pupuri"
-    }
-  },
-  "automations": {
-    "create": "Waihangahia te automation",
-    "run": "Whakahaerehia te Aunoa",
-    "pause": "Te Whakahoahoa Aunoa",
-    "stop": "Kati te aukati",
-    "history": "Huringa Aunoa",
-    "trigger": "Keu",
-    "action": "Mahi"
-  },
-  "library": {
-    "search": "Whare Pukapuka Rapu",
-    "filter": "Tātari",
-    "categories": {
-      "templates": "Tauira",
-      "scripts": "Tuhinga",
-      "datasets": "Papaa",
-      "models": "AI tauira"
-    },
-    "upload": "Rauemi Tuku",
-    "download": "Tikiake Rauemi"
-  },
-  "spaces": {
-    "create": "Waihangahia te waahi",
-    "invite": "A ani i te mau melo",
-    "leave": "Waiho i te waahi",
-    "manage": "Whakahaerehia te waahi",
-    "title-placeholder": "Whakauruhia te ingoa waahi"
-  },
-  "errors": {
-    "generic": "I he tetahi mea. Me ngana ano.",
-    "not-found": "Kaore i kitea nga rauemi.",
-    "unauthorized": "Kaore koe i te mana ki te mahi i tenei mahi.",
-    "invalid-input": "Tena tirohia to whakauru me te ngana ano.",
-    "network": "Hapa whatunga. Tena tirohia to hononga."
-  },
-  "tooltips": {
-    "new-project": "Tīmatahia he kaupapa hou hei whakarite i o mahi.",
-    "automation-run": "Whakahaerehia tenei Aunoa ki te whakamahi i nga mahi kua tohua.",
-    "library-search": "Rapua nga tauira tauira, tuhinga, papaa ranei.",
-    "space-invite": "A ani i nga mema o te roopu ki te mahi tahi i tenei waahi."
-  },
-  "footer": {
-    "copyright": "© 2025 Paraire AI. All rights reserved.",
-    "terms": "Nga tikanga o te Ratonga",
-    "privacy": "Kaupapa here tūmataiti",
-    "contact": "Whakapā mai"
-  }
+  "home": "Kāinga",
+  "contents": "Ihikereke",
+  "about": "Mō",
+  "start-project": "Tīmata i te Kaupapa",
+  "headline": "Te hoahoa i nga tuakiri tohu motuhake me te pākiki me te tirohanga",
+  "description": "Nga Hoapapa? Ka kawea mai e ahau ki te ora hei tirohanga tohu. Te kaha ki te hanga kia rite ki te maha o nga tuakiri e taea ana.",
+  "now": "Ināianei",
+  "now-description": "Motuhake, hangahia nga tuakiri waitohu mo nga kiritaki hou.",
+  "previously": "O mua",
+  "previously-description": "Kaihoahoa Kaitohu i te Dribbble &",
+  "name": "Tanvir Hasan Brain",
+  "from": "Tuhinga ka whai mai",
+  "highlights": "Nga tohu nui o aku mahi"
 }

@@ -1,101 +1,15 @@
 {
-  "friday": {
-    "title": "Wat kin ik jo helpe?",
-    "welcome": "Wolkom by freed, jo AI-oandreaun assistint!",
-    "prompt": "Freegje my wat of begjin in nije taak.",
-    "help": "Help nedich? Ik bin hjir om jo te begelieden."
-  },
-  "navigation": {
-    "new": "Begjin nij",
-    "home": "Thús",
-    "automations": "Automatsje",
-    "varients": "Farianten",
-    "projects": "Projekten",
-    "spaces": "Spaasjes",
-    "library": "Biblioteek",
-    "more": "Mear",
-    "settings": "Ynstellings",
-    "profile": "Profyl",
-    "dashboard": "Dashboard",
-    "analytics": "Analytyk"
-  },
-  "authentication": {
-    "sign-in": "Oanmelde",
-    "sign-up": "Ynskriuwe",
-    "sign-out": "Ôfmelde",
-    "forgot-password": "Wachtwurd ferjitten?",
-    "reset-password": "Wachtwurd opnij ynstelle",
-    "email-label": "E-postadres",
-    "password-label": "Wachtwurd",
-    "confirm-password": "Befêstigje wachtwurd"
-  },
-  "dashboard": {
-    "overview": "Oersicht",
-    "recent-activity": "Resinte aktiviteit",
-    "quick-actions": "Rappe aksjes",
-    "stats": {
-      "tasks-completed": "Taken foltôge",
-      "active-projects": "Aktive projekten",
-      "automation-runs": "Automaasje rint"
-    }
-  },
-  "projects": {
-    "create": "Nij projekt oanmeitsje",
-    "edit": "Projekt bewurkje",
-    "delete": "Project wiskje",
-    "title-placeholder": "Fier projekttitel yn",
-    "description-placeholder": "Fier projektbeskriuwing yn",
-    "status": {
-      "in-progress": "Yn foarútgong",
-      "completed": "Foltôge",
-      "on-hold": "Fêsthâlde"
-    }
-  },
-  "automations": {
-    "create": "Meitsje automatisearring",
-    "run": "Rinne automatisearring",
-    "pause": "SUBSE AUTOMATION",
-    "stop": "Stopje automatisearring",
-    "history": "Automaasjehistorie",
-    "trigger": "Trekker",
-    "action": "Aksje"
-  },
-  "library": {
-    "search": "Sykje bibleteek",
-    "filter": "Filter",
-    "categories": {
-      "templates": "Templaten",
-      "scripts": "Skripts",
-      "datasets": "Datasets",
-      "models": "AI Modellen"
-    },
-    "upload": "Upload boarne",
-    "download": "Download boarne"
-  },
-  "spaces": {
-    "create": "Romte oanmeitsje",
-    "invite": "Leden útnoegje",
-    "leave": "Romte litte",
-    "manage": "Romte beheare",
-    "title-placeholder": "Spraaknamme ynfiere"
-  },
-  "errors": {
-    "generic": "Iets gie ferkeard. Besykje it opnij.",
-    "not-found": "Boarne net fûn.",
-    "unauthorized": "Jo binne net autorisearre om dizze aksje út te fieren.",
-    "invalid-input": "Kontrolearje asjebleaft jo ynfier en besykje it opnij.",
-    "network": "Netwurk flater. Kontrolearje asjebleaft jo ferbining."
-  },
-  "tooltips": {
-    "new-project": "Begjin in nij projekt om jo taken te organisearjen.",
-    "automation-run": "Dizze automatisearje útfiere om foarôf definieare taken út te fieren.",
-    "library-search": "Sykje nei sjabloanen, skripts, as datasets.",
-    "space-invite": "Noegje teamleden út om te gearwurkjen yn dizze romte."
-  },
-  "footer": {
-    "copyright": "© 2025 Friday AI. Alle rjochten foarbehâlden.",
-    "terms": "Servicebetingsten",
-    "privacy": "Privacybelied",
-    "contact": "Kontakt mei ús opnimme"
-  }
+  "home": "Thús",
+  "contents": "Ynhâld",
+  "about": "Oer",
+  "start-project": "Begjin in projekt",
+  "headline": "DISTINNENDE MARK-IENTIitiesNTEN BINNE BINNE KRYSITY EN FISJE",
+  "description": "Sketsen? Ik bring se oan it libben as nijsferfangers. Stribjen om safolle mooglik byldskatyske identiteiten te foarmjen.",
+  "now": "No",
+  "now-description": "Ûnôfhinklik, foarme merk-identiteiten foar nije kliïnten.",
+  "previously": "Earder",
+  "previously-description": "Merk designer by Dribbble & Behance.",
+  "name": "Tanvir Hasan Bijoy",
+  "from": "Fan Bangladesh",
+  "highlights": "Hichtepunten fan myn wurk"
 }

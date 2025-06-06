@@ -1,101 +1,15 @@
 {
-  "friday": {
-    "title": "Unsa man ang makatabang ko nimo?",
-    "welcome": "Malipayon nga Pag-abut sa Biyernes, ang imong AI-POWEDER ASSACTANT!",
-    "prompt": "Pangutan-a ko bisan unsa o pagsugod sa usa ka bag-ong buluhaton.",
-    "help": "Nanginahanglan tabang? Ania ako aron mogiya kanimo."
-  },
-  "navigation": {
-    "new": "Magsugod bag-o",
-    "home": "Balay",
-    "automations": "Mga automasyon",
-    "varients": "Variant",
-    "projects": "Proyekto",
-    "spaces": "Luna",
-    "library": "Laybrari",
-    "more": "Labaw pa",
-    "settings": "Mga Setting",
-    "profile": "Dagway",
-    "dashboard": "Dashboard",
-    "analytics": "Analisa"
-  },
-  "authentication": {
-    "sign-in": "Pag-sign in",
-    "sign-up": "Pag-sign up",
-    "sign-out": "Pag-sign Out",
-    "forgot-password": "Nakalimtan ang Password?",
-    "reset-password": "I-reset ang password",
-    "email-label": "Email Address",
-    "password-label": "Pasword",
-    "confirm-password": "Pagkumpirma sa Password"
-  },
-  "dashboard": {
-    "overview": "Paglantaw gikan sa taas",
-    "recent-activity": "Bag-ong kalihokan",
-    "quick-actions": "Dali nga Mga Lihok",
-    "stats": {
-      "tasks-completed": "Natapos ang mga buluhaton",
-      "active-projects": "Aktibo nga mga Proyekto",
-      "automation-runs": "Nagdagan ang automation"
-    }
-  },
-  "projects": {
-    "create": "Paghimo bag-ong proyekto",
-    "edit": "I-edit ang proyekto",
-    "delete": "Pagwagtang sa proyekto",
-    "title-placeholder": "Pagsulud sa titulo sa proyekto",
-    "description-placeholder": "Pagsulud sa paghulagway sa proyekto",
-    "status": {
-      "in-progress": "Sa pag-uswag",
-      "completed": "Nahuman",
-      "on-hold": "Sa paghupot"
-    }
-  },
-  "automations": {
-    "create": "Paghimo Automation",
-    "run": "Pagdagan nga automation",
-    "pause": "I-pause ang automation",
-    "stop": "Hunong ang automation",
-    "history": "Kasaysayan sa Automation",
-    "trigger": "Gatilyo",
-    "action": "Aksyon"
-  },
-  "library": {
-    "search": "Mga librarya sa pagpangita",
-    "filter": "Mosala",
-    "categories": {
-      "templates": "Template",
-      "scripts": "Mga Script",
-      "datasets": "Datasts",
-      "models": "Mga Modelo sa AI"
-    },
-    "upload": "Pag-upload sa kapanguhaan",
-    "download": "Pag-download sa kapanguhaan"
-  },
-  "spaces": {
-    "create": "Paghimo Space",
-    "invite": "Dapita ang mga Miyembro",
-    "leave": "Magbilin nga wanang",
-    "manage": "Pagdumala sa wanang",
-    "title-placeholder": "Pagsulud sa ngalan sa wanang"
-  },
-  "errors": {
-    "generic": "Adunay usa ka butang nga sayup. Palihug sulayi pag-usab.",
-    "not-found": "Ang kapanguhaan nga wala makit-an.",
-    "unauthorized": "Dili ka awtorisado sa paghimo niini nga aksyon.",
-    "invalid-input": "Palihug susihon ang imong input ug sulayi pag-usab.",
-    "network": "Sayup sa network. Palihug susihon ang imong koneksyon."
-  },
-  "tooltips": {
-    "new-project": "Pagsugod usa ka bag-ong proyekto aron maorganisar ang imong mga buluhaton.",
-    "automation-run": "Pagdagan kini nga automation aron ipatuman ang gitakda nga mga buluhaton.",
-    "library-search": "Pagpangita alang sa mga template, script, o mga datasets.",
-    "space-invite": "Dapita ang mga miyembro sa team nga magtinabangay sa kini nga wanang."
-  },
-  "footer": {
-    "copyright": "© 2025 Biyernes Ai. Tanan nga mga katungod gigahin.",
-    "terms": "Mga Termino sa Pag-alagad",
-    "privacy": "Patakaran sa Pagkapribado",
-    "contact": "Kontaka kami"
-  }
+  "home": "Balay",
+  "contents": "Mga sulud",
+  "about": "Labot sa",
+  "start-project": "Magsugod usa ka proyekto",
+  "headline": "Pagdisenyo sa lahi nga pagkilala sa brand nga adunay pagkamausisaon ug panan-awon",
+  "description": "Mga Sketch? Gidala ko sila sa kinabuhi ingon biswal sa brand. Naningkamot sa pagporma kutob sa mahimo sa mga ICONIC nga pagkilala kutob sa mahimo.",
+  "now": "Karon",
+  "now-description": "Independent, paghulma sa mga identidad sa brand alang sa mga bag-ong kliyente.",
+  "previously": "Kaniadto",
+  "previously-description": "Brand Designer sa dribble & batasan.",
+  "name": "Tanvir Hasan Bijoy",
+  "from": "Gikan sa Bangladesh",
+  "highlights": "Mga Pangunang Punto sa Akong Pagtrabaho"
 }

@@ -1,101 +1,15 @@
 {
-  "friday": {
-    "title": "¿Con qué puedo ayudarte?",
-    "welcome": "¡Bienvenido al viernes, su asistente con IA!",
-    "prompt": "Pregúntame cualquier cosa o comienza una nueva tarea.",
-    "help": "¿Necesita ayuda? Estoy aquí para guiarte."
-  },
-  "navigation": {
-    "new": "Comienza nuevo",
-    "home": "Hogar",
-    "automations": "Automatización",
-    "varients": "Variantes",
-    "projects": "Proyectos",
-    "spaces": "Espacios",
-    "library": "Biblioteca",
-    "more": "Más",
-    "settings": "Ajustes",
-    "profile": "Perfil",
-    "dashboard": "Panel",
-    "analytics": "Analítica"
-  },
-  "authentication": {
-    "sign-in": "Iniciar sesión",
-    "sign-up": "Inscribirse",
-    "sign-out": "Desconectar",
-    "forgot-password": "¿Has olvidado tu contraseña?",
-    "reset-password": "Restablecer contraseña",
-    "email-label": "Dirección de correo electrónico",
-    "password-label": "Contraseña",
-    "confirm-password": "confirmar Contraseña"
-  },
-  "dashboard": {
-    "overview": "Descripción general",
-    "recent-activity": "Actividad reciente",
-    "quick-actions": "Acciones rápidas",
-    "stats": {
-      "tasks-completed": "Tareas completadas",
-      "active-projects": "Proyectos activos",
-      "automation-runs": "Ejecución de automatización"
-    }
-  },
-  "projects": {
-    "create": "Crear un nuevo proyecto",
-    "edit": "Editar proyecto",
-    "delete": "Proyecto Eliminar",
-    "title-placeholder": "Ingrese el título del proyecto",
-    "description-placeholder": "Ingrese la descripción del proyecto",
-    "status": {
-      "in-progress": "En curso",
-      "completed": "Terminado",
-      "on-hold": "En espera"
-    }
-  },
-  "automations": {
-    "create": "Crear automatización",
-    "run": "Ejecutar automatización",
-    "pause": "Automatización de pausa",
-    "stop": "Detener la automatización",
-    "history": "Historial de automatización",
-    "trigger": "Desencadenar",
-    "action": "Acción"
-  },
-  "library": {
-    "search": "Biblioteca de búsqueda",
-    "filter": "Filtrar",
-    "categories": {
-      "templates": "Plantillas",
-      "scripts": "Guiones",
-      "datasets": "Conjuntos de datos",
-      "models": "Modelos de IA"
-    },
-    "upload": "Subir recursos",
-    "download": "Descargar recursos"
-  },
-  "spaces": {
-    "create": "Crear espacio",
-    "invite": "Invitar miembros",
-    "leave": "Dejar espacio",
-    "manage": "Gestionar el espacio",
-    "title-placeholder": "Ingrese el nombre del espacio"
-  },
-  "errors": {
-    "generic": "Algo salió mal. Por favor intente de nuevo.",
-    "not-found": "Recurso no encontrado.",
-    "unauthorized": "No estás autorizado a realizar esta acción.",
-    "invalid-input": "Verifique su opinión y vuelva a intentarlo.",
-    "network": "Error de red. Verifique su conexión."
-  },
-  "tooltips": {
-    "new-project": "Comience un nuevo proyecto para organizar sus tareas.",
-    "automation-run": "Ejecute esta automatización para ejecutar tareas predefinidas.",
-    "library-search": "Busque plantillas, scripts o conjuntos de datos.",
-    "space-invite": "Invite a los miembros del equipo a colaborar en este espacio."
-  },
-  "footer": {
-    "copyright": "© 2025 Friday AI. Reservados todos los derechos.",
-    "terms": "Términos de servicio",
-    "privacy": "política de privacidad",
-    "contact": "Contáctenos"
-  }
+  "home": "Hogar",
+  "contents": "Contenido",
+  "about": "Acerca de",
+  "start-project": "Iniciar un proyecto",
+  "headline": "Diseño de distintas identidades de marca con curiosidad y visión",
+  "description": "Bocetos? Los llevo a la vida como imágenes de marca. Esforzarse por dar forma a tantas identidades icónicas como sea posible.",
+  "now": "Ahora",
+  "now-description": "Identidades de marca independientes y que dan forma a nuevos clientes.",
+  "previously": "Previamente",
+  "previously-description": "Diseñador de marca en Dribbble & Behance.",
+  "name": "Tanvir Hasan Bijoy",
+  "from": "De Bangladesh",
+  "highlights": "Lo más destacado de mi trabajo"
 }

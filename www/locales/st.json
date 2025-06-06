@@ -1,101 +1,15 @@
 {
-  "friday": {
-    "title": "Nka u thusa joang?",
-    "welcome": "Rea u amohela ka Labohlano, mothusi oa hao ea tsamaeang ka letsoho!",
-    "prompt": "Ak'u mpotse letho kapa ho qala mosebetsi o mocha.",
-    "help": "U hloka thuso? Ke mona ho u tataisa."
-  },
-  "navigation": {
-    "new": "Qala e ncha",
-    "home": "Hae",
-    "automations": "Likhauma",
-    "varients": "Variants",
-    "projects": "Merero",
-    "spaces": "Libaka",
-    "library": "Laeborari",
-    "more": "Hape",
-    "settings": "Litlhophiso",
-    "profile": "Pale ea boemo",
-    "dashboard": "Dashboard",
-    "analytics": "Analytics"
-  },
-  "authentication": {
-    "sign-in": "Kena",
-    "sign-up": "Ngolisa",
-    "sign-out": "Tsoaha",
-    "forgot-password": "U lebetse phasewete?",
-    "reset-password": "Seta password",
-    "email-label": "Aterese ea imeile",
-    "password-label": "Password",
-    "confirm-password": "Netefatsa Phasewete"
-  },
-  "dashboard": {
-    "overview": "Kakaretso",
-    "recent-activity": "Ketsahalo ea morao-rao",
-    "quick-actions": "Ketso tse potlakileng",
-    "stats": {
-      "tasks-completed": "Mesebetsi e phethetsoe",
-      "active-projects": "Merero e sebetsang",
-      "automation-runs": "Automation e baleha"
-    }
-  },
-  "projects": {
-    "create": "Theha projeke e ncha",
-    "edit": "Phetoho ea Edita",
-    "delete": "Hlakola morero",
-    "title-placeholder": "Kenya sehlooho sa projeke",
-    "description-placeholder": "Kenya Tlhaloso ea Morero",
-    "status": {
-      "in-progress": "E mocheng",
-      "completed": "E phethetsoe",
-      "on-hold": "Ema joalo"
-    }
-  },
-  "automations": {
-    "create": "Theha likepe",
-    "run": "Tsamaisa matlo",
-    "pause": "Khefutsa ho kenella",
-    "stop": "Emisa ho kenella",
-    "history": "Nalane ea Automation",
-    "trigger": "Trigger",
-    "action": "Ketso"
-  },
-  "library": {
-    "search": "Batla laebrari ea lipatlisiso",
-    "filter": "Filter",
-    "categories": {
-      "templates": "Litemplates",
-      "scripts": "Lingoloa",
-      "datasets": "Mekhabiso",
-      "models": "Mehlala ea AI"
-    },
-    "upload": "Kenya lisebelisoa",
-    "download": "Khoasolla lisebelisoa"
-  },
-  "spaces": {
-    "create": "Theha sebaka",
-    "invite": "Mema Litho",
-    "leave": "Tlohela sebaka",
-    "manage": "Laola sebaka",
-    "title-placeholder": "Kenya lebitso la sebaka"
-  },
-  "errors": {
-    "generic": "Ho na le ntho e fosahetseng. Ka kopo leka hape.",
-    "not-found": "Sesebelisoa ha se fumanehe.",
-    "unauthorized": "Ha ua fuoa tumello ea ho etsa ketso ena.",
-    "invalid-input": "Ka kopo sheba lintlha tsa hau ebe u leka hape.",
-    "network": "Phoso ea marang-rang. Ka kopo sheba khokahano ea hau."
-  },
-  "tooltips": {
-    "new-project": "Qala morero o mocha oa ho hlophisa mesebetsi ea hau.",
-    "automation-run": "Tsamaisa tokelo ena ho phethisa mesebetsi e boletsoeng esale pele.",
-    "library-search": "Batla li-templates, lingoloa, kapa lipetale tse ngata.",
-    "space-invite": "Mema litho tsa sehlopha ho sebelisana 'moho sebakeng sena."
-  },
-  "footer": {
-    "copyright": "© 2025 Labohlano Ai. Litokelo tsohle li sirelelitsoe.",
-    "terms": "Lipehelo tsa Tšebeletso",
-    "privacy": "leano la lekunutu",
-    "contact": "Iteanye le rona"
-  }
+  "home": "Hae",
+  "contents": "Litaba",
+  "about": "About",
+  "start-project": "Qala projeke",
+  "headline": "Ho rala manonyeletso a khethollo ea Brand le pono",
+  "description": "Sketches? Ke li tlisa bophelong e le liphula tsa Brand. Ho loanela ho fetoha e le tsebo e ngata ea icano ka hohle kamoo ho ka khonehang.",
+  "now": "Joale",
+  "now-description": "E ikemetseng, e thatafatsa lintho tse bonoang tsa Brands tsa bareki ba bacha.",
+  "previously": "Pejana",
+  "previously-description": "Moqapi oa Brand ho kotlolla le ho etsa.",
+  "name": "Tanvir hasan bijoy",
+  "from": "From Bangladesh",
+  "highlights": "Lintlha tsa bohlokoa tsa mosebetsi oa ka"
 }

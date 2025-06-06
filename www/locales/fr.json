@@ -1,101 +1,15 @@
 {
-  "friday": {
-    "title": "Avec quoi puis-je vous aider?",
-    "welcome": "Bienvenue à vendredi, votre assistant alimenté par AI!",
-    "prompt": "Demandez-moi n'importe quoi ou créez une nouvelle tâche.",
-    "help": "Need assistance? Je suis là pour vous guider."
-  },
-  "navigation": {
-    "new": "Démarrer nouveau",
-    "home": "Maison",
-    "automations": "Automatisation",
-    "varients": "Variantes",
-    "projects": "Projets",
-    "spaces": "Espaces",
-    "library": "Bibliothèque",
-    "more": "Plus",
-    "settings": "Paramètres",
-    "profile": "Profil",
-    "dashboard": "Tableau de bord",
-    "analytics": "Analytique"
-  },
-  "authentication": {
-    "sign-in": "Se connecter",
-    "sign-up": "S'inscrire",
-    "sign-out": "Se déconnecter",
-    "forgot-password": "Mot de passe oublié?",
-    "reset-password": "Réinitialiser le mot de passe",
-    "email-label": "Adresse email",
-    "password-label": "Mot de passe",
-    "confirm-password": "Confirmez le mot de passe"
-  },
-  "dashboard": {
-    "overview": "Aperçu",
-    "recent-activity": "Activité récente",
-    "quick-actions": "Actions rapides",
-    "stats": {
-      "tasks-completed": "Tâches terminées",
-      "active-projects": "Projets actifs",
-      "automation-runs": "Automatisation fonctionne"
-    }
-  },
-  "projects": {
-    "create": "Créer un nouveau projet",
-    "edit": "Modifier le projet",
-    "delete": "Supprimer le projet",
-    "title-placeholder": "Entrez le titre du projet",
-    "description-placeholder": "Entrez la description du projet",
-    "status": {
-      "in-progress": "En cours",
-      "completed": "Complété",
-      "on-hold": "En suspens"
-    }
-  },
-  "automations": {
-    "create": "Créer l'automatisation",
-    "run": "Exécuter l'automatisation",
-    "pause": "Automatisation de pause",
-    "stop": "Stop Automation",
-    "history": "Historique de l'automatisation",
-    "trigger": "Déclenchement",
-    "action": "Action"
-  },
-  "library": {
-    "search": "Bibliothèque de recherche",
-    "filter": "Filtre",
-    "categories": {
-      "templates": "Modèles",
-      "scripts": "Scripts",
-      "datasets": "Ensembles de données",
-      "models": "Modèles d'IA"
-    },
-    "upload": "Télécharger des ressources",
-    "download": "Télécharger la ressource"
-  },
-  "spaces": {
-    "create": "Créer un espace",
-    "invite": "Inviter les membres",
-    "leave": "Laisser un espace",
-    "manage": "Gérer l'espace",
-    "title-placeholder": "Entrez le nom de l'espace"
-  },
-  "errors": {
-    "generic": "Quelque chose s'est mal passé. Veuillez réessayer.",
-    "not-found": "Ressource introuvable.",
-    "unauthorized": "Vous n'êtes pas autorisé à effectuer cette action.",
-    "invalid-input": "Veuillez vérifier votre contribution et réessayer.",
-    "network": "Erreur de réseau. Veuillez vérifier votre connexion."
-  },
-  "tooltips": {
-    "new-project": "Commencez un nouveau projet pour organiser vos tâches.",
-    "automation-run": "Exécutez cette automatisation pour exécuter des tâches prédéfinies.",
-    "library-search": "Recherchez des modèles, des scripts ou des ensembles de données.",
-    "space-invite": "Invitez les membres de l'équipe à collaborer dans cet espace."
-  },
-  "footer": {
-    "copyright": "© 2025 Vendredi Ai. Tous droits réservés.",
-    "terms": "Conditions de service",
-    "privacy": "politique de confidentialité",
-    "contact": "Contactez-nous"
-  }
+  "home": "Maison",
+  "contents": "Contenu",
+  "about": "À propos",
+  "start-project": "Démarrer un projet",
+  "headline": "Concevoir des identités de marque distinctes avec curiosité et vision",
+  "description": "Sketches? Je les donne vie en tant que visuels de marque. S'efforcer de façonner autant d'identités emblématiques que possible.",
+  "now": "Maintenant",
+  "now-description": "Indépendamment, façonnant les identités de marque pour les nouveaux clients.",
+  "previously": "Précédemment",
+  "previously-description": "Designer de marque chez Dribbble & Behance.",
+  "name": "Tanvir Hasan Bijoy",
+  "from": "Du Bangladesh",
+  "highlights": "Faits saillants de mon travail"
 }

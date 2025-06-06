@@ -1,101 +1,15 @@
 {
-  "friday": {
-    "title": "Xana ndzi nga ku pfuna hi yini?",
-    "welcome": "Mi amukeriwile eka Ravuntlhanu, mupfuni wa n'wina wa AI-powered!",
-    "prompt": "Ndzi vutise xin’wana ni xin’wana kutani u sungula ntirho lowuntshwa.",
-    "help": "U lava mpfuneto? Ndzi laha ku ta ku kongomisa."
-  },
-  "navigation": {
-    "new": "Sungula swintshwa .",
-    "home": "Kaya",
-    "automations": "Switolo swa michini .",
-    "varients": "Swihlawulekisi .",
-    "projects": "Tiphurojeke .",
-    "spaces": "Swivandla swa .",
-    "library": "Layiburari",
-    "more": "Swo tala",
-    "settings": "Swiyimiso .",
-    "profile": "Phurofayili",
-    "dashboard": "Dashboard .",
-    "analytics": "vuxopaxopi bya vuxopaxopi ."
-  },
-  "authentication": {
-    "sign-in": "Nghena eka .",
-    "sign-up": "Tsarisa .",
-    "sign-out": "Sayina ehandle .",
-    "forgot-password": "U rivele password?",
-    "reset-password": "Reset password .",
-    "email-label": "Adirese ya imeyili .",
-    "password-label": "Phasiwedi",
-    "confirm-password": "Tiyisisa Password ."
-  },
-  "dashboard": {
-    "overview": "Nkatsakanyo .",
-    "recent-activity": "Ntirho wa sweswinyana .",
-    "quick-actions": "Swiendlo swa xihatla .",
-    "stats": {
-      "tasks-completed": "Mintirho leyi hetiweke .",
-      "active-projects": "Tiphurojeke leti tirhaka .",
-      "automation-runs": "Ku tsutsuma hi ku tirhisa michini ."
-    }
-  },
-  "projects": {
-    "create": "Endla phurojeke leyintshwa .",
-    "edit": "Hlela Phurojeke .",
-    "delete": "Susa phurojeke .",
-    "title-placeholder": "Nghenisa xihloko xa phurojeke .",
-    "description-placeholder": "Nghenisa nhlamuselo ya phurojeke .",
-    "status": {
-      "in-progress": "Eka nhluvuko .",
-      "completed": "Ku hetiwa .",
-      "on-hold": "Ku yimisiwa ."
-    }
-  },
-  "automations": {
-    "create": "Endla Automation .",
-    "run": "Run Automation .",
-    "pause": "Ku yimanyana ku tirha hi ku tirhisa michini .",
-    "stop": "Yima ku tirhisa xitirhisiwa xa otomatiki .",
-    "history": "Matimu ya Automation .",
-    "trigger": "Gwedla",
-    "action": "Goza"
-  },
-  "library": {
-    "search": "Layiburari yo lavisisa .",
-    "filter": "Xihlungwani .",
-    "categories": {
-      "templates": "Tithempleyiti .",
-      "scripts": "Switshuriwa .",
-      "datasets": "TidataSet .",
-      "models": "Timodelo ta AI ."
-    },
-    "upload": "Upload Xitirhisiwa .",
-    "download": "Download Xitirhisiwa ."
-  },
-  "spaces": {
-    "create": "Endla ndhawu .",
-    "invite": "Rhamba swirho .",
-    "leave": "Siya ndhawu .",
-    "manage": "Lawula Ndhawu .",
-    "title-placeholder": "Nghenisa vito ra ndhawu ."
-  },
-  "errors": {
-    "generic": "Xin’wana xi fambe kahle. Hi kombela mi ringeta nakambe.",
-    "not-found": "Xitirhisiwa a xi kumiwi.",
-    "unauthorized": "A wu pfumeleriwanga ku endla goza leri.",
-    "invalid-input": "Hi kombela u languta input ya wena u ringeta nakambe.",
-    "network": "Xihoxo xa netiweke. Hi kombela u languta vuhlanganisi bya wena."
-  },
-  "tooltips": {
-    "new-project": "Sungula phurojeke leyintshwa yo hlela mintirho ya wena.",
-    "automation-run": "Tirhisa otomatiki leyi ku endla mintirho leyi hlamuseriweke ka ha ri emahlweni.",
-    "library-search": "Ku lavisisa tithempleyiti, switshuriwa, kumbe tidathasete.",
-    "space-invite": "Rhamba swirho swa ntlawa ku tirhisana eka xivandla lexi."
-  },
-  "footer": {
-    "copyright": "© 2025 Ravuntlhanu AI. Timfanelo hinkwato ti hlayisiwile.",
-    "terms": "Mimpimanyeto ya Ntirho .",
-    "privacy": "Pholisi ya Vuhlayiseki bya Xihundla .",
-    "contact": "Tihlanganisi na hina"
-  }
+  "home": "Kaya",
+  "contents": "Swilo leswi nga endzeni .",
+  "about": "Hi",
+  "start-project": "Sungula phurojeke .",
+  "headline": "Ku dizayina vutivi bya brand lebyi hambaneke hi ku lava ku tiva na ku vona .",
+  "description": "Swiketi? Ndzi va tisa evuton’wini tanihi swifaniso swa brand. ku lwela ku vumba vutivi byo tala bya xifaniso hilaha swi nga kotekaka hakona.",
+  "now": "Sweswi",
+  "now-description": "Vutivi bya brand lebyi tiyimeleke, lebyi vumbeke eka tiklayenti letintshwa.",
+  "previously": "Khale .",
+  "previously-description": "Muendli wa swifaniso swa brand eka Dribbble & Behance.",
+  "name": "Tanvir Hasan Bijoy .",
+  "from": "ku suka eBangladesh .",
+  "highlights": "Swilo leswikulu swa ntirho wa mina ."
 }

@@ -1,101 +1,15 @@
 {
-  "friday": {
-    "title": "Maxaan kaa caawin karaa?",
-    "welcome": "Ku soo dhowow Jimcaha, kaaliyahaaga AI ee Ai",
-    "prompt": "I weydiiso wax kasta ama bilow hawl cusub.",
-    "help": "Ma u baahan tahay caawimaad? Waxaan halkaan u joogaa inaan ku hago."
-  },
-  "navigation": {
-    "new": "Bilow Cusub",
-    "home": "Guri",
-    "automations": "Dibedda",
-    "varients": "Kala duwanaansho",
-    "projects": "Mashaariicda",
-    "spaces": "Banaan",
-    "library": "Maktabad",
-    "more": "Ka badan",
-    "settings": "Dejinta",
-    "profile": "Muuqaal",
-    "dashboard": "Dashbo",
-    "analytics": "Falanqaynta"
-  },
-  "authentication": {
-    "sign-in": "Soo gal",
-    "sign-up": "Is-qor",
-    "sign-out": "Saxeex",
-    "forgot-password": "Ma ilowday furaha sirta ah?",
-    "reset-password": "Dib u dejinta erayga sirta ah",
-    "email-label": "Cinwaanka emaylka",
-    "password-label": "Eray sir",
-    "confirm-password": "Xaqiiji erayga sirta ah"
-  },
-  "dashboard": {
-    "overview": "Kudbad gaaban",
-    "recent-activity": "Waxqabadka ugu dambeeyay",
-    "quick-actions": "Falalka Degdega ah",
-    "stats": {
-      "tasks-completed": "Hawlaha ayaa dhameystiran",
-      "active-projects": "Mashaariic firfircoon",
-      "automation-runs": "Automation waxay socotaa"
-    }
-  },
-  "projects": {
-    "create": "Abuur mashruuc cusub",
-    "edit": "Tafatir Mashruuca",
-    "delete": "Tirtir Mashruuca",
-    "title-placeholder": "Geli cinwaanka mashruuca",
-    "description-placeholder": "Gali sharraxaad mashruuc",
-    "status": {
-      "in-progress": "Horusocodka",
-      "completed": "Dhameystiran",
-      "on-hold": "On"
-    }
-  },
-  "automations": {
-    "create": "Abuuro otomaatig",
-    "run": "Maamulo otomatiga",
-    "pause": "Joogso otomatiga",
-    "stop": "Jooji otomatiga",
-    "history": "Taariikhda Automation",
-    "trigger": "Keeb",
-    "action": "Waxqabad"
-  },
-  "library": {
-    "search": "BAXYADA GUURKA",
-    "filter": "Miirid",
-    "categories": {
-      "templates": "Shaashada",
-      "scripts": "Qoraallada",
-      "datasets": "Karaahiyo",
-      "models": "Moodooyinka AI"
-    },
-    "upload": "Soo gal kheyraad",
-    "download": "Soo dejiso Kheyraadka"
-  },
-  "spaces": {
-    "create": "Abuur meel bannaan",
-    "invite": "Ku casuun xubnaha",
-    "leave": "Booska uga tag",
-    "manage": "Maaree meel",
-    "title-placeholder": "Gali magaca booska"
-  },
-  "errors": {
-    "generic": "Waxbaa khaldamay. Fadlan isku day mar labaad.",
-    "not-found": "Kheyraadka aan la helin.",
-    "unauthorized": "Looma oggola inaad fuliso ficilkan.",
-    "invalid-input": "Fadlan hubi fikirkaaga oo iskuday markale.",
-    "network": "Khaladaadka shabakadda. Fadlan hubi xiriirkaaga."
-  },
-  "tooltips": {
-    "new-project": "Bilow mashruuc cusub si aad u abaabusho howlahaaga.",
-    "automation-run": "Orod otomatiga si aad u fuliso howlaha horay loo sii qeexday.",
-    "library-search": "Ka raadi shaybaadlo, qoraallo, ama xog-urureyaal.",
-    "space-invite": "Ku casuun xubnaha kooxda inay iska kaashadaan booskan."
-  },
-  "footer": {
-    "copyright": "© 2025 Jimcaha AI. Dhamaan xuquuqaha ayaa ilaaliya.",
-    "terms": "Shuruudaha Adeegga",
-    "privacy": "Qaanuunka Arrimaha Khaaska ah",
-    "contact": "Nala soo xiriir"
-  }
+  "home": "Guri",
+  "contents": "Tusmada",
+  "about": "Ku saabsan",
+  "start-project": "Billow mashruuc",
+  "headline": "Naqshadeynta aqoonsi astaan ​​u gaar ah oo leh xiisaha iyo aragga",
+  "description": "Sawirro? Waxaan u keenay nolosha sida muuqaalka noocan oo kale ah. Isku daynta si loo qaabeeyo sida ugu badan ee ugu badan ee suuragalka ah.",
+  "now": "Hadda",
+  "now-description": "Aqoonsiga guud, qaabeynta sumadda sumadda ee macaamiisha cusub.",
+  "previously": "Hore",
+  "previously-description": "Naqshadeeye caan ah ee dribbble & kala ah.",
+  "name": "Tanvir hasan bijoy",
+  "from": "Laga soo bilaabo Bangladesh",
+  "highlights": "Waxyaabaha ugu sareeya ee shaqadayda"
 }

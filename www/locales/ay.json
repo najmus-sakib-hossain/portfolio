@@ -1,101 +1,15 @@
 {
-  "friday": {
-    "title": "¿Kunsa jumar yanaptʼirista?",
-    "welcome": "Viernes urux walikpun jutapxtaxa, AI-powered Yanapt’irinakamax!",
-    "prompt": "Kunsa jisktʼapjjeta jan ukajj machaq lurañ qalltapjjam.",
-    "help": "¿Yanaptʼatäñ munasmati? Nayax jumanakar irpañatakiw akanktxa."
-  },
-  "navigation": {
-    "new": "Machaq qalltaña .",
-    "home": "Uta",
-    "automations": "Automatizacionanaka .",
-    "varients": "Variants ukax 1.1.",
-    "projects": "Proyectos ukanakax .",
-    "spaces": "Espacios ukanakax .",
-    "library": "Ullañuta",
-    "more": "Juk'ampi",
-    "settings": "Ukaxa utt’ayatawa.",
-    "profile": "Pirfila",
-    "dashboard": "Ukax mä tablón satawa.",
-    "analytics": "Analítica ukax 1.1."
-  },
-  "authentication": {
-    "sign-in": "Uñt’ayasiñataki .",
-    "sign-up": "Uñt’ayasiñataki .",
-    "sign-out": "Uñt’ayasiñataki .",
-    "forgot-password": "?",
-    "reset-password": "Reset contraseña .",
-    "email-label": "Correo electrónico ukax 1.1.",
-    "password-label": "Chimpu",
-    "confirm-password": "Confirmar contraseña ."
-  },
-  "dashboard": {
-    "overview": "Uñakipañataki .",
-    "recent-activity": "Jichha lurawi .",
-    "quick-actions": "Jank’a lurawinakata .",
-    "stats": {
-      "tasks-completed": "Tareas ukax tukuyatawa .",
-      "active-projects": "Proyectos Activos ukax 1.1.",
-      "automation-runs": "Automatización ukax 1.1."
-    }
-  },
-  "projects": {
-    "create": "Machaq proyecto luraña .",
-    "edit": "Proyecto Editar .",
-    "delete": "Proyecto chhaqtayaña .",
-    "title-placeholder": "Proyecto título ukar mantam .",
-    "description-placeholder": "Proyecto descripción ukar mantam .",
-    "status": {
-      "in-progress": "In Progress .",
-      "completed": "tukuyata .",
-      "on-hold": "Ukax mä hold ."
-    }
-  },
-  "automations": {
-    "create": "Automatización luraña .",
-    "run": "Automatización apnaqaña .",
-    "pause": "Automatización de pausa ukaxa 1.1.",
-    "stop": "Automatización ukax .",
-    "history": "Automatización ukan sarnaqäwipa .",
-    "trigger": "Utjayaña",
-    "action": "Luraña"
-  },
-  "library": {
-    "search": "Biblioteca ukan thaqhaña .",
-    "filter": "Filtro ukaxa 1.1.",
-    "categories": {
-      "templates": "Plantillas ukanakax .",
-      "scripts": "Scripts ukax 1.1.",
-      "datasets": "DataSets ukax 1.1.",
-      "models": "AI Modelos ukax 1.1."
-    },
-    "upload": "Recurso ukar apkatañamawa .",
-    "download": "Recurso ukar apkatañamawa ."
-  },
-  "spaces": {
-    "create": "Uñstayaña chiqa .",
-    "invite": "Invittʼaña Miembronaka .",
-    "leave": "Uka chiqax espacio jaytañawa .",
-    "manage": "Uka espacio apnaqaña .",
-    "title-placeholder": "Espacio suti qillqt’aña ."
-  },
-  "errors": {
-    "generic": "Kunas jan waliruw puri. Mä juk’a yant’apxañani.",
-    "not-found": "Recurso ukax janiw jikxataskiti.",
-    "unauthorized": "Janiwa aka lurawi lurañatakixa autorizatäkiti.",
-    "invalid-input": "Ukhamaraki, input ukar uñakipt’añamawa ukat mayamp yant’añamawa.",
-    "network": "Red ukan pantjasitapa. Ukhamaraki, uka conexión ukarux uñakipt’añamawa."
-  },
-  "tooltips": {
-    "new-project": "Mä machaq proyecto qalltañamawa lurawinakam wakicht’añataki.",
-    "automation-run": "Aka automatización ukaxa predefinidos lurawinakata phuqhañataki apnaqaña.",
-    "library-search": "Plantillas, scripts, jan ukax datas ukanak thaqhaña.",
-    "space-invite": "Aka chiqan yanapt’asipxañapatakix equipo ukankirinakaruw jawillt’añama."
-  },
-  "footer": {
-    "copyright": "© 2025 Viernes AI. Taqi kunas wali askiwa.",
-    "terms": "Condiciones de Servicio ukax 1.1.",
-    "privacy": "Política de Privacidad ukaxa 1.1.",
-    "contact": "Jiwasampi aruskipt’añani ."
-  }
+  "home": "Uta",
+  "contents": "Ukax akham sañ muniwa.",
+  "about": "Ukxata",
+  "start-project": "Mä proyecto qalltaña .",
+  "headline": "Diseño de identidades distintas de marca con curiosidad y visión .",
+  "description": "¿Bocetos ukanakax? Nayax jupanakarux markan visuales ukham jakäwiparuw puriyta. Walja identidades icónicas ukanaka uñstayañataki ch’amanchaña.",
+  "now": "Jichha",
+  "now-description": "Independiente, machaq clientes ukanakatakix markan identidad ukanakap uñt’ayaña.",
+  "previously": "Nayraqata .",
+  "previously-description": "Dribbble & Behance markan marka diseñadora.",
+  "name": "Tanvir Hasan Bijoy ukax mä jach’a uñacht’äwiwa.",
+  "from": "Bangladesh markat 1.1.",
+  "highlights": "Nayan luratanakajajj wali jachʼa amtanakawa ."
 }

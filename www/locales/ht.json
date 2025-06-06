@@ -1,101 +1,15 @@
 {
-  "friday": {
-    "title": "Kisa mwen ka ede ou ak?",
-    "welcome": "Byenveni nan Vandredi, asistan AI ki mache ak ou!",
-    "prompt": "Mande m 'anyen oswa kòmanse yon nouvo travay.",
-    "help": "Bezwen asistans? Mwen la pou gide ou."
-  },
-  "navigation": {
-    "new": "Kòmanse nouvo",
-    "home": "Lakay",
-    "automations": "Automatik",
-    "varients": "Varyant",
-    "projects": "Pwojè",
-    "spaces": "Espas",
-    "library": "Bibliotèk",
-    "more": "Plis",
-    "settings": "Se",
-    "profile": "Profil",
-    "dashboard": "Débordan",
-    "analytics": "Analytics"
-  },
-  "authentication": {
-    "sign-in": "Siyen nan",
-    "sign-up": "Enskri",
-    "sign-out": "Siyen deyò",
-    "forgot-password": "Bliye modpas?",
-    "reset-password": "Reyajiste modpas",
-    "email-label": "Adrès Imèl",
-    "password-label": "Paròl",
-    "confirm-password": "Konfime modpas"
-  },
-  "dashboard": {
-    "overview": "Vi dansanm",
-    "recent-activity": "Dènye aktivite",
-    "quick-actions": "Aksyon rapid",
-    "stats": {
-      "tasks-completed": "Travay ranpli",
-      "active-projects": "Pwojè aktif",
-      "automation-runs": "Kouri automatisation"
-    }
-  },
-  "projects": {
-    "create": "Kreye nouvo pwojè",
-    "edit": "Edit Pwojè",
-    "delete": "Efase Pwojè",
-    "title-placeholder": "Antre Tit Pwojè",
-    "description-placeholder": "Antre Deskripsyon Pwojè",
-    "status": {
-      "in-progress": "Nan pwogrè",
-      "completed": "Konplete",
-      "on-hold": "Sou kenbe"
-    }
-  },
-  "automations": {
-    "create": "Kreye automatisation",
-    "run": "Kouri automatisation",
-    "pause": "Pran yon poz automatisation",
-    "stop": "One Stop Automation",
-    "history": "Istwa automatisation",
-    "trigger": "Gachèt",
-    "action": "Aksyon"
-  },
-  "library": {
-    "search": "Rechèch bibliyotèk",
-    "filter": "Filtre",
-    "categories": {
-      "templates": "Modèl",
-      "scripts": "Ekriti",
-      "datasets": "Ansokasyon",
-      "models": "Ayi modèl"
-    },
-    "upload": "Voye resous",
-    "download": "Download Resous"
-  },
-  "spaces": {
-    "create": "Kreye espas",
-    "invite": "Envite manm yo",
-    "leave": "Kite espas",
-    "manage": "Jere espas",
-    "title-placeholder": "Mete non espas"
-  },
-  "errors": {
-    "generic": "Yon bagay ale mal. Tanpri eseye ankò.",
-    "not-found": "Resous pa jwenn.",
-    "unauthorized": "Ou pa otorize pou fè aksyon sa a.",
-    "invalid-input": "Tanpri tcheke opinyon ou epi eseye ankò.",
-    "network": "Rezo erè. Tanpri tcheke koneksyon ou."
-  },
-  "tooltips": {
-    "new-project": "Kòmanse yon nouvo pwojè pou òganize travay ou yo.",
-    "automation-run": "Kouri sa a automatisation egzekite travay predefini.",
-    "library-search": "Rechèch pou modèl, Scripts, oswa ansanbl.",
-    "space-invite": "Envite manm ekip yo pou kolabore nan espas sa a."
-  },
-  "footer": {
-    "copyright": "© 2025 Vandredi AI. Tout dwa rezève.",
-    "terms": "Regleman pou Sèvis",
-    "privacy": "Règleman sou enfòmasyon prive",
-    "contact": "Kontakte nou"
-  }
+  "home": "Lakay",
+  "contents": "Sa",
+  "about": "De",
+  "start-project": "Kòmanse yon pwojè",
+  "headline": "Designing idantite mak distenk ak kiryozite ak vizyon",
+  "description": "Desen? Mwen pote yo nan lavi kòm mak vizyèl. Fè efò pou fòme anpil idantite Iconiţă ke posib.",
+  "now": "Koulye a",
+  "now-description": "Endepandan, mete idantite mak pou nouvo kliyan.",
+  "previously": "Pr ye",
+  "previously-description": "Brand designer nan Dribbble & Behance.",
+  "name": "Tanvir Hasan Bijoy",
+  "from": "Soti nan Bangladèch",
+  "highlights": "Pwen esansyèl nan travay mwen an"
 }

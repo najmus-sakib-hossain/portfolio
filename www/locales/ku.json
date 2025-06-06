@@ -1,101 +1,15 @@
 {
-  "friday": {
-    "title": "Ez dikarim ji we re çi bikim?",
-    "welcome": "Bi xêr hatî Fridayn, arîkarê we ya Ai-Power!",
-    "prompt": "Tiştek ji min bipirsin an jî karekî nû dest pê bikin.",
-    "help": "Arîkariya hewceyê? Ez li vir im ku we rêber bikim."
-  },
-  "navigation": {
-    "new": "Destpêka nû",
-    "home": "Xane",
-    "automations": "Otomasyon",
-    "varients": "Variant",
-    "projects": "Projeyên",
-    "spaces": "Cihan",
-    "library": "Pirtûkxane",
-    "more": "Zêde",
-    "settings": "Mîhengan",
-    "profile": "Tengal",
-    "dashboard": "Dashboard",
-    "analytics": "Analytics"
-  },
-  "authentication": {
-    "sign-in": "Têketin",
-    "sign-up": "Tomar kirin",
-    "sign-out": "Guhê xwe nedene",
-    "forgot-password": "Passwordîfreya xwe ji bîr kir?",
-    "reset-password": "Passwordîfreya Reset",
-    "email-label": "Navnîşana emailê",
-    "password-label": "Şîfre",
-    "confirm-password": "di pêşîyê da em sipas dikin"
-  },
-  "dashboard": {
-    "overview": "Têgihiştinî",
-    "recent-activity": "Activityalakiya vê dawiyê",
-    "quick-actions": "Kiryarên bilez",
-    "stats": {
-      "tasks-completed": "Karên qediya",
-      "active-projects": "Projeyên çalak",
-      "automation-runs": "Otomasyonê dimeşe"
-    }
-  },
-  "projects": {
-    "create": "Projeya nû biafirînin",
-    "edit": "Projeya biguherînin",
-    "delete": "Projeyê jêbirin",
-    "title-placeholder": "Sernavê Projeyê binivîse",
-    "description-placeholder": "Danasîna Projeyê binivîse",
-    "status": {
-      "in-progress": "Ez teslîm nabim",
-      "completed": "Qedandin",
-      "on-hold": "Li ser sekinî"
-    }
-  },
-  "automations": {
-    "create": "Otomasyonê biafirînin",
-    "run": "Otomasyonê dakêşin",
-    "pause": "Otomasyonê rawestînin",
-    "stop": "Otomasyonê rawestînin",
-    "history": "Dîroka Otomasyonê",
-    "trigger": "Kişok",
-    "action": "Çalakî"
-  },
-  "library": {
-    "search": "Pirtûkxaneya lêgerînê",
-    "filter": "Parzûn",
-    "categories": {
-      "templates": "Templon",
-      "scripts": "Nivîsar",
-      "datasets": "Datasets",
-      "models": "Modelên AI"
-    },
-    "upload": "Çavkaniya barkirinê",
-    "download": "Theavkaniya daxistinê"
-  },
-  "spaces": {
-    "create": "Cîh çêbikin",
-    "invite": "Endaman vexwendin",
-    "leave": "Cîh bihêlin",
-    "manage": "Cîhan îdare bikin",
-    "title-placeholder": "Navê cîhê binivîse"
-  },
-  "errors": {
-    "generic": "Tiştek xelet çû. Ji kerema xwe careke din biceribîne.",
-    "not-found": "Resavkaniyê nehat dîtin.",
-    "unauthorized": "Hûn ne mafdar in ku vê çalakiyê bikin.",
-    "invalid-input": "Ji kerema xwe têketinê xwe kontrol bikin û dîsa biceribînin.",
-    "network": "Network error. Ji kerema xwe girêdana xwe kontrol bikin."
-  },
-  "tooltips": {
-    "new-project": "Projeyek nû dest pê bikin da ku peywirên xwe bi rêxistin bikin.",
-    "automation-run": "Vê otomatîk ji bo birêvebirina peywirên pêşdetir.",
-    "library-search": "Li temablon, nivîsandin, an datasets lêgerîn.",
-    "space-invite": "Endamên tîmê vexwendin ku di vê cîhê de hevkariyê bikin."
-  },
-  "footer": {
-    "copyright": "© 2025 Fridayn Ai. Hemî maf parastî ne.",
-    "terms": "Mercên karûbar",
-    "privacy": "Siyaseta taybetîtiyê",
-    "contact": "Paqij bûn"
-  }
+  "home": "Xane",
+  "contents": "Ferq",
+  "about": "Ji dor",
+  "start-project": "Projeyek dest pê bikin",
+  "headline": "Sêwirandina nasnameyên pargîdaniya rengîn bi curiosity û dîtinê",
+  "description": "Skîz? Ez wan ji wan re wekî visualsên brandê dibînim. Hewldan ku wekî gelek nasnameyên îkonîkî yên ku gengaz dibe.",
+  "now": "Niha",
+  "now-description": "Ji bo xerîdarên nû, nasnameyên serbixwe, forming.",
+  "previously": "Berê",
+  "previously-description": "Sêwirana Brand li Dribbble & Behance.",
+  "name": "Tanvir Hasan Bijoy",
+  "from": "Ji Bangladeşê",
+  "highlights": "Nîşaneyên xebata min"
 }

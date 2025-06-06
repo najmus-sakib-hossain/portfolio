@@ -1,101 +1,15 @@
 {
-  "friday": {
-    "title": "Mit tudok segíteni?",
-    "welcome": "Üdvözöljük a pénteken, az AI-alapú asszisztensen!",
-    "prompt": "Kérdezzen tőlem bármit, vagy indítson el egy új feladatot.",
-    "help": "Segítségre van szüksége? Azért vagyok itt, hogy irányítsák."
-  },
-  "navigation": {
-    "new": "Kezdje meg az újat",
-    "home": "Otthon",
-    "automations": "Automatizálás",
-    "varients": "Variánsok",
-    "projects": "Projektek",
-    "spaces": "Hely",
-    "library": "Könyvtár",
-    "more": "Több",
-    "settings": "Beállítások",
-    "profile": "Profil",
-    "dashboard": "Műszerfal",
-    "analytics": "Analitika"
-  },
-  "authentication": {
-    "sign-in": "Bejelentkezik",
-    "sign-up": "Feliratkozás",
-    "sign-out": "Kijelentkezik",
-    "forgot-password": "Elfelejtette a jelszót?",
-    "reset-password": "A jelszó visszaállítása",
-    "email-label": "E -mail cím",
-    "password-label": "Jelszó",
-    "confirm-password": "Erősítse meg a jelszót"
-  },
-  "dashboard": {
-    "overview": "Áttekintés",
-    "recent-activity": "Legújabb tevékenység",
-    "quick-actions": "Gyors tevékenységek",
-    "stats": {
-      "tasks-completed": "A feladatok befejeződtek",
-      "active-projects": "Aktív projektek",
-      "automation-runs": "Az automatizálás fut"
-    }
-  },
-  "projects": {
-    "create": "Új projekt létrehozása",
-    "edit": "Szerkesztési projekt",
-    "delete": "Törlési projekt",
-    "title-placeholder": "Írja be a projekt címét",
-    "description-placeholder": "Írja be a projekt leírását",
-    "status": {
-      "in-progress": "Folyamatban van",
-      "completed": "Befejezett",
-      "on-hold": "Tartva"
-    }
-  },
-  "automations": {
-    "create": "Létrehozza az automatizálást",
-    "run": "Futás automatizálás",
-    "pause": "Szüneteltetés az automatizálás",
-    "stop": "Stop Automation",
-    "history": "Automatizálási előzmények",
-    "trigger": "Indítvány",
-    "action": "Akció"
-  },
-  "library": {
-    "search": "Keresési könyvtár",
-    "filter": "Szűrő",
-    "categories": {
-      "templates": "Sablonok",
-      "scripts": "Szkriptek",
-      "datasets": "Adatkészletek",
-      "models": "AI modellek"
-    },
-    "upload": "Töltse fel az erőforrásot",
-    "download": "Letöltés erőforrás"
-  },
-  "spaces": {
-    "create": "Teret teremt",
-    "invite": "Meghívja a tagokat",
-    "leave": "Hagyjon helyet",
-    "manage": "Kezelje a helyet",
-    "title-placeholder": "Írja be a hely nevét"
-  },
-  "errors": {
-    "generic": "Valami rosszul ment. Kérjük, próbálkozzon újra.",
-    "not-found": "Nem található erőforrás.",
-    "unauthorized": "Ön nem jogosult ennek a műveletnek a végrehajtására.",
-    "invalid-input": "Kérjük, ellenőrizze a bemenetet, és próbálja újra.",
-    "network": "Hálózati hiba. Kérjük, ellenőrizze a kapcsolatát."
-  },
-  "tooltips": {
-    "new-project": "Indítson el egy új projektet a feladatok megszervezéséhez.",
-    "automation-run": "Futtassa ezt az automatizálást az előre definiált feladatok végrehajtásához.",
-    "library-search": "Keressen sablonokat, szkripteket vagy adatkészleteket.",
-    "space-invite": "Hívja meg a csapat tagjait, hogy működjenek együtt ezen a téren."
-  },
-  "footer": {
-    "copyright": "© 2025 péntek AI. Minden jog fenntartva.",
-    "terms": "Szolgáltatási feltételek",
-    "privacy": "Adatvédelmi irányelv",
-    "contact": "Vegye fel velünk a kapcsolatot"
-  }
+  "home": "Otthon",
+  "contents": "Tartalom",
+  "about": "Körülbelül",
+  "start-project": "Indítson el egy projektet",
+  "headline": "Különböző márka identitások tervezése kíváncsisággal és látással",
+  "description": "Vázlatok? Márka látványként életre keltem őket. Arra törekszik, hogy minél több ikonikus identitást alakítson ki.",
+  "now": "Jelenleg",
+  "now-description": "Független, a márka identitásainak kialakítása az új ügyfelek számára.",
+  "previously": "Korábban",
+  "previously-description": "Márkatervező a Dribble & Behance -nál.",
+  "name": "Tanvir Hasan Bijoy",
+  "from": "Bangladesből",
+  "highlights": "Munkám legfontosabb eseményei"
 }

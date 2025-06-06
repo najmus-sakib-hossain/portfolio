@@ -1,101 +1,15 @@
 {
-  "friday": {
-    "title": "Hva kan jeg hjelpe deg med?",
-    "welcome": "Velkommen til fredag, din AI-drevne assistent!",
-    "prompt": "Spør meg hva som helst eller start en ny oppgave.",
-    "help": "Trenger du hjelp? Jeg er her for å veilede deg."
-  },
-  "navigation": {
-    "new": "Start nytt",
-    "home": "Hjem",
-    "automations": "Automasjoner",
-    "varients": "Varianter",
-    "projects": "Prosjekter",
-    "spaces": "Mellomrom",
-    "library": "Bibliotek",
-    "more": "Flere",
-    "settings": "Innstillinger",
-    "profile": "Profil",
-    "dashboard": "Dashbord",
-    "analytics": "Analytics"
-  },
-  "authentication": {
-    "sign-in": "Logg på",
-    "sign-up": "Registrer deg",
-    "sign-out": "Logg ut",
-    "forgot-password": "Glemt passord?",
-    "reset-password": "Tilbakestill passord",
-    "email-label": "E -postadresse",
-    "password-label": "Passord",
-    "confirm-password": "Bekreft passord"
-  },
-  "dashboard": {
-    "overview": "Oversikt",
-    "recent-activity": "Nylig aktivitet",
-    "quick-actions": "Raske handlinger",
-    "stats": {
-      "tasks-completed": "Oppgaver fullført",
-      "active-projects": "Aktive prosjekter",
-      "automation-runs": "Automatisering kjøres"
-    }
-  },
-  "projects": {
-    "create": "Lag nytt prosjekt",
-    "edit": "Rediger prosjekt",
-    "delete": "Slett prosjekt",
-    "title-placeholder": "Skriv inn prosjekttittel",
-    "description-placeholder": "Skriv inn prosjektbeskrivelse",
-    "status": {
-      "in-progress": "Pågår",
-      "completed": "Fullført",
-      "on-hold": "På vent"
-    }
-  },
-  "automations": {
-    "create": "Lage automatisering",
-    "run": "Kjør automatisering",
-    "pause": "Pause automatisering",
-    "stop": "Stopp automatisering",
-    "history": "Automasjonshistorie",
-    "trigger": "Avtrekker",
-    "action": "Handling"
-  },
-  "library": {
-    "search": "Søkebibliotek",
-    "filter": "Filter",
-    "categories": {
-      "templates": "Maler",
-      "scripts": "Skript",
-      "datasets": "Datasett",
-      "models": "AI -modeller"
-    },
-    "upload": "Last opp ressurs",
-    "download": "Last ned ressursen"
-  },
-  "spaces": {
-    "create": "Skape plass",
-    "invite": "Inviter medlemmer",
-    "leave": "Forlate plassen",
-    "manage": "Administrer plass",
-    "title-placeholder": "Skriv inn romnavnet"
-  },
-  "errors": {
-    "generic": "Noe gikk galt. Vennligst prøv igjen.",
-    "not-found": "Ressurs ikke funnet.",
-    "unauthorized": "Du er ikke autorisert til å utføre denne handlingen.",
-    "invalid-input": "Vennligst sjekk innspillene dine og prøv igjen.",
-    "network": "Nettverksfeil. Vennligst sjekk tilkoblingen din."
-  },
-  "tooltips": {
-    "new-project": "Start et nytt prosjekt for å organisere oppgavene dine.",
-    "automation-run": "Kjør denne automatiseringen for å utføre forhåndsdefinerte oppgaver.",
-    "library-search": "Søk etter maler, skript eller datasett.",
-    "space-invite": "Inviter teammedlemmer til å samarbeide i dette rommet."
-  },
-  "footer": {
-    "copyright": "© 2025 Fredag ​​AI. Alle rettigheter forbeholdt.",
-    "terms": "Tjenestevilkår",
-    "privacy": "Personvernregler",
-    "contact": "Kontakt oss"
-  }
+  "home": "Hjem",
+  "contents": "Innhold",
+  "about": "Om",
+  "start-project": "Start et prosjekt",
+  "headline": "Designe distinkte merkeidentiteter med nysgjerrighet og visjon",
+  "description": "Skisser? Jeg bringer dem til live som merkevarevisuelle. Streber etter å forme så mange ikoniske identiteter som mulig.",
+  "now": "Nå",
+  "now-description": "Uavhengige, formende merkeidentiteter for nye kunder.",
+  "previously": "Tidligere",
+  "previously-description": "Merkedesigner hos Dribbble & Behance.",
+  "name": "Tanvir Hasan Bijoy",
+  "from": "Fra Bangladesh",
+  "highlights": "Høydepunkter i arbeidet mitt"
 }

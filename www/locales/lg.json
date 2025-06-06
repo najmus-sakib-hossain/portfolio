@@ -1,101 +1,15 @@
 {
-  "friday": {
-    "title": "Kiki kye nsobola okukuyambako?",
-    "welcome": "Mwaniriziddwa ku Lwokutaano, omuyambi wo alina amaanyi ga AI!",
-    "prompt": "Mumbuuze ekintu kyonna oba tandika omulimu omupya.",
-    "help": "Oyagala buyambi? Nze ndi wano okukulungamya."
-  },
-  "navigation": {
-    "new": "Tandika Ebipya .",
-    "home": "Ewaka",
-    "automations": "Automations .",
-    "varients": "Enjawulo .",
-    "projects": "Pulojekiti .",
-    "spaces": "Ebifo .",
-    "library": "Ekizimbe ekibeeramu ebitabo",
-    "more": "Okwongera",
-    "settings": "Enteekateeka .",
-    "profile": "Ebikukwatako",
-    "dashboard": "Dashboard .",
-    "analytics": "Okwekenenya ."
-  },
-  "authentication": {
-    "sign-in": "Sign In .",
-    "sign-up": "Wewandiise",
-    "sign-out": "Sign Out .",
-    "forgot-password": "Yerabira ekigambo ky'okuyingira?",
-    "reset-password": "Okuzzaawo ekigambo ky'okuyingira .",
-    "email-label": "Email .",
-    "password-label": "Paasiwaadi",
-    "confirm-password": "Kakasa ekigambo ky'okuyingira ."
-  },
-  "dashboard": {
-    "overview": "Okulambika .",
-    "recent-activity": "Emirimu egyakakolebwa .",
-    "quick-actions": "Ebikolwa eby'amangu .",
-    "stats": {
-      "tasks-completed": "Emirimu giwedde .",
-      "active-projects": "Pulojekiti ezikola .",
-      "automation-runs": "Automation edduka ."
-    }
-  },
-  "projects": {
-    "create": "Tonda pulojekiti empya .",
-    "edit": "edit pulojekiti .",
-    "delete": "Delete Project .",
-    "title-placeholder": "Yingiza omutwe gwa pulojekiti .",
-    "description-placeholder": "Yingiza Ennyonnyola ya pulojekiti .",
-    "status": {
-      "in-progress": "mu kugenda mu maaso .",
-      "completed": "Emaliriziddwa .",
-      "on-hold": "ku kukwata ."
-    }
-  },
-  "automations": {
-    "create": "Okukola Automation .",
-    "run": "Okudduka Automation .",
-    "pause": "Pause Automation .",
-    "stop": "Lekera awo okukola automation .",
-    "history": "Ebyafaayo bya Automation .",
-    "trigger": "Okusiikula",
-    "action": "Okikolwa"
-  },
-  "library": {
-    "search": "Okunoonya etterekero ly'ebitabo .",
-    "filter": "Okusengejja .",
-    "categories": {
-      "templates": "Ebikozesebwa mu kukola .",
-      "scripts": "Ebiwandiiko .",
-      "datasets": "Datasets .",
-      "models": "AI models ."
-    },
-    "upload": "Upload Resource .",
-    "download": "Download Ebikozesebwa ."
-  },
-  "spaces": {
-    "create": "Tonda ekifo .",
-    "invite": "Yita Bammemba .",
-    "leave": "Leka ekifo .",
-    "manage": "Okuddukanya ekifo .",
-    "title-placeholder": "Yingiza erinnya ly'omu bwengula ."
-  },
-  "errors": {
-    "generic": "Waliwo ekyatambula obubi. Nsaba muddemu okugezaako.",
-    "not-found": "Eby'obugagga tebizuuliddwa.",
-    "unauthorized": "Tokkirizibwa kukola kikolwa kino.",
-    "invalid-input": "Nsaba okebere ku by'oyingiza era oddemu ogezeeko.",
-    "network": "ensobi mu mutimbagano. Nsaba okebere ku nkolagana yo."
-  },
-  "tooltips": {
-    "new-project": "Tandika pulojekiti empya okutegeka emirimu gyo.",
-    "automation-run": "dduka automation eno okukola emirimu egyategekebwa edda.",
-    "library-search": "Noonya templates, scripts, oba datasets.",
-    "space-invite": "Yita bammemba ba ttiimu okukolagana mu kifo kino."
-  },
-  "footer": {
-    "copyright": "© 2025 Lwakutaano Ai. Eddembe lyonna liri mu buyinza bwaffe.",
-    "terms": "Ebiragiro by'Empeereza .",
-    "privacy": "Enkola y’Ebyama .",
-    "contact": "Tukwasaganye"
-  }
+  "home": "Ewaka",
+  "contents": "Ebirimu .",
+  "about": "Ku",
+  "start-project": "Tandika pulojekiti .",
+  "headline": "Okukola endagamuntu ez’enjawulo ez’ekika n’okwegomba n’okwolesebwa .",
+  "description": "Sketches? Nze mbazza mu bulamu nga brand visuals. Okufuba okukola endagamuntu nnyingi nga bwe kisoboka.",
+  "now": "Kaakati",
+  "now-description": "Independent, shaping endagamuntu za brand eri bakasitoma abapya.",
+  "previously": "Emabegako .",
+  "previously-description": "Omukugu mu kukola ebika mu Dribbble & Behance.",
+  "name": "Tanvir Hasan Bijoy .",
+  "from": "Okuva e Bangladesh .",
+  "highlights": "Ebikulu mu mulimu gwange ."
 }

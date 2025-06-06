@@ -1,101 +1,15 @@
 {
-  "friday": {
-    "title": "ኣብ ምንታይ ክሕግዘካ ይኽእል?",
-    "welcome": "ብደሓን መጻእኩም ናብ ዓርቢ፡ ብAI ዝሰርሕ ሓጋዚኹም!",
-    "prompt": "ዝኾነ ነገር ሕተተኒ ወይ ሓድሽ ዕማም ጀምር።",
-    "help": "ሓገዝ የድልየካ? ኣነ ክመርሓካ እየ ኣብዚ ዘለኹ።"
-  },
-  "navigation": {
-    "new": "ሓድሽ ጀምር",
-    "home": "ገዛ",
-    "automations": "ኣውቶማቲክስ .",
-    "varients": "ፍልልያት",
-    "projects": "ፕሮጀክትታት",
-    "spaces": "ቦታታት",
-    "library": "ቤተ ንባበ",
-    "more": "ቡዙሕ",
-    "settings": "ቅጥዕታት",
-    "profile": "መግለፂ",
-    "dashboard": "ዳሽቦርድ",
-    "analytics": "ትንታነታት"
-  },
-  "authentication": {
-    "sign-in": "sign in",
-    "sign-up": "Sign up",
-    "sign-out": "ምልክት ግበር",
-    "forgot-password": "ፓስወርድ ረሲዕካ?",
-    "reset-password": "ዳግማይ ምትካል ምልክት ቃል",
-    "email-label": "ናይ ኢመይል ኣድራሻ",
-    "password-label": "መሕለፊ ቓል",
-    "confirm-password": "ምልክት ቃል ኣረጋግጽ"
-  },
-  "dashboard": {
-    "overview": "ሓፈሻዊ ትሕዝቶ",
-    "recent-activity": "ኣብ ቀረባ እዋን ዝተገብረ ንጥፈታት",
-    "quick-actions": "ቅልጡፍ ተግባራት",
-    "stats": {
-      "tasks-completed": "ዕማማት ተዛዚሙ",
-      "active-projects": "ንጡፋት ፕሮጀክትታት",
-      "automation-runs": "ኣውቶማቲክ ይጎዪ"
-    }
-  },
-  "projects": {
-    "create": "ሓድሽ ፕሮጀክት ምፍጣር",
-    "edit": "ፕሮጀክት ኣርትዕ",
-    "delete": "ፕሮጀክት ምድምሳስ",
-    "title-placeholder": "ኣርእስቲ ፕሮጀክት ኣእትዉ",
-    "description-placeholder": "መግለጺ ፕሮጀክት ኣእቱ",
-    "status": {
-      "in-progress": "ኣብ ምዕባለ",
-      "completed": "ዝተዛዘመ",
-      "on-hold": "ኣብ ምሓዝ"
-    }
-  },
-  "automations": {
-    "create": "ኣውቶማቲክ ምፍጣር .",
-    "run": "ኣውቶማቲክ ምግባር",
-    "pause": "ኣውቶማቲክ ኣውቶማሽን",
-    "stop": "ኣውቶማቲክ ደው ምባል",
-    "history": "ታሪኽ ኣውቶማቲክ",
-    "trigger": "ምልዕዓል",
-    "action": "ተግባር"
-  },
-  "library": {
-    "search": "ቤተ መጻሕፍቲ ድለዩ",
-    "filter": "ፍልተር .",
-    "categories": {
-      "templates": "ቅጥዕታት",
-      "scripts": "ስክሪፕት .",
-      "datasets": "ዳታሴት",
-      "models": "ናይ AI ሞዴላት"
-    },
-    "upload": "ጸጋ ምጽዓን",
-    "download": "ዳውንሎድ ሃፍቲ"
-  },
-  "spaces": {
-    "create": "ቦታ ምፍጣር .",
-    "invite": "ንኣባላት ምዕዳም",
-    "leave": "ቦታ ግደፍ",
-    "manage": "ቦታ ኣመሓድር",
-    "title-placeholder": "ስም ቦታ ኣእቱ"
-  },
-  "errors": {
-    "generic": "ገለ ነገር ተጋግዩ። በጃኹም ደጊምኩም ፈትኑ።",
-    "not-found": "ጸጋ ኣይተረኽበን።",
-    "unauthorized": "ነዚ ስጉምቲ ክትፍጽም ስልጣን የብልካን።",
-    "invalid-input": "በጃኻ እታወታትካ መርምር እሞ እንደገና ፈትን።",
-    "network": "ናይ ኔትወርክ ጌጋ። በጃኹም ርክብኩም ርኣዩ።"
-  },
-  "tooltips": {
-    "new-project": "ዕማማትካ ንምውዳብ ሓድሽ ፕሮጀክት ጀምር።",
-    "automation-run": "ኣቐዲሙ ዝተነጸረ ዕማማት ንምፍጻም ነዚ ኣውቶማቲክ ምግባር።",
-    "library-search": "ቅጥዕታት፡ ስክሪፕት ወይ ዳታሴት ድለዩ።",
-    "space-invite": "ኣብዚ ቦታ ንኣባላት ጋንታ ክተሓባበሩ ዓድሞም።"
-  },
-  "footer": {
-    "copyright": "© 2025 ዓርቢ AI. ኩሉ መሰላት ዝተሓለወ እዩ።",
-    "terms": "ውዕል ኣገልግሎት",
-    "privacy": "ፖሊሲ ውልቃዊ ሓበሬታ",
-    "contact": "ርኸቡና"
-  }
+  "home": "ገዛ",
+  "contents": "ትሕዝቶ",
+  "about": "ብዝዕባ",
+  "start-project": "ፕሮጀክት ጀምር",
+  "headline": "ፍሉይ ናይ ምልክት መንነት ምስ ፍልጠት ድሌትን ራእይን ምህዛን",
+  "description": "ስኬች? ከም ምልክት ምልክት (brand visuals) ህያው እገብሮም። ብዝተኻእለ መጠን ብዙሓት ምልክት መንነታት ንምቕራጽ ምጽዓር።",
+  "now": "ሕዚ",
+  "now-description": "ነጻ፣ ቅርጺ ዝህብ መንነት ምልክት ንሓደስቲ ዓማዊል።",
+  "previously": "ቅድሚ ሕጂ",
+  "previously-description": "ዲዛይነር ምልክት ኣብ ድሪብብል ኤንድ ቤሃንስ.",
+  "name": "ታንቪር ሓሰን ቢጆይ",
+  "from": "ካብ ባንግላድሽ",
+  "highlights": "ድምቀት ስርሐይ"
 }

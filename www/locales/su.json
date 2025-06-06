@@ -1,101 +1,15 @@
 {
-  "friday": {
-    "title": "Naon anu kuring tiasa ngabantosan anjeun?",
-    "welcome": "Wilujeng sumping Jumaah, asistén anu dipasahkeun anjeun!",
-    "prompt": "Tanya kuring nanaon atanapi ngamimitian tugas anyar.",
-    "help": "Peryogi bantosan? Abdi di dieu pikeun nungtun anjeun."
-  },
-  "navigation": {
-    "new": "Mimitian Anyar",
-    "home": "Imah",
-    "automations": "Automation",
-    "varients": "Vanual",
-    "projects": "Projolan",
-    "spaces": "Rohangan",
-    "library": "Perpustakaan",
-    "more": "Tambih deui",
-    "settings": "Setelan",
-    "profile": "Profil",
-    "dashboard": "Dasbor",
-    "analytics": "Analy."
-  },
-  "authentication": {
-    "sign-in": "Daptar",
-    "sign-up": "Daptar",
-    "sign-out": "Kaluar",
-    "forgot-password": "Hilap kecap konci?",
-    "reset-password": "Reset kecap konci",
-    "email-label": "Alamat email",
-    "password-label": "Sandi",
-    "confirm-password": "Pastikeun Kecap konci"
-  },
-  "dashboard": {
-    "overview": "Ihtisar",
-    "recent-activity": "Kagiatan panganyarna",
-    "quick-actions": "Tindakan gancang",
-    "stats": {
-      "tasks-completed": "Tugas réngsé",
-      "active-projects": "Proyék aktif",
-      "automation-runs": "Automation"
-    }
-  },
-  "projects": {
-    "create": "Jieun proyék anyar",
-    "edit": "Édit proyék",
-    "delete": "Hapus proyék",
-    "title-placeholder": "Lebetkeun judul proyék",
-    "description-placeholder": "Lebetkeun pedaran proyék",
-    "status": {
-      "in-progress": "Nuju prosés",
-      "completed": "Réngsé",
-      "on-hold": "Disimpen"
-    }
-  },
-  "automations": {
-    "create": "Jieun Autripation",
-    "run": "Amprok",
-    "pause": "Red Otomatis",
-    "stop": "Eureun otomatis",
-    "history": "Sajarah otomatis",
-    "trigger": "Pemicu",
-    "action": "Aksi"
-  },
-  "library": {
-    "search": "Milarian perpustakaan",
-    "filter": "Nyaring",
-    "categories": {
-      "templates": "Témpling",
-      "scripts": "Sabalikna",
-      "datasets": "Platasets",
-      "models": "Modél AI"
-    },
-    "upload": "Undload sumberdaya",
-    "download": "Sumberd Sumber Unduh"
-  },
-  "spaces": {
-    "create": "Ngadamel rohangan",
-    "invite": "Ngajak anggota",
-    "leave": "Ngantunkeun rohangan",
-    "manage": "Ngatur rohangan",
-    "title-placeholder": "Lebetkeun nami rohangan"
-  },
-  "errors": {
-    "generic": "Aya anu lepat. Cobaan deui.",
-    "not-found": "Sumberdaya henteu kapendak.",
-    "unauthorized": "Anjeun henteu otoritas pikeun ngalakukeun tindakan ieu.",
-    "invalid-input": "Punten parios input sareng cobian deui.",
-    "network": "Kasalahan jaringan. Punten parios sambungan anjeun."
-  },
-  "tooltips": {
-    "new-project": "Ngamimitian proyék anyar pikeun ngatur tugas anjeun.",
-    "automation-run": "Jalankeun automation ieu pikeun ngaéksekusi tugas anu sibuk.",
-    "library-search": "Milarian témplat, script, atanapi datasets.",
-    "space-invite": "Ngajak anggota tim pikeun kolaborasi di rohangan ieu."
-  },
-  "footer": {
-    "copyright": "© 2025 Jumaah Ai. Sadaya hak disimpen.",
-    "terms": "Sarat jasa",
-    "privacy": "kabijakan privasi",
-    "contact": "Taros Kami"
-  }
+  "home": "Imah",
+  "contents": "Eusi",
+  "about": "Kira-kira",
+  "start-project": "Mimitian proyék",
+  "headline": "Mendesain identitas merek anu béda sareng panasaran sareng visi",
+  "description": "Sketsa? Kuring bawa kana kahirupan salaku visual anu merek. Ngaganggu bentuk saloba idéntitas iconic sabisa.",
+  "now": "Ayeuna",
+  "now-description": "Mandiri, ngawangun idéntitas merek pikeun klien anyar.",
+  "previously": "Saméméhna",
+  "previously-description": "Desainer merek di Dribbble & katanyana.",
+  "name": "Tanvir Hasan biang",
+  "from": "Ti Bangladesh",
+  "highlights": "Sorot tina pagawéan kuring"
 }

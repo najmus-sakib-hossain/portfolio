@@ -1,101 +1,15 @@
 {
-  "friday": {
-    "title": "Waar kan ik je mee helpen?",
-    "welcome": "Welkom bij vrijdag, uw AI-aangedreven assistent!",
-    "prompt": "Vraag me iets of begin een nieuwe taak.",
-    "help": "Hulp nodig? Ik ben hier om je te begeleiden."
-  },
-  "navigation": {
-    "new": "Begin nieuw",
-    "home": "Thuis",
-    "automations": "Automatisering",
-    "varients": "Varianten",
-    "projects": "Projecten",
-    "spaces": "Spaties",
-    "library": "Bibliotheek",
-    "more": "Meer",
-    "settings": "Instellingen",
-    "profile": "Profiel",
-    "dashboard": "Dashboard",
-    "analytics": "Analyse"
-  },
-  "authentication": {
-    "sign-in": "Inloggen",
-    "sign-up": "Zich aanmelden",
-    "sign-out": "Uitmelden",
-    "forgot-password": "Wachtwoord vergeten?",
-    "reset-password": "Reset wachtwoord",
-    "email-label": "E -mailadres",
-    "password-label": "Wachtwoord",
-    "confirm-password": "Bevestig het wachtwoord"
-  },
-  "dashboard": {
-    "overview": "Overzicht",
-    "recent-activity": "Recente activiteit",
-    "quick-actions": "Snelle acties",
-    "stats": {
-      "tasks-completed": "Taken voltooid",
-      "active-projects": "Actieve projecten",
-      "automation-runs": "Automatisering loopt"
-    }
-  },
-  "projects": {
-    "create": "Maak een nieuw project",
-    "edit": "Project bewerken",
-    "delete": "Verwijder project",
-    "title-placeholder": "Voer de projecttitel in",
-    "description-placeholder": "Voer de projectbeschrijving in",
-    "status": {
-      "in-progress": "In uitvoering",
-      "completed": "Voltooid",
-      "on-hold": "In de wacht gezet"
-    }
-  },
-  "automations": {
-    "create": "Automatisering maken",
-    "run": "Voer automatisering uit",
-    "pause": "Pauzeer automatisering",
-    "stop": "Stop automatisering",
-    "history": "Automatiseringsgeschiedenis",
-    "trigger": "Trekker",
-    "action": "Actie"
-  },
-  "library": {
-    "search": "Zoekbibliotheek",
-    "filter": "Filter",
-    "categories": {
-      "templates": "Sjablonen",
-      "scripts": "Scripts",
-      "datasets": "Datasets",
-      "models": "AI -modellen"
-    },
-    "upload": "Upload resource",
-    "download": "Download resource"
-  },
-  "spaces": {
-    "create": "Creëer ruimte",
-    "invite": "Nodig leden uit",
-    "leave": "Verlaat de ruimte",
-    "manage": "Beheer ruimte",
-    "title-placeholder": "Voer ruimtevaart in"
-  },
-  "errors": {
-    "generic": "Er ging iets mis. Probeer het opnieuw.",
-    "not-found": "Bron niet gevonden.",
-    "unauthorized": "U bent niet bevoegd om deze actie uit te voeren.",
-    "invalid-input": "Controleer uw invoer en probeer het opnieuw.",
-    "network": "Netwerkfout. Controleer uw verbinding."
-  },
-  "tooltips": {
-    "new-project": "Start een nieuw project om uw taken te organiseren.",
-    "automation-run": "Voer deze automatisering uit om vooraf gedefinieerde taken uit te voeren.",
-    "library-search": "Zoek naar sjablonen, scripts of datasets.",
-    "space-invite": "Nodig teamleden uit om samen te werken in deze ruimte."
-  },
-  "footer": {
-    "copyright": "© 2025 Vrijdag AI. Alle rechten voorbehouden.",
-    "terms": "Voorwaarden van services",
-    "privacy": "Privacybeleid",
-    "contact": "Neem contact met ons op"
-  }
+  "home": "Thuis",
+  "contents": "Inhoud",
+  "about": "Over",
+  "start-project": "Start een project",
+  "headline": "Het ontwerpen van verschillende merkidentiteiten met nieuwsgierigheid en visie",
+  "description": "Schetsen? Ik breng ze tot leven als merk visuals. Ernaar streven zoveel mogelijk iconische identiteiten vorm te geven.",
+  "now": "Nu",
+  "now-description": "Onafhankelijke, vormgevende merkidentiteiten voor nieuwe klanten.",
+  "previously": "Eerder",
+  "previously-description": "Merkontwerper bij Dribbble & Behance.",
+  "name": "Tanvir Hasan Bijoy",
+  "from": "Uit Bangladesh",
+  "highlights": "Hoogtepunten van mijn werk"
 }

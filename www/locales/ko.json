@@ -1,101 +1,15 @@
 {
-  "friday": {
-    "title": "무엇을 도와 드릴까요?",
-    "welcome": "금요일에 오신 것을 환영합니다. AI 구동 조수!",
-    "prompt": "나에게 물어 보거나 새로운 일을 시작하십시오.",
-    "help": "도움이 필요하십니까? 나는 당신을 인도하기 위해 여기 있습니다."
-  },
-  "navigation": {
-    "new": "새로 시작하십시오",
-    "home": "집",
-    "automations": "자동화",
-    "varients": "변형",
-    "projects": "프로젝트",
-    "spaces": "공간",
-    "library": "도서관",
-    "more": "더",
-    "settings": "설정",
-    "profile": "윤곽",
-    "dashboard": "계기반",
-    "analytics": "해석학"
-  },
-  "authentication": {
-    "sign-in": "로그인",
-    "sign-up": "가입하십시오",
-    "sign-out": "로그 아웃하십시오",
-    "forgot-password": "비밀번호를 잊으 셨나요?",
-    "reset-password": "비밀번호를 재설정하십시오",
-    "email-label": "이메일 주소",
-    "password-label": "비밀번호",
-    "confirm-password": "비밀번호를 확인하십시오"
-  },
-  "dashboard": {
-    "overview": "개요",
-    "recent-activity": "최근 활동",
-    "quick-actions": "빠른 행동",
-    "stats": {
-      "tasks-completed": "작업이 완료되었습니다",
-      "active-projects": "활발한 프로젝트",
-      "automation-runs": "자동화가 실행됩니다"
-    }
-  },
-  "projects": {
-    "create": "새 프로젝트를 만듭니다",
-    "edit": "프로젝트 편집",
-    "delete": "프로젝트 삭제",
-    "title-placeholder": "프로젝트 제목을 입력하십시오",
-    "description-placeholder": "프로젝트 설명을 입력하십시오",
-    "status": {
-      "in-progress": "진행 중",
-      "completed": "완전한",
-      "on-hold": "보류 중"
-    }
-  },
-  "automations": {
-    "create": "자동화를 만듭니다",
-    "run": "자동화를 실행하십시오",
-    "pause": "자동화를 일시 중지하십시오",
-    "stop": "자동화 중지",
-    "history": "자동화 기록",
-    "trigger": "방아쇠",
-    "action": "행동"
-  },
-  "library": {
-    "search": "검색 라이브러리",
-    "filter": "필터",
-    "categories": {
-      "templates": "템플릿",
-      "scripts": "스크립트",
-      "datasets": "데이터 세트",
-      "models": "AI 모델"
-    },
-    "upload": "리소스 업로드",
-    "download": "자원을 다운로드하십시오"
-  },
-  "spaces": {
-    "create": "공간을 만듭니다",
-    "invite": "회원을 초대하십시오",
-    "leave": "공간을 떠나십시오",
-    "manage": "공간 관리",
-    "title-placeholder": "공간 이름을 입력하십시오"
-  },
-  "errors": {
-    "generic": "뭔가 잘못되었습니다. 다시 시도하십시오.",
-    "not-found": "자원을 찾을 수 없습니다.",
-    "unauthorized": "이 조치를 수행 할 권한이 없습니다.",
-    "invalid-input": "입력을 확인하고 다시 시도하십시오.",
-    "network": "네트워크 오류. 연결을 확인하십시오."
-  },
-  "tooltips": {
-    "new-project": "작업을 구성 할 새로운 프로젝트를 시작하십시오.",
-    "automation-run": "이 자동화를 실행하여 사전 정의 된 작업을 실행하십시오.",
-    "library-search": "템플릿, 스크립트 또는 데이터 세트를 검색하십시오.",
-    "space-invite": "이 공간에서 팀원들을 협력하도록 초대하십시오."
-  },
-  "footer": {
-    "copyright": "© 2025 금요일 AI. 모든 권리 보유.",
-    "terms": "서비스 약관",
-    "privacy": "개인 정보 보호 정책",
-    "contact": "저희에게 연락하십시오"
-  }
+  "home": "집",
+  "contents": "내용물",
+  "about": "에 대한",
+  "start-project": "프로젝트를 시작하십시오",
+  "headline": "호기심과 비전을 가진 독특한 브랜드 아이덴티티를 설계합니다",
+  "description": "스케치? 나는 브랜드 시각으로 그들을 생생하게한다. 가능한 한 많은 상징적 인 정체성을 형성하기 위해 노력합니다.",
+  "now": "지금",
+  "now-description": "새로운 고객을위한 독립적이고 형성 브랜드 아이덴티티.",
+  "previously": "이전에",
+  "previously-description": "Dribbble & Behance의 브랜드 디자이너.",
+  "name": "탄 비르 하산 비 조이",
+  "from": "방글라데시에서",
+  "highlights": "내 일의 하이라이트"
 }

@@ -1,101 +1,15 @@
 {
-  "friday": {
-    "title": "Hvað get ég hjálpað þér með?",
-    "welcome": "Verið velkomin á föstudaginn, AI-knúinn aðstoðarmaður þinn!",
-    "prompt": "Spurðu mig hvað sem er eða byrjaðu nýtt verkefni.",
-    "help": "Þarftu aðstoð? Ég er hér til að leiðbeina þér."
-  },
-  "navigation": {
-    "new": "Byrjaðu nýtt",
-    "home": "Heim",
-    "automations": "Sjálfvirkni",
-    "varients": "Afbrigði",
-    "projects": "Verkefni",
-    "spaces": "Rými",
-    "library": "Bókasafn",
-    "more": "Meira",
-    "settings": "Stillingar",
-    "profile": "Prófíl",
-    "dashboard": "Mælaborð",
-    "analytics": "Greiningar"
-  },
-  "authentication": {
-    "sign-in": "Skráðu þig inn",
-    "sign-up": "Skráðu þig",
-    "sign-out": "Skráðu þig út",
-    "forgot-password": "Gleymdir lykilorð?",
-    "reset-password": "Endurstilla lykilorð",
-    "email-label": "Netfang",
-    "password-label": "Lykilorð",
-    "confirm-password": "Staðfestu lykilorð"
-  },
-  "dashboard": {
-    "overview": "Yfirlit",
-    "recent-activity": "Nýleg virkni",
-    "quick-actions": "Skjótar aðgerðir",
-    "stats": {
-      "tasks-completed": "Verkefni lokið",
-      "active-projects": "Virk verkefni",
-      "automation-runs": "Sjálfvirkni keyrir"
-    }
-  },
-  "projects": {
-    "create": "Búðu til nýtt verkefni",
-    "edit": "Breyta verkefni",
-    "delete": "Eyða verkefni",
-    "title-placeholder": "Sláðu inn titil verkefnisins",
-    "description-placeholder": "Sláðu inn verkefnalýsingu",
-    "status": {
-      "in-progress": "Í vinnslu",
-      "completed": "Lokið",
-      "on-hold": "Í bið"
-    }
-  },
-  "automations": {
-    "create": "Búðu til sjálfvirkni",
-    "run": "Keyra sjálfvirkni",
-    "pause": "Hlé sjálfvirkni",
-    "stop": "Hættu sjálfvirkni",
-    "history": "Sjálfvirkni sögu",
-    "trigger": "Trigger",
-    "action": "Aðgerð"
-  },
-  "library": {
-    "search": "Leitasafn",
-    "filter": "Sía",
-    "categories": {
-      "templates": "Sniðmát",
-      "scripts": "Forskriftir",
-      "datasets": "Gagnapakkar",
-      "models": "AI módel"
-    },
-    "upload": "Hlaða upp auðlind",
-    "download": "Sækja auðlind"
-  },
-  "spaces": {
-    "create": "Búðu til rými",
-    "invite": "Bjóddu meðlimum",
-    "leave": "Skildu pláss",
-    "manage": "Stjórna pláss",
-    "title-placeholder": "Sláðu inn geimheiti"
-  },
-  "errors": {
-    "generic": "Eitthvað fór úrskeiðis. Vinsamlegast reyndu aftur.",
-    "not-found": "Auðlind fannst ekki.",
-    "unauthorized": "Þú hefur ekki heimild til að framkvæma þessa aðgerð.",
-    "invalid-input": "Vinsamlegast athugaðu inntak þitt og reyndu aftur.",
-    "network": "Netvilla. Vinsamlegast athugaðu tenginguna þína."
-  },
-  "tooltips": {
-    "new-project": "Byrjaðu nýtt verkefni til að skipuleggja verkefni þín.",
-    "automation-run": "Keyra þessa sjálfvirkni til að framkvæma fyrirfram skilgreind verkefni.",
-    "library-search": "Leitaðu að sniðmátum, handritum eða gagnapökkum.",
-    "space-invite": "Bjóddu liðsmönnum að vinna saman í þessu rými."
-  },
-  "footer": {
-    "copyright": "© 2025 Föstudagur AI. Öll réttindi áskilin.",
-    "terms": "Þjónustuskilmálar",
-    "privacy": "Persónuverndarstefna",
-    "contact": "Hafðu samband"
-  }
+  "home": "Heim",
+  "contents": "Innihald",
+  "about": "Um",
+  "start-project": "Byrjaðu verkefni",
+  "headline": "Að hanna sérstaka vörumerki með forvitni og framtíðarsýn",
+  "description": "Skissur? Ég vekjum þá til lífsins sem myndefni vörumerkis. Að leitast við að móta eins mörg helgimynda auðkenni og mögulegt er.",
+  "now": "Nú",
+  "now-description": "Óháð, mótandi vörumerki fyrir nýja viðskiptavini.",
+  "previously": "Áður",
+  "previously-description": "Vörumerki hjá Dribbble & Behance.",
+  "name": "Tanvir Hasan Bijoy",
+  "from": "Frá Bangladess",
+  "highlights": "Hápunktur vinnu minnar"
 }

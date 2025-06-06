@@ -1,101 +1,15 @@
 {
-  "friday": {
-    "title": "Kedu ihe m ga - enyere gị aka?",
-    "welcome": "Nabata na Fraịde, onye inyeaka Ai-kwadoro!",
-    "prompt": "Gwa m ihe ọ bụla ma ọ bụ ịmalite ọrụ ọhụrụ.",
-    "help": "Chọrọ Enyemaka? Anọ m ebe a iji duzie gị."
-  },
-  "navigation": {
-    "new": "Bido ohuru",
-    "home": "Ulo",
-    "automations": "Machiini",
-    "varients": "Iche iche",
-    "projects": "Oru ngo",
-    "spaces": "Oghere",
-    "library": "Oba akwukwo",
-    "more": "Ọzọ",
-    "settings": "Ntọala",
-    "profile": "Profili",
-    "dashboard": "Dashboard",
-    "analytics": "Nzukota"
-  },
-  "authentication": {
-    "sign-in": "Banye",
-    "sign-up": "Debanye aha",
-    "sign-out": "Pụọ",
-    "forgot-password": "Chefuru okwuntughe?",
-    "reset-password": "Tọgharịa paswọọdụ",
-    "email-label": "Adreesị ozi ịntanetị",
-    "password-label": "Okwungafe",
-    "confirm-password": "Kwenye Na Okwuntughe"
-  },
-  "dashboard": {
-    "overview": "Nlebazi anya",
-    "recent-activity": "Ihe Omume Na-adịbeghị anya",
-    "quick-actions": "Omume Ngwa",
-    "stats": {
-      "tasks-completed": "Ihe aga-eme",
-      "active-projects": "Ọrụ Ọrụ",
-      "automation-runs": "Akpaaka"
-    }
-  },
-  "projects": {
-    "create": "Mepụta oru ohuru",
-    "edit": "Dezie oru",
-    "delete": "Ihichapụ oru ngo",
-    "title-placeholder": "Tinye aha oru",
-    "description-placeholder": "Tinye nkọwapụta",
-    "status": {
-      "in-progress": "Na-aga n'ihu",
-      "completed": "Dechara",
-      "on-hold": "Nọ na njigide"
-    }
-  },
-  "automations": {
-    "create": "Mepụta akpaaka",
-    "run": "Gbaa ike",
-    "pause": "Kwụsịlata",
-    "stop": "Kwụsị akpaaka",
-    "history": "Akụkọ ikike",
-    "trigger": "Triga",
-    "action": "Emereme"
-  },
-  "library": {
-    "search": "Search Search",
-    "filter": "Iyo",
-    "categories": {
-      "templates": "Ndebiri",
-      "scripts": "Edemede",
-      "datasets": "Datasets",
-      "models": "Modelsdị AI"
-    },
-    "upload": "Bulite Resource",
-    "download": "Budata akụ"
-  },
-  "spaces": {
-    "create": "Mepụta oghere",
-    "invite": "Kpọọ ndị otu",
-    "leave": "Hapụ oghere",
-    "manage": "Jikwaa ohere",
-    "title-placeholder": "Tinye aha oghere"
-  },
-  "errors": {
-    "generic": "Ihe adịghị mma. Biko nwaa ọzọ.",
-    "not-found": "Achọpụtaghị.",
-    "unauthorized": "E nyeghị gị ikike ịme ihe a.",
-    "invalid-input": "Biko lelee ntinye gị ma nwaa ọzọ.",
-    "network": "Njehie network. Biko lelee njikọ gị."
-  },
-  "tooltips": {
-    "new-project": "Bido oru ohuru iji hazie oru gi.",
-    "automation-run": "Gbaa akpaaka a iji gbuo ihe ndị a kara aka.",
-    "library-search": "Chọọ maka ndebiri, scripts, ma ọ bụ datasets.",
-    "space-invite": "Kpọọ ndị otu egwuregwu iji rụkọọ ọrụ a."
-  },
-  "footer": {
-    "copyright": "© 2025 Fraịde Ai. Ikike niile echekwabara.",
-    "terms": "Usoro Ọrụ",
-    "privacy": "amụma nzuzo",
-    "contact": "Kpọtụrụ anyị"
-  }
+  "home": "Ulo",
+  "contents": "Ihe juputara",
+  "about": "Maka",
+  "start-project": "Bido oru ngo",
+  "headline": "Ichepụta njirimara dị iche iche na ịchọ ịmata ihe na ọhụụ",
+  "description": "Eserese? M na-eme ka ha dịrị ndụ dị ka ihe ngosi. Na-agba mbọ nhazi dị ka ọtụtụ ihe ngosi dị ka o kwere mee.",
+  "now": "Ugbua",
+  "now-description": "Nnwere onwe, ịkpụzi njirimara maka ndị ahịa ọhụrụ.",
+  "previously": "Ugbua",
+  "previously-description": "Branddị onye nrụpụta na dbb afụ &.",
+  "name": "Tanvir Hanan Billy",
+  "from": "Site na Bangladesh",
+  "highlights": "Isi okwu nke oru m"
 }

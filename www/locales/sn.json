@@ -1,101 +1,15 @@
 {
-  "friday": {
-    "title": "Chii chandingakubatsira iwe?",
-    "welcome": "Tikugashirei kuChishanu, mubatsiri wako weAi-Powered!",
-    "prompt": "Ndibvunze chero chinhu kana kutanga basa idzva.",
-    "help": "Unoda kubatsirwa? Ndiri pano kuti ndikutungamirire."
-  },
-  "navigation": {
-    "new": "Tanga chitsva",
-    "home": "Imba",
-    "automations": "Otomatiki",
-    "varients": "Variya",
-    "projects": "Zvirongwa",
-    "spaces": "Nzvimbo",
-    "library": "Raibhurari",
-    "more": "Zvimwe",
-    "settings": "Zvirongwa",
-    "profile": "Mbiri",
-    "dashboard": "Dashboard",
-    "analytics": "Ongororo"
-  },
-  "authentication": {
-    "sign-in": "Nyorera mu",
-    "sign-up": "Nyorera",
-    "sign-out": "Buda",
-    "forgot-password": "Wakanganwa password?",
-    "reset-password": "Dzosera password",
-    "email-label": "Chikero chetsamba yemumhepo",
-    "password-label": "Pasiwedhi",
-    "confirm-password": "tsigira pasiwedhi"
-  },
-  "dashboard": {
-    "overview": "Kuongorora",
-    "recent-activity": "Zvichangobva kuitika",
-    "quick-actions": "Zviitiko Zvikurumidze",
-    "stats": {
-      "tasks-completed": "Mabasa apedza",
-      "active-projects": "Zvirongwa zvinoshanda",
-      "automation-runs": "Automation inomhanya"
-    }
-  },
-  "projects": {
-    "create": "Gadzira chirongwa chitsva",
-    "edit": "Rongedza chirongwa",
-    "delete": "Delete Project",
-    "title-placeholder": "Pinda Purojekiti Yemusoro",
-    "description-placeholder": "Pinda Projekti Tsananguro",
-    "status": {
-      "in-progress": "Munzira",
-      "completed": "Kupedzwa",
-      "on-hold": "Pabate"
-    }
-  },
-  "automations": {
-    "create": "Gadzira otomatiki",
-    "run": "Mhanya auto",
-    "pause": "Imbomira otomatiki",
-    "stop": "Mira otomatiki",
-    "history": "Inhoroondo automation",
-    "trigger": "Trigger",
-    "action": "Chiito"
-  },
-  "library": {
-    "search": "Tsvaga Raibhurari",
-    "filter": "Filter",
-    "categories": {
-      "templates": "Matemplate",
-      "scripts": "Zvinyorwa",
-      "datasets": "Datasets",
-      "models": "Ai Models"
-    },
-    "upload": "Isa Resource",
-    "download": "Dhawunirodha Resource"
-  },
-  "spaces": {
-    "create": "Gadzira nzvimbo",
-    "invite": "Koka Nhengo",
-    "leave": "Siya nzvimbo",
-    "manage": "Tonga nzvimbo",
-    "title-placeholder": "Pinda zita rezita"
-  },
-  "errors": {
-    "generic": "Pane zvakashata. Ndokumbirawo kuti muedze zvakare.",
-    "not-found": "Resource haina kuwanikwa.",
-    "unauthorized": "Iwe hauna kupihwa mvumo yekuita chiitiko ichi.",
-    "invalid-input": "Ndokumbira utarise yako yekuisa uye edza zvakare.",
-    "network": "Kukanganisa network. Ndokumbira utarise kubatana kwako."
-  },
-  "tooltips": {
-    "new-project": "Tanga chirongwa chitsva kuronga mabasa ako.",
-    "automation-run": "Mhanya iyi automation yekuuraya mabasa akafungidzirwa.",
-    "library-search": "Tsvagai matemplate, zvinyorwa, kana madheti.",
-    "space-invite": "Koka nhengo dzechikwata kuti dziyanani munzvimbo ino."
-  },
-  "footer": {
-    "copyright": "© 2025 Chishanu Ai. Kodzero dzese dzakachengetedzwa.",
-    "terms": "Mitemo Yebasa",
-    "privacy": "Yakavanzika Policy",
-    "contact": "Taura nesu"
-  }
+  "home": "Imba",
+  "contents": "Zviri Mukati",
+  "about": "Nezve",
+  "start-project": "Tanga chirongwa",
+  "headline": "Kugadzira kwakasiyana-siyana mazita ekuda kuziva uye kuona",
+  "description": "Sketches? Ndinovaburitsa kuhupenyu sekuona kwemhando. Kuvavarira kuumbwa seyakawanda iciciic kuzivikanwa sezvinobvira.",
+  "now": "Ikozvino",
+  "now-description": "Yakazvimirira, ichirovera chiratidzo chemhando yevatengi vatsva.",
+  "previously": "Pakutanga",
+  "previously-description": "Brand Designer kuDrabbbble & Kuzvibata.",
+  "name": "Tanvir Hasan Bijoy",
+  "from": "Kubva kuBangladesh",
+  "highlights": "Zvakakwirira zvebasa rangu"
 }

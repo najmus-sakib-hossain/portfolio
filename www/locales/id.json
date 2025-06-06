@@ -1,101 +1,15 @@
 {
-  "friday": {
-    "title": "Dengan apa saya membantu Anda?",
-    "welcome": "Selamat datang di hari Jumat, asisten Anda yang bertenaga AI!",
-    "prompt": "Tanyakan apa saja atau mulai tugas baru.",
-    "help": "Butuh Bantuan? Saya di sini untuk membimbing Anda."
-  },
-  "navigation": {
-    "new": "Mulailah Baru",
-    "home": "Rumah",
-    "automations": "Otomatisasi",
-    "varients": "Varian",
-    "projects": "Proyek",
-    "spaces": "Ruang",
-    "library": "Perpustakaan",
-    "more": "Lagi",
-    "settings": "Pengaturan",
-    "profile": "Profil",
-    "dashboard": "Dasbor",
-    "analytics": "Analitik"
-  },
-  "authentication": {
-    "sign-in": "Masuk",
-    "sign-up": "Mendaftar",
-    "sign-out": "Keluar",
-    "forgot-password": "Lupa Kata Sandi?",
-    "reset-password": "Setel ulang kata sandi",
-    "email-label": "Alamat email",
-    "password-label": "Kata sandi",
-    "confirm-password": "Konfirmasi Kata Sandi"
-  },
-  "dashboard": {
-    "overview": "Ringkasan",
-    "recent-activity": "Aktivitas terbaru",
-    "quick-actions": "Tindakan cepat",
-    "stats": {
-      "tasks-completed": "Tugas diselesaikan",
-      "active-projects": "Proyek aktif",
-      "automation-runs": "Otomasi berjalan"
-    }
-  },
-  "projects": {
-    "create": "Buat proyek baru",
-    "edit": "Proyek Edit",
-    "delete": "Hapus proyek",
-    "title-placeholder": "Masukkan judul proyek",
-    "description-placeholder": "Masukkan deskripsi proyek",
-    "status": {
-      "in-progress": "Sedang berlangsung",
-      "completed": "Selesai",
-      "on-hold": "Ditahan"
-    }
-  },
-  "automations": {
-    "create": "Buat otomatisasi",
-    "run": "Jalankan otomatisasi",
-    "pause": "Jeda otomatisasi",
-    "stop": "Hentikan otomatisasi",
-    "history": "Riwayat otomatisasi",
-    "trigger": "Pemicu",
-    "action": "Tindakan"
-  },
-  "library": {
-    "search": "Cari Perpustakaan",
-    "filter": "Menyaring",
-    "categories": {
-      "templates": "Template",
-      "scripts": "Skrip",
-      "datasets": "Kumpulan data",
-      "models": "Model AI"
-    },
-    "upload": "Unggah sumber daya",
-    "download": "Unduh sumber daya"
-  },
-  "spaces": {
-    "create": "Buat ruang",
-    "invite": "Undang anggota",
-    "leave": "Tinggalkan ruang",
-    "manage": "Kelola ruang",
-    "title-placeholder": "Masukkan nama ruang"
-  },
-  "errors": {
-    "generic": "Ada yang salah. Tolong coba lagi.",
-    "not-found": "Sumber daya tidak ditemukan.",
-    "unauthorized": "Anda tidak berwenang untuk melakukan tindakan ini.",
-    "invalid-input": "Silakan periksa masukan Anda dan coba lagi.",
-    "network": "Kesalahan jaringan. Silakan periksa koneksi Anda."
-  },
-  "tooltips": {
-    "new-project": "Mulai proyek baru untuk mengatur tugas Anda.",
-    "automation-run": "Jalankan otomatisasi ini untuk menjalankan tugas yang telah ditentukan.",
-    "library-search": "Cari templat, skrip, atau set data.",
-    "space-invite": "Undang anggota tim untuk berkolaborasi di ruang ini."
-  },
-  "footer": {
-    "copyright": "© 2025 Jumat AI. Semua hak dilindungi undang -undang.",
-    "terms": "Ketentuan Layanan",
-    "privacy": "Kebijakan Privasi",
-    "contact": "Hubungi kami"
-  }
+  "home": "Rumah",
+  "contents": "Isi",
+  "about": "Tentang",
+  "start-project": "Mulai proyek",
+  "headline": "Merancang identitas merek yang berbeda dengan rasa ingin tahu dan visi",
+  "description": "Sketsa? Saya menghidupkannya sebagai visual merek. Berusaha untuk membentuk identitas ikon sebanyak mungkin.",
+  "now": "Sekarang",
+  "now-description": "Independen, membentuk identitas merek untuk klien baru.",
+  "previously": "Sebelumnya",
+  "previously-description": "Desainer Merek di Dribbble & Behance.",
+  "name": "Tanvir Hasan Bijoy",
+  "from": "Dari Bangladesh",
+  "highlights": "Sorotan pekerjaan saya"
 }

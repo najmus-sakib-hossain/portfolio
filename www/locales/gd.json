@@ -1,101 +1,15 @@
 {
-  "friday": {
-    "title": "Dè as urrainn dhomh do chuideachadh?",
-    "welcome": "Fàilte gu Dihaoine, an neach-cuideachaidh AI agad!",
-    "prompt": "Faighnich dhomh rud sam bith no tòisich air gnìomh ùr.",
-    "help": "A bheil feum agad air cuideachadh? Tha mi an seo gus do stiùireadh."
-  },
-  "navigation": {
-    "new": "Tòisich ùr",
-    "home": "Dachaigh",
-    "automations": "Automations",
-    "varients": "Variants",
-    "projects": "Pròiseactan",
-    "spaces": "Àiteachan",
-    "library": "Leabharlann",
-    "more": "Barrachd",
-    "settings": "Roghainnean",
-    "profile": "Pròifil",
-    "dashboard": "Deas-bhòrd",
-    "analytics": "Anailisean"
-  },
-  "authentication": {
-    "sign-in": "Soidhnig a-steach",
-    "sign-up": "Cuir d’ainm ris",
-    "sign-out": "Soidhnig a-mach",
-    "forgot-password": "An do dhìochuimhnich thu facal-faire?",
-    "reset-password": "Ath-shuidheachadh facal-faire",
-    "email-label": "Seòladh puist-d",
-    "password-label": "Facal-faire",
-    "confirm-password": "Dearbh am facal-faire"
-  },
-  "dashboard": {
-    "overview": "Sealladh farsaing",
-    "recent-activity": "Gnìomhachd o chionn ghoirid",
-    "quick-actions": "Gnìomhan luath",
-    "stats": {
-      "tasks-completed": "Gnìomhan air a chrìochnachadh",
-      "active-projects": "Pròiseactan gnìomhach",
-      "automation-runs": "Bidh fèin-ghluasad a 'ruith"
-    }
-  },
-  "projects": {
-    "create": "Cruthaich pròiseact ùr",
-    "edit": "Deasaich a 'phròiseact deasachaidh",
-    "delete": "Cuir às do phròiseact",
-    "title-placeholder": "Cuir a-steach tiotal a 'phròiseict",
-    "description-placeholder": "Cuir a-steach tuairisgeul a 'phròiseict",
-    "status": {
-      "in-progress": "A’ dèanamh adhartais",
-      "completed": "Crìochnaichte",
-      "on-hold": "Air grèim"
-    }
-  },
-  "automations": {
-    "create": "Cruthaich fèin-ghluasad",
-    "run": "Ruith fèin-ghluasadach",
-    "pause": "Gabh fèin-ghluasad",
-    "stop": "Cuir stad air fèin-ghluasad",
-    "history": "Eachdraidh fèin-ghluasadach",
-    "trigger": "Brosnaich",
-    "action": "Gnìomh"
-  },
-  "library": {
-    "search": "Leabharlann sgrùdaidh",
-    "filter": "Filter",
-    "categories": {
-      "templates": "Teamplaidean",
-      "scripts": "Sgriobtaichean",
-      "datasets": "Deacets",
-      "models": "Modalan AI"
-    },
-    "upload": "Luchdaich suas goireas",
-    "download": "Luchdaich sìos goireas"
-  },
-  "spaces": {
-    "create": "Cruthaich àite",
-    "invite": "Thoir cuireadh do bhuill",
-    "leave": "Fàg àite",
-    "manage": "Riaghladh àite",
-    "title-placeholder": "Cuir a-steach ainm an àite"
-  },
-  "errors": {
-    "generic": "Chaidh rudeigin ceàrr. Feuch ris a-rithist.",
-    "not-found": "Goireas nach deach a lorg.",
-    "unauthorized": "Chan eil ùghdarras agad an gnìomh seo a choileanadh.",
-    "invalid-input": "Feuch an toir thu sùil air do chur-a-steach agus feuch ris a-rithist.",
-    "network": "Mearachd lìonra. Thoir sùil air a 'cheangal agad."
-  },
-  "tooltips": {
-    "new-project": "Tòisich pròiseact ùr gus na gnìomhan agad a chuir air dòigh.",
-    "automation-run": "Ruith an fèin-ghluasad seo gus gnìomhan ro-mhìnichte a choileanadh.",
-    "library-search": "Lorg airson teamplaidean, sgriobtaichean, no dàta-dàta.",
-    "space-invite": "Thoir cuireadh do bhuill na sgioba co-obrachadh san àite seo."
-  },
-  "footer": {
-    "copyright": "© 2025 Dihaoine Ai. Còraichean uile glèidhte.",
-    "terms": "Cumhachan Seirbheis",
-    "privacy": "Poileasaidh Dìomhaireachd",
-    "contact": "Cuir fios thugainn"
-  }
+  "home": "Dachaigh",
+  "contents": "Clàr-innse",
+  "about": "Mu dheidhinn",
+  "start-project": "Tòisich pròiseact",
+  "headline": "A 'dealbhadh dearbh-aithne branda sònraichte le feòrachas agus sealladh",
+  "description": "Sgeidsichean? Bheir mi beò iad mar òrain brannd. A 'strì gus cuideam a chumail air cho ioma-aithne ìomhaigh cho comasach.",
+  "now": "A-nis",
+  "now-description": "Neo-eisimeileach, a 'cumadh dearbh-aithne branda airson teachdaichean ùra.",
+  "previously": "Roimhe seo",
+  "previously-description": "Dealbh-dealbhaidh branda aig seann-deirbble & Misinneas.",
+  "name": "Tripoy Houstean Hoisean",
+  "from": "Bho Bangladesh",
+  "highlights": "Taghadh den obair agam"
 }

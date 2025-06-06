@@ -1,101 +1,15 @@
 {
-  "friday": {
-    "title": "S čím vám môžem pomôcť?",
-    "welcome": "Vitajte v piatok, váš asistent poháňaný AI!",
-    "prompt": "Opýtajte sa ma na čokoľvek alebo začnite novú úlohu.",
-    "help": "Potrebujete pomoc? Som tu, aby som ťa viedol."
-  },
-  "navigation": {
-    "new": "Spustiť novú",
-    "home": "Domov",
-    "automations": "Automatizácia",
-    "varients": "Varianty",
-    "projects": "Projekty",
-    "spaces": "Priestor",
-    "library": "Knižnica",
-    "more": "Viac",
-    "settings": "Nastavenia",
-    "profile": "Profil",
-    "dashboard": "Prístrojová doska",
-    "analytics": "Analytika"
-  },
-  "authentication": {
-    "sign-in": "Prihlásiť sa",
-    "sign-up": "Zaregistrovať sa",
-    "sign-out": "Odhlásiť sa",
-    "forgot-password": "Zabudli ste heslo?",
-    "reset-password": "Obnovenie hesla",
-    "email-label": "E -mailová adresa",
-    "password-label": "Heslo",
-    "confirm-password": "Potvrdiť heslo"
-  },
-  "dashboard": {
-    "overview": "Prehľad",
-    "recent-activity": "Nedávna činnosť",
-    "quick-actions": "Rýchle akcie",
-    "stats": {
-      "tasks-completed": "Úlohy dokončené",
-      "active-projects": "Aktívne projekty",
-      "automation-runs": "Automatizácia beží"
-    }
-  },
-  "projects": {
-    "create": "Vytvorte nový projekt",
-    "edit": "Úprav",
-    "delete": "Vymazať projekt",
-    "title-placeholder": "Zadajte názov projektu",
-    "description-placeholder": "Zadajte popis projektu",
-    "status": {
-      "in-progress": "Prebiehajúci",
-      "completed": "Dokončený",
-      "on-hold": "Pozastavený"
-    }
-  },
-  "automations": {
-    "create": "Vytvorte automatizáciu",
-    "run": "Automatizácia",
-    "pause": "Automatizácia",
-    "stop": "Automatizácia",
-    "history": "História automatizácie",
-    "trigger": "Spúšť",
-    "action": "Akcia"
-  },
-  "library": {
-    "search": "Knižnica vyhľadávania",
-    "filter": "Filter",
-    "categories": {
-      "templates": "Šablóna",
-      "scripts": "Skripty",
-      "datasets": "Súbory údajov",
-      "models": "AI modely"
-    },
-    "upload": "Nahrať prostriedok",
-    "download": "Zdroj sťahovania"
-  },
-  "spaces": {
-    "create": "Vytvárať priestor",
-    "invite": "Pozvať členov",
-    "leave": "Opustiť priestor",
-    "manage": "Riadiť priestor",
-    "title-placeholder": "Zadajte názov priestoru"
-  },
-  "errors": {
-    "generic": "Niečo sa pokazilo. Skúste to znova.",
-    "not-found": "Zdroj sa nenašiel.",
-    "unauthorized": "Nie ste oprávnení vykonávať túto akciu.",
-    "invalid-input": "Skontrolujte svoj vstup a skúste to znova.",
-    "network": "Sieťová chyba. Skontrolujte svoje pripojenie."
-  },
-  "tooltips": {
-    "new-project": "Začnite nový projekt na usporiadanie svojich úloh.",
-    "automation-run": "Spustite túto automatizáciu na vykonávanie preddefinovaných úloh.",
-    "library-search": "Vyhľadajte šablóny, skripty alebo súbory údajov.",
-    "space-invite": "Pozvite členov tímu, aby spolupracovali v tomto priestore."
-  },
-  "footer": {
-    "copyright": "© 2025 Piatok AI. Všetky práva vyhradené.",
-    "terms": "Služobné podmienky",
-    "privacy": "Zásady ochrany osobných údajov",
-    "contact": "Kontaktujte nás"
-  }
+  "home": "Domov",
+  "contents": "Obsah",
+  "about": "O",
+  "start-project": "Začať projekt",
+  "headline": "Navrhovanie rôznych identity značky so zvedavosťou a víziou",
+  "description": "Náčrty? Prinášam ich ako vizuály značky. Snaha o tvarovanie čo najviac kultových identity.",
+  "now": "Teraz",
+  "now-description": "Nezávislé, formujúce identity značky pre nových klientov.",
+  "previously": "Predtým",
+  "previously-description": "Dizajnér značky v Dribbble & Behance.",
+  "name": "Tanvir Hasan Bijoy",
+  "from": "Z Bangladéša",
+  "highlights": "Hlavné body mojej práce"
 }

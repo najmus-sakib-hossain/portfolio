@@ -1,101 +1,15 @@
 {
-  "friday": {
-    "title": "Size näme kömek edip bilerin?",
-    "welcome": "Juma hoş geldiňiz, AI-ni geçen kömekçi kömekçi gelýär!",
-    "prompt": "Menden bir zat sora ýa-da täze meseläni başla.",
-    "help": "Kömek gerekmi? Men size ýol görkezmek üçin geldim."
-  },
-  "navigation": {
-    "new": "Täze başla",
-    "home": "Öý",
-    "automations": "Awtoulaglar",
-    "varients": "Wariantlar",
-    "projects": "Taslamalar",
-    "spaces": "Boşluklar",
-    "library": "Kitaphanasy",
-    "more": "Has köp",
-    "settings": "Sazlamalar",
-    "profile": "Profil",
-    "dashboard": "Dolandyryş paneli",
-    "analytics": "Analitika"
-  },
-  "authentication": {
-    "sign-in": "Giriň",
-    "sign-up": "Hasaba giriň",
-    "sign-out": "Çykyň",
-    "forgot-password": "Paroly ýatdan çykardyňyzmy?",
-    "reset-password": "Paroly täzeden düzmek",
-    "email-label": "Email adres",
-    "password-label": "Parol",
-    "confirm-password": "Paroly tassyklaň"
-  },
-  "dashboard": {
-    "overview": "Umumy syn",
-    "recent-activity": "Soňky işjeňlik",
-    "quick-actions": "Çalt hereketler",
-    "stats": {
-      "tasks-completed": "Tomalar tamamlandy",
-      "active-projects": "Işjeň taslamalar",
-      "automation-runs": "Awtomatlaşdyryş işleri"
-    }
-  },
-  "projects": {
-    "create": "Täze taslama dörediň",
-    "edit": "Taslama redaktirläň",
-    "delete": "Taslamany pozuň",
-    "title-placeholder": "Taslamanyň adyny giriziň",
-    "description-placeholder": "Taslamanyň beýanyny giriziň",
-    "status": {
-      "in-progress": "Dowam edýär",
-      "completed": "Tamamlandy",
-      "on-hold": "Saklanýar"
-    }
-  },
-  "automations": {
-    "create": "Awtomatlaşdyryň",
-    "run": "Ýakylýar",
-    "pause": "Awtomatlaşdyrmak",
-    "stop": "Awtomatlaşdyrmagy bes et",
-    "history": "Awtomatlaşdyryş taryhy",
-    "trigger": "Trigger",
-    "action": "Hereket"
-  },
-  "library": {
-    "search": "Gözleg kitaphanasy",
-    "filter": "Süzgüç",
-    "categories": {
-      "templates": "Şablonlar",
-      "scripts": "Skriptler",
-      "datasets": "Maglumat bazalary",
-      "models": "Ai modelleri"
-    },
-    "upload": "Resurs ýükläň",
-    "download": "Resursyny göçürip alyň"
-  },
-  "spaces": {
-    "create": "Spaceer dörediň",
-    "invite": "Agzalary çagyryň",
-    "leave": "Boş ýer goýuň",
-    "manage": "Boşlygy dolandyryň",
-    "title-placeholder": "Spaceer adyny giriziň"
-  },
-  "errors": {
-    "generic": "Bir zat ýalňyşdy. Gaýtadan synanyşyň.",
-    "not-found": "Çeşme tapylmady",
-    "unauthorized": "Bu hereketi ýerine ýetirmäge ygtyýaryňyz ýok.",
-    "invalid-input": "Girişiňizi barlaň we gaýtadan synanyşyň.",
-    "network": "Tor ýalňyşlygy. Baglanyşygyňyzy barlaň."
-  },
-  "tooltips": {
-    "new-project": "Wezipeleriňizi tertiplemek üçin täze taslama başlaň.",
-    "automation-run": "Öňünden kesgitlenen işleri ýerine ýetirmek üçin bu awtomatlaşdyryň.",
-    "library-search": "Şablonlary, skriptleri ýa-da maglumat bazalaryny gözläň.",
-    "space-invite": "Toparyň agzalaryny bu giňişlige gatnaşmaga çagyryň."
-  },
-  "footer": {
-    "copyright": "© 2025 anna güni. Rightshli hukuklar goralandyr.",
-    "terms": "Hyzmat şertleri",
-    "privacy": "Gizlinlik syýasaty",
-    "contact": "Biz bilen habarlaşyň"
-  }
+  "home": "Öý",
+  "contents": "Mazmuny",
+  "about": "Hakda",
+  "start-project": "Bir taslama başlaň",
+  "headline": "Bilesigelijilik we görüş bilen aýratyn marşrut häsiýetleri",
+  "description": "Eskizler? Olary marka wizuallary ýaly durmuşa getirýärin. Mümkin boldugyça köp ýadawlyklary emele getirmäge çalyşmak.",
+  "now": "Indi",
+  "now-description": "Täze müşderiler üçin marka şahsyýetlerini görkezýär.",
+  "previously": "Öň",
+  "previously-description": "Dribbbble & Özüňi alyp baryşda marka dizaýner.",
+  "name": "Tangvir Hasan welejerär",
+  "from": "Bangladeşden",
+  "highlights": "Işimiň esasy pursatlary"
 }

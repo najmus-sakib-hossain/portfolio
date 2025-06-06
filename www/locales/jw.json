@@ -1,101 +1,15 @@
 {
-  "friday": {
-    "title": "Apa sing bisa daklakoni?",
-    "welcome": "Sugeng rawuh ing dina Jumuah, asisten ai-powered sampeyan!",
-    "prompt": "Takon apa-apa utawa miwiti tugas anyar.",
-    "help": "Butuh pitulung? Aku nang kene kanggo nuntun sampeyan."
-  },
-  "navigation": {
-    "new": "Miwiti anyar",
-    "home": "Omah",
-    "automations": "Automasi",
-    "varients": "Varian",
-    "projects": "Proyek",
-    "spaces": "Spasi",
-    "library": "Perpustakaan",
-    "more": "Liyane",
-    "settings": "Setelan",
-    "profile": "Profil",
-    "dashboard": "Dashboard",
-    "analytics": "Analytics"
-  },
-  "authentication": {
-    "sign-in": "Mlebu",
-    "sign-up": "Mlebu",
-    "sign-out": "Mlebu",
-    "forgot-password": "Lali Pangguna Sandi?",
-    "reset-password": "Reset Pangguna Sandi",
-    "email-label": "Alamat Email",
-    "password-label": "Sandhi",
-    "confirm-password": "Konfirmasi sandhi"
-  },
-  "dashboard": {
-    "overview": "Ringkesan",
-    "recent-activity": "Aktivitas anyar",
-    "quick-actions": "Tumindak cepet",
-    "stats": {
-      "tasks-completed": "Tugas rampung",
-      "active-projects": "Proyek aktif",
-      "automation-runs": "Automation Runs"
-    }
-  },
-  "projects": {
-    "create": "Gawe proyek anyar",
-    "edit": "Owahi proyek",
-    "delete": "Mbusak proyek",
-    "title-placeholder": "Ketik Judhul Proyek",
-    "description-placeholder": "Ketik katrangan proyek",
-    "status": {
-      "in-progress": "Ing proses",
-      "completed": "Rampung",
-      "on-hold": "Ditahan"
-    }
-  },
-  "automations": {
-    "create": "Nggawe otomatisasi",
-    "run": "Nglakokake automation",
-    "pause": "Ngaso Automasi",
-    "stop": "Mungkasi automation",
-    "history": "Sejarah Otomatis",
-    "trigger": "Micu",
-    "action": "Tumindak"
-  },
-  "library": {
-    "search": "Telusuri perpustakaan",
-    "filter": "Filter",
-    "categories": {
-      "templates": "Template",
-      "scripts": "Tulisan",
-      "datasets": "Dataseets",
-      "models": "Model AI"
-    },
-    "upload": "Upload sumber",
-    "download": "Download Sumber"
-  },
-  "spaces": {
-    "create": "Nggawe ruang",
-    "invite": "Ngundang anggota",
-    "leave": "Ninggalake Ruang",
-    "manage": "Ngatur papan",
-    "title-placeholder": "Ketik jeneng ruang"
-  },
-  "errors": {
-    "generic": "Soko salah. Coba coba maneh.",
-    "not-found": "Sumber daya ora ditemokake.",
-    "unauthorized": "Sampeyan ora sah kanggo nindakake tumindak iki.",
-    "invalid-input": "Mangga priksa input sampeyan lan coba maneh.",
-    "network": "Kesalahan jaringan. Mangga priksa sambungan sampeyan."
-  },
-  "tooltips": {
-    "new-project": "Miwiti proyek anyar kanggo ngatur tugas sampeyan.",
-    "automation-run": "Bukak otomatis iki kanggo ngetrapake tugas sing wis ditemtokake.",
-    "library-search": "Goleki template, skrip, utawa datasets.",
-    "space-invite": "Ngundang anggota tim kanggo kolaborasi ing papan iki."
-  },
-  "footer": {
-    "copyright": "© 2025 Jumuah AI. Kabeh hak dilindhungi undhang-undhang.",
-    "terms": "Katentuan Pangginaan supados langkung Layanan",
-    "privacy": "Kebijakan Privasi",
-    "contact": "Hubungi kita"
-  }
+  "home": "Omah",
+  "contents": "Isi",
+  "about": "Babagan",
+  "start-project": "Miwiti proyek",
+  "headline": "Ngrancang identitas merek sing beda karo penasaran lan sesanti",
+  "description": "Sketsa? Aku nggawa dheweke urip minangka visual merek. Ngajeni kanggo mbentuk minangka identitas sing apik.",
+  "now": "Saiki",
+  "now-description": "Independent, identitas merek mbentuk kanggo klien anyar.",
+  "previously": "Biyen",
+  "previously-description": "Desainer merek ing Dribble & Kewadi.",
+  "name": "Tanvir hasan bijoy",
+  "from": "Saka Bangladesh",
+  "highlights": "Sorotan kerja"
 }
