@@ -93,8 +93,8 @@ export function SocialMedias() {
   const BlogCardSkeleton = () => (
     <>
       {[1, 2, 3].map((i) => (
-        <div key={i} className="flex flex-col gap-2 h-48">
-          <Skeleton className="h-full w-full rounded-md" />
+        <div key={i} className="h-48 w-full rounded-md overflow-hidden">
+          <Skeleton className="h-full w-full" />
         </div>
       ))}
     </>
@@ -114,8 +114,12 @@ export function SocialMedias() {
           <BlogCardSkeleton />
         ) : blogs.length > 0 ? (
           blogs.map((blog) => (
-            <Link href={blog.link} key={blog.id} passHref>
-              <BlogCard title={blog.name} description={blog.description} image={blog.image} />
+            <Link href={blog.link} key={blog.id} className="block h-48 overflow-hidden" passHref>
+              <BlogCard 
+                title={blog.name || ""} 
+                description={blog.description || ""} 
+                image={blog.image || ""}
+              />
             </Link>
           ))
         ) : (
@@ -140,13 +144,13 @@ export function BigProjects() {
         <Separator />
       </div>
       <div className='grid gap-4 sm:grid-cols-2 md:grid-cols-3'>
-        {projects?.map((projects) => (
-          <Link href={projects?.link} key={projects?.id}>
-            <BlogCard title={projects?.title} description={projects?.description} image={projects?.image} />
+        {projects?.map((project) => (
+          <Link href={project?.link} key={project?.id} className="block h-48 overflow-hidden">
+            <BlogCard title={project?.title} description={project?.description} image={project?.image} />
           </Link>
         ))}
       </div>
-      <Link className='my-4 flex w-full items-center justify-center rounded-md border py-2' href="/thoughts">
+      <Link className='my-4 flex w-full items-center justify-center rounded-md border py-2' href="/contents">
         See all projects
       </Link>
     </div>
@@ -162,13 +166,13 @@ export function ProductionGradeProjects() {
         <Separator />
       </div>
       <div className='grid gap-4 sm:grid-cols-2 md:grid-cols-3'>
-        {products?.map((products) => (
-          <Link href={products?.link} key={products?.id}>
-            <BlogCard title={products?.title} description={products?.description} image={products?.image} />
+        {products?.map((product) => (
+          <Link href={product?.link} key={product?.id} className="block h-48 overflow-hidden">
+            <BlogCard title={product?.title} description={product?.description} image={product?.image} />
           </Link>
         ))}
       </div>
-      <Link className='my-4 flex w-full items-center justify-center rounded-md border py-2' href="/thoughts">
+      <Link className='my-4 flex w-full items-center justify-center rounded-md border py-2' href="/contents">
         See all products
       </Link>
     </div>

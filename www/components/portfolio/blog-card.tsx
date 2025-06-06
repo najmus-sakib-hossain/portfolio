@@ -3,6 +3,8 @@ import { motion } from "framer-motion"
 import Image from "next/image"
 import { useRef, useState } from "react"
 import { useTheme } from "next-themes"
+import { AspectRatio } from "@/components/ui/aspect-ratio"
+import { cn } from "@/lib/utils"
 
 // Define the props for the BlogCard component
 export default function BlogCard({ title, description, image }: {
@@ -40,30 +42,35 @@ export default function BlogCard({ title, description, image }: {
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
       whileHover={{ scale: 1.03 }} // Slightly increase size on hover
-      className="relative flex w-full h-full overflow-hidden rounded-2xl border hover:cursor-pointer"
+      className="relative flex w-full h-full overflow-hidden rounded-md border hover:cursor-pointer"
     >
       {/* Radial gradient overlay that follows the mouse */}
       <div
-        className="absolute inset-0 z-10 transition-opacity duration-300 ease-in-out"
+        className="absolute inset-0 z-10 transition-opacity duration-300 ease-in-out pointer-events-none"
         style={{
-          background: `radial-gradient(circle 150px at ${mousePosition.x}px ${mousePosition.y}px, ${theme === "light" ? "#b8b8b8" : "#424242"}, transparent 80%)`,
+          background: `radial-gradient(circle 150px at ${mousePosition.x}px ${mousePosition.y}px, ${theme === "light" ? "hsl(var(--muted))" : "hsl(var(--muted-foreground))"}, transparent 80%)`,
           opacity: isHovered ? 1 : 0,
-          pointerEvents: 'none',
         }}
       />
-      {/* Card content */}
-      <div className="relative z-0 flex flex-1 flex-col w-full h-full">
-        {/* Image container - removed aspect ratio constraint and adjusted to fill completely */}
-        <div className="relative w-full h-full overflow-hidden">
-          <Image
-            src={image}
-            alt={title || "Content image"}
-            fill
-            className="object-cover object-center"
-            sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, (max-width: 1024px) 33vw, 25vw"
-            priority
-          />
-        </div>
+      
+      {/* Use the entire area for the image */}
+      <div className="w-full h-full">
+        {image ? (
+          <AspectRatio ratio={16/9} className="h-full">
+            <Image
+              src={image}
+              alt={title || "Content image"}
+              fill
+              className="object-cover"
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+              priority
+            />
+          </AspectRatio>
+        ) : (
+          <div className="w-full h-full bg-muted flex items-center justify-center text-muted-foreground">
+            No image
+          </div>
+        )}
       </div>
     </motion.div>
   )

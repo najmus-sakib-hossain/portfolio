@@ -18,6 +18,7 @@ import { Skeleton } from "@/components/ui/skeleton";
 import { CircleSlash2, Briefcase, Edit, Trash2, Plus } from "lucide-react";
 import { cn, lt, preloadCurrentLocale } from "@/lib/utils";
 import { SiteFooter } from "@/components/portfolio/site-footer";
+import { AspectRatio } from "@/components/ui/aspect-ratio";
 
 // Firebase configuration
 const firebaseConfig = {
@@ -340,15 +341,9 @@ export default function Contents() {
         <>
             {Array(12).fill(null).map((_, index) => (
                 <Card key={index} className="overflow-hidden">
-                    <div className="relative aspect-video">
+                    <AspectRatio ratio={16 / 9}>
                         <Skeleton className="h-full w-full" />
-                    </div>
-                    <CardContent className="p-4">
-                        <Skeleton className="h-6 w-3/4 mb-2" />
-                        <Skeleton className="h-4 w-full mb-1" />
-                        <Skeleton className="h-4 w-2/3 mb-3" />
-                        <Skeleton className="h-8 w-full" />
-                    </CardContent>
+                    </AspectRatio>
                 </Card>
             ))}
         </>
@@ -379,49 +374,45 @@ export default function Contents() {
                     <ContentSkeleton />
                 ) : (
                     blogs.map((blog) => (
-                        <Card key={blog.id} className="overflow-hidden group hover:shadow-md transition-shadow duration-200">
-                            <Link href={blog.link} passHref className="block relative">
-                                <div className="relative aspect-video">
-                                    <Image
-                                        src={blog.image}
-                                        alt={blog.name}
-                                        fill
-                                        className="object-cover"
-                                    />
+                        <Link key={blog.id} href={blog.link} passHref className="block relative h-full rounded-md overflow-hidden group">
+                            <AspectRatio ratio={16 / 9} className="h-full">
+                                <Image
+                                    src={blog.image}
+                                    alt={blog.name}
+                                    fill
+                                    className="object-cover"
+                                />
 
-                                    {isAdmin && (
-                                        <div className="absolute top-2 right-2 flex space-x-2 opacity-0 group-hover:opacity-100 transition-opacity z-10">
-                                            <Button
-                                                variant="secondary"
-                                                size="icon"
-                                                className="bg-white/80 hover:bg-white w-8 h-8"
-                                                onClick={(e) => {
-                                                    e.preventDefault();
-                                                    e.stopPropagation();
-                                                    handleEdit(blog);
-                                                }}
-                                            >
-                                                <Edit size={14} />
-                                            </Button>
-                                            <Button
-                                                variant="destructive"
-                                                size="icon"
-                                                className="bg-red-500/80 hover:bg-red-500 w-8 h-8"
-                                                onClick={(e) => {
-                                                    e.preventDefault();
-                                                    e.stopPropagation();
-                                                    handleDelete(blog.id);
-                                                }}
-                                            >
-                                                <Trash2 size={14} />
-                                            </Button>
-                                        </div>
-                                    )}
-                                </div>
-                            </Link>
-
-                            {/* Card content is completely removed - the image is now clickable */}
-                        </Card>
+                                {isAdmin && (
+                                    <div className="absolute top-2 right-2 flex space-x-2 opacity-0 group-hover:opacity-100 transition-opacity z-10">
+                                        <Button
+                                            variant="secondary"
+                                            size="icon"
+                                            className="bg-secondary/80 hover:bg-secondary w-8 h-8"
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                                e.stopPropagation();
+                                                handleEdit(blog);
+                                            }}
+                                        >
+                                            <Edit size={14} />
+                                        </Button>
+                                        <Button
+                                            variant="destructive"
+                                            size="icon"
+                                            className="w-8 h-8"
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                                e.stopPropagation();
+                                                handleDelete(blog.id);
+                                            }}
+                                        >
+                                            <Trash2 size={14} />
+                                        </Button>
+                                    </div>
+                                )}
+                            </AspectRatio>
+                        </Link>
                     ))
                 )}
             </div>
