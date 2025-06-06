@@ -6,7 +6,7 @@ import { EyeCatchingButton_v1 } from "@/components/portfolio/eye-catching-button
 import { Play, Globe, ChevronDown, Check } from "lucide-react"
 import ThemeToggleButton from "@/components/ui/theme-toggle-button"
 import { useState, useEffect } from "react"
-import { cn, lt, preloadCurrentLocale } from "@/lib/utils"
+import { cn, lt, preloadCurrentLocale, loadLocaleData } from "@/lib/utils"
 import { usePathname, useRouter } from "next/navigation"
 import {
   Popover,
@@ -174,6 +174,7 @@ export function SiteHeader() {
   const [scrolled, setScrolled] = useState(false)
   const [open, setOpen] = useState(false)
   const [loaded, setLoaded] = useState(false)
+  const [error, setError] = useState(false)
   const pathname = usePathname()
   const router = useRouter()
 
@@ -184,13 +185,29 @@ export function SiteHeader() {
 
     window.addEventListener("scroll", handleScroll)
     
-    // Preload locale data
-    preloadCurrentLocale().then(() => {
-      setLoaded(true)
-    })
-    
     return () => window.removeEventListener("scroll", handleScroll)
   }, [])
+
+  // Separate useEffect for locale loading to make it clearer
+  useEffect(() => {
+    // Reset loaded state when path changes
+    setLoaded(false)
+    
+    const loadLocale = async () => {
+      try {
+        // Get locale from pathname
+        const currentLocale = getCurrentLocale();
+        await loadLocaleData(currentLocale as any)
+        setLoaded(true)
+      } catch (err) {
+        console.error("Failed to load locale data:", err)
+        setError(true)
+        setLoaded(true)
+      }
+    }
+    
+    loadLocale()
+  }, [pathname]) // Add pathname as dependency
 
   const getCurrentLocale = (): string => {
     if (!pathname) return defaultLocale;
@@ -277,7 +294,7 @@ export function SiteHeader() {
               <EyeCatchingButton_v1 className="group">
                 <Play className="mr-1 size-4 group-hover:text-primary text-foreground" />
                 <span className="group-hover:text-primary text-sm text-foreground">
-                  {loaded ? lt("start-project") : "Start a Project"}
+                  {loaded ? (error ? "Start a Project" : lt("start-project")) : "Start a Project"}
                 </span>
               </EyeCatchingButton_v1>
             </Link>

@@ -184,7 +184,7 @@ export default function Home(props: {
   );
 
   return (
-    <div className="container flex max-w-screen-xl flex-col items-center space-y-8 pb-[75px] mx-auto">
+    <div className="container flex max-w-screen-xl flex-col items-center space-y-4 pb-[75px] mx-auto">
       <div className="mt-4 w-full space-y-8">
         {/* Left part of the layout: Localized text content */}
         <Suspense fallback={pageSuspenseFallback}>

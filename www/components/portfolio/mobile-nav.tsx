@@ -2,9 +2,9 @@
 
 import * as React from "react"
 import Link, { LinkProps } from "next/link"
-import { useRouter } from "next/navigation"
+import { useRouter, usePathname } from "next/navigation"
 import { siteConfig } from "@/config/site"
-import { cn, lt, preloadCurrentLocale } from "@/lib/utils"
+import { cn, lt, preloadCurrentLocale, loadLocaleData } from "@/lib/utils"
 import { Icons } from "@/components/portfolio/icons"
 import { Button } from "@/components/ui/button"
 import { ScrollArea } from "@/components/ui/scroll-area"
@@ -14,13 +14,29 @@ import Image from "next/image"
 export function MobileNav() {
   const [open, setOpen] = React.useState(false)
   const [loaded, setLoaded] = React.useState(false)
+  const [error, setError] = React.useState(false)
+  const pathname = usePathname()
 
-  // Preload locale data when component mounts
+  // Preload locale data when component mounts or pathname changes
   React.useEffect(() => {
-    preloadCurrentLocale().then(() => {
-      setLoaded(true)
-    })
-  }, [])
+    // Reset loaded state when path changes
+    setLoaded(false)
+
+    const loadLocale = async () => {
+      try {
+        // Get locale from pathname (first segment after /)
+        const pathLocale = pathname?.split('/')[1] || 'en';
+        await loadLocaleData(pathLocale as any)
+        setLoaded(true)
+      } catch (err) {
+        console.error("Failed to load locale data:", err)
+        setError(true)
+        setLoaded(true)
+      }
+    }
+
+    loadLocale()
+  }, [pathname]) // Add pathname as dependency to reload when route changes
 
   return (
     <Sheet open={open} onOpenChange={setOpen}>
@@ -67,7 +83,6 @@ export function MobileNav() {
           className="flex items-center"
           onOpenChange={setOpen}
         >
-          {/* <Icons.logo className="mr-2 size-4" /> */}
           <Image width={50} height={50} src="/portfolio.png" alt="bijoy" className="rounded-full" />
 
           <span className="font-bold">Tanvir Hasan Bijoy</span>
@@ -78,19 +93,19 @@ export function MobileNav() {
               href="/"
               onOpenChange={setOpen}
             >
-              {loaded ? lt("home") : "Home"}
+              {loaded ? (error ? "Home" : lt("home")) : "Home"}
             </MobileLink>
             <MobileLink
               href="/contents"
               onOpenChange={setOpen}
             >
-              {loaded ? lt("contents") : "Contents"}
+              {loaded ? (error ? "Contents" : lt("contents")) : "Contents"}
             </MobileLink>
             {/* <MobileLink
               href="/about"
               onOpenChange={setOpen}
             >
-              {loaded ? lt("about") : "About"}
+              {loaded ? (error ? "About" : lt("about")) : "About"}
             </MobileLink> */}
           </div>
         </ScrollArea>

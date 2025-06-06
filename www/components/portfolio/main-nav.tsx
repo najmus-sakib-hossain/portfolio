@@ -2,19 +2,34 @@
 
 import Link from "next/link"
 import { usePathname } from "next/navigation"
-import { cn, lt, preloadCurrentLocale } from "@/lib/utils"
+import { cn, lt, preloadCurrentLocale, loadLocaleData } from "@/lib/utils"
 import { useEffect, useState } from "react"
 
 export function MainNav() {
   const pathname = usePathname()
   const [loaded, setLoaded] = useState(false)
+  const [error, setError] = useState(false)
 
-  // Preload locale data when component mounts
+  // Preload locale data when component mounts or pathname changes
   useEffect(() => {
-    preloadCurrentLocale().then(() => {
-      setLoaded(true)
-    })
-  }, [])
+    // Reset loaded state when path changes
+    setLoaded(false)
+
+    const loadLocale = async () => {
+      try {
+        // Get locale from pathname (first segment after /)
+        const pathLocale = pathname?.split("/")[1] || "en"
+        await loadLocaleData(pathLocale as any)
+        setLoaded(true)
+      } catch (err) {
+        console.error("Failed to load locale data:", err)
+        setError(true)
+        setLoaded(true)
+      }
+    }
+
+    loadLocale()
+  }, [pathname])
 
   return (
     <div className="mr-4 hidden md:flex">
@@ -26,7 +41,7 @@ export function MainNav() {
             pathname === "/" ? "text-foreground" : "text-foreground/60"
           )}
         >
-          {loaded ? lt("home") : "Home"}
+          {loaded ? (error ? "Home" : lt("home")) : "Home"}
         </Link>
         <Link
           href="/contents"
@@ -37,7 +52,7 @@ export function MainNav() {
               : "text-foreground/60"
           )}
         >
-          {loaded ? lt("contents") : "Contents"}
+          {loaded ? (error ? "Contents" : lt("contents")) : "Contents"}
         </Link>
         {/* <Link
           href="/about"
@@ -48,7 +63,7 @@ export function MainNav() {
               : "text-foreground/60"
           )}
         >
-          {loaded ? lt("about") : "About"}
+          {loaded ? (error ? "About" : lt("about")) : "About"}
         </Link> */}
       </nav>
     </div>
