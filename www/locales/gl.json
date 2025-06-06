@@ -1,7 +1,7 @@
 {
   "home": "Casa",
   "contents": "Contidos",
-  "about": "Sobre",
+  "about": "Acerca de",
   "start-project": "Iniciar un proxecto",
   "headline": "Deseñar distintas identidades de marca con curiosidade e visión",
   "description": "Bosquexos? Tócalos á vida como visuais de marca. Esforzándose por conformar o maior número posible de identidades icónicas.",
@@ -13,5 +13,7 @@
   "from": "De Bangladesh",
   "highlights": "Destacados do meu traballo",
   "see-all-contents": "Vexa todos os contidos",
-  "footer-copyright": "Última actualización 06/06/2025. Grazas por visitar a miña carteira."
+  "footer-copyright": "Última actualización 06/06/2025. Grazas por visitar a miña carteira.",
+  "all-contents": "Todos os contidos",
+  "add-content": "Engadir contido"
 }
