@@ -43,22 +43,26 @@ export default function Home() {
         {/* <PixelatedText fontSize={65} pixelSize={3} position="left" className="py-2">
         Crafting Experiences with <PixelatedText.Rainbow>Pixels</PixelatedText.Rainbow> and <PixelatedText.Rainbow>Logic</PixelatedText.Rainbow>
         </PixelatedText> */}
-        <span className="text-3xl font-bold md:text-4xl lg:text-5xl xl:text-6xl">Developing Solutions for Problems with Curiosity and Thoughts</span>
+        <span className="text-3xl font-bold md:text-4xl lg:text-5xl xl:text-6xl">
+          Designing Distinct Brand Identities with Curiosity and Vision
+        </span>
         <div className="flex w-full flex-col justify-between space-y-4 text-muted-foreground md:flex-row md:space-y-0">
           <div className="flex flex-col space-y-2 md:max-h-[200px] md:w-3/5">
-            <span className="mt-2">Delusions? I turn them into reality. Trying to solve as many problems as possible.</span>
+            <span className="mt-2">
+              Sketches? I bring them to life as brand visuals. Striving to shape as many iconic identities as possible.
+            </span>
             <div className="flex h-full flex-col space-y-2 md:justify-end">
               <div className="flex flex-col">
-                <span>Now</span>
-                <div className="flex items-center text-foreground">
-                  <CircleSlash2 className="mr-2 size-4" /> Jobless, Working on my own projects.
-                </div>
+          <span>Now</span>
+          <div className="flex items-center text-foreground">
+            <CircleSlash2 className="mr-2 size-4" /> Independent, shaping brand identities for new clients.
+          </div>
               </div>
               <div className="flex flex-col">
-                <span>Previously</span>
-                <div className="flex items-center text-foreground">
-                  <Briefcase className="mr-2 size-4" /> Freelancer at Fiverr & Upwork.
-                </div>
+          <span>Previously</span>
+          <div className="flex items-center text-foreground">
+            <Briefcase className="mr-2 size-4" /> Brand designer at Dribbble & Behance.
+          </div>
               </div>
             </div>
           </div>
