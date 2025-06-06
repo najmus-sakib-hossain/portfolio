@@ -53,8 +53,8 @@ export default function BlogCard({ title, description, image }: {
       />
       {/* Card content */}
       <div className="relative z-0 flex flex-1 flex-col w-full h-full">
-        {/* Image container */}
-        <div className="relative w-full h-full aspect-[16/9] overflow-hidden rounded-md">
+        {/* Image container - removed aspect ratio constraint and adjusted to fill completely */}
+        <div className="relative w-full h-full overflow-hidden">
           <Image
             src={image}
             alt={title || "Content image"}
@@ -64,7 +64,6 @@ export default function BlogCard({ title, description, image }: {
             priority
           />
         </div>
-        {/* Text content removed */}
       </div>
     </motion.div>
   )

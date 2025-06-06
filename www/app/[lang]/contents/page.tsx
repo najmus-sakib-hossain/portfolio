@@ -358,9 +358,12 @@ export default function Contents() {
         <div className="container flex flex-col items-center space-y-8 pb-[75px] mx-auto max-w-7xl">
             <div className="mt-4 w-full space-y-8">
                 <div className="flex items-center justify-between">
+                    <h1 className="text-3xl font-bold md:text-4xl lg:text-5xl">
+                        {loaded ? lt("all-contents") : "All Contents"}
+                    </h1>
                     <Button
                         onClick={handleAddNew}
-                        className="flex items-center gap-2 ml-auto"
+                        className="flex items-center gap-2"
                         variant="outline"
                         size="lg"
                     >

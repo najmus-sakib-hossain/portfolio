@@ -1,35 +1,18 @@
 "use client"
 
 import { Toaster as DefaultToaster, Toaster as NewYorkToaster } from "../ui/toaster"
-// import { SubCategorySidebarProvider } from "../layout/sidebar/subcategory-sidebar"
-// import { CategorySidebarProvider } from "../layout/sidebar/category-sidebar"
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query"
-// import { LeftSidebar } from "../layout/sidebar/left-sidebar"
 import { ThemeProvider } from "../theme/theme-provider";
 import { Toaster as NewYorkSonner } from "../ui/sonner"
 import { ThemeProvider as NextThemesProvider } from "next-themes"
-import { FontLoader } from "../theme/font-loader";
 import { ThemeSync } from "../theme/theme-sync";
 import { SiteHeader } from "@/components/portfolio/site-header"
-// import { BottomBar } from "../layout/bottom-bar"
 import { NuqsAdapter } from "nuqs/adapters/next/app";
-import { Main } from "./main"
 import { Provider as JotaiProvider } from "jotai"
-import { Toaster } from "../ui/sonner";
-import { Suspense } from "react";
 import * as React from "react"
-import { Button } from "../ui/button";
-import { ScrollArea } from "../ui/scroll-area";
-import { SidebarInset, SidebarProvider } from "../ui/sidebar";
 import { TooltipProvider } from "../ui/tooltip";
 import { ContainerWrapper } from "../theme/wrappers";
-// import { MainNavigation, MobileNavigation } from "@/app/themes/navigation";
-import {
-  CustomizerSidebar,
-  CustomizerSidebarToggle,
-} from "../theme/customizer/customizer-sidebar";
 
-const SIDEBAR_WIDTH = "21rem";
 const queryClient = new QueryClient({
   defaultOptions: {
     queries: {
