@@ -7,6 +7,7 @@ import { SocialMedias } from "@/components/portfolio/blog-card-section";
 import { Briefcase, CircleSlash2, Dribbble, Figma, Framer } from "lucide-react";
 import Image from "next/image";
 import { SiteFooter } from "@/components/portfolio/site-footer";
+import { LtDemo } from "@/components/lt-demo";
 
 export default function Home() {
   const Icon = ({ className, ...rest }: any) => {
@@ -29,6 +30,7 @@ export default function Home() {
 
   return (
     <div className="container flex max-w-screen-xl flex-col items-center space-y-8 pb-[75px]">
+      <LtDemo />
       <div className="mt-4 w-full space-y-8">
         <span className="text-3xl font-bold md:text-4xl lg:text-5xl xl:text-6xl">
           Designing Distinct Brand Identities with Curiosity and Vision

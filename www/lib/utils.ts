@@ -1,4 +1,3 @@
-
 import { clsx, type ClassValue } from "clsx";
 import { twMerge } from "tailwind-merge";
 
@@ -25,26 +24,19 @@ export function getRandomIndex(array: any[]) {
 
 // Type definitions for locale text structure
 type LocaleKeys = {
-  friday: {
-    title: string;
-    welcome: string;
-    prompt: string;
-    help: string;
-  };
-  navigation: {
-    new: string;
-    home: string;
-    automations: string;
-    varients: string;
-    projects: string;
-    spaces: string;
-    library: string;
-    more: string;
-    settings: string;
-    profile: string;
-    dashboard: string;
-    analytics: string;
-  };
+  home: string;
+  contents: string;
+  about: string;
+  "start-project": string;
+  headline: string;
+  description: string;
+  now: string;
+  "now-description": string;
+  previously: string;
+  "previously-description": string;
+  name: string;
+  from: string;
+  highlights: string;
   [key: string]: any;
 };
 
@@ -54,7 +46,7 @@ let localeCache: Partial<Record<Locale, LocaleKeys>> = {};
 /**
  * Load locale data dynamically
  */
-async function loadLocaleData(locale: Locale): Promise<LocaleKeys> {
+export async function loadLocaleData(locale: Locale): Promise<LocaleKeys> {
   if (localeCache[locale]) {
     return localeCache[locale]!;
   }
@@ -109,7 +101,7 @@ function getNestedValue(obj: any, path: string): string {
 /**
  * Locale Text (lt) function - simple utility like cn() but for localized text
  * 
- * @param key - Dot notation key (e.g., 'friday.title')
+ * @param key - Key from locale file (e.g., 'home')
  * @param fallback - Fallback text if key not found
  */
 export function lt(key: string, fallback?: string): string {
@@ -119,9 +111,9 @@ export function lt(key: string, fallback?: string): string {
   if (typeof window !== 'undefined' && (window as any).__LOCALE_CACHE__) {
     const windowCache = (window as any).__LOCALE_CACHE__;
     if (windowCache[currentLocale]) {
-      const value = getNestedValue(windowCache[currentLocale], key);
-      if (value !== undefined) {
-        return value;
+      // Direct key lookup for flat structure
+      if (windowCache[currentLocale][key] !== undefined) {
+        return windowCache[currentLocale][key];
       }
     }
   }
@@ -129,13 +121,20 @@ export function lt(key: string, fallback?: string): string {
   // Fallback to module cache
   const cachedData = localeCache[currentLocale];
   if (cachedData) {
-    const value = getNestedValue(cachedData, key);
-    if (value !== undefined) {
-      return value;
+    // Direct key lookup for flat structure
+    if (cachedData[key] !== undefined) {
+      return cachedData[key];
     }
   }
   
-  return fallback || key.split('.').pop() || key;
+  // If we haven't loaded the data yet, try to preload it
+  if (typeof window !== 'undefined' && !localeCache[currentLocale]) {
+    // We need to load the locale data, but we can't await in a sync function
+    // So we'll do this as a side effect and return fallback for now
+    preloadCurrentLocale().catch(console.error);
+  }
+  
+  return fallback || key;
 }
 
 /**
@@ -191,4 +190,14 @@ export function stripPrefixes(text: string): string {
   }
   
   return text;
+}
+
+/**
+ * Initialize locale data in client-side for immediate use
+ * Call this in your app's layout or root component
+ */
+export function initializeLocale(): void {
+  if (typeof window !== 'undefined') {
+    preloadCurrentLocale().catch(console.error);
+  }
 }
