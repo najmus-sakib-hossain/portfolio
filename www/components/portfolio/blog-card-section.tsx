@@ -51,7 +51,7 @@ export function SocialMedias() {
   return (
     <div className='w-full'>
       <div className='mb-4 flex w-full flex-col items-start justify-center gap-2'>
-        <h1 className='text-xl font-medium tracking-tight'>Contents</h1>
+        <h1 className='text-xl font-medium tracking-tight'>Highlights of My Work</h1>
         <Separator />
       </div>
       <div className='grid gap-4 sm:grid-cols-2 md:grid-cols-3'>
