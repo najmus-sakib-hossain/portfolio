@@ -157,8 +157,19 @@ const languageNames: Record<string, string> = {
 };
 
 
-// Define available locales
-const locales = ["en", "es", "fr", "de", "it", "pt", "ja", "zh", "ru", "ar"];
+// Define available locales - using all languages from customizer sidebar
+const locales = [
+  "af", "ak", "am", "ar", "as", "ay", "az", "be", "bg", "bho", "bm", "bn", "bs", 
+  "ca", "ceb", "ckb", "co", "cs", "cy", "da", "de", "dv", "ee", "el", "en", "eo", 
+  "es", "et", "eu", "fa", "fi", "fr", "fy", "ga", "gd", "gl", "gn", "gu", "ha", 
+  "haw", "he", "hi", "hmn", "hr", "ht", "hu", "hy", "id", "ig", "is", "it", "ja", 
+  "jw", "ka", "kk", "km", "kn", "ko", "kri", "ku", "ky", "la", "lb", "lg", "ln", 
+  "lo", "lt", "lus", "lv", "mai", "mg", "mi", "mk", "ml", "mn", "mr", "ms", "mt", 
+  "my", "ne", "nl", "no", "nso", "ny", "om", "or", "pa", "pl", "ps", "pt", "qu", 
+  "ro", "ru", "rw", "sa", "sd", "si", "sk", "sl", "sm", "sn", "so", "sq", "sr", 
+  "st", "su", "sv", "sw", "ta", "te", "tg", "th", "ti", "tk", "tl", "tr", "ts", 
+  "tt", "tw", "ug", "uk", "ur", "uz", "vi", "xh", "yi", "yo", "zh", "zu"
+];
 const defaultLocale = "en";
 
 export function SiteHeader() {
