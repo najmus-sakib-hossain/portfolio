@@ -2,6 +2,7 @@
 
 import * as React from "react";
 import { useEffect, useState, Suspense } from "react";
+import dynamic from 'next/dynamic'; // Added import
 import { initializeApp } from "firebase/app";
 import { getFirestore, collection, getDocs, addDoc, doc, deleteDoc, updateDoc, query, limit, orderBy, startAfter } from "firebase/firestore";
 import Link from "next/link";
@@ -16,10 +17,11 @@ import { AlertDialog, AlertDialogAction, AlertDialogCancel, AlertDialogContent, 
 import { Separator } from "@/components/ui/separator";
 import { Skeleton } from "@/components/ui/skeleton";
 import { CircleSlash2, Briefcase, Edit, Trash2, Plus } from "lucide-react";
-import { cn, lt, preloadCurrentLocale } from "@/lib/utils";
+import { cn, lt, loadLocaleData } from "@/lib/utils";
 import { SiteFooter } from "@/components/portfolio/site-footer";
 import { AspectRatio } from "@/components/ui/aspect-ratio";
 import { ScrollArea } from "@/components/ui/scroll-area";
+import { Locale } from "@/i18n-config";
 
 // Firebase configuration
 const firebaseConfig = {
@@ -63,21 +65,51 @@ interface BlogPost {
     createdAt: any;
 }
 
-// Create a client component that will handle any potential useSearchParams usage
-const LocaleWrapper = ({ children }: { children: React.ReactNode }) => {
-  // All locale-related functionality is wrapped here
+// Original component definition
+const OriginalLocaleWrapper = ({ children, locale }: { children: React.ReactNode; locale: Locale }) => {
   const [loaded, setLoaded] = useState(false);
   
   useEffect(() => {
-    preloadCurrentLocale().then(() => {
+    loadLocaleData(locale).then(() => {
       setLoaded(true);
     });
-  }, []);
+  }, [locale]);
   
   return loaded ? <>{children}</> : null;
 };
 
+// Dynamically import LocaleWrapper with ssr: false
+const LocaleWrapper = ({ children, locale }: { children: React.ReactNode; locale: Locale }) => {
+  const Component = dynamic(() => Promise.resolve(({ children: c, locale: l }: { children: React.ReactNode; locale: Locale }) => 
+    <OriginalLocaleWrapper locale={l}>{c}</OriginalLocaleWrapper>
+  ), {
+    ssr: false,
+    // Suspense boundary around its usage will handle the loading state
+  });
+  
+  return <Component locale={locale}>{children}</Component>;
+};
+
 export default function Contents() {
+  // Get the locale from the URL on the client side
+  const [locale, setLocale] = useState<Locale>('en');
+  
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      const pathname = window.location.pathname;
+      const segments = pathname.split('/').filter(Boolean);
+      const routeLocale = segments[0];
+      
+      if (routeLocale && ['en', 'af', 'ak', 'am', 'ar', 'as', 'ay', 'az', 'be', 'bg', 'bho', 'bm', 'bn', 'bs', 'ca', 'ceb', 'ckb', 'co', 'cs', 'cy', 'da', 'de', 'dv', 'ee', 'el', 'eo', 'es', 'et', 'eu', 'fa', 'fi', 'fr', 'fy', 'ga', 'gd', 'gl', 'gn', 'gu', 'ha', 'haw', 'he', 'hi', 'hmn', 'hr', 'ht', 'hu', 'hy', 'id', 'ig', 'is', 'it', 'iw', 'ja', 'jw', 'ka', 'kk', 'km', 'kn', 'ko', 'ku', 'ky', 'la', 'lb', 'lg', 'ln', 'lo', 'lt', 'lv', 'mg', 'mi', 'mk', 'ml', 'mn', 'mr', 'ms', 'mt', 'my', 'ne', 'nl', 'no', 'ny', 'om', 'or', 'pa', 'pl', 'ps', 'pt', 'qu', 'ro', 'ru', 'rw', 'sa', 'sd', 'si', 'sk', 'sl', 'sm', 'sn', 'so', 'sq', 'sr', 'st', 'su', 'sv', 'sw', 'ta', 'te', 'tg', 'th', 'tk', 'tl', 'tr', 'tt', 'tw', 'ug', 'uk', 'ur', 'uz', 'vi', 'xh', 'yi', 'yo', 'zh', 'zu'].includes(routeLocale)) {
+        setLocale(routeLocale as Locale);
+      }
+    }
+  }, []);
+
+  return <ContentsClient locale={locale} />;
+}
+
+function ContentsClient({ locale }: { locale: Locale }) {
   // Remove the loaded state from the main component
   // const [loaded, setLoaded] = useState(false);
 

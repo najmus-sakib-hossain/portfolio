@@ -10,6 +10,7 @@ import { SiteHeader } from "@/components/portfolio/site-header"
 import { NuqsAdapter } from "nuqs/adapters/next/app";
 import { Provider as JotaiProvider } from "jotai"
 import * as React from "react"
+import { Suspense } from "react"
 import { TooltipProvider } from "@/components/ui/tooltip";
 
 const queryClient = new QueryClient({
@@ -27,28 +28,30 @@ export function Providers({
 }: React.ComponentProps<typeof NextThemesProvider>) {
   return (
     <QueryClientProvider client={queryClient}>
-      <NuqsAdapter>
-        <ThemeProvider
-          attribute="class"
-          defaultTheme="system"
-          enableSystem
-          disableTransitionOnChange
-        >
-          <JotaiProvider>
-            <NextThemesProvider {...props}>
-              <TooltipProvider>
-                <SiteHeader />
+      <Suspense fallback={<div>Loading...</div>}>
+        <NuqsAdapter>
+          <ThemeProvider
+            attribute="class"
+            defaultTheme="system"
+            enableSystem
+            disableTransitionOnChange
+          >
+            <JotaiProvider>
+              <NextThemesProvider {...props}>
+                <TooltipProvider>
+                  <SiteHeader />
 
-                {children}
-                <ThemeSync />
-                <NewYorkToaster />
-                <DefaultToaster />
-                <NewYorkSonner />
-              </TooltipProvider>
-            </NextThemesProvider>
-          </JotaiProvider>
-        </ThemeProvider>
-      </NuqsAdapter>
+                  {children}
+                  <ThemeSync />
+                  <NewYorkToaster />
+                  <DefaultToaster />
+                  <NewYorkSonner />
+                </TooltipProvider>
+              </NextThemesProvider>
+            </JotaiProvider>
+          </ThemeProvider>
+        </NuqsAdapter>
+      </Suspense>
     </QueryClientProvider>
   )
 }

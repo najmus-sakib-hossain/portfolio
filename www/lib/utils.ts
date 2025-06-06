@@ -81,13 +81,9 @@ function getCurrentLocale(): Locale {
     if (i18n.locales.includes(routeLocale as Locale)) {
       return routeLocale as Locale;
     }
-  } else {
-    // Server-side: try to get from global context or use default
-    // This won't work perfectly but provides a fallback
-    return i18n.defaultLocale;
   }
   
-  // Fallback to default locale
+  // Fallback to default locale for server-side rendering
   return i18n.defaultLocale;
 }
 
@@ -105,9 +101,10 @@ function getNestedValue(obj: any, path: string): string {
  * 
  * @param key - Key from locale file (e.g., 'home')
  * @param fallback - Fallback text if key not found
+ * @param locale - Optional locale override (useful for server-side)
  */
-export function lt(key: string, fallback?: string): string {
-  const currentLocale = getCurrentLocale();
+export function lt(key: string, fallback?: string, locale?: Locale): string {
+  const currentLocale = locale || getCurrentLocale();
   
   // Try to get from window cache first (set by LocaleInitializer)
   if (typeof window !== 'undefined' && (window as any).__LOCALE_CACHE__) {
@@ -129,7 +126,7 @@ export function lt(key: string, fallback?: string): string {
     }
   }
   
-  // If we haven't loaded the data yet, try to preload it
+  // If we haven't loaded the data yet, try to preload it (client-side only)
   if (typeof window !== 'undefined' && !localeCache[currentLocale]) {
     // We need to load the locale data, but we can't await in a sync function
     // So we'll do this as a side effect and return fallback for now
