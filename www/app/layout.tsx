@@ -54,7 +54,7 @@ export default async function Root(props: {
       <head>
         <LoadTheme />
       </head>
-      <body className={cn(`antialiased`)}>
+      <body className={cn(`antialiased w-full min-h-screen relative`)}>
         <Providers>{children}</Providers>
       </body>
     </html>

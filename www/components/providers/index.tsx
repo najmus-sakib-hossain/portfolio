@@ -1,17 +1,17 @@
 "use client"
 
 import { Toaster as DefaultToaster, Toaster as NewYorkToaster } from "../ui/toaster"
-import { SubCategorySidebarProvider } from "../layout/sidebar/subcategory-sidebar"
-import { CategorySidebarProvider } from "../layout/sidebar/category-sidebar"
+// import { SubCategorySidebarProvider } from "../layout/sidebar/subcategory-sidebar"
+// import { CategorySidebarProvider } from "../layout/sidebar/category-sidebar"
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query"
-import { LeftSidebar } from "../layout/sidebar/left-sidebar"
+// import { LeftSidebar } from "../layout/sidebar/left-sidebar"
 import { ThemeProvider } from "../theme/theme-provider";
 import { Toaster as NewYorkSonner } from "../ui/sonner"
 import { ThemeProvider as NextThemesProvider } from "next-themes"
 import { FontLoader } from "../theme/font-loader";
 import { ThemeSync } from "../theme/theme-sync";
-import { SiteHeader } from "../layout/site-header"
-import { BottomBar } from "../layout/bottom-bar"
+import { SiteHeader } from "@/components/portfolio/site-header"
+// import { BottomBar } from "../layout/bottom-bar"
 import { NuqsAdapter } from "nuqs/adapters/next/app";
 import { Main } from "./main"
 import { Provider as JotaiProvider } from "jotai"
@@ -55,42 +55,13 @@ export function Providers({
           <JotaiProvider>
             <NextThemesProvider {...props}>
               <TooltipProvider>
-                <SidebarProvider
-                  defaultOpen={false}
-                // style={{
-                //   "--sidebar-width": SIDEBAR_WIDTH,
-                // }}
-                >
+                <SiteHeader />
 
-                  {/* <CustomizerSidebar /> */}
-                  {/* <LeftSidebar />
-                  <CustomizerSidebar variant="inset" />
-                  */}
-                  <CategorySidebarProvider>
-                    <SubCategorySidebarProvider>
-                      {children}
-                      <ThemeSync />
-
-                      {/* <SiteHeader />
-                        <Main>
-                          {children}
-                          <ThemeSync />
-                        </Main> */}
-                      <NewYorkToaster />
-                      <DefaultToaster />
-                      <NewYorkSonner />
-                    </SubCategorySidebarProvider>
-                  </CategorySidebarProvider>
-                  {/* <SidebarInset className="peer-data-[variant=inset]:peer-data-[state=collapsed]:mt-12 peer-data-[variant=inset]:peer-data-[state=expanded]:mt-12 isolate max-h-svh overflow-hidden peer-data-[variant=inset]:max-h-[calc(100svh-3.5rem)]">
-                    <SiteHeader />
-                    <ScrollArea className="relative z-10 flex h-full flex-col overflow-hidden">
-                      <Suspense>
-                        {children}
-                        <ThemeSync />
-                      </Suspense>
-                    </ScrollArea>
-                  </SidebarInset> */}
-                </SidebarProvider>
+                {children}
+                <ThemeSync />
+                <NewYorkToaster />
+                <DefaultToaster />
+                <NewYorkSonner />
               </TooltipProvider>
             </NextThemesProvider>
           </JotaiProvider>
