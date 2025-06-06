@@ -11,10 +11,13 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog";
 import { Card, CardContent } from "@/components/ui/card";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { toast } from "@/hooks/use-toast";
 import { AlertDialog, AlertDialogAction, AlertDialogCancel, AlertDialogContent, AlertDialogDescription, AlertDialogFooter, AlertDialogHeader, AlertDialogTitle } from "@/components/ui/alert-dialog";
 import { Separator } from "@/components/ui/separator";
+import { Skeleton } from "@/components/ui/skeleton";
+import { CircleSlash2, Briefcase, Edit, Trash2, Plus } from "lucide-react";
+import { cn, lt, preloadCurrentLocale } from "@/lib/utils";
+import { SiteFooter } from "@/components/portfolio/site-footer";
 
 // Firebase configuration
 const firebaseConfig = {
@@ -59,10 +62,13 @@ interface BlogPost {
 }
 
 export default function Contents() {
+  // Locale and loading state
+  const [loaded, setLoaded] = useState(false);
+  
   // State for blogs data
   const [blogs, setBlogs] = useState<BlogPost[]>([]);
   const [lastVisible, setLastVisible] = useState<any>(null);
-  const [loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState(true);
   const [hasMore, setHasMore] = useState(true);
   
   // Admin state
@@ -90,6 +96,11 @@ export default function Contents() {
     if (savedAdminStatus === "true") {
       setIsAdmin(true);
     }
+    
+    // Load locale data
+    preloadCurrentLocale().then(() => {
+      setLoaded(true);
+    });
     
     // Initial fetch
     fetchInitialBlogs();
@@ -324,91 +335,154 @@ export default function Contents() {
     }
   };
 
+  // Skeleton component for loading state
+  const ContentSkeleton = () => (
+    <>
+      {Array(12).fill(null).map((_, index) => (
+        <Card key={index} className="overflow-hidden">
+          <div className="relative aspect-video">
+            <Skeleton className="h-full w-full" />
+          </div>
+          <CardContent className="p-4">
+            <Skeleton className="h-6 w-3/4 mb-2" />
+            <Skeleton className="h-4 w-full mb-1" />
+            <Skeleton className="h-4 w-2/3 mb-3" />
+            <Skeleton className="h-8 w-full" />
+          </CardContent>
+        </Card>
+      ))}
+    </>
+  );
+
   return (
-    <div className="container py-8 relative min-h-screen">
-      <div className="flex flex-col sm:flex-row justify-between items-center mb-8">
-        <h1 className="text-3xl font-bold mb-4 sm:mb-0">All Contents</h1>
-        <Button onClick={handleAddNew} className="bg-primary">
-          Add New Content
-        </Button>
+    <div className="flex flex-col items-center space-y-8 pb-[75px] w-full bg-red-500">
+      <div className="mt-4 w-full space-y-8">
+        <div className="flex items-center justify-between">
+          {/* <span className="text-3xl font-bold md:text-4xl lg:text-5xl xl:text-6xl">
+            {loaded ? lt("all-contents") : "All Content Creations"}
+          </span> */}
+          
+          <Button 
+            onClick={handleAddNew} 
+            className="flex items-center gap-2"
+            variant="outline"
+            size="lg"
+          >
+            <Plus size={16} />
+            {loaded ? lt("add-content") : "Add Content"}
+          </Button>
+        </div>
+        
+        {/* <div className="flex w-full flex-col justify-between space-y-4 text-muted-foreground md:flex-row md:space-y-0">
+          <div className="flex flex-col space-y-2 md:max-h-[200px] md:w-3/5">
+            <span className="mt-2">
+              {loaded ? lt("contents-description") : "Browse through all my works and projects. These showcase my skills and experience in design and development."}
+            </span>
+            <div className="flex h-full flex-col space-y-2 md:justify-end">
+              <div className="flex flex-col">
+                <span>{loaded ? lt("content-type") : "Content Type"}</span>
+                <div className="flex items-center text-foreground">
+                  <CircleSlash2 className="mr-2 size-4" /> 
+                  {loaded ? lt("design-projects") : "Design projects, websites, and brand identities"}
+                </div>
+              </div>
+              <div className="flex flex-col">
+                <span>{loaded ? lt("usage") : "Usage"}</span>
+                <div className="flex items-center text-foreground">
+                  <Briefcase className="mr-2 size-4" /> 
+                  {loaded ? lt("portfolio-showcase") : "Portfolio showcase and reference materials"}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> */}
       </div>
       
-      <Separator className="mb-8" />
+      <Separator className="my-4" />
       
       {/* Content Grid */}
-      <div className="grid gap-6 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-        {blogs.map((blog) => (
-          <Card key={blog.id} className="overflow-hidden">
-            <div className="relative aspect-video">
-              <Image
-                src={blog.image}
-                alt={blog.name}
-                fill
-                className="object-cover"
-              />
+      <div className="grid gap-6 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 w-full">
+        {loading ? (
+          <ContentSkeleton />
+        ) : (
+          blogs.map((blog) => (
+            <Card key={blog.id} className="overflow-hidden group hover:shadow-md transition-shadow duration-200">
+              <div className="relative aspect-video">
+                <Image
+                  src={blog.image}
+                  alt={blog.name}
+                  fill
+                  className="object-cover"
+                />
+                
+                {isAdmin && (
+                  <div className="absolute top-2 right-2 flex space-x-2 opacity-0 group-hover:opacity-100 transition-opacity">
+                    <Button 
+                      variant="secondary" 
+                      size="icon"
+                      className="bg-white/80 hover:bg-white w-8 h-8"
+                      onClick={(e) => {
+                        e.preventDefault();
+                        e.stopPropagation();
+                        handleEdit(blog);
+                      }}
+                    >
+                      <Edit size={14} />
+                    </Button>
+                    <Button 
+                      variant="destructive" 
+                      size="icon"
+                      className="bg-red-500/80 hover:bg-red-500 w-8 h-8"
+                      onClick={(e) => {
+                        e.preventDefault();
+                        e.stopPropagation();
+                        handleDelete(blog.id);
+                      }}
+                    >
+                      <Trash2 size={14} />
+                    </Button>
+                  </div>
+                )}
+              </div>
               
-              {isAdmin && (
-                <div className="absolute top-2 right-2 flex space-x-2 opacity-0 group-hover:opacity-100 transition-opacity">
-                  <Button 
-                    variant="outline" 
-                    size="sm"
-                    className="bg-white/80 hover:bg-white"
-                    onClick={(e) => {
-                      e.preventDefault();
-                      e.stopPropagation();
-                      handleEdit(blog);
-                    }}
-                  >
-                    Edit
+              <CardContent className="p-4">
+                {/* Title commented out for now */}
+                {/* <h3 className="text-lg font-semibold mb-2">{blog.name}</h3> */}
+                
+                {/* Description commented out for now */}
+                {/* <p className="text-sm text-muted-foreground line-clamp-2 mb-3">
+                  {blog.description}
+                </p> */}
+                
+                <Link href={blog.link} target="_blank" rel="noopener noreferrer">
+                  <Button variant="outline" size="sm" className="w-full">
+                    View Content
                   </Button>
-                  <Button 
-                    variant="destructive" 
-                    size="sm"
-                    className="bg-red-500/80 hover:bg-red-500"
-                    onClick={(e) => {
-                      e.preventDefault();
-                      e.stopPropagation();
-                      handleDelete(blog.id);
-                    }}
-                  >
-                    Delete
-                  </Button>
-                </div>
-              )}
-            </div>
-            
-            <CardContent className="p-4">
-              <h3 className="text-lg font-semibold mb-2">{blog.name}</h3>
-              <p className="text-sm text-muted-foreground line-clamp-2 mb-3">
-                {blog.description}
-              </p>
-              <Link href={blog.link} target="_blank" rel="noopener noreferrer">
-                <Button variant="outline" size="sm" className="w-full">
-                  View Content
-                </Button>
-              </Link>
-            </CardContent>
-          </Card>
-        ))}
+                </Link>
+              </CardContent>
+            </Card>
+          ))
+        )}
       </div>
       
       {blogs.length === 0 && !loading && (
-        <div className="text-center py-16">
+        <div className="text-center py-16 w-full">
           <h3 className="text-2xl font-medium mb-2">No content found</h3>
           <p className="text-muted-foreground">
-            {isAdmin ? "Click 'Add New Content' to get started" : "Content will be added soon!"}
+            {isAdmin ? "Click 'Add Content' to get started" : "Content will be added soon!"}
           </p>
         </div>
       )}
       
       {/* Load More Button */}
       {hasMore && blogs.length > 0 && (
-        <div className="flex justify-center mt-8">
+        <div className="flex justify-center mt-8 w-full">
           <Button 
             variant="outline" 
             onClick={loadMoreBlogs} 
             disabled={loading}
             className="min-w-[200px]"
+            size="lg"
           >
             {loading ? "Loading..." : "Load More"}
           </Button>
@@ -513,7 +587,12 @@ export default function Contents() {
               type="password" 
               value={password} 
               onChange={(e) => setPassword(e.target.value)}
-              placeholder="Enter password" 
+              placeholder="Enter password"
+              onKeyDown={(e) => {
+                if (e.key === 'Enter') {
+                  verifyPassword();
+                }
+              }}
             />
           </div>
           <div className="flex justify-end space-x-3">
@@ -547,6 +626,8 @@ export default function Contents() {
           </AlertDialogFooter>
         </AlertDialogContent>
       </AlertDialog>
+      
+      <SiteFooter />
     </div>
   );
 }

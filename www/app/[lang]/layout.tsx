@@ -10,18 +10,18 @@ if (typeof window !== 'undefined') {
 }
 
 interface RootLayoutProps {
-    children: React.ReactNode
+  children: React.ReactNode
 }
 
 export default function RootLayout({ children }: RootLayoutProps) {
-    return (
-        <>
-                <div className="relative w-full flex items-center justify-center flex-col">
-                    <SiteHeader />
-                    <main className="flex-1">{children}</main>
-                </div>
-        </>
-    )
+  return (
+    <>
+      <div className="relative w-full flex items-center justify-center flex-col">
+        <SiteHeader />
+        <main className="flex-1">{children}</main>
+      </div>
+    </>
+  )
 }
 
 export function LocaleLayout({
