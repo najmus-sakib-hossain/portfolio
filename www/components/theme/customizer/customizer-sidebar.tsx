@@ -63,13 +63,13 @@ import {
   SidebarMenuItem,
 } from "@/components/ui/sidebar"
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip"
-import { History } from "@/components/layout/sidebar/history"
-import { TeamSwitcher } from "@/components/layout/sidebar/team-switcher"
+// import { History } from "@/components/layout/sidebar/history"
+// import { TeamSwitcher } from "@/components/layout/sidebar/team-switcher"
 import { useCallback, useEffect } from "react"
 import { v4 as uuidv4 } from "uuid"
 import { useRouter } from "next/navigation"
 import { toast } from "sonner"
-import { Banner } from "@/components/layout/banner"
+// import { Banner } from "@/components/layout/banner"
 import { usePathname } from "next/navigation";
 import { Globe, Check } from "lucide-react";
 import { useState } from "react";
@@ -358,7 +358,7 @@ export function CustomizerSidebar({
         className="flex flex-1 flex-col gap-0 overflow-hidden"
       >
         <SidebarHeader>
-          <TeamSwitcher />
+          {/* <TeamSwitcher /> */}
           <NavDesktopActions />
         </SidebarHeader>
 
@@ -569,7 +569,7 @@ export function CustomizerSidebar({
         <SidebarFooter className="px-2">
           {state === "expanded" ? (
             <>
-              <Banner title="Info" message="Friday is still in beta so it can make mistakes." />
+              {/* <Banner title="Info" message="Friday is still in beta so it can make mistakes." /> */}
               <TabsList className="w-full p-1">
                 <TabsTrigger value="sidebar">
                   <PanelLeftDashed />

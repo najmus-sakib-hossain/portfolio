@@ -39,6 +39,7 @@ export function SocialMedias() {
   
   // Fetch blogs from Firestore
   const fetchBlogs = async () => {
+    setIsLoading(true);
     try {
       const q = query(
         collection(db, "blogs"),
@@ -49,11 +50,22 @@ export function SocialMedias() {
       const querySnapshot = await getDocs(q);
       const blogData: BlogPost[] = [];
       
-      querySnapshot.forEach((doc) => {
-        blogData.push({ id: doc.id, ...doc.data() } as BlogPost);
-      });
-      
-      setBlogs(blogData);
+      if (!querySnapshot.empty) {
+        querySnapshot.forEach((doc) => {
+          blogData.push({ id: doc.id, ...doc.data() } as BlogPost);
+        });
+        setBlogs(blogData);
+      } else {
+        console.log("No blogs found in Firestore, using fallback data");
+        // Fallback to static blogs if Firebase returns empty results
+        setBlogs(staticBlogs.map((blog, index) => ({
+          id: index.toString(),
+          name: blog.name,
+          description: blog.description,
+          image: blog.image,
+          link: blog.link
+        })));
+      }
     } catch (error) {
       console.error("Error fetching blogs:", error);
       // Fallback to static blogs if Firebase fails
@@ -81,8 +93,8 @@ export function SocialMedias() {
   const BlogCardSkeleton = () => (
     <>
       {[1, 2, 3].map((i) => (
-        <div key={i} className="flex flex-col gap-2">
-          <Skeleton className="h-40 w-full rounded-md" />
+        <div key={i} className="flex flex-col gap-2 h-48">
+          <Skeleton className="h-full w-full rounded-md" />
         </div>
       ))}
     </>
@@ -102,7 +114,7 @@ export function SocialMedias() {
           <BlogCardSkeleton />
         ) : blogs.length > 0 ? (
           blogs.map((blog) => (
-            <Link href={blog.link} key={blog.id}>
+            <Link href={blog.link} key={blog.id} passHref>
               <BlogCard title={blog.name} description={blog.description} image={blog.image} />
             </Link>
           ))

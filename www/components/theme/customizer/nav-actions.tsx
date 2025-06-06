@@ -19,7 +19,6 @@ import {
     SidebarMenuItem,
 } from "@/components/ui/sidebar"
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip"
-import { History } from "@/components/layout/sidebar/history"
 import { lt } from "@/lib/utils";
 
 export function NavMobileActions() {
@@ -125,7 +124,7 @@ export function NavMobileActions() {
 
 
             <div className="mx-auto h-auto w-[93%] border-t border-dashed" />
-            <History />
+            {/* <History /> */}
         </div>
     );
 }

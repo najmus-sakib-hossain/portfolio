@@ -1,17 +1,16 @@
 "use client"
 
-import { Toaster as DefaultToaster, Toaster as NewYorkToaster } from "../ui/toaster"
+import { Toaster as DefaultToaster, Toaster as NewYorkToaster } from "@/components/ui/toaster"
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query"
-import { ThemeProvider } from "../theme/theme-provider";
-import { Toaster as NewYorkSonner } from "../ui/sonner"
+import { ThemeProvider } from "@/components/theme/theme-provider";
+import { Toaster as NewYorkSonner } from "@/components/ui/sonner"
 import { ThemeProvider as NextThemesProvider } from "next-themes"
-import { ThemeSync } from "../theme/theme-sync";
+import { ThemeSync } from "@/components/theme/theme-sync";
 import { SiteHeader } from "@/components/portfolio/site-header"
 import { NuqsAdapter } from "nuqs/adapters/next/app";
 import { Provider as JotaiProvider } from "jotai"
 import * as React from "react"
-import { TooltipProvider } from "../ui/tooltip";
-import { ContainerWrapper } from "../theme/wrappers";
+import { TooltipProvider } from "@/components/ui/tooltip";
 
 const queryClient = new QueryClient({
   defaultOptions: {
