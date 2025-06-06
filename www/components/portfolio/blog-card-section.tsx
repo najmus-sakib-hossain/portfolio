@@ -114,12 +114,8 @@ export function SocialMedias() {
           <BlogCardSkeleton />
         ) : blogs.length > 0 ? (
           blogs.map((blog) => (
-            <Link href={blog.link} key={blog.id} className="block h-48 overflow-hidden" passHref>
-              <BlogCard 
-                title={blog.name || ""} 
-                description={blog.description || ""} 
-                image={blog.image || ""}
-              />
+            <Link href={blog.link} key={blog.id} passHref>
+              <BlogCard image={blog.image} />
             </Link>
           ))
         ) : (
@@ -146,7 +142,7 @@ export function BigProjects() {
       <div className='grid gap-4 sm:grid-cols-2 md:grid-cols-3'>
         {projects?.map((project) => (
           <Link href={project?.link} key={project?.id} className="block h-48 overflow-hidden">
-            <BlogCard title={project?.title} description={project?.description} image={project?.image} />
+            <BlogCard image={project?.image} />
           </Link>
         ))}
       </div>
@@ -168,7 +164,7 @@ export function ProductionGradeProjects() {
       <div className='grid gap-4 sm:grid-cols-2 md:grid-cols-3'>
         {products?.map((product) => (
           <Link href={product?.link} key={product?.id} className="block h-48 overflow-hidden">
-            <BlogCard title={product?.title} description={product?.description} image={product?.image} />
+            <BlogCard image={product?.image} />
           </Link>
         ))}
       </div>

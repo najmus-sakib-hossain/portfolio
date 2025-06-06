@@ -204,61 +204,59 @@ export default function Contents() {
     // Handle add/edit blog form submission
     const handleSubmit = async (e: React.FormEvent) => {
         e.preventDefault();
-
-        if (!name || !description || !link || (!imageFile && !imagePreview)) {
+        
+        if (!link || (!imageFile && !imagePreview)) {
             toast({
                 title: "Missing fields",
-                description: "Please fill in all required fields",
+                description: "Please provide a link and an image",
                 variant: "destructive",
             });
             return;
         }
-
+        
         setLoading(true);
-
+    
         try {
             let imageUrl = imagePreview;
-
+            
             // Upload new image if provided
             if (imageFile) {
                 imageUrl = await uploadImageToImgBB(imageFile);
             }
-
+            
             if (isEditMode) {
-                // Update existing blog
+                // Update existing blog - keep name/description for backward compatibility
                 await updateDoc(doc(db, "blogs", currentBlogId), {
-                    name,
-                    description,
                     image: imageUrl,
                     link,
                     updatedAt: new Date()
                 });
-
+                
                 toast({
                     title: "Success!",
                     description: "Content updated successfully",
                 });
             } else {
-                // Add new blog
+                // Add new blog - include empty strings for name/description for schema consistency
                 await addDoc(collection(db, "blogs"), {
-                    name,
-                    description,
+                    name: "",
+                    description: "",
                     image: imageUrl,
                     link,
                     createdAt: new Date()
                 });
-
+                
                 toast({
                     title: "Success!",
                     description: "New content added successfully",
                 });
             }
-
+    
             // Reset form
             resetForm();
             // Refresh blogs
             fetchInitialBlogs();
-
+    
         } catch (error) {
             toast({
                 title: "Error",
@@ -340,11 +338,9 @@ export default function Contents() {
     const ContentSkeleton = () => (
         <>
             {Array(12).fill(null).map((_, index) => (
-                <Card key={index} className="overflow-hidden">
-                    <AspectRatio ratio={16 / 9}>
+                    <AspectRatio key={index} ratio={16 / 9}>
                         <Skeleton className="h-full w-full" />
                     </AspectRatio>
-                </Card>
             ))}
         </>
     );
@@ -451,26 +447,6 @@ export default function Contents() {
                         <DialogTitle>{isEditMode ? "Edit Content" : "Add New Content"}</DialogTitle>
                     </DialogHeader>
                     <form onSubmit={handleSubmit} className="space-y-4 mt-4">
-                        <div className="space-y-2">
-                            <label htmlFor="title" className="text-sm font-medium">Title</label>
-                            <Input
-                                id="title"
-                                value={name}
-                                onChange={(e) => setName(e.target.value)}
-                                placeholder="Enter title"
-                            />
-                        </div>
-
-                        <div className="space-y-2">
-                            <label htmlFor="description" className="text-sm font-medium">Description</label>
-                            <Textarea
-                                id="description"
-                                value={description}
-                                onChange={(e) => setDescription(e.target.value)}
-                                placeholder="Enter description"
-                            />
-                        </div>
-
                         <div className="space-y-2">
                             <label htmlFor="link" className="text-sm font-medium">Link</label>
                             <Input

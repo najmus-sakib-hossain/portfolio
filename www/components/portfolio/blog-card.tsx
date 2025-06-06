@@ -6,12 +6,8 @@ import { useTheme } from "next-themes"
 import { AspectRatio } from "@/components/ui/aspect-ratio"
 import { cn } from "@/lib/utils"
 
-// Define the props for the BlogCard component
-export default function BlogCard({ title, description, image }: {
-  title: string,
-  description: string,
-  image: string
-}) {
+// Define the props for the BlogCard component - removed title and description
+export default function BlogCard({ image }: { image: string }) {
   // Create a ref for the card element
   const ref = useRef<HTMLDivElement>(null)
   // State to track mouse position relative to the card
@@ -59,7 +55,7 @@ export default function BlogCard({ title, description, image }: {
           <AspectRatio ratio={16/9} className="h-full">
             <Image
               src={image}
-              alt={title || "Content image"}
+              alt="Content image"
               fill
               className="object-cover"
               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
