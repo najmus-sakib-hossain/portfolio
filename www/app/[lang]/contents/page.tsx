@@ -19,6 +19,7 @@ import { CircleSlash2, Briefcase, Edit, Trash2, Plus } from "lucide-react";
 import { cn, lt, preloadCurrentLocale } from "@/lib/utils";
 import { SiteFooter } from "@/components/portfolio/site-footer";
 import { AspectRatio } from "@/components/ui/aspect-ratio";
+import { ScrollArea } from "@/components/ui/scroll-area";
 
 // Firebase configuration
 const firebaseConfig = {
@@ -460,14 +461,17 @@ export default function Contents() {
                         <div className="space-y-2">
                             <label htmlFor="image" className="text-sm font-medium">Image</label>
                             {imagePreview && (
-                                <div className="relative w-full h-40 mb-2">
-                                    <Image
-                                        src={imagePreview}
-                                        alt="Preview"
-                                        fill
-                                        className="object-cover rounded-md"
-                                    />
-                                </div>
+                                <ScrollArea className="h-[300px] w-full rounded-md border">
+                                    <div className="relative w-full" style={{ minHeight: "300px" }}>
+                                        <Image
+                                            src={imagePreview}
+                                            alt="Preview"
+                                            fill
+                                            className="object-contain"
+                                            sizes="(max-width: 768px) 100vw, 600px"
+                                        />
+                                    </div>
+                                </ScrollArea>
                             )}
                             <Input
                                 id="image"
