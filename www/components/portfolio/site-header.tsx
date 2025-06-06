@@ -223,7 +223,7 @@ export function SiteHeader() {
             />
             
             <Popover open={open} onOpenChange={setOpen}>
-              <PopoverTrigger className="flex items-center space-x-1 rounded-md border px-2 py-1.5 hover:bg-accent h-10">
+              <PopoverTrigger className="flex items-center space-x-1 rounded-md border px-2 py-1.5 hover:bg-accent h-10 hover:text-primary">
                 <Globe className="size-4" />
                 <span className="text-sm">{currentLanguageName}</span>
                 <ChevronDown className="size-4" />
@@ -270,8 +270,8 @@ export function SiteHeader() {
               }
             >
               <EyeCatchingButton_v1 className="group">
-                <Play className="mr-1 size-4 group-hover:text-primary" />
-                <span className="group-hover:text-primary text-sm text-muted">
+                <Play className="mr-1 size-4 group-hover:text-primary text-foreground" />
+                <span className="group-hover:text-primary text-sm text-foreground">
                   Start a Project
                 </span>
               </EyeCatchingButton_v1>

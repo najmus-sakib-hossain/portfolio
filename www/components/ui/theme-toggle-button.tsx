@@ -81,8 +81,7 @@ export default function ThemeToggleButton({
   }, [theme, setTheme, start, updateStyles, variant, url])
 
   return (
-    <div className="flex items-center justify-center space-x-2 border h-10 p-2 rounded-md">
-      {/* Theme Toggle Button */}
+    <div className="flex items-center justify-center space-x-2 border h-10 p-2 rounded-md hover:bg-accent">
       <button
         onClick={toggleTheme}
         className={cn(

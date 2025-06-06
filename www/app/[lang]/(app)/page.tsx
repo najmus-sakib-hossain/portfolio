@@ -72,8 +72,8 @@ export default function Home() {
                 <div className="flex w-full items-center justify-center space-x-4 rounded-md p-2 px-0 hover:bg-card hover:text-primary md:justify-evenly">
                   <Image width={50} height={50} src="/portfolio.png" alt="manfromexistnece" className="rounded-full" />
                   <div className="flex flex-col">
-                    <span className="text-foreground">manfromexistence</span>
-                    <span>Currently Do Exists</span>
+                    <span className="text-foreground">Tanvir Hasan Bijoy</span>
+                    <span>From Bangladesh</span>
                   </div>
                   <div className="flex size-10 items-center justify-center rounded-full border p-1">
                     ❤
