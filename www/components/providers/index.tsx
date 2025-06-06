@@ -57,9 +57,9 @@ export function Providers({
               <TooltipProvider>
                 <SidebarProvider
                   defaultOpen={false}
-                  // style={{
-                  //   "--sidebar-width": SIDEBAR_WIDTH,
-                  // }}
+                // style={{
+                //   "--sidebar-width": SIDEBAR_WIDTH,
+                // }}
                 >
 
                   <CustomizerSidebar />
@@ -72,13 +72,13 @@ export function Providers({
                         vaul-drawer-wrapper=""
                         className="relative h-screen w-full overflow-hidden"
                       >
-                        <SiteHeader />
-                        {/* <BottomBar /> */}
+                        {children}
+                        <ThemeSync />
+                        {/* <SiteHeader />
                         <Main>
-                          {/* <Suspense></Suspense> */}
                           {children}
                           <ThemeSync />
-                        </Main>
+                        </Main> */}
                         <NewYorkToaster />
                         <DefaultToaster />
                         <NewYorkSonner />

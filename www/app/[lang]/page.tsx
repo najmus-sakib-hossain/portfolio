@@ -19,7 +19,6 @@ export default async function IndexPage(props: {
             {locale["friday"].welcome}
           </p>
         </div>
-
         <AiInput />
       </div>
     </>
