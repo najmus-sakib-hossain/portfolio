@@ -39,7 +39,7 @@ export function MainNav() {
         >
           {loaded ? lt("contents") : "Contents"}
         </Link>
-        <Link
+        {/* <Link
           href="/about"
           className={cn(
             "transition-colors hover:text-foreground/80",
@@ -49,7 +49,7 @@ export function MainNav() {
           )}
         >
           {loaded ? lt("about") : "About"}
-        </Link>
+        </Link> */}
       </nav>
     </div>
   )

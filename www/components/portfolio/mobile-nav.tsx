@@ -83,12 +83,12 @@ export function MobileNav() {
             >
               {loaded ? lt("contents") : "Contents"}
             </MobileLink>
-            <MobileLink
+            {/* <MobileLink
               href="/about"
               onOpenChange={setOpen}
             >
               {loaded ? lt("about") : "About"}
-            </MobileLink>
+            </MobileLink> */}
           </div>
         </ScrollArea>
       </SheetContent>
