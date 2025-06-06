@@ -62,27 +62,23 @@ export function Providers({
                 // }}
                 >
 
-                  <CustomizerSidebar />
+                  {/* <CustomizerSidebar /> */}
                   {/* <LeftSidebar />
                   <CustomizerSidebar variant="inset" />
                   */}
                   <CategorySidebarProvider>
                     <SubCategorySidebarProvider>
-                      <div
-                        vaul-drawer-wrapper=""
-                        className="relative h-screen w-full overflow-hidden"
-                      >
-                        {children}
-                        <ThemeSync />
-                        {/* <SiteHeader />
+                      {children}
+                      <ThemeSync />
+
+                      {/* <SiteHeader />
                         <Main>
                           {children}
                           <ThemeSync />
                         </Main> */}
-                        <NewYorkToaster />
-                        <DefaultToaster />
-                        <NewYorkSonner />
-                      </div>
+                      <NewYorkToaster />
+                      <DefaultToaster />
+                      <NewYorkSonner />
                     </SubCategorySidebarProvider>
                   </CategorySidebarProvider>
                   {/* <SidebarInset className="peer-data-[variant=inset]:peer-data-[state=collapsed]:mt-12 peer-data-[variant=inset]:peer-data-[state=expanded]:mt-12 isolate max-h-svh overflow-hidden peer-data-[variant=inset]:max-h-[calc(100svh-3.5rem)]">
