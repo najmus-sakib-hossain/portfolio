@@ -4,7 +4,6 @@ import { MainNav } from "@/components/portfolio/main-nav"
 import { MobileNav } from "@/components/portfolio/mobile-nav"
 import { EyeCatchingButton_v1 } from "@/components/portfolio/eye-catching-buttons"
 import { Play, Globe, ChevronDown, Check } from "lucide-react"
-import { ModeSwitcher } from "./mode-switcher"
 import ThemeToggleButton from "@/components/ui/theme-toggle-button"
 import { useState, useEffect } from "react"
 import { cn } from "@/lib/utils"
@@ -155,7 +154,6 @@ const languageNames: Record<string, string> = {
   zh: "中文",
   zu: "isiZulu",
 };
-
 
 // Define available locales - using all languages from customizer sidebar
 const locales = [
