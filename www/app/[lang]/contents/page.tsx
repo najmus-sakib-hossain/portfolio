@@ -398,9 +398,9 @@ function ContentsClient({ locale }: { locale: Locale }) {
       <div className="mt-4 w-full space-y-8">
         <div className="flex items-center justify-between">
           <Suspense fallback={<h1 className="text-3xl font-bold md:text-4xl lg:text-5xl">All Contents</h1>}>
-            <LocaleWrapper>
+            <LocaleWrapper locale={locale}>
               <h1 className="text-3xl font-bold md:text-4xl lg:text-5xl">
-                {lt("all-contents")}
+                {lt("all-contents", "All Contents", locale)}
               </h1>
             </LocaleWrapper>
           </Suspense>
@@ -411,7 +411,7 @@ function ContentsClient({ locale }: { locale: Locale }) {
               Add Content
             </Button>
           }>
-            <LocaleWrapper>
+            <LocaleWrapper locale={locale}>
               <Button
                 onClick={handleAddNew}
                 className="flex items-center gap-2"
@@ -419,7 +419,7 @@ function ContentsClient({ locale }: { locale: Locale }) {
                 size="lg"
               >
                 <Plus size={16} />
-                {lt("add-content")}
+                {lt("add-content", "Add Content", locale)}
               </Button>
             </LocaleWrapper>
           </Suspense>
