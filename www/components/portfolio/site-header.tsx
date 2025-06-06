@@ -269,7 +269,7 @@ export function SiteHeader() {
                 "https://www.upwork.com/freelancers/~01221bf135ed62b3b3"
               }
             >
-              <EyeCatchingButton_v1 className="text-sm">
+              <EyeCatchingButton_v1 className="text-sm text-primary hover:text-primary-foreground">
                 <Play className="mr-1 size-4" />
                 Start a Project
               </EyeCatchingButton_v1>
